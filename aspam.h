@@ -16,59 +16,132 @@ namespace aspam
 			="[\\x21-\\x7E][/!?#]?[-a-zA-Z0-9]*(?:[\"¡¯=;]|/?>|:/*)?";
 		const float promotion_factor=1.23;
 		const float demotion_factor=0.83;
-		const float init_weight=1;
+		const float init_weight=1.0;
 		const bool label_spam=1;
 		const bool label_ham=0;
-		const int cache_size=500;
+		const int cache_size=10000;
 		const int win_size=5;
 		const int ovec_count=30;
 		const int ovec_offset=1;
+		const int BKDR_size=1000;
+		
+		
 	}
 
-	class feature:protected std::map<std::string,int>
+
+	template<class T>
+	class BKDR
 	{
 	public:
-		/*class ft_iterator:protected std::map<std::string,int>::iterator
+		struct pair
 		{
-		public:
-			std::string fisrt()
+			std::string key;
+			T val;
+			pair()
 			{
-				return this->fisrt;
+			
 			}
-			int& second()
+			pair(const std::string& str):key(str),val()
 			{
-				return this->second;
+			
 			}
-			ft_iterator operator++(int)
+			pair(const std::string& str,const T& value):key(str),val(value)
 			{
-				ft_iterator old(*this);
-				(*this)++;
-				return old;
+			
 			}
 		};
-*/
+
+		BKDR()
+		{
+			num=NULL;
+			volume=params::BKDR_size;
+			arr=std::vector<std::list<pair> >(volume);
+			init_val=NULL;
+		}
+		BKDR(int vol,T init_v)
+		{
+			num=NULL;
+			volume=vol;
+			arr=std::vector<std::list<pair> >(volume);
+			init_val=init_v;
+		}
+
+		T& operator[] (const std::string& x)
+		{
+			return find(x)->val;
+		}
+		int size() const
+		{
+			return num;
+		}
 		bool empty() const
 		{
-			return std::map<std::string,int>::empty();
+			return !(num>0);
 		}
 
-		int& operator[] ( const std::string& x )
+		std::vector<std::list<pair> > arr;
+
+		bool is_existing(const std::string& x)
 		{
-			return std::map<std::string,int>::operator[](x);
+			int idx=Hash(x.c_str());
+			if(arr[idx].empty())
+				return true;
+			else
+			{
+				std::list<pair>::iterator it;
+				for(it=arr[idx].begin();it!=arr[idx].end();
+					it++)
+					if(it->key==x)
+						return false;
+				return true;
+			}
 		}
-		int size()
+	protected:
+		
+
+		pair* find(const std::string& x)
 		{
-			return std::map<std::string,int>::size();
-		}
-		std::map<std::string,int>::const_iterator begin() const
-		{
-			return std::map<std::string,int>::begin();
-		}
-		std::map<std::string,int>::const_iterator end() const
-		{
-			return std::map<std::string,int>::end();
+			int idx=Hash(x.c_str());
+			if(arr[idx].empty())
+			{
+				arr[idx].push_back(pair(x,init_val));
+				num++;
+				return &(*(arr[idx].begin()));
+			}
+			else
+			{
+				std::list<pair>::iterator it;
+				for(it=arr[idx].begin();it!=arr[idx].end();
+					it++)
+					if(it->key==x)
+						return &(*it);
+				
+				arr[idx].push_front(pair(x,init_val));
+				num++;
+				return &(*(arr[idx].begin()));
+			}
 		}
 
+		unsigned int Hash(const char* str)
+		{
+			unsigned int seed=131;
+			unsigned int hash=0;
+			while(*str)
+				hash=hash*seed+(*str++);
+
+			return (hash&0x7FFFFFFF)%volume;
+		}
+		
+		
+		int num;
+		int volume;
+		T init_val;
+	};
+
+	class feature:public BKDR<int>
+	{
+	public:
+	
 		void extract_and_label(const std::string& cnt,bool is_spam)
 		{
 			extract(cnt);
@@ -87,18 +160,28 @@ namespace aspam
 
 		void print()
 		{
-			std::map<std::string,int>::const_iterator it;
-			for(it=this->begin();it!=this->end();it++)
-				printf("%s %d\n",it->first.c_str(),it->second);
+			for(int i=0;i<params::BKDR_size;i++)
+			{
+				std::list<BKDR::pair>::iterator it;
+				for(it=this->arr[i].begin();it!=this->arr[i].end();
+					it++)
+					std::cout<<it->key<<" : "<<it->val<<std::endl;
+			}
 		}
 		void print(const std::string& file_path)
 		{
 			FILE* fp;
 			fp=fopen(file_path.c_str(),"w");
 			
-			std::map<std::string,int>::const_iterator it;
-			for(it=this->begin();it!=this->end();it++)
-				fprintf(fp,"%s %d\n",it->first.c_str(),it->second);
+			for(int i=0;i<params::BKDR_size;i++)
+			{
+				std::list<BKDR::pair>::iterator it;
+				for(it=this->arr[i].begin();it!=this->arr[i].end();
+					it++)
+					fprintf(fp,"%s %d\n",it->key.c_str(),it->val);
+					
+			}
+
 			fclose(fp);
 		}
 
@@ -182,7 +265,8 @@ namespace aspam
 		
 		void incre(const std::string& attr_str)
 		{
-			if(this->find(attr_str)==this->end())
+			
+			if(!this->is_existing(attr_str))
 				(*this)[attr_str]=1;
 			else
 				(*this)[attr_str]++;
@@ -190,6 +274,8 @@ namespace aspam
 		bool is_spam;
 
 	};
+
+
 
 
 	class OSB:public feature
@@ -206,9 +292,24 @@ namespace aspam
 			label(is_spam);
 		}
 	private:
+
+		struct str_ptr
+		{
+			const char* begin;
+			int len;
+			str_ptr():begin(NULL),len(NULL)
+			{
+			}
+			str_ptr(const char* begin,int len):begin(begin),len(len)
+			{
+				
+			}
+		};
+
+
 		void extract(const std::string& cnt)
 		{
-			std::vector<std::string> str_win(params::win_size);
+			std::vector<str_ptr> str_win(params::win_size);
 			int f=0;
 			int r=0;
 
@@ -241,7 +342,26 @@ namespace aspam
 					return;
 				}
 
+				
 				str_win[r%params::win_size]=
+					str_ptr(cnt.c_str()+ovector[0],ovector[1]-ovector[0]);
+				if(r-f==params::win_size-1)
+				{
+					for(int i=f;i!=r;i++)
+					{
+						char str[10000];
+						sprintf(str,"%.*s%.*s",str_win[i%params::win_size].len,str_win[i%params::win_size].begin,
+							str_win[r%params::win_size].len,str_win[r%params::win_size].begin);
+						incre(str);
+
+						/*incre(std::string(str_win[i%params::win_size].begin,str_win[i%params::win_size].len)+
+						std::string(str_win[r%params::win_size].begin,str_win[r%params::win_size].len));*/
+					}
+					f++;
+				}
+				r++;
+
+				/*str_win[r%params::win_size]=
 					std::string(cnt.c_str()+ovector[0],
 					ovector[1]-ovector[0]);
 				if(r-f==params::win_size-1)
@@ -250,33 +370,9 @@ namespace aspam
 						incre(str_win[i%params::win_size]+str_win[r%params::win_size]);
 					f++;
 				}
-				r++;
+				r++;*/
 
-			
 			}
-
-
-//			std::smatch matcher;
-//			std::tr1::regex_constants::syntax_option_type op_type 
-//				= std::tr1::regex_constants::ECMAScript;
-//			std::regex pattern(params::regex_pattern_str);
-//			
-//			const std::sregex_token_iterator end;
-//
-////			omp_set_num_threads(8);
-////#pragma opm parallel for
-//			for(std::sregex_token_iterator str_i(cnt.begin(),cnt.end(),pattern);
-//				str_i!=end;str_i++)
-//			{
-//				str_win[r%params::win_size]=*str_i;
-//				if(r-f==params::win_size-1)
-//				{
-//					for(int i=f;i!=r;i++)
-//						incre(str_win[i%params::win_size]+str_win[r%params::win_size]);
-//					f++;
-//				}
-//				r++;
-//			}
 		}
 		void extract(const char* file_path)
 		{
@@ -307,6 +403,9 @@ namespace aspam
 	
 	};
 
+
+	
+
 	class classifier
 	{
 	public:
@@ -335,6 +434,21 @@ namespace aspam
 
 	};
 
+
+	class cache:public BKDR<float>
+	{
+	public:
+		cache():BKDR(params::cache_size,params::init_weight)
+		{}
+		//float& operator[] (const std::string& x)
+		//{
+		//	if(!is_existing(x))
+		//		return find(x)->val=params::init_weight;
+		//	return find(x)->val;
+		//}
+	};
+
+	
 
 	class Winnow:public classifier
 	{
@@ -390,142 +504,65 @@ namespace aspam
 			float sum=0;
 			int num=0;
 			std::map<std::string,int>::const_iterator it;
-			for(it=ft.begin();it!=ft.end();it++)
+
+			for(int i=0;i<params::BKDR_size;i++)
+			{
+				std::list<BKDR<int>::pair>::const_iterator it;
+				for(it=ft.arr[i].begin();it!=ft.arr[i].end();
+					it++)
+				{
+					num+=it->val;
+					sum+=(it->val)*weights[it->key];
+				}
+			}
+
+			/*for(it=ft.begin();it!=ft.end();it++)
 			{
 				num+=it->second;
 				sum+=(it->second)*weights[it->first];
-			}
+			}*/
 
 			return sum>num?params::label_spam:params::label_ham;
 		}
 
 
 	protected:
-		class LRU:protected std::map<std::string,float>
-		{
-		public:
-				std::map<std::string,float>::iterator begin()
-				{
-					return std::map<std::string,float>::begin();
-				}
-				std::map<std::string,float>::iterator end()
-				{
-					return std::map<std::string,float>::end();
-				}
-
-				float& operator[] (const std::string& x)
-				{
-					if(this->empty())
-					{
-						record(x);
-						return std::map<std::string,float>::operator[](x)=1;
-					}
-					std::map<std::string,float>::iterator res=
-						this->find(x);
-					if(res==this->end())
-						if(this->size()==params::cache_size)
-						//The cache is fully loaded, 
-						//some block should be substituted:
-						//And the block in 2nd cache should be reloaded.
-							return sub_relo_reco(x);
-						else
-						{
-						//The cache is not fully loaded.
-							record(x);
-							return std::map<std::string,float>::operator[](x)=1;
-						}
-					else
-					{
-					//Successfully found.
-						record(x);
-						return res->second;
-					}
-				}
-				int size()
-				{
-					return std::map<std::string,float>::size();
-				}
-				std::map<std::string,float>::const_iterator begin() const
-				{
-					return std::map<std::string,float>::begin();
-				}
-				std::map<std::string,float>::const_iterator end() const
-				{
-					return std::map<std::string,float>::end();
-				}
-		private:
-				std::map<std::string,int> records;
-				std::map<std::string,float> sec_cache;
-
-				void record(const std::string& key)
-				{
-					std::map<std::string,int>::iterator res=
-						records.find(key);
-					if(res==records.end())
-						records[key]=1;
-					else
-						res->second++;
-				}
-				float& sub_relo_reco(const std::string& key)
-				{
-					int l=records.begin()->second;
-					
-					std::string l_key=records.begin()->first;//This block should be substituted.
-					std::map<std::string,int>::iterator l_it=records.begin();
-					
-					for(std::map<std::string,int>::iterator it=records.begin();
-						it!=records.end();it++)
-						if(it->second<l)
-						{
-							l=it->second;
-							l_key=it->first;
-							l_it=it;
-						}
-
-					std::map<std::string,float>::iterator era_it=
-						std::map<std::string,float>::find(l_key);
-					float wb_val=era_it->second;
-
-					//Erase block:
-					records.erase(l_it);
-					std::map<std::string,float>::erase(era_it);
-
-					//Write back:
-					sec_cache[l_key]=wb_val;
-
-					//Record:
-					records[key]=1;
-
-					//Reloaded from 2nd cache:
-					std::map<std::string,float>::iterator res_it=sec_cache.find(key);
-					if(res_it==sec_cache.end())
-						return (*this)[key]=1;
-					else
-						return (*this)[key]=res_it->second;
-				}
-
-				
-		
-		}weights;
+		cache weights;
 
 
 		void promote(const feature& ft)
 		{
-			std::map<std::string,int>::const_iterator it;
+			for(int i=0;i<params::BKDR_size;i++)
+			{
+				std::list<BKDR<int>::pair>::const_iterator it;
+				for(it=ft.arr[i].begin();it!=ft.arr[i].end();
+					it++)
+					weights[it->key]*=params::promotion_factor;
+			}
+
+			/*std::map<std::string,int>::const_iterator it;
 			for(it=ft.begin();it!=ft.end();it++)
-				weights[it->first]*=params::promotion_factor;
+				weights[it->first]*=params::promotion_factor;*/
 		}
 		void demote(const feature& ft)
 		{
-			std::map<std::string,int>::const_iterator it;
+			for(int i=0;i<params::BKDR_size;i++)
+			{
+				std::list<BKDR<int>::pair>::const_iterator it;
+				for(it=ft.arr[i].begin();it!=ft.arr[i].end();
+					it++)
+					weights[it->key]*=params::demotion_factor;
+			}
+
+
+			/*std::map<std::string,int>::const_iterator it;
 			for(it=ft.begin();it!=ft.end();it++)
-				weights[it->first]*=params::demotion_factor;
+				weights[it->first]*=params::demotion_factor;*/
 		}
 	};
 
 
-
-
+	
 
 
 }
