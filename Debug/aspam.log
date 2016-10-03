@@ -1,27 +1,26 @@
-﻿生成启动时间为 2016/9/29 星期四 23:10:34。
+﻿生成启动时间为 2016/10/3 星期一 15:07:22。
      1>项目“G:\ML\SPAM_CLASSIFIER\aspam_proj\aspam\aspam\aspam.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         G:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         G:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"G:\ML\SPAM_CLASSIFIER\pcre-8.34" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(16): warning C4305: “初始化”: 从“double”到“const float”截断
      1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(17): warning C4305: “初始化”: 从“double”到“const float”截断
-     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(94): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(18): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(97): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
-     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(118): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(155): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
-     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(188): warning C4068: 未知的杂注
-     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(205): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(284): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
      1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\main.cpp(14): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
      1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\main.cpp(15): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
        Link:
-         G:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\ML\SPAM_CLASSIFIER\aspam_proj\aspam\Debug\aspam.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\ML\SPAM_CLASSIFIER\aspam_proj\aspam\Debug\aspam.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\ML\SPAM_CLASSIFIER\aspam_proj\aspam\Debug\aspam.lib" /MACHINE:X86 Debug\aspam.obj
+         G:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\ML\SPAM_CLASSIFIER\aspam_proj\aspam\Debug\aspam.exe" /INCREMENTAL /NOLOGO /LIBPATH:G:\ML\SPAM_CLASSIFIER\aspam_proj\ntpcre\Debug ntpcre.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\ML\SPAM_CLASSIFIER\aspam_proj\aspam\Debug\aspam.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\ML\SPAM_CLASSIFIER\aspam_proj\aspam\Debug\aspam.lib" /MACHINE:X86 Debug\aspam.obj
          Debug\main.obj
          aspam.vcxproj -> G:\ML\SPAM_CLASSIFIER\aspam_proj\aspam\Debug\aspam.exe
      1>已完成生成项目“G:\ML\SPAM_CLASSIFIER\aspam_proj\aspam\aspam\aspam.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:09.00
+已用时间 00:00:01.90

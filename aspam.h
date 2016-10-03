@@ -6,6 +6,7 @@
 #include <vector>
 #include <cstdio>
 #include <omp.h>
+#include "pcre.h"
 
 namespace aspam
 {
@@ -20,6 +21,8 @@ namespace aspam
 		const bool label_ham=0;
 		const int cache_size=500;
 		const int win_size=5;
+		const int ovec_count=30;
+		const int ovec_offset=1;
 	}
 
 	class feature:protected std::map<std::string,int>
@@ -102,15 +105,49 @@ namespace aspam
 	protected:
 		void extract(const std::string& cnt)
 		{
-			std::smatch matcher;
-			std::tr1::regex_constants::syntax_option_type op_type 
-				= std::tr1::regex_constants::ECMAScript;
-			std::regex pattern(params::regex_pattern_str);
-			
-			const std::sregex_token_iterator end;
-			for(std::sregex_token_iterator i(cnt.begin(),cnt.end(),pattern);
-				i!=end;i++)
-				incre(*i);
+			pcre* re;
+			int ovector[params::ovec_count];
+			memset(ovector,0,sizeof(int)*params::ovec_count);
+			int rc;
+			const char *error;
+			int erroffset;
+			re = pcre_compile(params::regex_pattern_str.c_str(),
+			0, &error, &erroffset, NULL);
+			if (re == NULL) {
+					printf("PCRE compilation failed at offset %d: %s\n", erroffset, error);
+					return;
+			}
+
+			while(true)
+			{
+				rc = pcre_exec(re, NULL, cnt.c_str(), cnt.size(),
+				ovector[params::ovec_offset], 0, ovector, 
+				params::ovec_count);
+				if(rc<0)
+				{
+					if(rc!=PCRE_ERROR_NOMATCH)
+						std::cout<<"Error: cannot match substring"
+						<<std::endl;
+					free(re);
+					return;
+				}
+
+				incre(std::string(cnt.c_str()+ovector[0],
+					ovector[1]-ovector[0]));
+			}
+
+			free(re);
+
+			//std::smatch matcher;
+			//std::tr1::regex_constants::syntax_option_type op_type 
+			//	= std::tr1::regex_constants::ECMAScript;
+			//std::regex pattern(params::regex_pattern_str);
+			//
+			//const std::sregex_token_iterator end;
+			//for(std::sregex_token_iterator i(cnt.begin(),cnt.end(),pattern);
+			//	i!=end;i++)
+			//	incre(*i);
+
 		}
 		void extract(const char* file_path)
 		{
@@ -176,20 +213,37 @@ namespace aspam
 			int r=0;
 
 			
-
-			std::smatch matcher;
-			std::tr1::regex_constants::syntax_option_type op_type 
-				= std::tr1::regex_constants::ECMAScript;
-			std::regex pattern(params::regex_pattern_str);
-			
-			const std::sregex_token_iterator end;
-
-			omp_set_num_threads(8);
-#pragma opm parallel for
-			for(std::sregex_token_iterator str_i(cnt.begin(),cnt.end(),pattern);
-				str_i!=end;str_i++)
+			pcre* re;
+			int ovector[params::ovec_count];
+			memset(ovector,0,sizeof(int)*params::ovec_count);
+			int rc;
+			const char *error;
+			int erroffset;
+			re=pcre_compile(params::regex_pattern_str.c_str(),
+				NULL,&error,&erroffset,NULL);
+			if(re==NULL)
 			{
-				str_win[r%params::win_size]=*str_i;
+				std::cout<<"Error: PCRE compilation at offset "<<
+					erroffset<<", "<<error<<std::endl;
+				return;
+			}
+			while(true)
+			{
+				rc=pcre_exec(re,NULL,cnt.c_str(),cnt.size(),
+					ovector[params::ovec_offset],0,ovector,
+					params::ovec_count);
+				if(rc<0)
+				{
+					if(rc!=PCRE_ERROR_NOMATCH)
+						std::cout<<"Error: cannot match substring"
+						<<std::endl;
+					free(re);
+					return;
+				}
+
+				str_win[r%params::win_size]=
+					std::string(cnt.c_str()+ovector[0],
+					ovector[1]-ovector[0]);
 				if(r-f==params::win_size-1)
 				{
 					for(int i=f;i!=r;i++)
@@ -197,7 +251,32 @@ namespace aspam
 					f++;
 				}
 				r++;
+
+			
 			}
+
+
+//			std::smatch matcher;
+//			std::tr1::regex_constants::syntax_option_type op_type 
+//				= std::tr1::regex_constants::ECMAScript;
+//			std::regex pattern(params::regex_pattern_str);
+//			
+//			const std::sregex_token_iterator end;
+//
+////			omp_set_num_threads(8);
+////#pragma opm parallel for
+//			for(std::sregex_token_iterator str_i(cnt.begin(),cnt.end(),pattern);
+//				str_i!=end;str_i++)
+//			{
+//				str_win[r%params::win_size]=*str_i;
+//				if(r-f==params::win_size-1)
+//				{
+//					for(int i=f;i!=r;i++)
+//						incre(str_win[i%params::win_size]+str_win[r%params::win_size]);
+//					f++;
+//				}
+//				r++;
+//			}
 		}
 		void extract(const char* file_path)
 		{
