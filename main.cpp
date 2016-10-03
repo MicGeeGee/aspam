@@ -5,6 +5,11 @@ int main()
 
 	aspam::Winnow filter;
 
+	
+	/*filter.load("1.txt");
+
+	system("pause");*/
+
 	std::list<aspam::OSB> tra_set;
 
 	for(int i=1;i<=3;i++)
@@ -31,9 +36,11 @@ int main()
 	}
 	
 
-
+	/*filter.print("1.txt");*/
 
 	system("pause");
+
+
 	return 0;
 
 	//aspam::Winnow filter;

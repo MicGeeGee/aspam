@@ -1,21 +1,33 @@
-﻿生成启动时间为 2016/10/3 星期一 23:25:36。
+﻿生成启动时间为 2016/10/4 星期二 0:26:16。
      1>项目“G:\ML\SPAM_CLASSIFIER\aspam_proj\aspam\aspam\aspam.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          G:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"G:\ML\SPAM_CLASSIFIER\pcre-8.34" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
      1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(17): warning C4305: “初始化”: 从“double”到“const float”截断
      1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(18): warning C4305: “初始化”: 从“double”到“const float”截断
-     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(174): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(178): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
-     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(238): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(197): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
-     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(354): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(204): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : 参见“fscanf”的声明
+     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(215): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : 参见“fscanf”的声明
+     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(273): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(389): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
-     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(380): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(415): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
-     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\main.cpp(14): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(591): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(608): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\aspam.h(622): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : 参见“fscanf”的声明
+     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\main.cpp(19): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
-     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\main.cpp(15): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\ml\spam_classifier\aspam_proj\aspam\aspam\main.cpp(20): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
        Link:
          G:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\ML\SPAM_CLASSIFIER\aspam_proj\aspam\Debug\aspam.exe" /INCREMENTAL /NOLOGO /LIBPATH:G:\ML\SPAM_CLASSIFIER\aspam_proj\ntpcre\Debug ntpcre.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\ML\SPAM_CLASSIFIER\aspam_proj\aspam\Debug\aspam.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\ML\SPAM_CLASSIFIER\aspam_proj\aspam\Debug\aspam.lib" /MACHINE:X86 Debug\aspam.obj
@@ -25,4 +37,4 @@
 
 生成成功。
 
-已用时间 00:00:02.21
+已用时间 00:00:02.34

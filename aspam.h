@@ -19,11 +19,11 @@ namespace aspam
 		const float init_weight=1.0;
 		const bool label_spam=1;
 		const bool label_ham=0;
-		const int cache_size=10000;
+		const int cache_size=10001;
 		const int win_size=5;
 		const int ovec_count=30;
 		const int ovec_offset=1;
-		const int BKDR_size=1000;
+		const int BKDR_size=501;
 		
 		
 	}
@@ -73,6 +73,10 @@ namespace aspam
 		int size() const
 		{
 			return num;
+		}
+		int vol() const
+		{
+			return volume;
 		}
 		bool empty() const
 		{
@@ -160,7 +164,7 @@ namespace aspam
 
 		void print()
 		{
-			for(int i=0;i<params::BKDR_size;i++)
+			for(int i=0;i<this->volume;i++)
 			{
 				std::list<BKDR::pair>::iterator it;
 				for(it=this->arr[i].begin();it!=this->arr[i].end();
@@ -173,7 +177,9 @@ namespace aspam
 			FILE* fp;
 			fp=fopen(file_path.c_str(),"w");
 			
-			for(int i=0;i<params::BKDR_size;i++)
+			fprintf(fp,"%d\n",this->is_spam);
+
+			for(int i=0;i<this->volume;i++)
 			{
 				std::list<BKDR::pair>::iterator it;
 				for(it=this->arr[i].begin();it!=this->arr[i].end();
@@ -185,6 +191,35 @@ namespace aspam
 			fclose(fp);
 		}
 
+		void load(const std::string& file_path)
+		{
+			FILE* fp;
+			fp=fopen(file_path.c_str(),"r");
+
+			if(!fp)
+			{
+				std::cout<<"Error: cannot open "<<file_path<<"."<<std::endl;
+				return;
+			}
+			int res=fscanf(fp,"%d",&this->is_spam);
+			if(!(res>0))
+			{
+				std::cout<<"Error: wrong format."<<std::endl;
+				return;
+			}
+			
+			char str[10000];
+			int val;
+			while (true)
+			{
+				int res=fscanf(fp,"%s%d",str,&val);
+				if(!(res>0))
+					break;
+				(*this)[str]=val;
+			}
+			
+			fclose(fp);
+		}
 	protected:
 		void extract(const std::string& cnt)
 		{
@@ -435,18 +470,7 @@ namespace aspam
 	};
 
 
-	class cache:public BKDR<float>
-	{
-	public:
-		cache():BKDR(params::cache_size,params::init_weight)
-		{}
-		//float& operator[] (const std::string& x)
-		//{
-		//	if(!is_existing(x))
-		//		return find(x)->val=params::init_weight;
-		//	return find(x)->val;
-		//}
-	};
+	
 
 	
 
@@ -505,7 +529,7 @@ namespace aspam
 			int num=0;
 			std::map<std::string,int>::const_iterator it;
 
-			for(int i=0;i<params::BKDR_size;i++)
+			for(int i=0;i<ft.vol();i++)
 			{
 				std::list<BKDR<int>::pair>::const_iterator it;
 				for(it=ft.arr[i].begin();it!=ft.arr[i].end();
@@ -525,14 +549,92 @@ namespace aspam
 			return sum>num?params::label_spam:params::label_ham;
 		}
 
+		void print(const std::string& file_path)
+		{
+			weights.print(file_path);
+		}
+		void print()
+		{
+			weights.print();
+		}
+		void load(const std::string& file_path)
+		{
+			weights.load(file_path);
+		}
 
 	protected:
-		cache weights;
+		class cache:public BKDR<float>
+		{
+		public:
+			cache():BKDR(params::cache_size,params::init_weight)
+			{}
+			//float& operator[] (const std::string& x)
+			//{
+			//	if(!is_existing(x))
+			//		return find(x)->val=params::init_weight;
+			//	return find(x)->val;
+			//}
+
+			void print()
+			{
+				for(int i=0;i<this->volume;i++)
+				{
+					std::list<BKDR::pair>::iterator it;
+					for(it=this->arr[i].begin();it!=this->arr[i].end();
+						it++)
+						std::cout<<it->key<<" : "<<it->val<<std::endl;
+				}
+			}
+			void print(const std::string& file_path)
+			{
+				FILE* fp;
+				fp=fopen(file_path.c_str(),"w");
+			
+				for(int i=0;i<this->volume;i++)
+				{
+					std::list<BKDR::pair>::iterator it;
+					for(it=this->arr[i].begin();it!=this->arr[i].end();
+						it++)
+						fprintf(fp,"%s %f\n",it->key.c_str(),it->val);
+					
+				}
+
+				fclose(fp);
+			}
+
+			void load(const std::string& file_path)
+			{
+				FILE* fp;
+				fp=fopen(file_path.c_str(),"r");
+
+				if(!fp)
+				{
+					std::cout<<"Error: cannot open "<<file_path<<"."<<std::endl;
+					return;
+				}
+				
+				
+			
+				char str[10000];
+				float val;
+				while (true)
+				{
+					int res=fscanf(fp,"%s%f",str,&val);
+					if(!(res>0))
+						break;
+					(*this)[str]=val;
+				}
+			
+				fclose(fp);
+			}
+
+		}weights;
+		
 
 
 		void promote(const feature& ft)
 		{
-			for(int i=0;i<params::BKDR_size;i++)
+			for(int i=0;i<ft.vol();i++)
 			{
 				std::list<BKDR<int>::pair>::const_iterator it;
 				for(it=ft.arr[i].begin();it!=ft.arr[i].end();
@@ -546,7 +648,7 @@ namespace aspam
 		}
 		void demote(const feature& ft)
 		{
-			for(int i=0;i<params::BKDR_size;i++)
+			for(int i=0;i<ft.vol();i++)
 			{
 				std::list<BKDR<int>::pair>::const_iterator it;
 				for(it=ft.arr[i].begin();it!=ft.arr[i].end();
