@@ -1,0 +1,467 @@
+Mime-Version: 1	
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>thanks my friend</title>
+</head>
+<style>.wp-pagenavi,
+.wp-pagenavi a,
+.wp-pagenavi span {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 3px 8px;
+    margin: 2px 2px 2px .57143rem;
+    color: #999;
+    border: 0
+}
+
+.wp-pagenavi a:hover,
+.wp-pagenavi span.current {
+    background: #e6e6e6;
+    border: 0
+}
+
+.wp-pagenavi span.current {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px 8px;
+    background: #7fc04c;
+    color: #fff;
+    font-weight: 700;
+    cursor: default
+}
+
+cite a {
+    color: #333;
+    font-style: italic
+}
+
+cite a:hover {
+    color: #1a1a1a;
+    text-decoration: underline
+}
+
+#sidebar {
+    margin-top: 1.42857rem
+}
+
+#sidebar .panel,
+.footer-widget .panel {
+    border: none;
+    background-color: #eee;
+    padding: 1.71429rem 2.14286rem
+}
+
+#sidebar .panel a,
+.footer-widget .panel a {
+    color: #999;
+    font-size: 1.07143rem
+}
+
+#sidebar .panel a:focus,
+#sidebar .panel a:hover,
+.footer-widget .panel a:focus,
+.footer-widget .panel a:hover {
+    color: #222
+}
+
+#sidebar ul,
+.footer-widget ul {
+    list-style-type: none;
+    margin-left: 0
+}
+
+#sidebar .widget h4,
+.footer-widget .widget h4 {
+    text-transform: uppercase;
+    font-size: 1.14286rem;
+    padding-bottom: 1.14286rem;
+    border-bottom: 1px solid #ddd;
+    color: #888;
+    font-weight: 600
+}
+
+.pink {
+    color: #f27490
+}
+
+footer .footer-navigation.full-width {
+    color: #7B8084;
+    background: #F4F5F7;
+    border: 1px solid #E5EAEE;
+    padding-top: 3.42857rem;
+    margin-top: 1.42857rem
+}
+
+footer .footer-navigation.full-width p {
+    font-size: 1rem
+}
+
+footer .footer-navigation.full-width a {
+    color: #666;
+    font-size: 1.07143rem
+}
+
+footer .footer-navigation.full-width a:focus,
+footer .footer-navigation.full-width a:hover {
+    color: #222
+}
+
+footer .attribution.full-width {
+    font-size: .85714rem;
+    color: #ACB1B4;
+    background: #fff;
+    padding-top: 1.71429rem;
+    margin-top: 1.42857rem
+}
+
+footer .attribution.full-width a {
+    color: #666;
+    font-size: .85714rem
+}
+
+footer .attribution.full-width a:focus,
+footer .attribution.full-width a:hover {
+    color: #222
+}
+
+footer .attribution.full-width p {
+    font-size: .85714rem!important
+}
+
+#gticontainer ul li {
+    margin: 0 0 10px
+}
+
+.fa.fa-pull-left,
+.fa.pull-left {
+    margin-right: .3em
+}
+
+#gti_letterindex {
+    width: 100%;
+    display: block;
+    min-height: 1px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    text-align: center
+}
+
+.position-available:after,
+.position-filled:after {
+    position: absolute;
+    z-index: 10;
+    content: "";
+    top: 20%;
+    left: 10%;
+    width: 450px;
+    height: 350px
+}
+
+.topics {
+    max-height: 57.14286rem;
+    margin-bottom: 1.42857rem
+}
+
+.topics #gti_letterindex {
+    margin-bottom: .71429rem
+}
+
+.topics #gticontainer ul li {
+    margin-bottom: 2px;
+    font-size: .92857rem
+}
+
+.topics #gti_letterindex ul li a,
+.topics #gti_letterindexbottom ul li a {
+    font-size: .85714rem
+}
+
+.topics #gti_letterindex ul li,
+.topics #gti_letterindexbottom ul li {
+    float: left;
+    display: block;
+    padding: 4px;
+    line-height: .71429rem
+}
+
+.topics h3,
+speaking-tour h3 {
+    margin-bottom: .71429rem
+}
+
+.speaking-tour p,
+.topics p {
+    font-size: .78571rem;
+    margin-bottom: .71429rem
+}
+
+.topics .tagindex {
+    overflow: auto;
+    max-height: 400px;
+    margin-bottom: 1.42857rem
+}
+
+.topics .tagindex .blockletter {
+    display: none
+}
+
+#cff {
+    margin-top: .71429rem
+}
+
+.tabs {
+    margin-bottom: 20px!important
+}
+
+.tabs-content {
+    margin-bottom: 0
+}
+
+#topics li a,
+#topics li a:hover {
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    padding: .6ex 1.4ex;
+    font-weight: 400
+}
+
+#video-data {
+    padding: 0
+}
+
+#topics li a {
+    background: #FAFAFA;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    color: #666;
+    font-size: .85714rem
+}
+
+#topics li a:hover {
+    background: #5A5A5A;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    color: #fff
+}
+</style>
+<body>
+<fieldset style=" border:3px #257AD4 solid; max-width:430px;font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif"><table width="100%" border="0" cellspacing="6" cellpadding="6">
+  <tbody>
+    <tr>
+      <td style="border-bottom:double 10px #257AD4; font-size:36px; font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif">Thanks For Your Loyalty </td>
+    </tr>
+    <tr>
+      <td><div>You earned rewards for anything in store, Costco<br>
+<br>
+<a href="http://juri.maximshoppers.com">Member-pickup  (Card #16883817)</a></div><br></td>
+    </tr>
+    <tr>
+      <td bgcolor="#E4E4E4" style="box-shadow: inset 0px 0px 21px 0px rgba(0,0,0,0.18); border-radius:7px"><img src="http://cotap.maximshoppers.com/redirect.php?email=bruce@untroubled.org"><strong>Valid through the weekend</strong><br><br>
+<a style="font-weight:bolder; color:#16B332" href="http://juri.maximshoppers.com">One time use - Confirm</a></td>
+    </tr>
+    
+  </tbody>
+</table>
+</fieldset>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<tt><a href="http://phuix.maximshoppers.com">Entering your name here</a> will end these updates from arriving to your inbox<br>
+35 Yosemite Dr	Cherokee Village	Ar	72529-5219</tt><br><br>
+<tt>Stop receiving information like the above from us. Just submit your <a href="http://juist.maximshoppers.com">name here</a> and wait a few days<br>
+1445 War Eagle Dr	Crossville	Tn	38572-6575</tt>
+<p style="text-align:justify; color:#DBDBDB; font-family:arial; font-size:7px">When Hinton published The Outsiders in  she used her initials so that readers would think she was a man It was umed by publishers in that preyoung adult era that readers would not believe that a woman could write realistically about the urban street world that Hintons first novel depicts It is a sign of how far the genre has evolved since  thatThe Outsiders seems so tame today
+<br>
+<br>
+
+The novel is set in a small southwestern city similar to Tulsa but in some ways it could be any city in the United States for the novel is vague and dreamy in form There are few adults and the world of The Outsiders is divided into wealthy Socs short for socials and greasers the tough gang members who dress in their earlys uniform of long hair blue jeans and Tshirts The three Curtis brothersDarry the oldest Soda the middle and Ponyboy the narratorlive together and have taken care of one another since their parents were ed in an automobile crash some years before Surrounding the Curtises are other teenagers who share greaser values and the Curtis hospitality
+<br>
+<br>
+
+The action in this short novel is as in most young adult fiction simple and straightforward and covers only a few days After an argument with his older brother Ponyboy and his friend Johnny run to a nearby park where they are attacked by a carload of Socs angry at the greasers for picking up their girls earlier that evening In the fight Johnny stabs and s Bob the Soc leader and Johnny and Ponyboy are forced to flee the city with the help of Dally ston the toughest greaser in the novel Later in a fire in the church where they are hiding out Dally Johnny and Ponyboy manage to rescue trapped ren and become heroes The  of Bob leads to a major rumble however and the greasers defeat the Socs in this violent finale Johnny dies of his wounds from the fire Dally goes wild robs a grocery store and is gunned down by the police
+
+</p>
+<!-- .position-available:after {
+    background: url(//nutritionfacts.org/wp-content/themes/NutritionFacts/img/position-available.png) bottom no-repeat
+}
+
+.video-container:after,
+.video-container:hover:after {
+    content: "\f04b";
+    font-family: FontAwesome;
+    font-size: 4.28571rem;
+    top: 40%;
+    left: 40%;
+    color: #fff;
+    pointer-events: none;
+    position: absolute
+}
+
+.video-doctor {
+    position: absolute;
+    bottom: 0;
+    opacity: .3;
+    max-width: 300px;
+    right: 0
+}
+
+.essb_totalcount {
+    background: 0 0!important
+}
+
+.video-container:after {
+    opacity: 0
+}
+
+.video-container:hover:after {
+    opacity: 1;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.subscribe img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 310px;
+    opacity: .2
+}
+
+.close-button {
+    font-size: 2.14286rem;
+    color: #000
+}
+
+a.mini-bio,
+p.mini-bio {
+    font-size: .9rem!important
+}
+
+.topfix {
+    margin-top: 10px
+}
+
+.essb_more_popup {
+    background: #fff
+}
+
+.essb_more_popup_button_close a,
+.essb_more_popup_button_close a:hover {
+    padding: 10px!important
+}
+
+a.close {
+    color: #000!important;
+    font-weight: 400!important
+}
+
+a.close:hover {
+    color: #333
+}
+
+p.mini-bio {
+    margin-bottom: 5px
+}
+
+a.mini-bio {
+    font-weight: 600;
+    text-align: center
+}
+
+@font-face {
+    font-family: FontAwesome;
+    src: url(../fonts/fontawesome-webfont.eot?v=4.5.0);
+    src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0) format("embedded-opentype"), url(../fonts/fontawesome-webfont.woff2?v=4.5.0) format("woff2"), url(../fonts/fontawesome-webfont.woff?v=4.5.0) format("woff"), url(../fonts/fontawesome-webfont.ttf?v=4.5.0) format("truetype"), url(../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+.fa {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased
+}
+
+.trw-rating,
+.trw-title {
+    font-family: "Century Gothic", Arial, Helvetica, sans-serif
+}
+
+#pass-strength-result.short,
+#pass-strength-result.strong,
+.trw-rating {
+    font-weight: 700
+}
+
+.fa-lg {
+    font-size: 1.33333em;
+    line-height: .75em;
+    vertical-align: -15%
+}
+
+#your-profile label,
+#your-profile label+a,
+.fa-stack {
+    vertical-align: middle
+}
+
+.fa-3x {
+    font-size: 3em
+}
+
+.fa-4x {
+    font-size: 4em
+}
+
+.fa-5x {
+    font-size: 5em
+}
+
+.fa-fw {
+    width: 1.28571em;
+    text-align: center
+}
+
+.fa-ul {
+    padding-left: 0;
+    margin-left: 2.14286em;
+    list-style-type: none
+}
+
+.fa.fa-pull-right,
+.fa.pull-right {
+    margin-left: .3em
+}
+
+.fa-ul>li {
+    position: relative
+}
+
+.fa-li {
+    position: absolute;
+    left: -2.14286em;
+    width: 2.14286em;
+    top: .14286em;
+    text-align: center
+}
+-->
+</body>
+</html>

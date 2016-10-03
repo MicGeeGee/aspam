@@ -1,0 +1,468 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+/* ///////// CLIENT-SPECIFIC STYLES ///////// */
+#outlook a{padding:0;} /* Force Outlook to provide a 'view in browser' message */
+ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+/* ///////// RESET STYLES ///////// */
+body{margin:0; padding:0;}
+img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+table{border-collapse:collapse !important;}
+table td { border-collapse: collapse !important;}
+body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+#mailBody.mailBody .uni-block.button-block { display:block; } /* Specific ukr.net style*/
+body {
+margin: 0;
+text-align: left;
+}
+pre {
+white-space: pre;
+white-space: pre-wrap;
+word-wrap: break-word;
+}
+table.mhLetterPreview { width:100%; }
+table {
+mso-table-lspace:0pt;
+mso-table-rspace:0pt;
+}
+img {
+-ms-interpolation-mode:bicubic;
+}
+</style>
+
+<style id="media_css" type="text/css">
+@media all and (max-width: 480px), only screen and (max-device-width : 480px) {
+    body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+    table[class='container-table'] {
+       width:100% !important;
+    }
+    .column {
+       width:100% !important;
+       max-width:100% !important;
+    }
+    td.image-wrapper {
+       padding: 0 !important;
+    }
+    td.image-wrapper, td.text-wrapper {
+       display:block !important;
+       width:100% !important;
+       max-width:initial !important;
+    }
+    table[class='wrapper1'] {
+       table-layout: fixed !important;
+       padding: 0 !important;
+       max-width: 600px !important;
+    }
+    td[class='wrapper-row'] {
+       table-layout: fixed !important;
+       box-sizing: border-box !important;
+       width:100% !important;
+       min-width:100% !important;
+    }
+    table[class='wrapper2'] {
+       table-layout: fixed !important;
+       border: none !important;
+       width: 100% !important;
+       max-width: 600px !important;
+       min-height: 520px !important;
+    }
+    div[class='column-wrapper']{
+       max-width:300px !important;
+    }
+    table.uni-block {
+       max-width:auto !important;
+       height:auto !important;
+       min-height: auto !important;
+    }
+    table[class='block-wrapper-inner-table'] {
+       height:auto !important;
+       min-height: auto !important;
+    }
+    td[class='block-wrapper'] {
+       height:auto !important;
+       min-height: auto !important;
+    }
+    .submit-button-block .button-wrapper 
+{       height: auto !important;
+       width: auto !important;
+       min-height: initial !important;
+       max-height: initial !important;
+       min-width: initial !important;
+       max-width: initial !important;
+    }
+    img[class='image-element'] {
+       height:auto !important;
+       box-sizing: border-box !important;
+    }
+}
+@media all and (max-width: 615px), only screen and (max-device-width : 615px) {
+    td[class='wrapper-row'] {
+       padding: 0 !important;
+       margin: 0 !important;
+    }
+}
+</style>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+<body width="100%" align="center">
+<!--[if gte mso 9]>       <style type="text/css">           .uni-block img {               display:block !important;           }       </style><![endif]-->
+<center>
+<table cellpadding="0" cellspacing="0" align="center" width="100%" class="container responsive">
+<tbody>
+<tr>
+<td>
+<table style="width: 100%; box-sizing: border-box; background-color: rgb(183, 183, 183); float: left;" class="wrapper1" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="padding: 25px;" class="wrapper-row"><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table style="background-color: rgb(255, 255, 255); border-radius: 0px; max-width: 750px; width: 100%; border: medium none; margin: 0px auto; border-spacing: 0px; border-collapse: collapse;" class="wrapper2" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="wrapper-row" style="vertical-align: top; max-width: 750px; padding: 0px;" width="100%"><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block container-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; background-image: none; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="width: 100%; padding: 0px; border: medium none;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="width:100%;" class="content-wrapper">
+<table id="JColResizer0" style="width: 100%; height: 100%; border-spacing: 0px; border-collapse: collapse;" class="container-table content-box" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr class="container-row">
+<td class="td-wrapper" style="font-size:0;vertical-align:top;" align="center"><!--[if (gte mso 9)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td width="375px" valign="top"><![endif]-->
+<table class="column" style="height: auto; vertical-align: top; display: inline-table; max-width: 375px; border-collapse: collapse;" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align: top; width: 100%;" class="sortable-container ui-sortable" align="center" valign="top">
+<table class="uni-block text-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(255, 255, 255); background-image: none; border: medium none; height: auto;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: auto;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="width: 100%; padding: 8px; vertical-align: top; font-size: 12px; font-family: Arial,Helvetica,sans-serif; line-height: 14.4px; color: rgb(34, 34, 34);" class="content-wrapper">
+<div aria-describedby="cke_441" aria-label="false" role="textbox" spellcheck="false" tabindex="0" style="word-wrap: break-word; position: relative;" class="clearfix cke_editable cke_editable_inline cke_contents_ltr cke_show_borders">
+<div>Watch that it is really improving!</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td><td width="375px" valign="top"><![endif]-->
+<table class="column" style="height: auto; vertical-align: top; display: inline-table; max-width: 375px; border-collapse: collapse;" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align: top; width: 100%;" class="sortable-container ui-sortable" align="center" valign="top">
+<table class="uni-block text-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(255, 255, 255); background-image: none; border: medium none; height: auto;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: auto;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="width: 100%; padding: 8px; vertical-align: top; font-size: 12px; font-family: Arial,Helvetica,sans-serif; line-height: 14.4px; color: rgb(34, 34, 34);" class="content-wrapper">
+<div aria-describedby="cke_480" aria-label="false" role="textbox" spellcheck="false" tabindex="0" style="word-wrap: break-word; position: relative;" class="clearfix cke_editable cke_editable_inline cke_contents_ltr cke_show_borders"><ol></ol></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block text-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(246, 246, 246); background-image: none; border: medium none; height: auto;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: auto;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="width: 100%; padding: 10px 8px; vertical-align: middle; font-size: 20px; font-family: Arial,Helvetica,sans-serif; line-height: 24px; color: rgb(49, 49, 49);" class="content-wrapper">
+<div aria-describedby="cke_43" aria-label="false" role="textbox" spellcheck="false" tabindex="0" style="word-wrap: break-word; position: relative;" class="clearfix cke_editable cke_editable_inline cke_contents_ltr cke_show_borders">
+<div style="text-align: center;">Modern medicine treats more than 95% of cases of sexual impotence in men. Don't suffer in silence!</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block image-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(246, 246, 246); background-image: none; padding: 0px; height: auto;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; text-align: center; border-spacing: 0px; border-collapse: collapse; min-height: auto; font-size: 0px;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="width: auto; height: 100%; display: inline-table;" class="content-wrapper">
+<table style="display: inline-table; vertical-align: top; width: auto; height: 100%; border-spacing: 0px; border-collapse: collapse;" class="content-box" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="vertical-align: middle;">
+<div class="image-wrapper image-drop"><a class="image-link" href="http://arceepress.com/DuJ2fQ" target="_blank"><img id="gridster_block_12_main_img" style="font-size: small; border: medium none; width: 100%; max-width: 750px; height: auto; outline: medium none; text-decoration: none;" class="image-element" src="http://funkyimg.com/i/2g75H.gif" alt="Best medicants for feeling the burst of hot vigor inside of you!" width="750"></a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block text-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td height="77" valign="top" class="block-wrapper" style="width: 100%; background-color: rgb(246, 246, 246); background-image: none; border: medium none; height: auto;">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: auto;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td height="61" class="content-wrapper" style="width: 100%; padding: 10px 45px 8px; vertical-align: middle; font-size: 14px; font-family: Arial,Helvetica,sans-serif; line-height: 16.8px; color: rgb(88, 88, 88);">
+<div aria-describedby="cke_400" aria-label="false" role="textbox" spellcheck="false" tabindex="0" style="word-wrap: break-word; position: relative;" class="clearfix cke_editable cke_editable_inline cke_contents_ltr cke_show_borders"><p></p>
+<div>This month we provide the majority of our regular customers with top quality medications!<br>
+Become the fair-haired boy of the fortune! Get the power!</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block button-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="width: 100%; background-image: none; min-height: auto; height: 50px;" class="block-wrapper" valign="middle">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: 50px;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="width: 100%; text-align: center;" class="content-wrapper">
+<div></div><table style="display: inline-table; width: auto; border-spacing: 0px; border-collapse: collapse;" class="valign-wrapper" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="border: medium none; border-radius: 6px; padding: 15px 10px; background-color: rgb(219, 48, 59); height: 19px; min-height: 19px;" class="button-wrapper" align="center" valign="middle"><a class="mailbtn" href="http://arceepress.com/afkN6t" target="_blank" style="width:100%;display:inline-block;text-decoration:none;"><span class="btn-inner" style="display: inline; font-size: 16px; font-family: Arial,Helvetica,sans-serif; line-height: 19.2px; color: rgb(255, 255, 255); background-color: rgb(219, 48, 59); border: 0px none; word-break: break-all;">Stay hard as long as you need!</span></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block text-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(255, 255, 255); background-image: none; border: medium none; height: auto;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: auto;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="width: 100%; padding: 8px; vertical-align: top; font-size: 12px; font-family: Arial,Helvetica,sans-serif; line-height: 14.4px; color: rgb(34, 34, 34);" class="content-wrapper">
+<div aria-describedby="cke_122" aria-label="false" role="textbox" spellcheck="false" tabindex="0" style="word-wrap: break-word; position: relative;" class="clearfix cke_editable cke_editable_inline cke_contents_ltr cke_show_borders">
+<div style="text-align: center;">or use this link if button not work</div>
+<div style="text-align: center;"><a style="color: rgb(73, 183, 51);" href="http://aquanitafaucet.com/TlaKOJ" target="_blank" data-cke-saved-href="http://aquanitafaucet.com/SjzNZ5">http://batteryregistration.com/LgT2nv</a></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block container-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; background-image: none; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="width: 100%; padding: 10px; border: medium none;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="width:100%;" class="content-wrapper">
+<table id="JColResizer5" style="width: 100%; height: 100%; border-spacing: 0px; border-collapse: collapse;" class="container-table content-box" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr class="container-row">
+<td class="td-wrapper" style="font-size:0;vertical-align:top;" align="center"><!--[if (gte mso 9)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td width="365px" valign="top"><![endif]-->
+<table class="column" style="height: auto; vertical-align: top; display: inline-table; max-width: 365px; border-collapse: collapse;" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align: top; width: 100%;" class="sortable-container ui-sortable" align="center" valign="top">
+<table class="uni-block text-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(255, 255, 255); background-image: none; border: medium none; height: auto;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: auto;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="width: 100%; padding: 8px; vertical-align: top; font-size: 14px; font-family: Arial,Helvetica,sans-serif; line-height: 16.8px; color: rgb(34, 34, 34);" class="content-wrapper">
+<div aria-describedby="cke_82" aria-label="false" role="textbox" spellcheck="false" tabindex="0" style="word-wrap: break-word; position: relative;" class="clearfix cke_editable cke_editable_inline cke_contents_ltr cke_show_borders"><table width="60%" border="0"><tbody><tr><td></td><td></td><td></td></tr></tbody></table><br>
+Also we have<br>
+- Heart <br>
+- Antidiabetic<br>
+- Anti-allergic<br>
+- Antidepressants<br>
+... and more than 2.000 positions<br>
+<nav></nav><br></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td><td width="365px" valign="top"><![endif]-->
+<table class="column" style="height: auto; vertical-align: top; display: inline-table; max-width: 365px; border-collapse: collapse;" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align: top; width: 100%;" class="sortable-container ui-sortable" align="center" valign="top">
+<table class="uni-block image-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(255, 255, 255); background-image: none; padding: 0px; height: auto;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; text-align: center; border-spacing: 0px; border-collapse: collapse; min-height: auto; font-size: 0px;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="width: auto; height: 100%; display: inline-table;" class="content-wrapper">
+<table style="display: inline-table; vertical-align: top; width: auto; height: 100%; border-spacing: 0px; border-collapse: collapse;" class="content-box" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="vertical-align: middle;">
+<div class="image-wrapper image-drop"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block line-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(49, 49, 49); background-image: none; vertical-align: middle; height: 10px;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: 10px;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="width: 100%; vertical-align: middle; height: 10px; min-height: 10px;" class="content-wrapper">
+<table style="width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; font-size: 0px;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="separator-line" style="width: 100%; background-color: rgb(204, 204, 204); height: 1px; min-height: 1px; max-height: 1px; line-height: 1px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block text-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(49, 49, 49); background-image: none; border: medium none; height: auto;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: auto;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="width: 100%; padding: 20px 50px 0px; vertical-align: top; font-size: 12px; font-family: Arial,Helvetica,sans-serif; line-height: 14.4px; color: rgb(185, 186, 190);" class="content-wrapper">
+<div aria-describedby="cke_756" aria-label="false" role="textbox" spellcheck="false" tabindex="0" style="word-wrap: break-word; position: relative;" class="clearfix cke_editable cke_editable_inline cke_contents_ltr cke_show_borders">You can <a style="color: rgb(73, 183, 51);" href="http://aquanitafaucet.com/InW3Na" target="_blank" data-cke-saved-href="http://aquanitafaucet.com/MdPrEO">unsubscribe from this list</a><br>
+<br></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+</body>
+</html>
+
+

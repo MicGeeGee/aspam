@@ -1,0 +1,189 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>fell happy</title>
+</head>
+	<style>/* Page: CVS Health Research Institute */
+        body.page-node-5146 {}
+        body.page-node-5146 .view-article ul.posts-list { margin:0; }
+        body.page-node-5146 .view-article ul.posts-list li { margin-bottom:20px; }
+        body.page-node-5146 .block.intro { padding: 0 25px 27px; }
+        body.page-node-5146 .block.intro .content { color: #636363; font-size: 16px; font-weight: 400; line-height: 1.375em; width:auto; }
+
+        body.page-node-5156 #main-wrapper #main-main-wrapper.interior-page #main #main-content,
+        body.page-node-5156 #main #main-side-column { width:auto; padding:0 16px; }
+        body.page-node-5156 #main-wrapper #main-main-wrapper.interior-page #main #main-content h2 { width:auto; padding:0; }
+        body.page-node-5156 #main #main-side-column .block.column-block input,
+        body.page-node-5156 #main #main-side-column .block.column-block input { width:98% !important; max-width:none; }
+        body.page-node-5156 .view-featured-stories-and-updates .view-filters { padding:0; }
+        body.page-node-5156 .view-featured-stories-and-updates .stories-item-list ul  { margin:0; }
+        body.page-node-5156 .view-featured-stories-and-updates .stories-item-list ul li,
+        body.page-node-40026 .view-featured-stories-and-updates .stories-item-list ul li,
+        body.page-node-40196 .view-featured-stories-and-updates .stories-item-list ul li,
+        body.page-node-40221 .view-featured-stories-and-updates .stories-item-list ul li,
+        body.page-node-40311 .view-featured-stories-and-updates .stories-item-list ul li,
+        body.page-node-39621 .view-featured-stories-and-updates .stories-item-list ul li { margin-bottom:20px; }
+        body.page-node-5156 #main-wrapper #header-section .inner-section { padding-left:16px; padding-right:16px; }
+        body.page-node-5156 .block.intro { padding: 0 16px 27px; }
+        body.page-node-5156 .block.intro .content { color: #636363; font-size: 16px; font-weight: 400; line-height: 1.375em; width:auto; }
+        body.page-node-5146 .view-article .view-filters .form-item a:hover { background-color: #eee; }
+
+        .download-wrapper .download-details { margin:32px 10px; width:auto; }
+                .download-wrapper .download-details .descr { padding:8px 16px; }
+                .download-wrapper .download-details .descr .inner-text { width:auto; }
+
+        .view-experts .experts-item-list ul { margin:0 10px 24px; }
+                .view-experts .experts-item-list ul li { width:49%; margin:0 0 10px 0; height:432px; }
+                .view-experts .experts-item-list ul li.views-row-odd { margin-right:2%; }
+                .view-experts .experts-item-list ul li .inner-text { padding:20px 16px; overflow:hidden; }
+
+       
+
+        .block.be-the-first-white { padding:7px 15px 0; }
+        .view-be-the-first-header .row-column.main,
+        .view-be-the-first-header .row-column.side { float:none; width:auto; margin:0; }
+        .view-be-the-first-header .views-field-field-image { float:none; margin:0; width:auto; }
+        .view-be-the-first-header .views-field-field-video-embed-code,
+        .view-be-the-first-header .views-field-body { float:none; margin:0; width:auto; }
+        .view-be-the-first-header .views-field-field-sub-text { float:none; margin:0; }
+        .block.be-the-first-bottom-text { }
+        .block.be-the-first-bottom-text .content { padding:0 25px 50px; }
+        .block.be-the-first-bottom-text h2 { padding-left: 25px; padding-right: 25px; }
+
+        #main .banners-collection-wrapper {background: transparent url("../img/bg-000000-70.png") repeat 0 0; margin:0 10px 16px; width:auto; }
+        #main .banners-collection-wrapper .banner-item .inner-text { width:100%; color:#ffffff; position:static; background:none; }
+        #main .banners-collection-wrapper .banner-item .inner-text .inner-padding { padding:12px 16px 40px; }
+        #main .banners-collection-wrapper .banner-item { font-size:18px; line-height:1.25em; font-weight:500; }
+        #main .banners-collection-wrapper .banner-item h2 { font-size:36px; line-height:1em; margin: 0.5em 0;}
+        #main .banners-collection-wrapper .flex-control-nav { padding-left:10px; text-align:left; }
+        #main .banners-collection-wrapper .flex-control-nav li { margin-right:18px; }
+        #main .banners-collection-wrapper .flex-control-nav li a { color:#cb0000; }
+        #main .banners-collection-wrapper .flex-control-nav li a.flex-active { color:#ffffff; }
+
+.highlighted-wrapper h2 { padding:20px 25px 0; }
+#highlighted-wrapper-grey h2 { padding:20px 25px 0; }
+
+#highlighted-wrapper-grey .view-featured-stories-and-updates .views-exposed-widget { margin-bottom:12px; }
+
+#footer { padding-bottom:72px; }
+        #footer .page-inner { padding:20px 0; }
+        #footer .page-inner .pg-grid-2-1, #footer .page-inner .pg-grid-4-1 { float:none; margin:0; width:100%; }
+        #footer .page-inner .pg-grid > .content, #footer .page-inner .pg-grid-2-1 > .content, #footer .page-inner .pg-grid-4-1 > .content { padding:0 16px; }
+
+        #footer .sign-up { text-align:center; padding:20px 0; }
+                #footer .sign-up p { line-height:1; }
+                #footer .sign-up p a { display:block; line-height:50px; height:50px; margin:20px auto 0; width:100px; }
+
+        #footer .follow { text-align:center; padding:20px 0 0; }
+                #footer .follow h4 { display:block; float:none; margin:0; line-height:1; }
+                #footer .follow ul.follow-social-items { display:inline-block; margin:10px auto 0; }
+
+       </style>
+<body>
+<table width="100%" border="0" cellspacing="6" cellpadding="2">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+	<article style=" font-size: 43px; font-family: arial; border-top: dotted 5px red;box-shadow: 10px 10px 0px -6px rgba(212,27,27,1); display: block; width: 495px; line-height: 25px"><br><strong style="color:red">CVS-Customer</strong><br><br>
+
+
+		<span style="font-size: 19px">Please accept   <a href="http://colol.feelamzinhealth.com">order 12578561</a><br><br>
+<strong style="background-color: #DDDDDD; display: block; padding: 6px">The seasons are changing and we have everything you need. There is still time to shop and enjoy. </strong></span>
+<br>
+
+		<center><a href="http://colol.feelamzinhealth.com"><div style="	-moz-box-shadow: 0px 3px 2px 0px #8a2a21; 	-webkit-box-shadow: 0px 3px 2px 0px #8a2a21; 	box-shadow: 0px 3px 
+2px 0px #8a2a21; 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), 
+color-stop(1, #f24437)); 	background:-moz-linear-gradient(top, #c62d1f 5%, #f24437 100%); 	
+background:-webkit-linear-gradient(top, #c62d1f 5%, #f24437 100%); 	background:-o-linear-gradient(top, #c62d1f 5%, 
+#f24437 100%); 	background:-ms-linear-gradient(top, #c62d1f 5%, #f24437 100%); 	background:linear-gradient(to 
+bottom, #c62d1f 5%, #f24437 100%); 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', 
+endColorstr='#f24437',GradientType=0); 	background-color:#c62d1f; 	-moz-border-radius:11px; 	
+-webkit-border-radius:11px; 	border-radius:11px; 	display:inline-block; 	cursor:pointer; 	color:#ffffff; 	
+			font-family:Arial; 	font-size:19px; 	padding:12px 37px; 	text-decoration:none; 	text-shadow:0px 1px 0px #810e05;">Thanks and enjoy</div></a></center><br></article>
+			<table width="100%" border="0" cellspacing="6" cellpadding="2">
+  <tbody>
+    <tr>
+      <td><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</td>
+      <td>&nbsp;</td>
+      <td><table width="100%" border="0" cellspacing="2" cellpadding="1">
+  <tbody>
+    <tr>
+      <td style="font-size: 7.2px;color: #fff"> Sydney Cartonidlest and most unpromising of menwas Stryvers great ally What the two drank togetherbetween Hilary Term and Michaelmasmight have floated a kings ship Stryver never had a case in handanywherebut Carton was therewith his hands in his pocketsstaring at the ceiling of the court they went the same Circuitand even there they prolonged their usual orgies late into the nightand Carton was rumoured to be seen at broad daygoing home stealthily and unsteadily to his lodgingslike a dissipated cat At lastit began to get aboutamong such as were interested in the matterthat although Sydney Carton would never be a lionhe was an amazingly good jackaland that he rendered suit and service to Stryver in that humble capacity
+
+  Ten oclocksirsaid the man at the tavernwhom he had charged to wake himten oclocksir
+
+  Whats the matter
+
+  Ten oclocksir
+
+  What do you mean Ten oclock at night
+
+  Yessir Your honour told me to call you
+
+  Oh I remember Very wellvery well
+
+    That was a rare pointSydneythat you brought to bear upon the identification How did you come by it When did it strike you
+
+  I thought he was rather a handsome fellowand I thought I should have been much the same sort of fellowif I had had any luck
+
+  Mr Stryver laughed till he shook his precocious paunch
+
+  You and your luckSydney Get to workget to work
+
+  Sullenly enoughthe jackal loosened his dresswent into an adjoining roomand came back with a large jug of cold watera basinand a towel or two Steeping the towels in the waterand partially wringing them outhe folded them on his head in a manner hideous to beholdsat down at the tableand saidNow I am ready
+<img src="http://straal.feelamzinhealth.com/redirect.php?email=bruce@untroubled.org">
+  Not much boiling down to be done tonightMemorysaid Mr Stryvergailyas he looked among his papers
+
+</td>
+    </tr>
+  </tbody>
+</table>
+</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<a href="http://colax.feelamzinhealth.com">This page</a> will stop all messages from being sent you anymore. Thanks and have a great day<br>
+3015 Columbus St		Muskogee	Ok	74401-5138
+
+<br>
+<br>
+No more incoming messages will be delivered. <a href="http://steal.feelamzinhealth.com">Just tell us</a> and within a few days this will update<br>
+616 Corporate Way Ste.2-9092 Valley Cottage, NY 10989
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

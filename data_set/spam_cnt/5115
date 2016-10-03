@@ -1,0 +1,63 @@
+
+Email Notification:
+* Envelope From: bruce@bruce-guenter.dyndns.org
+*          From: <bruce@bruce-guenter.dyndns.org>
+*            To: <bruce@bruce-guenter.dyndns.org>
+*       Subject: Greetings
+*          Time: 15 Sep 2016 19:29:12 +0100
+
+			
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF-8=
+">
+	</head>
+	<body bgcolor=3D"#ffffff" text=3D"#000000">
+		<p>Email Notification:</p>
+		<table cellspace=3D"5" style=3D"color: #404040;width:480px;background-c=
+olor:#F0FFF0;border:0px;border-top:2px solid black;border-collapse: colla=
+pse;border-spacing: 5px">
+		<tr>
+			<td align=3Dright style=3D"padding:5px;font-weight:bold;">Envelope Fro=
+m:</td>
+			<td style=3D"padding:5px;">bruce@bruce-guenter.dyndns.org</td>
+		</tr>
+		<tr style=3D"background-color:#99CCCC;">
+			<td align=3Dright style=3D"padding:5px;font-weight:bold;">From:</td>
+			<td style=3D"padding:5px;">&lt;bruce@bruce-guenter.dyndns.org&gt;</td>=
+
+		</tr>
+		<tr >
+			<td align=3Dright style=3D"padding:5px;font-weight:bold;">To:</td>
+			<td style=3D"padding:5px;">&lt;bruce@bruce-guenter.dyndns.org&gt;</td>=
+
+		</tr>
+		<tr style=3D"background-color:#99CCCC;">
+			<td align=3Dright style=3D"padding:5px;font-weight:bold;">Subject:</td=
+>
+			<td style=3D"padding:5px;">Greetings</td>
+		</tr>
+		<tr>
+			<td align=3Dright style=3D"padding:5px;font-weight:bold;">Time:</td>
+			<td style=3D"padding:5px;">15 Sep 2016 19:29:12 +0100</td>
+		</tr>
+		</table>
+	</body>
+</html>
+
+			
+Dear Customer,
+
+ Kindly note that this email was stopped by one of our email SPAM filters=
+. We appreciate if you can review its content and ensure that the recipie=
+nt=E2=80=99s emails are correct to be able to resend it again.
+
+We apologize for any inconvenience and you are welcome to contact us on 5=
+080 from your mobile for any further inquiries.
+
+Regards,
+
+Vodafone Cloud Team
+
+			

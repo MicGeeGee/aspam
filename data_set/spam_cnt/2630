@@ -1,0 +1,148 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+<style type="text/css">
+/* == **ULTRA** COLLAPSED VIEW == */
+@media (max-width:500px){.ent_m232-summary-weekday,
+.ent_m232-summary-date{font-size:36px;line-height:36px;}
+.ent_m232-summary-timezone,
+.ent_m232-summary-location{font-size:14px;line-height:1;}
+.ent_m232-summary-times{font-size:28px;}
+.ent_m232-schedule-item-time,
+.ent_m232-schedule-item-meta-wrap.no-image .ent_m232-schedule-item-time{font-size:16px;}
+.ent_m232-schedule-item-time-suffix{font-size:10px;}
+.ent_m232-schedule-item-meta-title{font-size:22px;margin-bottom:0;}
+.ent_m232-schedule-item-minimized .ent_m232-schedule-item-time{font-size:16px;}
+.ent_m232-schedule-item-minimized .ent_m232-schedule-item-meta-title{font-size:16px;line-height:18px;margin-top:10px;}
+.ent_m232-schedule-item-meta-duration{font-size:10px;margin-top:0;}
+.ent_m232-schedule-item-meta-copy{font-size:11px;}
+.ent_m232-schedule-item-meta-button{font-size:13px;}
+}
+/* Winners Promo */
+.ent_m230 .ent_m230-list-item{margin-bottom:40px;}
+.ent_m230 .ent_m230-winner-meta{text-align:left;background:none;padding-top:10px;}
+.ent_m230 .ent_m230-item-content{background:none;min-height:100px;}
+.ent_m230 .ent_m230-award-title{text-transform:uppercase;color:#1e0014;font-family:'AkzidenzGrotesk-Regular';font-size:14px;font-weight:700;letter-spacing:0.88px;line-height:16px;background:none;bottom:0;margin:0;text-align:left;padding-left:0;max-width:100%;}
+.ent_m230 .ent_m230-winner-subtitle{font-family:'AkzidenzGrotesk-Bold';font-size:1.4rem;font-weight:normal;line-height:1;letter-spacing:1px;text-transform:uppercase;padding-top:0;color:#1e0014;display:block;}
+.ent_m230 .ent_m230-winner-title{color:#1e0014;font-family:'AkzidenzGrotesk-Regular';font-size:1.8rem;font-weight:400;line-height:1;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:7px;}
+.ent_m230 .ent_m230-item-link-wrapper:hover .ent_m230-winner-url span{background:#1e0014 none repeat scroll 0 0;box-shadow:5px 0 0 #1e0014,-7px 0 0 #1e0014;color:#f9f9f9;padding:7px 0 4px;white-space:pre-wrap;display:inline;}s
+.ent_m230 .ent_m230-winner-url{text-transform:uppercase;color:#1e0014;font-family:'AkzidenzGrotesk-Regular';font-size:12px;font-weight:400;letter-spacing:1px;line-height:14px;}
+.ent_m230 .ent_m230-winner-url:before{margin-left:0;margin-right:10px;width:16px;height:16px;border:1px solid #1e0014;background:none;color:#1e0014;font-size:7px;}
+.ent_m230 .ent_m230-winner-url span{display:inline-block;padding-bottom:5px;border-bottom:1px solid #1e0014;}
+.ent_m230 .ent_m230-winners-link{color:#1e0014;background:none;border:medium solid #1e0014;border-radius:0;}
+.ent_m230 .ent_m230-winners-link:hover{background-color:#1e0014;color:#f9f9f9;}
+/* Top moments promo (M233) */
+.ent_m233{padding-bottom:50px;margin-bottom:0;}
+.ent_m233 .top-moments__headline{margin-bottom:20px;}
+.ent_m233 .top-moments__subheadline{margin-bottom:20px;text-transform:uppercase;color:#1e0014;font-family:'AkzidenzGrotesk-Regular';font-size:1.4rem;font-weight:400;line-height:1.5;letter-spacing:2px;text-align:left;}
+.ent_m233 .top-moments_description{max-width:80%;}
+.ent_m233 .top-moments__two-col-grid a:nth-child(6n+4) .top-moments__image-wrapper{/* order:2 */}
+.ent_m233 .top-moments__two-col-grid a:nth-child(6n+4) .top-moments__description{/* padding-left:0;*/}
+.ent_m233 .top-moments__two-col-grid .top-moments__item--alternative-grid .top-moments__description{margin-right:0;padding-left:0;padding-top:80px;}
+.ent_m233 .top-moments__two-col-item .top-moments__description{margin-left:0;}
+.ent_m233 .top-moments__item{background:none;}
+.ent_m233 .top-moments__item:hover .top-moments__image-overlay{background:rgba(30,0,20,0.5);}
+.ent_m233 .top-moments__item:hover .top-moments__description .top-moments__promo-title{background:#1e0014 none repeat scroll 0 0;box-shadow:5px 0 0 #1e0014,-7px 0 0 #1e0014;color:#f9f9f9;padding:7px 0 4px;white-space:pre-wrap;display:inline;}
+.ent_m233 .top-moments__item .top-moments__share-overlay{border:1px solid #dbdbdb;background:rgba(249,249,249,0.95);}
+.ent_m233 .top-moments__item .top-moments__share-overlay .top-moments__promo-title{font-size:2.4rem;line-height:1.1;}
+.ent_m233 .top-moments__description{border-bottom:none;background:none;}
+.ent_m233 .top-moments__promo-title{color:#1e0014;font-family:'BC-Falster-Grotesk-Bold';font-size:3rem;font-weight:700;line-height:1.25;letter-spacing:1px;text-transform:uppercase;margin-bottom:0;margin-top:0;}
+.ent_m233 .top-moments__label{color:#1e0014;font-family:'AkzidenzGrotesk-Regular';font-size:1.2rem;font-weight:400;line-height:1;letter-spacing:2px;text-transform:uppercase;background:none;display:table-cell;}
+.ent_m233 .top-moments__promo-description{text-transform:uppercase;color:#1e0014;font-family:'AkzidenzGrotesk-Regular';font-weight:400;font-size:1.4rem;line-height:1.5;letter-spacing:1px;display:block;padding-top:10px;}
+.ent_m233 .top-moments__share-button{background-color:#270014;top:0;right:0;color:#f9f9f9;text-transform:uppercase;}
+.ent_m233 .top-moments__item-number{color:#1e0014;font-family:'BC-Falster-Grotesk-Bold';font-weight:700;letter-spacing:0.5px;line-height:100px;background-color:#f9f9f9;font-size:6rem;height:62px;width:45px;left:-12px;top:-20px;}
+.ent_m233 .top-moments__playIcon{background-color:rgba(29,0,20,0.7);text-transform:uppercase;border-radius:0;width:225px;height:67px;color:#f9f9f9;padding-top:20px;font-size:16px;font-weight:700;line-height:22px;letter-spacing:3px;}
+.ent_m233 .top-moments__playIcon:before{width:30px;height:30px;background:none;border:1px solid #f9f9f9;font-size:10px;padding:0.9em 0 1em 0.5em;}
+.ent_m233 .top-moments__featured-link{border-radius:0;box-shadow:none;color:#1e0014;background-color:#f9f9f9;border:solid #1e0014;margin-bottom:0;}
+.ent_m233 .top-moments__featured-link:hover{opacity:1;color:#f9f9f9;background-color:#1e0014;}
+.ent_m233 .top-moments__one-col-item{display:block;}
+.ent_m233 .top-moments__one-col-item .top-moments__description{margin:0;text-align:left;padding:0;top:-26px;}
+.ent_m233 .top-moments__one-col-item .top-moments__description .top-moments__promo-title{font-weight:700;line-height:1.1;letter-spacing:1px;font-size:2.4rem;}
+.ent_m233 .top-moments__one-col-item .top-moments__description .top-moments__label{padding:8px 6px 18px 6px;top:-8px;background-color:#f9f9f9;}
+@media (max-width:1200px){.ent_m233{padding-left:10px;padding-right:10px;}
+}
+@media (max-width:659px){.ent_m233 .top-moments__ad-item{text-align:center;}
+.ent_m233 .top-moments_description{max-width:100%;}
+.ent_m233 .top-moments__share-button{font-size:1.5rem;letter-spacing:1px;}
+.ent_m233 .top-moments__subheadline{margin-bottom:30px;}
+.ent_m233 .top-moments__promo-description{font-size:1.2rem;}
+.ent_m233 .top-moments__item-number{font-size:4rem;height:58px;width:30px;left:-8px;top:-36px;}
+.ent_m233 .top-moments__promo-title{font-family:'BC-Falster-Grotesk-Bold';font-size:2.4rem;font-weight:700;line-height:44px;letter-spacing:1px;}
+.ent_m233 .top-moments__one-col-item{margin-right:0;width:100%;}
+.ent_m233 .top-moments__two-col-item .top-moments__description{text-align:left;padding-right:0;padding-left:0;padding-bottom:0;margin-top:10px;margin-bottom:0;top:-26px;}
+.ent_m233 .top-moments__two-col-item .top-moments__description .top-moments__label{padding:8px 6px 18px 6px;top:-8px;background-color:#f9f9f9;}
+.ent_m233 .top-moments__two-col-item .top-moments__description .top-moments__promo-title{font-weight:700;letter-spacing:1px;margin-top:0;font-size:2.4rem;line-height:1.1;}
+.ent_m233 .top-moments__two-col-item.top-moments__item--alternative-grid .top-moments__description{padding-top:0;}
+}
+/* Live Blog (M231) */
+.ent_m231 .live-blog{background:#f9f9f9;}
+.ent_m231 .live-blog .live-blog__jump-button-content{font-family:'BC-Falster-Grotesk-Bold';text-transform:uppercase;font-size:18px;}
+.ent_m231 .live-blog .live-blog__jump-button{padding-right:30px;}
+/* Nominees (M215) */
+.ent_m215 .ent_m215-module-content{padding:0;}
+.ent_m215 .ent_m215-award-title{font-family:'BC-Falster-Grotesk-Bold';text-transform:uppercase;letter-spacing:1px;}
+.ent_m215 .ent_m215-nominee-landscape:hover .ent_m215-nominee-title-landscape{color:#1e0014;}
+.ent_m215 .ent_m215-nominee-landscape:hover .ent_m215-nominee-subtitle-landscape{color:#1e0014;}
+.ent_m215 .ent_m215-nominee-meta-wrap-landscape{padding-left:0;padding-top:15px;background:none;}
+.ent_m215 .ent_m215-nominee-meta-wrap-landscape .ent_m215-nominee-title-landscape{color:#1e0014;font-family:'AkzidenzGrotesk-Regular';font-size:1.8rem;font-weight:400;letter-spacing:2px;line-height:1;text-transform:uppercase;margin-bottom:7px;}
+.ent_m215 .ent_m215-nominee-meta-wrap-landscape .ent_m215-nominee-subtitle-landscape{font-family:'AkzidenzGrotesk-Bold';font-size:1.4rem;font-weight:normal;letter-spacing:1px;line-height:1;text-transform:uppercase;}
+.ent_m215 .ent_m215-nominee-meta-wrap-landscape:hover .ent_m215-nominee-title-landscape{color:#1e0014;}
+.ent_m215 .ent_m215-nominee-meta-wrap-landscape:hover .ent_m215-nominee-subtitle-landscape{color:#1e0014;}
+@media (max-width:1200px){.ent_m215{padding-left:10px;padding-right:10px;}
+}
+@media (max-width:659px){.ent_m215 .ent_m215-nominee-image-wrap-landscape{width:100%;}
+.ent_m215 .ent_m215-nominee-meta-wrap-landscape{margin-left:0;}
+}
+/* Live Stream Player M234 */
+.ent_m234{/************/
+/* Extra styles for the MUX player with actual feed */
+/**************/
+/* TVE Lock */}
+@media (min-width:769px){.ent_m234 .live-stream__camera:first-child{padding:0 0 17.45% 0;}
+.ent_m234 .live-stream__camera:first-child:after{margin-top:55.8%;}
+.ent_m234 .live-stream__camera:first-child .live-stream__camera-view:before{padding-top:55.8%;}
+.ent_m234 .live-stream__camera:first-child .live-stream__camera-title{margin-top:55.8%;}
+.ent_m234 .live-stream__mux-player{margin-bottom:14.5% !important;}
+.ent_m234 .live-stream__camera{padding:0 0 14.5% 2.5%;}
+.ent_m234 .live-stream__camera:nth-child(2n+2){padding:0 2.5% 14.5% 0;}
+.ent_m234 .live-stream__camera:before{width:5%;}
+.ent_m234 .live-stream__camera:after{margin-top:53%;}
+}
+</style>
+</head>
+
+<body style="font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif">
+<span style="color:rgb(0,0,0); border-bottom:solid 4px rgb(0,0,0); padding:5px; letter-spacing:2px;">TECH NEWS</span>
+<h1 style="background-color:#31398D; color:#fff; padding:10px;">This camera is incredible</h1>
+<p>It snaps photos from your phone that are clearer then ever</p>
+<a href="http://nodib.greathdfotos.com"><img src="http://chopbo.greathdfotos.com"  /></a>
+<p>For one week I used this and pictures are 20x clearer  </strong><br />
+     <a href="http://nodib.greathdfotos.com">Snap it on your phone</a><br><br><br />
+     
+     <a href="http://nodib.greathdfotos.com"  style="background-color:#F84484; color:rgb(255,255,255); padding:10px; border-radius:5px; text-transform:uppercase; text-decoration:none; font-family: Lusitana, serif">See how amazing it is</a> 
+   <br /><br /><br />
+      <Span style="font-size:16px; font-weight:bold;">Everyone is buzzing over this <a href="http://nodib.greathdfotos.com">gadget</a></Span></p>
+      <br /><br /><br /><br /><br />
+      <div style="background-color:#31398D; font-size:10px; line-height:11px;"><code style="color:#31398D;">Most of the students that were profiled during their senior year were spending their sophomore year in college by the time the book was published All of them have to work either parttime or fulltime depending on the scholarship and financial aid that theyve gotten 
+
+Notes The ending for the book is a bittersweet one as Miles Cor has written about the people so well that they are relatable for most readers It is a pleasant thing to think that most of the students were able to overcome the trials that they faced while in high school No Promises in the d Study Guide
+Chapter  Summary 
+The book opens with Josh and Joey waking up at AM Josh was about to deliver papers on a cold October morning Despite Joeys offer of help Josh left his offer unanswered and got up Even if his paper route didnt bring in much  it was still very helpful for their family Josh found his mother in the kitchen she prepared some milk for him before he went about his paper route She used to teach kids how to play piano but ever since people stopped having enough  for luxuries such as music she started taking in jobs for ironing clothes in the laundry a few blocks down Joshs father frowned upon any man who made a living out of music despite the fact that he met Joshs mother because of their common love for it It was  and Josh was fifteen years old He had been clashing with his father During his early years he was treated like a prince being his fathers first son Kitty his halfsister from his dads first marriage was quiet and was treated kindly by their dad When he was five years old Joey was born Their  times started because of his sickly nature That was around the same time that Josh felt that all his fathers love for him has already left He loved his sister Kitty and his mother very much By  his dad has lost all his pride and became more hostile towards him Josh had made a vow that hell be patient with his father just as what his mother had suggested
+When Josh returned from his paper route he found his parents sitting in the kitchen He was shivering as he had forgotten to wear the jacket that his mother laid out for him This angered his father because if Josh got sick theyd have more things to worry about Josh was about to fire back when he saw his mothers pleading face and decided to stay quiet His father apologized to his mother instead and left Josh didnt feel like eating any breakfast and asked his mother not to fix him anything or else it might just choke him He went up to his room and by the time he went back down his mother had fixed him a sandwich before he went to school 
+
+Penn High School was Joshs refuge He always played the piano and shared it with Howie They both had the same love for music With music Josh forgets every ship he had at home Everyday he and Howie would shut the door to the music room and played music endlessly Howie was a boy thats full of sorrows He had never known his father and his mother was a drunk Despite this he was someone who was eager to smile and laugh Howie was Joshs only friend in high school That afternoon they were practicing a piece that they have worked on together Miss Crowne the music teacher would glow every time she heard the boys play that piece Josh was feeling angry because of how care nature seemed on the outside world However as soon as Howie arrived his mood changed for the better When Miss Crowne entered the room she looked rather grey and tired but was tearyeyed from their music She praised the two boys for their talent She sent them off home and reminded them that they still had homework to do They both didnt want her to go mostly because they didnt want to go home to their families just yet Before bidding each other goodbye they made plans to meet up by the corner store during the evening Howie asked Josh to bring Joey along he wanted to give the little boy a jigsaw puzzle Joey was treated as golden boy because of his fragility and his handsome features However Josh still had a bit of resentment towards him being born Joey idolized Josh and saw him as someone who had great strength and intelligence</code></div>
+<br /><br /><br />
+<p style="font-size:13px;">
+Your name will be removed from future correspdance by informing us <a href="http://vedib.greathdfotos.com">on this page</a>
+<br /><br />
+**(4838 Fairfield Dr	Toledo	Oh	43623-3017)**
+<br /><br /><br /><br /><br />
+<a href="http://boureg.greathdfotos.com">Never receive these again</a> by telling us as soon as possible 
+<br /><br />
+**()**
+</p>
+</body>
+</html>

@@ -1,0 +1,1124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"
+/>
+        <meta name="viewport" content="width=device-width,
+initial-scale=1.0"/>
+        <title>PrintOclock - Tarifs et d&eacute;lais de choc</title>
+
+        <style type="text/css">
+            /* Client-specific Styles */
+            #outlook a padding:0; /* Force Outlook to provide a "view in
+browser" menu link. */
+            bodywidth:100% !important; -webkit-text-size-adjust:100%;
+-ms-text-size-adjust:100%; margin:0; padding:0;
+            /* Prevent Webkit and Windows Mobile platforms from changing
+default font sizes, while not breaking desktop design. */
+            .ExternalClass width:100%; /* Force Hotmail to display emails
+at full width */
+            .ExternalClass, .ExternalClass p, .ExternalClass span,
+ExternalClass font, .ExternalClass td, .ExternalClass div line-height:
+100%; /* Force Hotmail to display normal line spacing.  */
+            #backgroundTable margin:0; padding:0; width:100% !important;
+line-height: 100% !important;
+            img outline:none; text-decoration:none;border:none;
+-ms-interpolation-mode: bicubic;
+            a img border:none;
+            .image_fix display:block;
+            p margin: 0px 0px !important;
+            table td border-collapse: collapse;
+            table  border-collapse:collapse; mso-table-lspace:0pt;
+mso-table-rspace:0pt;
+            a color: #4f5458;text-decoration:
+none;text-decoration:none!important;
+            /*STYLES*/
+            table[class=full]  width: 100%; clear: both;
+
+            /*IPAD STYLES*/
+            @media only screen and (max-width: 640px)
+            a[href^="tel"], a[href^="sms"] {
+            text-decoration: none;
+            pointer-events: none;
+            cursor: default;
+
+            .mobile_link a[href^="tel"], .mobile_link a[href^="sms"]
+                text-decoration: default;
+                color: #33b9ff !important;
+                pointer-events: auto;
+                cursor: default;
+
+            table[class=devicewidth] width:
+440px!important;text-align:center!important;
+            table[class=devicewidthinner] width:
+440px!important;text-align:center!important;
+            img[class=banner] width:
+279px!important;height:186px!important;
+            img[class=banner2] width: 440px!important; height:57px;
+			img[class=banner-price] width: 440px!important; height:98px;
+            img[class=colimg2] width:
+110px!important;height:66px!important;
+            img[class=colimg3] width:
+440px!important;height:235px!important;
+		    img[class=cta] width: 375px!important;height:56px!important;
+
+            }
+            /*IPHONE STYLES*/
+            @media only screen and (max-width: 480px)
+				a[href^="tel"], a[href^="sms"] {
+				text-decoration: none;
+				color: #ffffff; /* or whatever your want */
+				pointer-events: none;
+				cursor: default;
+
+				.mobile_link a[href^="tel"], .mobile_link a[href^="sms"]
+				text-decoration: default;
+				color: #ffffff !important;
+				pointer-events: auto;
+				cursor: default;
+
+			}
+            @media only screen and (max-width: 415px)
+            table[class=devicewidth] {width:
+320px!important;text-align:center!important;
+            table[class=devicewidthinner] width:
+320px!important;text-align:center!important;
+            img[class=banner] width:
+320px!important;height:170px!important;
+            img[class=banner2] width:
+320px!important;height:42px!important;
+			img[class=banner-price] width: 320px!important;height:71px!important;
+            img[class=colimg2] width:
+100px!important;height:60px!important;
+            img[class=colimg3] width:
+320px!important;height:171px!important;
+            img[class=cta] width: 320px!important;height:52px!important;
+            td[class="padding-top15"]padding-top:15px!important;
+			td[class=mobile-hide]display:none!important;
+            }
+            @media only screen and (max-width: 320px)
+            table[class=devicewidth] {width:
+320px!important;text-align:center!important;
+            table[class=devicewidthinner] width:
+300px!important;text-align:center!important;
+            img[class=banner] width:
+300px!important;height:140px!important;
+            img[class=banner2] width: 300px!important; height:40px;
+			img[class=banner-price] width: 300px!important; height:67px;
+            img[class=colimg2] width:
+100px!important;height:60px!important;
+            img[class=cta] width: 300px!important;height:44px!important;
+            td[class="padding-top15"]padding-top:15px!important;
+            }
+        </style>
+    </head>
+    <body>
+<!-- Debut preheader -->
+<table style="width: 100%;" id="backgroundTable" st-sortable="preheader"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<div align="center">Si vous ne visualisez pas correctement ce message, <a
+href="http://topwog.com/link.php?M=308978&N=292&L=174&F=H"
+target="_blank">consultez-le en ligne.</a></div>
+<table style="width: 600px;" class="devicewidth" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%">
+<table style="width: 600px;" class="devicewidth" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody><!-- Espace -->
+<tr>
+<td width="100%" height="10"></td>
+</tr>
+<!-- Espace -->
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidthinner" align="center"
+border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="font-size: 10px;" align="center" width="100%" height="10"><font
+style="font-size: 10px; color: #757575;" face="Arial, Helvetica,
+sans-serif" color="#757575">B&eacute;n&eacute;ficiez de nos offres promo
+pour vos impressions.</font></td>
+</tr>
+<tr>
+<td style="font-size: 10px;" align="center" width="100%" height="10"><font
+style="font-size: 10px;" face="Arial, Helvetica, sans-serif"
+color="#757575">Si vous ne visualisez pas ce message, suivez <a
+href="http://topwog.com/link.php?M=308978&N=292&L=172&F=H"
+style="text-decoration: none; color: #757575;" target="_blank">ce
+lien.</a><br /></font></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- Espace -->
+<tr>
+<td width="100%" height="10"></td>
+</tr>
+<!-- Espace --></tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Logo poc -->
+<table style="width: 100%;" id="backgroundTable" st-sortable="banner"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%">
+<table style="width: 600px;" class="devicewidth" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td st-image="banner-image" align="center">
+<div class="imgpop"><img alt="PrintOclock - Tarifs et d&eacute;lais de
+choc" style="display: block; border: none; outline: none; text-decoration:
+none; font-family: Helvetica, arial, sans-serif; font-size: 14px; color:
+#666666;"
+src="http://www.printoclock.com/images/news/base/NewPOC-Header-v1.jpg"
+class="banner2" border="0" width="600" height="75" /></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- logo poc --> <!-- Debut Imprimerie en ligne -->
+<table style="width: 100%;" id="backgroundTable" st-sortable="banner"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%">
+<table style="width: 600px;" class="devicewidthinner" align="center"
+border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="text-align: right; font-family: Helvetica, arial, sans-serif;
+font-size: 14px; color: #ffffff; padding: 2px 5px 2px 0;"
+st-content="heading" align="right" bgcolor="#38383A"
+width="100%"><strong>IMPRIMERIE EN LIGNE</strong></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Fin Imprimerie en ligne --> <!-- Banniere principale -->
+<table style="width: 100%;" id="backgroundTable" st-sortable="banner"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%">
+<table style="width: 600px;" class="devicewidth" align="center"
+bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 500px;" class="devicewidth" align="left" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%" height="10"></td>
+</tr>
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 22px;
+color: #262626; text-align: left; line-height: 20px; padding-top: 7px;
+padding-left: 10px;" class="padding-top15"><font style="color:
+#e1007a;">Offre de bienvenue </font>sur vos impressions en ligne</td>
+</tr>
+<tr>
+<td width="100%" height="10"></td>
+</tr>
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 20px;
+color: #4f5458; text-align: left; line-height: 18px;"><img alt="3 codes
+promo"
+src="http://www.printoclock.com/images/news/2016_offrepallier/news-offrepallier-v2-arrow.png"
+width="23" height="20" /> <font style="color: #e1007a;">3 codes promo
+</font>valables sur TOUT LE SITE</td>
+</tr>
+</tbody>
+</table>
+<table style="width: 80px;" class="devicewidth" align="left" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%" height="1"></td>
+</tr>
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 22px;
+color: #262626; text-align: left; line-height: 20px;"
+class="mobile-hide"><img alt="jusqu'au 30/09"
+src="http://www.printoclock.com/images/news/2016_offrepallier_v2/images/visuel-effi-rentree16_01.png"
+width="80" height="82" /></td>
+</tr>
+<tr>
+<td width="100%" height="1"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Banniere principale --> <!-- 2 colonnes -->
+<table style="width: 100%;" id="backgroundTable" st-sortable="banner"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%">
+<table style="width: 600px;" class="devicewidth" align="center"
+bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><!-- colonne de gauche -->
+<table style="width: 148px;" class="devicewidth" align="left" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 148px;" class="devicewidth" align="left" border="0"
+cellpadding="0" cellspacing="0">
+<tbody><!-- image -->
+<tr>
+<td class="mobile-hide" align="center" width="148"><a
+href="http://topwog.com/link.php?M=308978&N=292&L=171&F=H" target="_blank">
+<img alt="Vos r&eacute;ductions pour toutes vos impressions"
+style="display: block; border: none; outline: none; text-decoration: none;
+font-family: Helvetica, arial, sans-serif; font-size: 14px; color:
+#666666;"
+src="http://www.printoclock.com/images/news/2016_offrepallier_v2/images/visuel-effi-rentree16_02.jpg"
+class="banner" border="0" width="148" height="98" /> </a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- fin de la colonne de gauche --> <!-- colonne de droite -->
+<table style="width: 448px;" class="devicewidth" align="left" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><!-- start of text content table -->
+<table style="width: 448px;" class="devicewidth" align="left" border="0"
+cellpadding="0" cellspacing="0">
+<tbody><!-- image -->
+<tr>
+<td class="devicewidth" align="center" width="448"><a
+href="http://topwog.com/link.php?M=308978&N=292&L=171&F=H" target="_blank">
+<img alt="20&euro; de r&eacute;duction d&egrave;s 30&euro;" style="display:
+block; border: none; outline: none; text-decoration: none; font-family:
+Helvetica, arial, sans-serif; font-size: 14px; color: #666666;"
+src="http://www.printoclock.com/images/news/2016_offrepallier_v2/images/visuel-effi-rentree16_03.jpg"
+class="banner-price" border="0" width="448" height="98" /> </a></td>
+</tr>
+<!-- end of content --></tbody>
+</table>
+</td>
+</tr>
+<!-- end of text content table --></tbody>
+</table>
+<!-- end of right column --></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Fin des 2 colonnes --> <!-- 2 colonnes -->
+<table style="width: 100%;" id="backgroundTable" st-sortable="banner"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%">
+<table style="width: 600px;" class="devicewidth" align="center"
+bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><!-- colonne de gauche -->
+<table style="width: 148px;" class="devicewidth" align="left" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 148px;" class="devicewidth" align="left" border="0"
+cellpadding="0" cellspacing="0">
+<tbody><!-- image -->
+<tr>
+<td class="mobile-hide" align="center" width="148"><a
+href="http://topwog.com/link.php?M=308978&N=292&L=171&F=H" target="_blank">
+<img alt="Vos r&eacute;ductions pour toutes vos impressions"
+style="display: block; border: none; outline: none; text-decoration: none;
+font-family: Helvetica, arial, sans-serif; font-size: 14px; color:
+#666666;"
+src="http://www.printoclock.com/images/news/2016_offrepallier_v2/images/visuel-effi-rentree16_04.jpg"
+class="banner" border="0" width="148" height="98" /> </a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- fin de la colonne de gauche --> <!-- colonne de droite -->
+<table style="width: 448px;" class="devicewidth" align="left" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><!-- start of text content table -->
+<table style="width: 448px;" class="devicewidth" align="left" border="0"
+cellpadding="0" cellspacing="0">
+<tbody><!-- image -->
+<tr>
+<td class="devicewidth" align="center" width="448"><a
+href="http://topwog.com/link.php?M=308978&N=292&L=171&F=H" target="_blank">
+<img alt="25&euro; de r&eacute;duction d&egrave;s 60&euro;" style="display:
+block; border: none; outline: none; text-decoration: none; font-family:
+Helvetica, arial, sans-serif; font-size: 14px; color: #666666;"
+src="http://www.printoclock.com/images/news/2016_offrepallier_v2/images/visuel-effi-rentree16_05.jpg"
+class="banner-price" border="0" width="448" height="98" /> </a></td>
+</tr>
+<!-- end of content --></tbody>
+</table>
+</td>
+</tr>
+<!-- end of text content table --></tbody>
+</table>
+<!-- end of right column --></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Fin des 2 colonnes --> <!-- 2 colonnes -->
+<table style="width: 100%;" id="backgroundTable" st-sortable="banner"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%">
+<table style="width: 600px;" class="devicewidth" align="center"
+bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><!-- colonne de gauche -->
+<table style="width: 148px;" class="devicewidth" align="left" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 148px;" class="devicewidth" align="left" border="0"
+cellpadding="0" cellspacing="0">
+<tbody><!-- image -->
+<tr>
+<td class="mobile-hide" align="center" width="148"><a
+href="http://topwog.com/link.php?M=308978&N=292&L=171&F=H" target="_blank">
+<img alt="Vos r&eacute;ductions pour toutes vos impressions"
+style="display: block; border: none; outline: none; text-decoration: none;
+font-family: Helvetica, arial, sans-serif; font-size: 14px; color:
+#666666;"
+src="http://www.printoclock.com/images/news/2016_offrepallier_v2/images/visuel-effi-rentree16_06.jpg"
+class="banner" border="0" width="148" height="98" /> </a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- fin de la colonne de gauche --> <!-- colonne de droite -->
+<table style="width: 448px;" class="devicewidth" align="left" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><!-- start of text content table -->
+<table style="width: 448px;" class="devicewidth" align="left" border="0"
+cellpadding="0" cellspacing="0">
+<tbody><!-- image -->
+<tr>
+<td class="devicewidth" align="center" width="448"><a
+href="http://topwog.com/link.php?M=308978&N=292&L=171&F=H" target="_blank">
+<img alt="30&euro; de r&eacute;duction d&egrave;s 90&euro;" style="display:
+block; border: none; outline: none; text-decoration: none; font-family:
+Helvetica, arial, sans-serif; font-size: 14px; color: #666666;"
+src="http://www.printoclock.com/images/news/2016_offrepallier_v2/images/visuel-effi-rentree16_07.jpg"
+class="banner-price" border="0" width="448" height="98" /> </a></td>
+</tr>
+<!-- end of content --></tbody>
+</table>
+</td>
+</tr>
+<!-- end of text content table --></tbody>
+</table>
+<!-- end of right column --></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Fin des 2 colonnes --> <!-- Debut bloc Profitez vite -->
+<table style="width: 100%;" id="backgroundTable" bgcolor="#F2F2F2"
+border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%">
+<table style="width: 600px;" class="devicewidth" align="center"
+bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td height="5"></td>
+</tr>
+<!-- Espace -->
+<tr>
+<td>
+<table style="width: 560px;" class="devicewidthinner" align="center"
+border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 16px;
+color: #262626; text-align: left; line-height: 20px;"
+class="padding-top15">Cette offre est valable pour toute <font
+style="font-family: Helvetica, arial, sans-serif; font-size: 18px; color:
+#262626; text-align: left; line-height: 20px;"><strong>nouvelle
+inscription. </strong></font></td>
+</tr>
+<!-- Espace -->
+<tr>
+<td width="100%" height="10"></td>
+</tr>
+<!-- Espace --> <!-- contenu central -->
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px;
+color: #4f5458; text-align: left; line-height: 20px;">Apr&egrave;s
+inscription, vous recevrez par mail vos <strong>codes promo</strong>
+valables sur <strong>tout le site.</strong> Vous avez ensuite <strong>3
+mois </strong>pour passer commande.</td>
+</tr>
+<!-- fin du contenu central --></tbody>
+</table>
+</td>
+</tr>
+<!-- Espace -->
+<tr>
+<td height="10"></td>
+</tr>
+<!-- Espace --></tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Fin bloc Profitez vite --> <!-- cta -->
+<table style="width: 100%;" id="backgroundTable" bgcolor="#F2F2F2"
+border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%">
+<table style="width: 600px;" class="devicewidth" align="center"
+bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidthinner" align="center"
+border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="center"><a
+href="http://topwog.com/link.php?M=308978&N=292&L=171&F=H"
+target="_blank"><img class="cta"
+src="http://www.printoclock.com/images/news/2016_offrepallier_v2/cta-jaune.png"
+alt="Je profite de l'offre" title="Je profite de l'offre" style="display:
+block; font-family: Helvetica, arial, sans-serif; font-size: 16px; color:
+#e2017b;" border="0" vspace="0" width="300" hspace="0" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Fin du cta --> <!-- Debut du separateur -->
+<table style="width: 100%;" id="backgroundTable" st-sortable="seperator"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center"
+bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="center" height="20">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Fin du separateur --> <!-- Début Titre Nouveautés -->
+<table style="width: 100%;" id="backgroundTable" st-sortable="seperator"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center"
+bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%">
+<table style="width: 600px;" class="devicewidthinner" align="center"
+border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 16px;
+color: #000000; padding: 5px 0;" st-content="heading"
+align="center"><strong>NOS NOUVEAUT&Eacute;S DE LA RENTR&Eacute;E
+:</strong> <br /> les brochures et la livraison "Le Jour M&ecirc;me"
+!</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Fin Titre Nouveautés --> <!-- 2 colonnes  -->
+<table style="width: 100%;" id="backgroundTable" bgcolor="#F2F2F2"
+border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%">
+<table style="width: 600px;" class="devicewidth" align="center"
+bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr></tr>
+</tbody>
+<tbody>
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 18px;
+color: #ffffff;" border="0" align="left" bgcolor="#ffffff" width="300"
+height="60"><img
+src="http://www.printoclock.com/images/news/2016_offrepallier_v2/images/visuel-effi-rentree16_news1.png"
+alt="Brochure" style="font-family: Helvetica, arial, sans-serif; font-size:
+14px; color: #666666; display: block; border: none; outline: none;
+text-decoration: none;" class="colimg3" border="0" width="300" height="160"
+/></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 18px;
+color: #ffffff;" border="0" align="left" bgcolor="#ffffff" width="300"
+height="60"><img
+src="http://www.printoclock.com/images/news/2016_offrepallier_v2/images/visuel-effi-rentree16_news2.png"
+alt="Livraison le jour m&ecirc;me" style="font-family: Helvetica, arial,
+sans-serif; font-size: 14px; color: #666666; display: block; border: none;
+outline: none; text-decoration: none;" class="colimg3" border="0"
+width="300" height="160" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- fin des 2 colonnes --> <!-- Debut du separateur -->
+<table style="width: 100%;" id="backgroundTable" st-sortable="seperator"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="center" height="20">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Fin du separateur --> <!-- Début Titre des 4 points -->
+<table style="width: 100%;" id="backgroundTable" st-sortable="seperator"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%">
+<table style="width: 600px;" class="devicewidthinner" align="center"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 16px;
+color: #e1007a; padding: 5px 0;" st-content="heading" align="center"
+bgcolor="#F2F2F2"><strong>VOTRE IMPRIMERIE PRINTOCLOCK EN 4
+POINTS</strong></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Fin Titre poc en 4 points --> <!-- 2 colonnes  -->
+<table style="width: 100%;" id="backgroundTable" bgcolor="#F2F2F2"
+border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%">
+<table style="width: 600px;" class="devicewidth" align="center"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr></tr>
+</tbody>
+<tbody>
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 18px;
+color: #ffffff;" border="0" align="left" bgcolor="#F2F2F2" width="130"
+height="60"><img
+src="http://www.printoclock.com/images/news/2015_01-Generaliste-Decouverte-v1/picto-poc1.jpg"
+alt="Tarifs bas" style="font-family: Helvetica, arial, sans-serif;
+font-size: 14px; color: #666666; display: block; border: none; outline:
+none; text-decoration: none;" class="colimg2" border="0" width="110"
+height="60" /></td>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px;
+color: #000000;" align="left" bgcolor="#F2F2F2" width="270" height="60">Les
+<strong style="color: #e1007a;">tarifs les plus bas</strong> du web sur des
+milliers de r&eacute;f&eacute;rences</td>
+<td style="font-size: 1px; line-height: 1px;" width="40">&nbsp;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 18px;
+color: #ffffff;" border="0" align="center" bgcolor="#F2F2F2" width="130"
+height="60"><img
+src="http://www.printoclock.com/images/news/2015_01-Generaliste-Decouverte-v1/picto-poc2.jpg"
+alt="Satisfaction garantie" style="font-family: Helvetica, arial,
+sans-serif; font-size: 14px; color: #666666; display: block; border: none;
+outline: none; text-decoration: none;" class="colimg2" border="0"
+width="110" height="60" /></td>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px;
+color: #000000;" align="left" bgcolor="#F2F2F2" width="250"
+height="60">Notre <strong style="color: #e1007a;">taux de
+satisfaction</strong><br /> client sur eKomi</td>
+<td style="font-size: 1px; line-height: 1px;" width="40">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- fin des 2 colonnes --> <!-- 2 colonnes -->
+<table style="width: 100%;" id="backgroundTable" bgcolor="#F2F2F2"
+border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%">
+<table style="width: 600px;" class="devicewidth" align="center"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr></tr>
+</tbody>
+<tbody>
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 18px;
+color: #ffffff;" border="0" align="center" bgcolor="#F2F2F2" width="130"
+height="60"><img
+src="http://www.printoclock.com/images/news/2015_01-Generaliste-Decouverte-v1/picto-poc3.jpg"
+alt="livraison express" style="display: block; border: none; outline: none;
+text-decoration: none; font-family: Helvetica, arial, sans-serif;
+font-size: 14px; color: #666666;" class="colimg2" border="0" width="110"
+height="60" /></td>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px;
+color: #000000;" align="left" bgcolor="#F2F2F2" width="270"
+height="60"><strong style="color: #e1007a;">Livraison express</strong>
+partout en France</td>
+<td style="font-size: 1px; line-height: 1px;" width="40">&nbsp;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 18px;
+color: #ffffff;" border="0" align="center" bgcolor="#F2F2F2" width="130"
+height="60"><img
+src="http://www.printoclock.com/images/news/2015_01-Generaliste-Decouverte-v1/picto-poc4.jpg"
+alt="100000 commandes" style="display: block; border: none; outline: none;
+text-decoration: none; font-family: Helvetica, arial, sans-serif;
+font-size: 14px; color: #666666;" class="colimg2" border="0" width="110"
+height="60" /></td>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px;
+color: #000000;" align="left" bgcolor="#F2F2F2" width="250"
+height="60"><strong style="color: #e1007a;">Plus de 100 000</strong>
+commandes par an</td>
+<td style="font-size: 1px; line-height: 1px;" width="40">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Fin des 2 colonnes --> <!-- Debut du separateur -->
+<table style="width: 100%;" id="backgroundTable" st-sortable="seperator"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="center" height="20">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Fin du seperateur --> <!-- footer -->
+<table style="width: 100%;" id="backgroundTable" bgcolor="#F2F2F2"
+border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center"
+bgcolor="#38383A" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%">
+<table style="width: 600px;" class="devicewidth" align="center"
+bgcolor="#38383A" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 400px;" class="devicewidth" align="left" border="0"
+cellpadding="0" cellspacing="0">
+<tbody><!-- Espace -->
+<tr>
+<td colspan="2" width="100%" height="10"></td>
+</tr>
+<!-- Espace -->
+<tr>
+<td align="center" width="50"><img
+src="http://www.printoclock.com/images/news/2015_01-Generaliste-Decouverte-v1/picto1-gray.jpg"
+alt="Satisfaction garantie" style="display: block; border: none; outline:
+none; text-decoration: none; font-family: Helvetica, arial, sans-serif;
+font-size: 11px; color: #ffffff;" border="0" width="40" height="40"
+/></td>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 16px;
+color: #ffffff; text-align: left;">SATISFACTION GARANTIE</td>
+</tr>
+<tr>
+<td align="center" width="50"><img
+src="http://www.printoclock.com/images/news/2015_01-Generaliste-Decouverte-v1/picto2-gray.jpg"
+alt="Assistance en ligne" style="display: block; border: none; outline:
+none; text-decoration: none; font-family: Helvetica, arial, sans-serif;
+font-size: 11px; color: #ffffff;" border="0" width="40" height="40"
+/></td>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 16px;
+color: #ffffff; text-align: left;">ASSISTANCE EN LIGNE</td>
+</tr>
+<tr>
+<td align="center" width="50"><img
+src="http://www.printoclock.com/images/news/2015_01-Generaliste-Decouverte-v1/picto3-gray.jpg"
+alt="Made in france" style="display: block; border: none; outline: none;
+text-decoration: none; font-family: Helvetica, arial, sans-serif;
+font-size: 11px; color: #ffffff;" border="0" width="40" height="40"
+/></td>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 16px;
+color: #ffffff; text-align: left;">100% MADE IN FRANCE</td>
+</tr>
+<tr>
+<td align="center" width="50"><img
+src="http://www.printoclock.com/images/news/2015_01-Generaliste-Decouverte-v1/picto4-gray.jpg"
+alt="Livraison gratuite" style="display: block; border: none; outline:
+none; text-decoration: none; font-family: Helvetica, arial, sans-serif;
+font-size: 11px; color: #ffffff;" border="0" width="40" height="40"
+/></td>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 16px;
+color: #ffffff; text-align: left;">LIVRAISON GRATUITE</td>
+</tr>
+<!-- Espace -->
+<tr>
+<td colspan="2" width="100%" height="5"></td>
+</tr>
+<!-- Espace --></tbody>
+</table>
+<table style="width: 190px;" class="devicewidth" align="left" border="0"
+cellpadding="0" cellspacing="0">
+<tbody><!-- Espace -->
+<tr>
+<td width="100%" height="20"></td>
+</tr>
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 18px;
+color: #ffffff; text-align: left;"><img
+src="http://www.printoclock.com/images/news/base/logo_poc_footer.png"
+alt="Printoclock imprimerie en ligne" style="display: block; border: none;
+outline: none; text-decoration: none; font-family: Helvetica, arial,
+sans-serif; font-size: 14px; color: #ffffff;" border="0" width="160"
+height="45" /></td>
+</tr>
+<!-- Espace -->
+<tr>
+<td width="100%" height="10"></td>
+</tr>
+<!-- Espace -->
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 15px;
+color: #ffffff; text-align: left;"><font style="font-size: 15px;
+line-height: 16px; font-weight: bold; border-left: 2px solid #e30e6f;
+padding-left: 10px;" face="Helvetica, Arial, sans-serif"
+color="#ffffff">IMPRIMERIE</font></td>
+</tr>
+<!-- Espace -->
+<tr>
+<td width="100%" height="5"></td>
+</tr>
+<!-- Espace -->
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 15px;
+color: #ffffff; text-align: left;"><font style="font-size: 15px;
+line-height: 16px; font-weight: bold; border-left: 2px solid #40a52b;
+padding-left: 10px;" face="Helvetica, Arial, sans-serif"
+color="#ffffff">SIGNAL&Eacute;TIQUE</font></td>
+</tr>
+<!-- Espace -->
+<tr>
+<td width="100%" height="5"></td>
+</tr>
+<!-- Espace -->
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 15px;
+color: #ffffff; text-align: left;"><font style="font-size: 15px;
+line-height: 16px; font-weight: bold; border-left: 2px solid #fd5500;
+padding-left: 10px;" face="Helvetica, Arial, sans-serif"
+color="#ffffff">OBJETS PUB</font></td>
+</tr>
+<!-- Espace -->
+<tr>
+<td width="100%" height="5"></td>
+</tr>
+<!-- Espace -->
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 18px;
+color: #ffffff; text-align: left;"><img
+src="http://www.printoclock.com/images/news/2016_offrepallier_v2/images/imprimvert_footer.png"
+alt="ImprimVert" style="display: block; border: none; outline: none;
+text-decoration: none; font-family: Helvetica, arial, sans-serif;
+font-size: 14px; color: #ffffff;" border="0" width="190" height="30"
+/></td>
+</tr>
+<!-- Espace -->
+<tr>
+<td width="100%" height="5"></td>
+</tr>
+<!-- Espace --></tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Fin du footer --> <!-- Debut Postfooter -->
+<table style="width: 100%;" id="backgroundTable" st-sortable="postfooter"
+bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<table style="width: 600px;" class="devicewidth" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="100%">
+<table style="width: 600px;" class="devicewidth" align="center" border="0"
+cellpadding="0" cellspacing="0">
+<tbody><!-- Espace -->
+<tr>
+<td width="100%" height="20"></td>
+</tr>
+<!-- Espace -->
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 13px;
+color: #4f5458;" st-content="preheader" align="center" valign="middle">Pour
+ne plus recevoir le bulletin d'information de notre soci&eacute;t&eacute;,
+suivez <a href="http://topwog.com/link.php?M=308978&N=292&L=173&F=H"
+style="color: #000000; text-decoration: underline;" target="_blank">ce
+lien</a></td>
+</tr>
+<!-- Espace -->
+<tr>
+<td width="100%" height="20">
+<div align="center">Ce message vous est envoy&eacute; par LeadsLeader. <a
+href="http://topwog.com/link.php?M=308978&N=292&L=1&F=H">D &eacute; s a b o
+n n e m e n t</a> de la liste</div>
+</td>
+</tr>
+<!-- Espace --></tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Fin du postfooter --> <img
+src="http://track.effimails13.com/servlet/effi.pixel?id_compteur=14111079"
+/>
+<img src="http://topwog.com/open.php?M=308978&L=5&N=292&F=H&image=.jpg"
+height="1" width="10"></body>
+</html>

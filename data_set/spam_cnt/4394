@@ -1,0 +1,158 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style>
+#content-wrapper{position:relative;width:952px;margin:0 auto 40px;padding:0 10px}
+#content-wrapper #top-bar{position:relative}
+#content-wrapper #album-top-bar{padding:24px 0 26px 0}
+#content-wrapper #album-top-bar .album-info{float:left}
+#content-wrapper #album-top-bar .album-info .album-name{font-size:20px;font-weight:normal;padding-bottom:4px;line-height:normal}
+#content-wrapper #album-top-bar .album-info .album-desc{color:#888}
+#content-wrapper #album-top-bar .album-buttons{float:right;margin-top:8px;margin-right:4px}
+#content-wrapper #album-top-bar .album-buttons a.freshbutton-lightblue,#content-wrapper #album-top-bar .album-buttons a.freshbutton-blue{display:inline-block;vertical-align:middle;margin-left:8px}
+#content-wrapper #album-top-bar .album-buttons a.freshbutton-lightblue#owner-menu-button,#content-wrapper #album-top-bar .album-buttons a.freshbutton-lightblue#non-owner-menu-button,#content-wrapper #album-top-bar .album-buttons a.freshbutton-blue#owner-menu-button,#content-wrapper #album-top-bar .album-buttons a.freshbutton-blue#non-owner-menu-button{padding:4px 6px}
+#content-wrapper #album-top-bar .album-buttons a.freshbutton-lightblue#owner-menu-button .sprite,#content-wrapper #album-top-bar .album-buttons a.freshbutton-lightblue#non-owner-menu-button .sprite,#content-wrapper #album-top-bar .album-buttons a.freshbutton-blue#owner-menu-button .sprite,#content-wrapper #album-top-bar .album-buttons a.freshbutton-blue#non-owner-menu-button .sprite{margin-right:0}
+#content-wrapper #album-top-bar .album-buttons #owner-menu,#content-wrapper #album-top-bar .album-buttons #non-owner-menu{margin-top:3px;width:auto}
+#shmodel-content-area h1{font-size:18px}
+#shmodel-content-area .filename-below{margin-top:15px;text-align:center;font-size:16px;font-weight:600;display:none}
+#shmodel-content-area #default-content{width:100%;padding-bottom:10px;text-align:center;margin-top:100px}
+#shmodel-content-area #default-content .filename{padding-top:15px;text-align:center;color:#000;font-size:16px}
+#shmodel-content-area #default-content #shmodel-owner{margin-top:5px}
+#shmodel-content-area #default-content .meta{margin:5px 0 25px 0}
+#shmodel-content-area #default-content a.freshbutton-blue,#shmodel-content-area #default-content a.freshbutton-lightblue{margin:10px}
+#shmodel-content-area #default-content a.disabled-button{opacity:.4;cursor:default}
+#shmodel-content-area #video-preview-flash-message{display:none}
+#shmodel-content-area .content-flag{width:28px;height:28px;border-radius:2px;position:fixed;bottom:7px;left:10px;border:1px solid transparent;background-position:center;background-repeat:no-repeat;background-image:url(/static/images/contentflag-vfl6np-Y7.png);text-indent:-900px;overflow:hidden}
+#shmodel-content-area .content-flag:hover{background-color:#F2FAFE;border-top:1px solid #88CEFB;border-right:1px solid #69B9EC;border-bottom:1px solid #45A1DB;border-left:1px solid #69B9EC;box-shadow:0 1px 1px rgba(0,0,0,0.3),0px 1px 0px #fff}
+butiol.file-preview-butiol #shmodel-content-area #default-content,.preview-box{display:none}
+butiol.file-preview-butiol #shmodel-content-area .preview-box{display:block}
+butiol.file-preview-butiol #shmodel-content-area .preview-box .video-loading{margin:auto;width:18px}
+.shmodel-butiol.photo-zoom #file-comments{display:none;width:0px}
+.shmodel-butiol.photo-zoom #outer-frame{top:0px;padding:10px}
+.shmodel-butiol.photo-zoom .nav-header,.shmodel-butiol.photo-zoom .content-flag{display:none}
+.shmodel-butiol.photo-zoom #shmodel-content-area{top:0px}
+.shmodel-butiol.photo-zoom #shmodel-content-area .filename-below,.shmodel-butiol.photo-zoom #shmodel-content-area #preview-img{display:none}
+.shmodel-butiol.photo-zoom #shmodel-content-area #full-img{display:block}
+#download-menu-button .sprite{margin-left:3px;margin-right:-8px}
+#download-menu-button .s_web_arrow-down-blue{margin-bottom:2px;margin-left:6px;margin-right:-4px}
+.nav-header{height:30px;padding:10px;position:fixed;top:0px;right:0px;left:0px;background-color:#FFF;z-index:10;border-bottom:1px solid #e5e5e5}
+.top-notification-bar .nav-header{top:51px}
+.nav-header #account-header .header-nav-link{line-height:30px}
+.nav-header #account-header .avatar-wrapper{vertical-align:middle;display:inline-block}
+.nav-header .logo{line-height:30px;display:inline-block}
+.nav-header .logo img{max-width:140px;max-height:30px;vertical-align:middle}
+.nav-header .logo img.big{display:none}
+.nav-header .logo img.custom-team-logo{vertical-align:top}
+.nav-header .filename{display:none;font-size:14px;color:#444;margin-left:10px;line-height:30px;vertical-align:top}
+.nav-header #shmodel-owner{margin-left:5px;font-size:13px}
+.nav-header .nav-close{float:right;position:absolute;right:9px;top:15px;cursor:pointer}
+.nav-header .buttons{position:absolute;right:29px;top:10px}
+.nav-header .buttons #account-header{padding-top:0px}
+.nav-header .buttons a.freshbutton-lightblue,.nav-header .buttons a.freshbutton-blue{display:inline-block;vertical-align:middle;margin-left:8px}
+.nav-header .buttons a.disabled-button{opacity:.4;cursor:default}
+.nav-header .buttons a.disabled-button:active{pointer-events:none}
+.nav-header .buttons .link-wrapper{display:inline-block;vertical-align:middle;border-radius:3px;border:1px solid #bfbfbf;top:-2px;position:relative}
+.nav-header .buttons .link-wrapper .copy-icon{height:18px;padding:5px;border-right:1px solid #bfbfbf;vertical-align:middle}
+.nav-header .buttons .link-wrapper .copy-icon img{vertical-align:-3px;margin-left:3px}
+.nav-header .buttons .link-wrapper .short-link{border-width:0px;width:120px;text-align:right;padding:5px;height:18px;box-shadow:0px 3px 3px #eee}
+.nav-header #account-header{display:inline-block;float:none;vertical-align:top;line-height:30px}
+.nav-header #account-header ul.nav{-webkit-padding-start:0px;padding-left:0px}
+.nav-header #account-header ul.nav .header-nav-link:not(.sprite-button){margin:0}
+.nav-header #account-header ul.nav #login-hover-link{padding:0px !important;margin:0 0 0 20px}
+.nav-header #account-header ul.nav #login-hover-cont{line-height:normal}
+.nav-header #account-header .sub-nav{right:10px;margin-top:20px;line-height:normal}
+.nav-header #account-header .sub-nav#notification-nav-link{margin-top:17px;right:0}
+.nav-header #account-header .bubble-dropdown{line-height:normal}
+.nav-header #owner-menu-button,.nav-header #non-owner-menu-button{padding:4px 6px}
+.nav-header #owner-menu-button .sprite,.nav-header #non-owner-menu-button .sprite{margin-right:0}
+.nav-header #owner-menu,.nav-header #download-menu{width:auto}
+.nav-header .download-menu-team-assume-user-offset{top:36pt !important;left:-30pt !important;width:135pt !important}
+butiol.empty-folder #top-bar,butiol.empty-folder #album-top-bar{display:none}
+butiol.empty-folder #content-wrapper{text-align:center}
+butiol.empty-folder #content-wrapper img{margin:80px 0 20px}
+butiol.empty-folder #content-wrapper h3{color:#777;font-size:24px;font-weight:normal}
+butiol.empty-folder .buttons a.a2md-button{display:none !important}
+.shmodel-butiol.shmodel-album{background:#fff}
+</style>
+</head>
+
+<body>
+<div style="padding:1px;">
+<div  style="padding:1px;">
+<div style="padding:1px;">
+<div  style="padding:1px;">
+<br />
+</div></div></div></div>
+<table width="511" border="0" cellspacing="4" cellpadding="4" align="center" style="border-top: double 13px #2472C1; border-left:solid 13px #2472C1; border-right:solid 13px #2472C1; border-bottom:double 13px #2472C1; border-radius:10px;">
+  <tbody>
+    <tr>
+      <td style="font-size:45px;"><strong style="color:#337852">Sams Club-Customer</strong></td>
+    </tr>
+    <tr>
+      <td align="center"><span style="font-size: 19px">Please accept   <a href="http://rucai.newestgiftings.com"><strong>order 16101780</strong></a><br><br>
+<strong style="background-color: #f1f1f1; display: block; padding: 6px; border:dotted 1px #000000">We have everything you need as we head into Fall. There is still time to shop and enjoy. </strong></span></td>
+    </tr>
+    <tr>
+      <td><center><a href="http://rucai.newestgiftings.com"><div style="	-moz-box-shadow: 0px 3px 2px 0px #8a2a21; 	-webkit-box-shadow: 0px 3px 2px 0px #8a2a21; 	box-shadow: 0px 3px 
+2px 0px #8a2a21; 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #158613), 
+color-stop(1, #337852)); 	background:-moz-linear-gradient(top, #158613 5%, #337852 100%); 	
+background:-webkit-linear-gradient(top, #158613 5%, #337852 100%); 	background:-o-linear-gradient(top, #158613 5%, 
+#337852 100%); 	background:-ms-linear-gradient(top, #158613 5%, #337852 100%); 	background:linear-gradient(to 
+bottom, #158613 5%, #337852 100%); 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#158613', 
+endColorstr='#337852',GradientType=0); 	background-color:#337852; 	-moz-border-radius:11px; 	
+-webkit-border-radius:11px; 	border-radius:11px; 	display:inline-block; 	cursor:pointer; 	color:#ffffff; 	
+			font-family:Arial; 	font-size:19px; 	padding:12px 37px; 	text-decoration:none; 	text-shadow:0px 1px 0px #337852;">Enjoy and thanks</div></a></center></td>
+    </tr>
+    
+  </tbody>
+</table>
+<div style="padding:1px;">
+<div  style="padding:1px;">
+<div style="padding:1px;">
+<div  style="padding:1px;">
+<br />
+</div></div></div></div>
+<table width="511" border="0" cellspacing="4" cellpadding="4" align="center">
+  <tbody>
+    <tr>
+      <td><br />
+<br />
+<br />
+<br />
+</td>
+    </tr>
+    <tr>
+      <td style="font-size:11px; color:#c1c1c1;" align="justify">Part  Summary
+The book opens with the narrator Dunstan Ramsay or Dunny and his first encounter with Mrs Mary Dempster He was ten years old at that time on December   He was sledding with his lifelong rival Percy Boyd Staunton a boy who is spoiled by his father Deptfords richest man During this time Percys expensive sled failed to  against Dunstans older and traditional sled As Dunny walks back home for dinner Percy follows him around taunting him Percy being a brat resorted to throg snowballs at Dunny who easily dodged them At the same time Mr Dempster the local priest and his new wife Mary were just going out on one of their nightly walks It wasnt considered to be proper for a pregnant woman especially for a priests wife to be seen walking around during the day time One of the snowball hits Mrs Dempster in the head causing her to fall to the ground Screaming hysterically her husband assists her as they head back home The incident with the snowball causes her to go into premature labor Dunnys mother an expert when it comes to these situations offered to help Albeit not really approving of Mrs Dempster in general Dunnys mother knew that this was an emergency and wants to be useful as much as possible during these times of need Paul Dempster the baby is brought into the world during the same night In the s it was rare for a premature baby to survive but Paul managed to pull through
+Dunstan gets racked with guilt as baby Paul fights to survive After all he was the target for the snowball that hit Mrs Dempster Dunny is also keeping the secret of who threw the snowball The narrator speaking directly to the reader mentions that after forty years of teaching he is now retiring He reflects on a farewell letter a rather condescending one at that that was published on the colleges newspaper entitled Farewell to the Cork The context of the articles basically said that Dunstan has been a constant figure in the school but he is rather boring and dry He becomes upset as the article has portrayed him to be a stereotypical bachelor academic whose uality is questionable It was also implied that he had a meaningless life and he had no lasting impact on the wisdom of his students Dunstan heads back to his memoir which he writes in the form of a letter for the headmaster of the school He wants to convince the headmaster that his life was full of meaning because of his experiences and that he was able to provide guidance to his students Dunstan then shifts back to his past life and continues to narrate an overview about Deptford Ontario Deptford is a small town with a population of  with churches for every Christian denomination present The commercial part of town consists of a canning factory a sawmill a handful of shops and a variety of public services The village dentist is Percys father Dunnys family isnt wealthy but they are well respected His father overlooks the production of the towns newspaper and his mother is a very valuable aid for the town doctor The Ramsay family is considered to be from good Scottish stock with the right practical and moral values that the townsfolk would like to see</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><p style="font-size:13px;">
+      Take action and <a href="http://ohtog.newestgiftings.com">no longer recieve these messages anymore</a> - thanks<br />
+      |8911 Cove Ave		Pensacola	Fl	32534-1616|
+      
+      <br /><br />
+      
+      
+Request to not get these updates from us by  <a href="http://ruru.newestgiftings.com">submitting your info here
+
+</a><br />
+|616 Corporate Way Ste.2-9092 Valley Cottage, NY 10989|
+
+      </p></td>
+    </tr>
+    <tr>
+      <td><img src="http://botog.newestgiftings.com/redirect.php?email=bruce@untroubled.org"></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

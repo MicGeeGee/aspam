@@ -1,0 +1,213 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>[Better get your memory back with this]</title>
+<style>
+/* --------------------------------------------------
+Post Upload (Global.css Overrides)
+-------------------------------------------------- */
+div#post-upload h1{margin-bottom:15px;}
+div#post-upload div#upload-more{margin:15px 0 0;}
+div#post-upload h1{margin-bottom:15px;}
+div#post-upload div#upload-more{margin:15px 0 0;}
+div#last-three-uploads{clear:both;overflow:hidden;}
+div#last-three-uploads h3{font-size:16px;margin:0 0 6px;}
+div#last-three-uploads ul.categories{margin:0 0 0 0;overflow:hidden;}
+div#last-three-uploads ul.categories li{display:inline;float:left;position:relative;width:147px;overflow:hidden;text-align:center;}
+div#last-three-uploads ul.categories li.category{width:147px;height:120px;margin:0 15px 0 0;}
+div#last-three-uploads ul.categories li.category div{position:relative;height:117px;overflow:hidden;}
+div#last-three-uploads ul.categories li.category h3{word-spacing:nowrap;}
+div#last-three-uploads ul.categories li.category h3 a{font-weight:bold;}
+div#last-three-uploads ul.categories li.category a{font-weight:normal;text-decoration:none;}
+div#last-three-uploads ul.categories li.category a:hover{text-decoration:underline;}
+div#last-three-uploads ul.categories li.category img{display:inline;}
+div#last-three-uploads ul.categories li.category a.thumbnail,div.browse ul li.category a.thumbnail:visited{display:block;width:141px;height:111px;text-align:center;overflow:hidden;border:3px solid #b1ddf6;}
+div#last-three-uploads ul.categories li.category a.thumbnail:hover{border-color:#69c;}
+div#last-three-uploads ul.categories li.category a.thumbnail.empty{border-style:dashed;color:#499fd0;}
+div#last-three-uploads ul.categories li.category a.thumbnail.empty span{display:block;padding:36px 10px 0;text-align:center;font-size:12px;font-weight:bold;line-height:18px;}
+div#last-three-uploads p{clear:both;font-size:11px;color:#777;}
+div#last-three-uploads p a{font-weight:normal;}
+div#post-upload div.upload-actions{border-left:2px solid #eee;padding:0 0 0 40px;margin:0 22px 20px 0;}
+div#post-upload div.upload-actions ul{margin:7px 0 5px 5px;}
+div#post-upload div.upload-actions ul li{padding:6px 0}
+div#post-upload div.upload-actions ul li a.viewfull{font-weight:bold;}
+div#post-upload div.media-toolbox{margin:12px 0 30px;width:300px;}
+div#post-upload div.media-toolbox div{margin:0 0 2px;}
+/* --------------------------------------------------
+Browsing
+-------------------------------------------------- */
+/* Gridview of images and videos */
+div.browse{width:100%;margin:0 0 18px;}
+div.browse ul{margin:12px 0 0 -15px;float:left;overflow:hidden;}
+div.browse ul .web{margin:0 0 0 0px;float:left;overflow:hidden;}
+div.browse ul li{display:inline;float:left;position:relative;width:147px;height:126px;margin:0 0 18px 15px;overflow:hidden;text-align:center;}
+div.browse ul li a.fav{background:url(../i/icons/18px/favorite.png) no-repeat 4px 5px;display:block;position:absolute;text-indent:-1000em;right:0;bottom:0;z-index:10;width:19px;height:18px;padding:4px;}
+div.browse ul li a.fav:hover{background-position:4px -21px;}
+/* NOTE:UPDATED FAVORITES
+div.browse ul li.addFavs{height:15px;margin:0 0 5px 0;background:url(../i/addFav.gif) no-repeat left top;padding-left:20px;}
+div.browse ul li.removeFavs{height:15px;margin:0 0 5px 0;background:url(../i/removeFav.gif) no-repeat left top;padding-left:20px;}
+div.browse ul li.favorites{height:136px;}
+*/
+div.browse #web{width:600px;text-align:left;height:auto;margin:0px 0px 5px 15px;}
+div.browse ul li a span{position:absolute;top:5px;left:5px;}
+div.browse ul li a span.tinyfx{position:absolute;top:95px;left:124px;}
+div.browse ul li a span.dancejamfx{position:absolute;top:98px;left:85px;}
+div.browse ul li a span img{width:auto;}
+div.browse ul li.medrec{width:300px;height:250px;padding:0 8px 0 0;}
+div.browse ul li a span{position:absolute;top:5px;left:5px;}
+div.browse ul li a span.tinyfx{position:absolute;top:95px;left:125px;}
+div.browse ul li a span img{width:auto;}
+body.pg-categories div.pageHdr{margin:0 0 18px;}
+div.browse ul li.category{width:147px;height:260px;margin:0 0 10px 15px;}
+div.browse ul li.subcategory{height:auto;}
+div.browse ul li.category ul{margin:9px 0 0;float:none;}
+div.browse ul li.category ul li{float:none;display:block;width:auto;height:auto;margin:0;text-align:left;}
+div.browse ul li.category div{position:relative;height:118px;overflow:hidden;}
+div.browse ul li.category h3{word-spacing:nowrap;}
+div.browse ul li.category h3 a{font-weight:bold;}
+div.browse ul li.category a{font-weight:normal;text-decoration:none;}
+div.browse ul li.category a:hover{text-decoration:underline;}
+div.browse ul li.category img{display:inline;}
+div.browse ul li.category a.more{color:#69c;}
+div.browse ul li.category a.thumbnail,div.browse ul li.category a.thumbnail:visited{display:block;width:141px;height:111px;text-align:center;overflow:hidden;border:3px solid #b1ddf6;}
+div.browse ul li.category a.thumbnail:hover{border-color:#69c;}
+div.browse ul li.category a.zoom:hover{top:91px;right:0px;border:3px solid #69c;}
+div.browse ul li a.zoom{display:block;z-index:99;position:absolute;right:3px;top:94px;width:20px;height:20px;overflow:hidden;}
+</style>
+</head>
+<body style="background-color:#F1F1F1; margin:0px; padding:0px">
+<table width="100%" border="0" cellspacing="0" cellpadding="10">
+ 
+    <tr>
+    <td>&nbsp;</td>
+    <td width="590"><table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td>&nbsp;</td>
+    <td width="590" style="background-color:#000000; text-align:center" align="center"><a href="http://tralead.supermemorecover.com"><img src="http://osead.supermemorecover.com" /></a></td>
+    <td>&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td>&nbsp;</td>
+    <td style="background-color:#FFFFFF; border:2px solid #E2E2E2"><table width="100%" border="0" cellspacing="10" cellpadding="0" >
+  <tr>
+    <td><p style="-webkit-background-clip:border-box;-webkit-background-origin:padding-box;-webkit-background-size:auto;background-attachment:scroll;background-clip:border-box;background-image:none;background-origin:padding-box;background-size:auto;border-bottom-color:rgb(34,34,34);border-bottom-style:none;border-bottom-width:0px;border-image-outset:0px;border-image-repeat:stretch;border-image-slice:100%;border-image-source:none;border-image-width:1;border-left-color:rgb(34,34,34);border-left-style:none;border-left-width:0px;border-right-color:rgb(34,34,34);border-right-style:none;border-right-width:0px;border-top-color:rgb(34,34,34);border-top-style:none;border-top-width:0px;color:rgb(34,34,34);direction:ltr;display:inline;font-family:arial,sans-serif;font-size:21px;font-weight:normal;height:auto;line-height:normal;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;text-align:start;unicode-bidi:embed;width:auto;">Universty Gives Paitents Cure For Alzheimers</p></td>
+  </tr>
+  <tr>
+    <td><table width="100%" border="0" cellspacing="4" cellpadding="0">
+      <tr>
+        
+        <td width="23%"><span style="-webkit-background-clip:border-box;-webkit-background-origin:padding-box;-webkit-background-size:auto;background-attachment:scroll;background-clip:border-box;background-image:none;background-origin:padding-box;background-size:auto;border-bottom-color:rgb(51,51,51);border-bottom-style:none;border-bottom-width:0px;border-image-outset:0px;border-image-repeat:stretch;border-image-slice:100%;border-image-source:none;border-image-width:1;border-left-color:rgb(51,51,51);border-left-style:none;border-left-width:0px;border-right-color:rgb(51,51,51);border-right-style:none;border-right-width:0px;border-top-color:rgb(51,51,51);border-top-style:none;border-top-width:0px;color:rgb(51,51,51);cursor:pointer;display:inline-block;font-family:arial,sans-serif;font-size:13px;font-weight:bold;height:22px;line-height:13px;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;verflow-x:hidden;overflow-y:hidden;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;text-align:start;text-decoration:none;text-overflow:ellipsis;vertical-align:top;white-space:nowrap;">Yale University</span></td>
+        <td width="67%">&nbsp;</td>
+      </tr>
+      <tr>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0" style="-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;border:2px solid #E2E2E2">
+          <tr>
+            <td width="58%" align="center" style="background-color:#417CE4;-webkit-border-top-left-radius:2px;-webkit-border-bottom-left-radius:2px;-moz-border-radius-topleft:3px;-moz-border-radius-bottomleft:3px;border-top-left-radius:2px;border-bottom-left-radius:2px;"><a href="http://tralead.supermemorecover.com" style="-webkit-background-clip:border-box;-webkit-background-origin:padding-box;-webkit-background-size:auto;background-attachment:scroll;background-clip:border-box;background-image:none;background-origin:padding-box; background-color:#417CE4;background-size:auto;border-bottom-color:rgb(254,254,254);border-bottom-style:none;border-bottom-width:0px;border-image-outset:0px;border-image-repeat:stretch;border-image-slice:100%;border-image-source:none;border-image-width:1;border-left-color:rgb(254,254,254);border-left-style:none;border-left-width:0px;border-right-color:rgb(254,254,254);border-right-style:none;border-right-width:0px;border-top-color:rgb(254,254,254);border-top-style:none;border-top-width:0px;box-sizing:border-box;color:rgb(254,254,254);cursor:pointer;display:inline;font-family:arial,sans-serif;font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;height:auto;letter-spacing:normal;line-height:normal;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;text-align:center;text-indent:0px;text-shadow:none;text-transform:none; text-decoration:none;white-space:nowrap;width:auto;word-spacing:0px;word-wrap:normal;">Subscribe</a></td>
+            <td width="42%" align="center" style="-webkit-border-top-right-radius:3px;-webkit-border-bottom-right-radius:3px;-moz-border-radius-topright:3px;-moz-border-radius-bottomright:3px;border-top-right-radius:3px;border-bottom-right-radius:3px; background-color:#FAFAFA"><span style="display:inline-block;font-family:arial,sans-serif;font-size:11px;height:22px;line-height:22px;margin-bottom:0px;margin-left:-2px;margin-right:0px;margin-top:0px;padding-bottom:0px;padding-left:6px;padding-right:6px;padding-top:0px;text-align:center;vertical-align:middle;white-space:nowrap;">544,221</span></td>
+          </tr>
+        </table></td>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="64%">&nbsp;</td>
+    <td width="36%" style="border-bottom:3px solid #267AC6"><span style="-webkit-background-clip:border-box;-webkit-background-origin:padding-box;-webkit-background-size:auto;background-attachment:scroll;background-clip:border-box;background-color:rgba(0,0,0,0);background-image:none;background-origin:padding-box;background-size:auto;border-bottom-color:rgb(102,102,102);border-bottom-style:none;border-bottom-width:0px;border-image-outset:0px;border-image-repeat:stretch;border-image-slice:100%;border-image-source:none;border-image-width:1;border-left-color:rgb(102,102,102);border-left-style:none;border-left-width:0px;border-right-color:rgb(102,102,102);border-right-style:none;border-right-width:0px;border-top-color:rgb(102,102,102);border-top-style:none;border-top-width:0px;color:rgb(102,102,102);display:block;font-family:arial,sans-serif;font-size:19px;height:24px;line-height:24px;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;text-align:right;">64,435</span></td>
+  </tr>
+</table>
+</td>
+      </tr>
+    </table></td>
+  </tr>
+
+</table>
+</td>
+    <td>&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td>&nbsp;</td>
+    <td style="background-color:#FFFFFF; border:2px solid #E2E2E2"><table width="100%" border="0" cellspacing="10" cellpadding="0" >
+  <tr>
+    <td><span style="-webkit-background-clip:border-box;-webkit-background-origin:padding-box;-webkit-background-size:auto;background-attachment:scroll;background-clip:border-box;background-image:none;background-origin:padding-box;background-size:auto;border-bottom-color:rgb(51,51,51);border-bottom-style:none;border-bottom-width:0px;border-image-outset:0px;border-image-repeat:stretch;border-image-slice:100%;border-image-source:none;border-image-width:1;border-left-color:rgb(51,51,51);border-left-style:none;border-left-width:0px;border-right-color:rgb(51,51,51);border-right-style:none;border-right-width:0px;border-top-color:rgb(51,51,51);border-top-style:none;border-top-width:0px;color:rgb(51,51,51);display:inline;font-family:arial,sans-serif;font-size:13px;font-weight:bold;height:auto;line-height:17px;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;text-align:start;vertical-align:middle;width:auto;">Published on Sep 15 , 2016</span></td>
+  </tr>
+  <tr>
+    <td><p style="-webkit-background-clip:border-box;-webkit-background-origin:padding-box;-webkit-background-size:auto;background-attachment:scroll;background-clip:border-box;background-color:rgba(0,0,0,0);background-image:none;background-origin:padding-box;background-size:auto;border-bottom-color:rgb(51,51,51);border-bottom-style:none;border-bottom-width:0px;border-image-outset:0px;border-image-repeat:stretch;border-image-slice:100%;border-image-source:none;border-image-width:1;border-left-color:rgb(51,51,51);border-left-style:none;border-left-width:0px;border-right-color:rgb(51,51,51);border-right-style:none;border-right-width:0px;border-top-color:rgb(51,51,51);border-top-style:none;border-top-width:0px;color:rgb(51,51,51);display:block;font-family:arial,sans-serif;font-size:13px;line-height:17px;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;text-align:start;">For the first time in 20 years, a grandmother can finally remember her granddaughters name and face <a href="http://tralead.supermemorecover.com">thanks to this Yale Memory Cure</a>. Memory loss and dementia can be debilitating. Do not let your loved ones suffer needlessly.</p><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>&nbsp;</td>
+    <td  width="260"><p align="center"><a href="http://tralead.supermemorecover.com" style="border-image-slice:100%;border-image-source:none;border-image-width:1;border-left-color:rgba(0,0,0,0);border-left-style:solid;border-left-width:1px;border-right-color:rgba(0,0,0,0);border-right-style:solid;border-right-width:1px;border-top-color:rgba(0,0,0,0);border-top-left-radius:4px;border-top-right-radius:4px;border-top-style:solid;border-top-width:1px;box-shadow:rgba(255,255,255,0.14902) 0px 1px 0px 0px inset;box-sizing:border-box;color:rgb(255,255,255);cursor:pointer;display:block;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:17px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:bold;letter-spacing:normal;line-height:39px;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;overflow-x:visible;overflow-y:visible;padding-bottom:9px;padding-left:17px;padding-right:16px;padding-top:9px;text-align:center;text-shadow:none;text-transform:none;width:260px; background-color:#417CE4; border-radius:10px; text-decoration:none;"> School Of Medicine</a></p></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</td>
+  </tr>
+
+</table>
+</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+    </table>
+</td>
+    <td>&nbsp;</td>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    <tr>
+      <td>&nbsp;</td>
+      <td style="background-color: rgb(11,11,11)">
+      <p style="-webkit-column-rule-style: none;margin-left: default;margin-top: 2.53712px;box-sizing: border-box;-webkit-marquee: none;font-size: 9.51px;-webkit-margin-collapse: none;border-left-width: 0px;padding-right: 4.561373px;-webkit-animation-fill-mode: none;text-decoration: none;margin-bottom: 1.830092px;padding-top: 4.684631px;direction:ltr;text-align:normal;margin-right: 2.02097px;text-align: -webkit-auto;padding-left: 2px;border-bottom-width: 0px;padding-bottom: 3.331055px;color: rgb(11,11,11);font-family: 'Book Antiqua',Palatino,'Palatino Linotype','Palatino LT STD',Georgia,serif;margin-left: 3.048px;">From here on Dunstan narrates about how Boy Staunton died His water logged Cadillac was pulled up from the Toronto Harbour His body was sitting stiffly in the drivers seat his hand steal clutching the drivers wheel with a granite rock as big as an egg found inside his  Denyse </p>
+       <p style="-webkit-column-rule-style: none;margin-left: default;margin-top: 2.53712px;box-sizing: border-box;-webkit-marquee: none;font-size: 9.51px;-webkit-margin-collapse: none;border-left-width: 0px;padding-right: 4.561373px;-webkit-animation-fill-mode: none;text-decoration: none;margin-bottom: 1.830092px;padding-top: 4.684631px;direction:ltr;text-align:normal;margin-right: 2.02097px;text-align: -webkit-auto;padding-left: 2px;border-bottom-width: 0px;padding-bottom: 3.331055px;color: rgb(11,11,11);font-family: 'Book Antiqua',Palatino,'Palatino Linotype','Palatino LT STD',Georgia,serif;margin-left: 3.048px;">makes it a point that her husbands funeral was a grand affair She asked Dunstan to write a book about Boy something that made his stomach turn Dunstan admitted that he was thankful that he got a heart attack as it excused him from writing the book Dunstan finally revealed the </p>
+       <p style="-webkit-column-rule-style: none;margin-left: default;margin-top: 2.53712px;box-sizing: border-box;-webkit-marquee: none;font-size: 9.51px;-webkit-margin-collapse: none;border-left-width: 0px;padding-right: 4.561373px;-webkit-animation-fill-mode: none;text-decoration: none;margin-bottom: 1.830092px;padding-top: 4.684631px;direction:ltr;text-align:normal;margin-right: 2.02097px;text-align: -webkit-auto;padding-left: 2px;border-bottom-width: 0px;padding-bottom: 3.331055px;color: rgb(11,11,11);font-family: 'Book Antiqua',Palatino,'Palatino Linotype','Palatino LT STD',Georgia,serif;margin-left: 3.048px;">real reason behind Boys  In his letter he tells the headmaster to keep this in strict confidence Magnus Elsengrim is now enjoying his status as a worldfamous magician He took two weeks to visit Toronto and conduct some shows Dunstan spends a lot of time with him and his crew until </p>
+       <p style="-webkit-column-rule-style: none;margin-left: default;margin-top: 2.53712px;box-sizing: border-box;-webkit-marquee: none;font-size: 9.51px;-webkit-margin-collapse: none;border-left-width: 0px;padding-right: 4.561373px;-webkit-animation-fill-mode: none;text-decoration: none;margin-bottom: 1.830092px;padding-top: 4.684631px;direction:ltr;text-align:normal;margin-right: 2.02097px;text-align: -webkit-auto;padding-left: 2px;border-bottom-width: 0px;padding-bottom: 3.331055px;color: rgb(11,11,11);font-family: 'Book Antiqua',Palatino,'Palatino Linotype','Palatino LT STD',Georgia,serif;margin-left: 3.048px;">Elsengrim convinces Dunstan to let him do a show involving hypnotism at Colborne College After the show he introduces the magician to Boy Boy doesnt recognize Magnus as Paul Dempster the boy that he used to torment Their conversation was respectful enough at the beginning until </p>
+       <p style="-webkit-column-rule-style: none;margin-left: default;margin-top: 2.53712px;box-sizing: border-box;-webkit-marquee: none;font-size: 9.51px;-webkit-margin-collapse: none;border-left-width: 0px;padding-right: 4.561373px;-webkit-animation-fill-mode: none;text-decoration: none;margin-bottom: 1.830092px;padding-top: 4.684631px;direction:ltr;text-align:normal;margin-right: 2.02097px;text-align: -webkit-auto;padding-left: 2px;border-bottom-width: 0px;padding-bottom: 3.331055px;color: rgb(11,11,11);font-family: 'Book Antiqua',Palatino,'Palatino Linotype','Palatino LT STD',Georgia,serif;margin-left: 3.048px;">things started to become tense The magician tells him that he is indeed Paul Dempster Elsengrim reminds Boy that he used to taunt his mother a whore from outside their home Boy denies these claims and tells the magician that he has no re of any of it He also adds that the details of his past are useless to him</p>
+       <p style="-webkit-column-rule-style: none;margin-left: default;margin-top: 2.53712px;box-sizing: border-box;-webkit-marquee: none;font-size: 9.51px;-webkit-margin-collapse: none;border-left-width: 0px;padding-right: 4.561373px;-webkit-animation-fill-mode: none;text-decoration: none;margin-bottom: 1.830092px;padding-top: 4.684631px;direction:ltr;text-align:normal;margin-right: 2.02097px;text-align: -webkit-auto;padding-left: 2px;border-bottom-width: 0px;padding-bottom: 3.331055px;color: rgb(11,11,11);font-family: 'Book Antiqua',Palatino,'Palatino Linotype','Palatino LT STD',Georgia,serif;margin-left: 3.048px;">Dunstan then interjects about the story of the snowball that Boy threw and hit Mary Dempster with Dunstan becomes content with playing the role of The Fifth Business He brings out a granite stone that was encased inside the snowball Boy threw Dunstan tells Boy to recognize that </p>
+       <p style="-webkit-column-rule-style: none;margin-left: default;margin-top: 2.53712px;box-sizing: border-box;-webkit-marquee: none;font-size: 9.51px;-webkit-margin-collapse: none;border-left-width: 0px;padding-right: 4.561373px;-webkit-animation-fill-mode: none;text-decoration: none;margin-bottom: 1.830092px;padding-top: 4.684631px;direction:ltr;text-align:normal;margin-right: 2.02097px;text-align: -webkit-auto;padding-left: 2px;border-bottom-width: 0px;padding-bottom: 3.331055px;color: rgb(11,11,11);font-family: 'Book Antiqua',Palatino,'Palatino Linotype','Palatino LT STD',Georgia,serif;margin-left: 3.048px;">part of his past In turn Boy accuses him of being ungrateful of all the financial advise that he provided Dunstan for  Dunstan also tells Boy about his treatment of Leola and how obsessed he is about being above everyone else To resolve the argument Magnus Elsengrim demands Boy to </p>
+       <p style="-webkit-column-rule-style: none;margin-left: default;margin-top: 2.53712px;box-sizing: border-box;-webkit-marquee: none;font-size: 9.51px;-webkit-margin-collapse: none;border-left-width: 0px;padding-right: 4.561373px;-webkit-animation-fill-mode: none;text-decoration: none;margin-bottom: 1.830092px;padding-top: 4.684631px;direction:ltr;text-align:normal;margin-right: 2.02097px;text-align: -webkit-auto;padding-left: 2px;border-bottom-width: 0px;padding-bottom: 3.331055px;color: rgb(11,11,11);font-family: 'Book Antiqua',Palatino,'Palatino Linotype','Palatino LT STD',Georgia,serif;margin-left: 3.048px;">drive him home as repayment to his cruelty in the past The next day Dunstan notices that the granite stone that he uses as a paper has gone missing </p>
+       <p style="-webkit-column-rule-style: none;margin-left: default;margin-top: 2.53712px;box-sizing: border-box;-webkit-marquee: none;font-size: 9.51px;-webkit-margin-collapse: none;border-left-width: 0px;padding-right: 4.561373px;-webkit-animation-fill-mode: none;text-decoration: none;margin-bottom: 1.830092px;padding-top: 4.684631px;direction:ltr;text-align:normal;margin-right: 2.02097px;text-align: -webkit-auto;padding-left: 2px;border-bottom-width: 0px;padding-bottom: 3.331055px;color: rgb(11,11,11);font-family: 'Book Antiqua',Palatino,'Palatino Linotype','Palatino LT STD',Georgia,serif;margin-left: 3.048px;">After Boys funeral Dunstan visits Magnus Elsengrims magic show Dunstan awaits the Brazen Heads introduction A distraught audience member David Staunton demands to know the er of his father The Brazen Head provided him with cryptic answers about women that David know and did not </p>
+       <p style="-webkit-column-rule-style: none;margin-left: default;margin-top: 2.53712px;box-sizing: border-box;-webkit-marquee: none;font-size: 9.51px;-webkit-margin-collapse: none;border-left-width: 0px;padding-right: 4.561373px;-webkit-animation-fill-mode: none;text-decoration: none;margin-bottom: 1.830092px;padding-top: 4.684631px;direction:ltr;text-align:normal;margin-right: 2.02097px;text-align: -webkit-auto;padding-left: 2px;border-bottom-width: 0px;padding-bottom: 3.331055px;color: rgb(11,11,11);font-family: 'Book Antiqua',Palatino,'Palatino Linotype','Palatino LT STD',Georgia,serif;margin-left: 3.048px;">know He adds that Boy Staunton was ed By the fifth who was the keeper of his conscience and keeper of the stone At the same moment of the revelation Dunstan experiences a heart attack He recovers and receives a letter from Liesl inviting him to join their troop in Switzerland Dunstan tells the headmaster that his story is now finished and wrote a postscript to his letter Sankt Gallen Switzerland  
+</p>
+       <p style="-webkit-column-rule-style: none;margin-left: default;margin-top: 2.53712px;box-sizing: border-box;-webkit-marquee: none;font-size: 9.51px;-webkit-margin-collapse: none;border-left-width: 0px;padding-right: 4.561373px;-webkit-animation-fill-mode: none;text-decoration: none;margin-bottom: 1.830092px;padding-top: 4.684631px;direction:ltr;text-align:normal;margin-right: 2.02097px;text-align: -webkit-auto;padding-left: 2px;border-bottom-width: 0px;padding-bottom: 3.331055px;color: rgb(11,11,11);font-family: 'Book Antiqua',Palatino,'Palatino Linotype','Palatino LT STD',Georgia,serif;margin-left: 3.048px;">Notes Dunstans role as The Fifth Business is given clarity during the final chapter tying all loose ends together
+</p>
+       <p style="-webkit-column-rule-style: none;margin-left: default;margin-top: 2.53712px;box-sizing: border-box;-webkit-marquee: none;font-size: 9.51px;-webkit-margin-collapse: none;border-left-width: 0px;padding-right: 4.561373px;-webkit-animation-fill-mode: none;text-decoration: none;margin-bottom: 1.830092px;padding-top: 4.684631px;direction:ltr;text-align:normal;margin-right: 2.02097px;text-align: -webkit-auto;padding-left: 2px;border-bottom-width: 0px;padding-bottom: 3.331055px;color: rgb(11,11,11);font-family: 'Book Antiqua',Palatino,'Palatino Linotype','Palatino LT STD',Georgia,serif;margin-left: 3.048px;">/* These should replace some of the styles in lines 694-708 of global.css */ 
+div.browse ul li.category a.thumbnail,
+div.browse ul li.category a.thumbnail:visited{border:0;background:url(../i/categories/category.gif);width:147px;height:118px;}
+div.browse ul li.category a.thumbnail:hover{background-position:0 -118px;}
+div.browse ul li.category a.thumbnail span{display:block;width:131px;height:102px;overflow:hidden;position:absolute;top:5px;left:5px;background-repeat:no-repeat;background-position:center center;}
+div.browse ul li.category a.thumbnail span img{visibility:hidden;}
+div.browse ul li.category a.zoom{top:90px;right:8px;}
+div.browse ul li.category a.zoom:hover{top:88px;right:6px;border:2px solid #69c;}
+div.browse ul.secondary-categories{margin-top:0;margin-bottom:36px;}</p>
+       <p style="-webkit-column-rule-style: none;margin-left: default;margin-top: 2.53712px;box-sizing: border-box;-webkit-marquee: none;font-size: 9.51px;-webkit-margin-collapse: none;border-left-width: 0px;padding-right: 4.561373px;-webkit-animation-fill-mode: none;text-decoration: none;margin-bottom: 1.830092px;padding-top: 4.684631px;direction:ltr;text-align:normal;margin-right: 2.02097px;text-align: -webkit-auto;padding-left: 2px;border-bottom-width: 0px;padding-bottom: 3.331055px;color: rgb(11,11,11);font-family: 'Book Antiqua',Palatino,'Palatino Linotype','Palatino LT STD',Georgia,serif;margin-left: 3.048px;">/* Homepage Specific Adjustments -------------------- */
+body.pg-upload div.browse{overflow:hidden;padding:0;}
+body.pg-upload div.browse ul{margin:0 0 0 -15px;}
+body.pg-browse div.content-sec{margin:0;}
+body.pg-terms{margin-bottom:6px;}
+body.pg-terms #header p,body.pg-terms #language,body.pg-terms #site-info{display:none;}
+body.pg-terms div.container{width:800px;margin:0 auto;text-align:left;position:relative;background:transparent;}</p></td>
+      <td>&nbsp;</td>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="center"><p  style="-webkit-background-clip:border-box;-webkit-background-origin:padding-box;-webkit-background-size:auto;background-attachment:scroll;background-clip:border-box;background-color:rgba(0,0,0,0);background-image:none;background-origin:padding-box;background-size:auto;border-bottom-color:rgb(51,51,51);border-bottom-style:none;border-bottom-width:0px;border-image-outset:0px;border-image-repeat:stretch;border-image-slice:100%;border-image-source:none;border-image-width:1;border-left-color:rgb(51,51,51);border-left-style:none;border-left-width:0px;border-right-color:rgb(51,51,51);border-right-style:none;border-right-width:0px;border-top-color:rgb(51,51,51);border-top-style:none;border-top-width:0px;color:rgb(51,51,51);display:block;font-family:arial,sans-serif;font-size:13px;line-height:17px;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;text-align:start;">
+      If you wish to be removed from these updates <a href="http://opteft.supermemorecover.com">please tell us now</a>
+      <br />
+      ||Betsey	Nieland. 	303 Boucher St	Dexter	Mo	63841-2407||
+      
+      
+      </p></td>
+      <td>&nbsp;</td>
+    <tr>
+      <td>&nbsp;</td>
+      <td><img src="http://trise.supermemorecover.com/redirect.php?email=bruce@untroubled.org"></td>
+      <td>&nbsp;</td>
+</table>
+</body>
+</html>
+
+
+	

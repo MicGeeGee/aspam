@@ -1,0 +1,2080 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=big5">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 12">
+<meta name=Originator content="Microsoft Word 12">
+<link rel=File-List href="DM201609.files/filelist.xml">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>user</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>user</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>69</o:TotalTime>
+  <o:Created>2016-08-26T07:28:00Z</o:Created>
+  <o:LastSaved>2016-08-26T07:28:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>435</o:Words>
+  <o:Characters>2482</o:Characters>
+  <o:Company>C.M.T</o:Company>
+  <o:Lines>20</o:Lines>
+  <o:Paragraphs>5</o:Paragraphs>
+  <o:CharactersWithSpaces>2912</o:CharactersWithSpaces>
+  <o:Version>12.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=themeData href="DM201609.files/themedata.thmx">
+<link rel=colorSchemeMapping href="DM201609.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-TW</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:新細明體;
+	panose-1:2 2 5 0 0 0 0 0 0 0;
+	mso-font-alt:PMingLiU;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611969 684719354 22 0 1048577 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;
+	mso-font-alt:MingLiU;
+	mso-font-charset:136;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610611969 684719354 22 0 1048577 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:標楷體;
+	panose-1:3 0 5 9 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:script;
+	mso-font-pitch:fixed;
+	mso-font-signature:3 135135232 22 0 1048577 0;}
+@font-face
+	{font-family:華康海報體W9;
+	mso-font-alt:"Microsoft JhengHei UI Light";
+	mso-font-charset:136;
+	mso-generic-font-family:decorative;
+	mso-font-pitch:fixed;
+	mso-font-signature:0 671684608 22 0 1048576 0;}
+@font-face
+	{font-family:微軟正黑體;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:136;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:679 684672000 22 0 1048585 0;}
+@font-face
+	{font-family:"Wingdings 2";
+	panose-1:5 2 1 2 1 5 7 7 7 7;
+	mso-font-charset:2;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"\@微軟正黑體";
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:136;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:679 684672000 22 0 1048585 0;}
+@font-face
+	{font-family:"Microsoft YaHei";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 684670034 22 0 262175 0;}
+@font-face
+	{font-family:"\@Microsoft YaHei";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 684670034 22 0 262175 0;}
+@font-face
+	{font-family:"\@標楷體";
+	panose-1:3 0 5 9 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:script;
+	mso-font-pitch:fixed;
+	mso-font-signature:3 135135232 22 0 1048577 0;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610611969 684719354 22 0 1048577 0;}
+@font-face
+	{font-family:"\@新細明體";
+	panose-1:2 2 5 0 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611969 684719354 22 0 1048577 0;}
+@font-face
+	{font-family:"Wingdings 3";
+	panose-1:5 4 1 2 1 8 7 7 7 7;
+	mso-font-charset:2;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:華康棒棒體W5;
+	mso-font-alt:"Microsoft JhengHei UI Light";
+	mso-font-charset:136;
+	mso-generic-font-family:decorative;
+	mso-font-pitch:fixed;
+	mso-font-signature:0 671684608 22 0 1048576 0;}
+@font-face
+	{font-family:LinGothic-Heavy;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-alt:"Arial Unicode MS";
+	mso-font-charset:136;
+	mso-generic-font-family:auto;
+	mso-font-format:other;
+	mso-font-pitch:auto;
+	mso-font-signature:1 134742016 16 0 1048576 0;}
+@font-face
+	{font-family:華康中黑體;
+	mso-font-alt:"Arial Unicode MS";
+	mso-font-charset:136;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:0 134742016 16 0 1048576 0;}
+@font-face
+	{font-family:"\@華康海報體W9";
+	mso-font-charset:136;
+	mso-generic-font-family:decorative;
+	mso-font-pitch:fixed;
+	mso-font-signature:0 671684608 22 0 1048576 0;}
+@font-face
+	{font-family:"\@華康棒棒體W5";
+	mso-font-charset:136;
+	mso-generic-font-family:decorative;
+	mso-font-pitch:fixed;
+	mso-font-signature:0 671684608 22 0 1048576 0;}
+@font-face
+	{font-family:"\@LinGothic-Heavy";
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:auto;
+	mso-font-format:other;
+	mso-font-pitch:auto;
+	mso-font-signature:1 134742016 16 0 1048576 0;}
+@font-face
+	{font-family:"\@華康中黑體";
+	mso-font-charset:136;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:0 134742016 16 0 1048576 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:15.0pt;
+	mso-pagination:none;
+	font-size:12.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:新細明體;
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:1.0pt;}
+h3
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"標題 3 字元";
+	mso-style-next:內文;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:36.0pt;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:18.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:新細明體;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-font-kerning:1.0pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:15.0pt;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:新細明體;
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:1.0pt;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:15.0pt;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:新細明體;
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:1.0pt;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:24.0pt;
+	margin-bottom:.0001pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:0cm;
+	mso-para-margin-left:2.0gd;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:新細明體;
+	mso-bidi-font-family:新細明體;}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:頁首;
+	mso-font-kerning:1.0pt;}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:頁尾;
+	mso-font-kerning:1.0pt;}
+span.3
+	{mso-style-name:"標題 3 字元";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"標題 3";
+	mso-ansi-font-size:18.0pt;
+	mso-bidi-font-size:18.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:新細明體;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-font-kerning:1.0pt;
+	font-weight:bold;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:Calibri;
+	mso-fareast-font-family:新細明體;
+	mso-hansi-font-family:Calibri;
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;
+	mso-footnote-separator:url("DM201609.files/header.htm") fs;
+	mso-footnote-continuation-separator:url("DM201609.files/header.htm") fcs;
+	mso-endnote-separator:url("DM201609.files/header.htm") es;
+	mso-endnote-continuation-separator:url("DM201609.files/header.htm") ecs;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:18.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:69276014;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-291340574 439127190 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\00DC;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:24.0pt;
+	text-indent:-24.0pt;
+	mso-ansi-font-size:11.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:Wingdings;
+	color:white;}
+@list l1
+	{mso-list-id:344789609;
+	mso-list-type:hybrid;
+	mso-list-template-ids:389463130 67698693 1116345848 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:u;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:24.0pt;
+	text-indent:-24.0pt;
+	font-family:Wingdings;}
+@list l1:level2
+	{mso-level-start-at:5;
+	mso-level-number-format:bullet;
+	mso-level-text:●;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-18.0pt;
+	font-family:"微軟正黑體","sans-serif";
+	mso-bidi-font-family:新細明體;}
+@list l0:level1 lfo2
+	{mso-level-start-at:0;}
+@list l1:level1 lfo4
+	{mso-level-start-at:0;}
+@list l1:level2 lfo4
+	{mso-level-start-at:0;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:表格內文;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="28673"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-TW link="#0563C1" vlink=purple style='tab-interval:24.0pt;
+text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:18.0pt'>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=900
+ style='width:675.15pt;border-collapse:collapse;border:none;mso-border-alt:
+ solid black .5pt;mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+ mso-border-insideh:.5pt solid black;mso-border-insidev:.5pt solid black'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:1.0cm;mso-row-margin-right:
+  10.4pt'>
+  <td width=886 colspan=4 valign=bottom style='width:664.75pt;border:none;
+  background:#F6882E;padding:0cm 5.4pt 0cm 5.4pt;height:1.0cm'>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  line-height:29.0pt;mso-line-height-rule:exactly;tab-stops:163.25pt'><span
+  lang=EN-US style='font-size:25.0pt;font-family:華康海報體W9;color:#0062AC'><span
+  style='mso-spacerun:yes'>&nbsp;</span></span><b style='mso-bidi-font-weight:
+  normal'><span lang=EN-US style='font-size:25.0pt;font-family:"微軟正黑體","sans-serif";
+  color:#0062AC'><span style='mso-spacerun:yes'>&nbsp;</span></span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:25.0pt;font-family:
+  "微軟正黑體","sans-serif";color:red'>創世紀</span></b><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:25.0pt;font-family:"微軟正黑體","sans-serif";
+  color:#035DEF'>不動產教育訓練中心</span></b><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:25.0pt;font-family:"微軟正黑體","sans-serif";color:#002060'> </span></b><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:25.0pt;
+  font-family:"微軟正黑體","sans-serif";color:#0062AC'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  line-height:14.0pt;mso-line-height-rule:exactly;mso-layout-grid-align:none;
+  text-autospace:none'><span lang=EN-US style='font-size:11.0pt;font-family:
+  華康棒棒體W5;mso-bidi-font-family:LinGothic-Heavy'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><span style='color:#4A442A'><span
+  style='mso-spacerun:yes'>&nbsp;</span></span></span><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:11.0pt;font-family:標楷體;mso-bidi-font-family:
+  LinGothic-Heavy;color:#4A442A'>經濟部中小企業處終身學習護照課程登錄單位<span lang=EN-US><o:p></o:p></span></span></b></p>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  line-height:14.0pt;mso-line-height-rule:exactly;tab-stops:center 11.55pt;
+  mso-layout-grid-align:none;text-autospace:none'><b style='mso-bidi-font-weight:
+  normal'><span lang=EN-US style='font-size:11.0pt;font-family:標楷體;mso-bidi-font-family:
+  LinGothic-Heavy;color:#4A442A'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:11.0pt;font-family:
+  標楷體;mso-bidi-font-family:LinGothic-Heavy;color:#4A442A'>行政院暨各機關公務人員終身學習護照認證學習機構<span
+  lang=EN-US><o:p></o:p></span></span></b></p>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  line-height:14.0pt;mso-line-height-rule:exactly'><b style='mso-bidi-font-weight:
+  normal'><span lang=EN-US style='font-size:11.0pt;font-family:標楷體;mso-bidi-font-family:
+  LinGothic-Heavy;color:#4A442A'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:11.0pt;font-family:
+  標楷體;mso-bidi-font-family:LinGothic-Heavy;color:#4A442A'>賀<span lang=EN-US>!</span>本公司通過<span
+  lang=EN-US>TTQS</span>國家訓練品質系統評鑑【銅牌】</span></b><b style='mso-bidi-font-weight:
+  normal'><span lang=EN-US style='font-size:11.0pt;font-family:標楷體;mso-bidi-font-family:
+  LinGothic-Heavy'><o:p></o:p></span></b></p>
+  </td>
+  <td style='mso-cell-special:placeholder;border:none;padding:0cm 0cm 0cm 0cm'
+  width=14><p class='MsoNormal'>&nbsp;</td>
+  <![if !supportMisalignedRows]>
+  <td style='height:1.0cm;border:none' width=0 height=38></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:1;height:16.0pt;mso-row-margin-right:10.4pt'>
+  <td width=886 colspan=4 rowspan=2 valign=top style='width:664.75pt;
+  border-top:solid black 1.0pt;border-left:solid windowtext 1.0pt;border-bottom:
+  solid black 1.0pt;border-right:none;mso-border-top-alt:solid black .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-bottom-alt:solid black .5pt;
+  background:#C00000;padding:0cm 5.4pt 0cm 5.4pt;height:16.0pt'>
+  <p class=MsoNormal style='margin-top:12.0pt;line-height:16.0pt;mso-line-height-rule:
+  exactly'><span style='font-size:16.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri'>來上課送建地</span><span lang=EN-US
+  style='font-size:16.0pt'><o:p></o:p></span></p>
+  </td>
+  <td style='mso-cell-special:placeholder;border:none;padding:0cm 0cm 0cm 0cm'
+  width=14><p class='MsoNormal'>&nbsp;</td>
+  <![if !supportMisalignedRows]>
+  <td style='height:16.0pt;border:none' width=0 height=21></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:2;height:8.0pt;mso-row-margin-right:10.4pt'>
+  <span lang=EN-US style='font-size:12.0pt;mso-bidi-font-size:11.0pt;
+  font-family:"Calibri","sans-serif";mso-fareast-font-family:新細明體;mso-bidi-font-family:
+  "Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+  ZH-TW;mso-bidi-language:AR-SA'>
+  <td style='mso-cell-special:placeholder;border:none;padding:0cm 0cm 0cm 0cm'
+  width=14><p class='MsoNormal'>&nbsp;</td>
+  <![if !supportMisalignedRows]>
+  <td style='height:8.0pt;border:none' width=0 height=11></td>
+  <![endif]></span>
+ </tr>
+ <tr style='mso-yfti-irow:3;height:1.0cm'>
+  <td width=900 colspan=5 valign=top style='width:675.15pt;border:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:1.0cm'>
+  <p class=MsoNormal style='margin-right:8.65pt;mso-para-margin-right:.72gd;
+  line-height:15.0pt;mso-line-height-rule:exactly;background:white'><span
+  style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:標楷體;mso-bidi-font-family:
+  華康中黑體'>史上唯一上課“贈送台北市大安區建地”<span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='margin-right:8.65pt;mso-para-margin-right:.72gd;
+  line-height:15.0pt;mso-line-height-rule:exactly;background:white'><span
+  style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:標楷體;mso-bidi-font-family:
+  華康中黑體'>如果您認同『有土斯有財』如果您認同土地所有權狀，可以為您帶來財運<span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='margin-right:8.65pt;mso-para-margin-right:.72gd;
+  line-height:15.0pt;mso-line-height-rule:exactly;background:white'><span
+  style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:標楷體;mso-bidi-font-family:
+  華康中黑體'>如果您想要給最愛的家人、男女朋友送他們土地權狀，給他們一個驚喜<span lang=EN-US>!<o:p></o:p></span></span></p>
+  <p class=MsoNormal style='margin-right:8.65pt;mso-para-margin-right:.72gd;
+  line-height:15.0pt;mso-line-height-rule:exactly;background:white'><span
+  style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:標楷體;mso-bidi-font-family:
+  華康中黑體'>如果您想要未來土地改建、都更時能獲得報酬<span lang=EN-US>?! </span>我們免費送給您建地<span
+  lang=EN-US>!!<o:p></o:p></span></span></p>
+  <p class=MsoNormal style='margin-right:8.65pt;mso-para-margin-right:.72gd;
+  line-height:15.0pt;mso-line-height-rule:exactly;background:white'><span
+  style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:標楷體;mso-bidi-font-family:
+  華康中黑體'>希望您獲得到台北大安區建地能夠為您帶來財運及驚喜<span lang=EN-US>!!<o:p></o:p></span></span></p>
+  <p class=MsoNormal style='margin-right:8.65pt;mso-para-margin-right:.72gd;
+  line-height:15.0pt;mso-line-height-rule:exactly;background:white'><span
+  lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:
+  標楷體;mso-bidi-font-family:華康中黑體'>(</span><span style='font-size:16.0pt;
+  mso-bidi-font-size:11.0pt;font-family:標楷體;mso-bidi-font-family:華康中黑體'>土地免費，受贈人只需負擔產權過戶費用<span
+  lang=EN-US>+</span>規費計<span lang=EN-US>9900</span>元</span><span lang=EN-US
+  style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:華康中黑體;
+  mso-hansi-font-family:華康中黑體;mso-bidi-font-family:華康中黑體'><o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:1.0cm;border:none' width=0 height=38></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:4;height:1.0cm'>
+  <td width=900 colspan=5 valign=top style='width:675.15pt;border:none;
+  background:#C00000;padding:0cm 5.4pt 0cm 5.4pt;height:1.0cm'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:65.0pt;
+  mso-line-height-rule:exactly'><b><span lang=EN-US style='font-size:72.0pt;
+  mso-bidi-font-family:新細明體;mso-font-kerning:0pt'>9</span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  11.0pt;font-family:華康中黑體;mso-hansi-font-family:華康中黑體;mso-bidi-font-family:
+  華康中黑體;color:white'>房</span></b><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:細明體;mso-bidi-font-family:
+  細明體;color:white'> </span></b><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:華康中黑體;
+  mso-hansi-font-family:華康中黑體;mso-bidi-font-family:華康中黑體;color:white'>地</span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  11.0pt;font-family:細明體;mso-bidi-font-family:細明體;color:white'> </span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  11.0pt;font-family:華康中黑體;mso-hansi-font-family:華康中黑體;mso-bidi-font-family:
+  華康中黑體;color:white'>產</span></b><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:細明體;mso-bidi-font-family:
+  細明體;color:white'> </span></b><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:華康中黑體;
+  mso-hansi-font-family:華康中黑體;mso-bidi-font-family:華康中黑體;color:white'>課</span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  11.0pt;font-family:細明體;mso-bidi-font-family:細明體;color:white'> </span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  11.0pt;font-family:華康中黑體;mso-hansi-font-family:華康中黑體;mso-bidi-font-family:
+  華康中黑體;color:white'>程</span></b><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:細明體;mso-bidi-font-family:
+  細明體;color:white'> </span></b><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:華康中黑體;
+  mso-hansi-font-family:華康中黑體;mso-bidi-font-family:華康中黑體;color:white'>訊</span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  11.0pt;font-family:細明體;mso-bidi-font-family:細明體;color:white'> </span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  11.0pt;font-family:華康中黑體;mso-hansi-font-family:華康中黑體;mso-bidi-font-family:
+  華康中黑體;color:white'>息<span lang=EN-US><o:p></o:p></span></span></b></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:1.0cm;border:none' width=0 height=38></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:5;height:1.0cm'>
+  <td width=367 valign=top style='width:275.6pt;border-top:none;border-left:
+  none;border-bottom:solid #365F91 1.5pt;border-right:solid #BFBFBF 1.0pt;
+  mso-border-bottom-alt:solid #365F91 1.5pt;mso-border-right-alt:solid #BFBFBF .75pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:1.0cm'>
+  <p class=MsoNormal style='line-height:14.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-right:.35pt;mso-para-margin-right:.03gd;
+  line-height:normal'><b><span style='mso-bidi-font-size:12.0pt;font-family:
+  "新細明體","serif";mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:新細明體;mso-font-kerning:0pt'>【台北</span></b><b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;
+  mso-font-kerning:0pt'>9/12</span></b><b><span style='mso-bidi-font-size:12.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Calibri;mso-hansi-font-family:
+  Calibri;mso-bidi-font-family:新細明體;mso-font-kerning:0pt'>開課】</span></b><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-bidi-font-size:
+  12.0pt;font-family:"微軟正黑體","sans-serif";mso-bidi-font-family:Arial;
+  color:#365F91;mso-font-kerning:0pt'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-right:8.65pt;mso-para-margin-right:.72gd;
+  line-height:14.0pt;mso-line-height-rule:exactly;background:white'><b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;font-family:"Wingdings 3";
+  mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
+  新細明體;color:red;mso-font-kerning:0pt;mso-char-type:symbol;mso-symbol-font-family:
+  "Wingdings 3"'><span style='mso-char-type:symbol;mso-symbol-font-family:"Wingdings 3"'>&#8224;</span></span></b><b><span
+  style='mso-bidi-font-size:12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:新細明體;color:red;
+  mso-font-kerning:0pt'>共有土地開發實務技巧班</span></b><b><span lang=EN-US
+  style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;color:red;
+  mso-font-kerning:0pt'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-right:8.65pt;mso-para-margin-right:.72gd;
+  line-height:14.0pt;mso-line-height-rule:exactly;background:white'><b><span
+  style='font-size:9.0pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;
+  mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>如何排除共有土地地上物</span></b><b><span lang=EN-US style='font-size:
+  9.0pt;font-family:"Arial","sans-serif";color:#333333;background:white'>?</span></b><b><span
+  style='font-size:9.0pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;
+  mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>如何透過變價拍賣開發共有土地創造財富</span></b><b><span lang=EN-US
+  style='font-size:9.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>?</span></b><b><span style='font-size:9.0pt;font-family:
+  "新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+  mso-bidi-font-family:Arial;color:#333333;background:white'>建設公司如何開發共有土地</span></b><b><span
+  lang=EN-US style='font-size:9.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>?<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='line-height:15.0pt;mso-line-height-rule:exactly'><strong><span
+  style='font-size:7.5pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;
+  mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:red;background:
+  white'>該系列課程共四堂</span></strong><strong><span style='font-size:7.5pt;
+  font-family:"Arial","sans-serif";color:red;background:white'> <span
+  lang=EN-US>12</span></span></strong><strong><span style='font-size:7.5pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:red;background:white'>小時</span></strong><strong><span
+  lang=EN-US style='font-size:7.5pt;font-family:"Arial","sans-serif";
+  color:red;background:white'>&nbsp;&nbsp;&nbsp;</span></strong><strong><span
+  lang=EN-US style='font-size:7.5pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'><span style='mso-spacerun:yes'>&nbsp; </span></span></strong><strong><span
+  style='font-size:7.5pt;font-family:細明體;mso-bidi-font-family:細明體;color:red;
+  background:white'>※</span></strong><strong><span style='font-size:7.5pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:red;background:white'>有錄製線上課程</span></strong><strong><span
+  lang=EN-US style='font-size:7.5pt;font-family:"Arial","sans-serif";
+  color:red;background:white'>&nbsp;</span></strong><strong><span lang=EN-US
+  style='font-size:7.5pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'><o:p></o:p></span></strong></p>
+  <p class=MsoNormal style='line-height:normal'><b><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>09/12 </span></b><span class=GramE><b><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>【</span></b></span><b><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>如何排除共有土地地上物</span></b><b><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>?</span></b><b><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>】</span></b><b><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>09/19 </span></b><b><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>【建設公司如何開發共有土地】</span></b><b><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>09/26 </span></b><span class=GramE><b><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>【</span></b></span><b><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>如何運用優先購買權整合土地</span></b><b><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>?</span></b><b><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>】</span></b><b><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>10/03 </span></b><b><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>【如何運用變價拍賣創造財富】</span></b><b><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='line-height:normal'><strong><span style='font-size:
+  7.5pt;font-family:細明體;mso-bidi-font-family:細明體;color:#333333;background:white'>◆</span></strong><strong><span
+  style='font-size:7.5pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;
+  mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>上課時間</span></strong><strong><span lang=EN-US
+  style='font-size:7.5pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'> : 18:50~21:40 (</span></strong><strong><span
+  style='font-size:7.5pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;
+  mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>每週<span class=GramE>一</span></span></strong><strong><span
+  lang=EN-US style='font-size:7.5pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>)</span></strong><b><span lang=EN-US
+  style='font-size:9.0pt;font-family:"Arial","sans-serif";color:#333333'><o:p></o:p></span></b></p>
+  </td>
+  <td width=533 colspan=4 valign=top style='width:399.55pt;border:none;
+  border-bottom:solid #365F91 1.5pt;mso-border-left-alt:solid #BFBFBF .75pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:1.0cm'>
+  <p class=MsoNormal style='line-height:14.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;
+  mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:14.0pt;mso-line-height-rule:exactly'><b><span
+  style='mso-bidi-font-size:12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:新細明體;mso-font-kerning:
+  0pt'>【台北</span></b><b><span lang=EN-US style='mso-bidi-font-size:12.0pt;
+  mso-bidi-font-family:新細明體;mso-font-kerning:0pt'>9/13</span></b><b><span
+  style='mso-bidi-font-size:12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:新細明體;mso-font-kerning:
+  0pt'>開課】</span></b><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+  style='mso-bidi-font-size:12.0pt;font-family:"微軟正黑體","sans-serif";mso-bidi-font-family:
+  Arial;color:#365F91;mso-font-kerning:0pt'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='line-height:15.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;font-family:"Wingdings 3";
+  mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
+  新細明體;color:red;mso-font-kerning:0pt;mso-char-type:symbol;mso-symbol-font-family:
+  "Wingdings 3"'><span style='mso-char-type:symbol;mso-symbol-font-family:"Wingdings 3"'>&#8224;</span></span></b><b><span
+  style='mso-bidi-font-size:12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;color:red'>土地開發系列</span></b><b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;color:red'>-<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='line-height:15.0pt;mso-line-height-rule:exactly'><b><span
+  style='mso-bidi-font-size:12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;color:red'>工業用地仲介</span></b><b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;color:red'>VS</span></b><b><span
+  style='mso-bidi-font-size:12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;color:red'>土地開發商機班</span></b><b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;color:red'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='line-height:15.0pt;mso-line-height-rule:exactly'><span
+  style='font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:"微軟正黑體","sans-serif";
+  mso-bidi-font-family:Helvetica;color:#404040;letter-spacing:.75pt;background:
+  white'>工業用地如何興建廠房、廠辦致富<span lang=EN-US>?</span><span class=GramE>如何搶賺工業</span>土地仲介利潤<span
+  lang=EN-US>?</span>提供工業用地物件讓您投資獲利<span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:normal'><strong><span style='font-size:
+  7.5pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:red;background:white'>該系列課程共四堂</span></strong><strong><span
+  lang=EN-US style='font-size:7.5pt;font-family:"Arial","sans-serif";
+  color:red;background:white'>12</span></strong><strong><span style='font-size:
+  7.5pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:red;background:white'>小時</span></strong><strong><span
+  lang=EN-US style='font-size:7.5pt;font-family:"Arial","sans-serif";
+  color:red;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></strong><strong><span
+  style='font-size:7.5pt;font-family:細明體;mso-bidi-font-family:細明體;color:red;
+  background:white'>※會</span></strong><strong><span style='font-size:7.5pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:red;background:white'>線上課程</span></strong><b><span
+  lang=EN-US style='font-size:7.5pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'><br>
+  </span></b><strong><span lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>09/13</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>【工業用地的開發與行銷及其價值評估】</span></strong><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'><o:p></o:p></span></strong></p>
+  <p class=MsoNormal style='line-height:normal'><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>09/20</span></strong><strong><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>【申辦建照、使照及工商登記，代書流程、稅務規定之實務解說】</span></strong><strong><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'><o:p></o:p></span></strong></p>
+  <p class=MsoNormal style='line-height:normal'><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>09/27 </span></strong><strong><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>【工業用地仲介相關業務的重要實務需知】</span></strong><strong><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'><o:p></o:p></span></strong></p>
+  <p class=MsoNormal style='line-height:15.0pt;mso-line-height-rule:exactly'><strong><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>10/04</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>【工業用地開發使用及行銷實務的個案研討】</span></strong><strong><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'><o:p></o:p></span></strong></p>
+  <p class=MsoNormal style='line-height:15.0pt;mso-line-height-rule:exactly'><strong><span
+  style='font-size:7.5pt;font-family:細明體;mso-bidi-font-family:細明體;color:#333333;
+  background:white'>◆</span></strong><strong><span style='font-size:7.5pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>上課時間</span></strong><strong><span
+  lang=EN-US style='font-size:7.5pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'> : 18:50~21:40 (</span></strong><strong><span
+  style='font-size:7.5pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;
+  mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>每週二</span></strong><strong><span lang=EN-US
+  style='font-size:7.5pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>)<o:p></o:p></span></strong></p>
+  <p class=MsoNormal style='line-height:15.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:1.0cm;border:none' width=0 height=38></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:6;height:208.75pt'>
+  <td width=367 valign=top style='width:275.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid #BFBFBF 1.0pt;
+  mso-border-right-themecolor:background1;mso-border-right-themeshade:191;
+  mso-border-top-alt:solid #365F91 1.5pt;mso-border-top-alt:solid #365F91 1.5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid #BFBFBF .5pt;
+  mso-border-right-themecolor:background1;mso-border-right-themeshade:191;
+  padding:0cm 5.4pt 0cm 5.4pt;height:208.75pt'>
+  <p class=MsoNormal style='margin-right:8.65pt;mso-para-margin-right:.72gd;
+  line-height:14.0pt;mso-line-height-rule:exactly;background:white'><b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;
+  mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='mso-bidi-font-size:
+  12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:Calibri;mso-hansi-font-family:
+  Calibri;mso-bidi-font-family:新細明體;mso-font-kerning:0pt'>【台北</span></b><b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;
+  mso-font-kerning:0pt'>9/14</span></b><b><span style='mso-bidi-font-size:12.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Calibri;mso-hansi-font-family:
+  Calibri;mso-bidi-font-family:新細明體;mso-font-kerning:0pt'>開課】</span></b><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-bidi-font-size:
+  12.0pt;font-family:"微軟正黑體","sans-serif";mso-bidi-font-family:Arial;
+  color:#365F91;mso-font-kerning:0pt'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-right:8.65pt;mso-para-margin-right:.72gd;
+  line-height:14.0pt;mso-line-height-rule:exactly'><b><span lang=EN-US
+  style='mso-bidi-font-size:12.0pt;font-family:"Wingdings 3";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:新細明體;color:red;
+  mso-font-kerning:0pt;mso-char-type:symbol;mso-symbol-font-family:"Wingdings 3"'><span
+  style='mso-char-type:symbol;mso-symbol-font-family:"Wingdings 3"'>&#8224;</span></span></b><b><span
+  style='mso-bidi-font-size:12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:新細明體;color:red;
+  mso-font-kerning:0pt'>不動產房屋仲介代銷實戰班</span></b><b><span lang=EN-US
+  style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;color:red;
+  mso-font-kerning:0pt'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:10.0pt;
+  font-family:"微軟正黑體","sans-serif";mso-bidi-font-family:Helvetica;color:#404040;
+  letter-spacing:.75pt;background:white'>想學會房地產代銷公司<span lang=EN-US>(</span><span
+  class=GramE>海悅廣告</span>、新聯陽、甲桂林、甲山林<span lang=EN-US>...</span>等<span
+  lang=EN-US>)</span>如何開發銷售及包裝預售屋<span lang=EN-US><o:p></o:p></span></span></b></p>
+  <p class=MsoNormal style='line-height:normal'><strong><span style='font-size:
+  7.5pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:red;background:white'>該系列課程共五堂</span></strong><strong><span
+  style='font-size:7.5pt;font-family:"Arial","sans-serif";color:red;background:
+  white'> <span lang=EN-US>15</span></span></strong><strong><span
+  style='font-size:7.5pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;
+  mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:red;background:
+  white'>小時</span></strong><strong><span lang=EN-US style='font-size:7.5pt;
+  font-family:"Arial","sans-serif";color:red;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></strong><strong><span style='font-size:7.5pt;font-family:"新細明體","serif";
+  mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+  Arial;color:red;background:white'>※會錄製線上課程</span></strong><strong><span
+  lang=EN-US style='font-size:7.5pt;font-family:"Arial","sans-serif";
+  color:red;background:white'>&nbsp;</span></strong><b><span lang=EN-US
+  style='font-size:7.5pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'><br>
+  </span></b><strong><span lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>09/14</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>【業主開發及產品定位實務】</span></strong><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'><o:p></o:p></span></strong></p>
+  <p class=MsoNormal style='line-height:normal'><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>09/21</span></strong><strong><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>【案前作業解析</span></strong><strong><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>/</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>媒體企劃</span></strong><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>/</span></strong><strong><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>廣告策略探討</span></strong><strong><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>(</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>上</span></strong><strong><span lang=EN-US style='font-size:
+  10.0pt;font-family:"Arial","sans-serif";color:#333333;background:white'>)</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>】</span></strong><strong><span lang=EN-US style='font-size:
+  10.0pt;font-family:"Arial","sans-serif";color:#333333;background:white'><o:p></o:p></span></strong></p>
+  <p class=MsoNormal style='line-height:normal'><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>09/28 </span></strong><strong><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>【案前作業解析</span></strong><strong><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>/</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>媒體企劃</span></strong><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>/</span></strong><strong><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>廣告策略探討</span></strong><strong><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>(</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>中</span></strong><strong><span lang=EN-US style='font-size:
+  10.0pt;font-family:"Arial","sans-serif";color:#333333;background:white'>)</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>】</span></strong><strong><span lang=EN-US style='font-size:
+  10.0pt;font-family:"Arial","sans-serif";color:#333333;background:white'><o:p></o:p></span></strong></p>
+  <p class=MsoNormal style='line-height:normal'><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>10/05</span></strong><strong><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>【案前作業解析</span></strong><strong><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>/</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>媒體企劃</span></strong><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>/</span></strong><strong><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>廣告策略探討</span></strong><strong><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>(</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>下</span></strong><strong><span lang=EN-US style='font-size:
+  10.0pt;font-family:"Arial","sans-serif";color:#333333;background:white'>)</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>】</span></strong><strong><span lang=EN-US style='font-size:
+  10.0pt;font-family:"Arial","sans-serif";color:#333333;background:white'><o:p></o:p></span></strong></p>
+  <p class=MsoNormal style='line-height:15.0pt;mso-line-height-rule:exactly'><strong><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>10/12</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>【現場銷售流程及議價談判話術探討】</span></strong><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'><o:p></o:p></span></strong></p>
+  <p class=MsoNormal style='line-height:15.0pt;mso-line-height-rule:exactly'><strong><span
+  lang=EN-US style='font-size:7.5pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>&nbsp;</span></strong><strong><span
+  style='font-size:7.5pt;font-family:細明體;mso-bidi-font-family:細明體;color:#333333;
+  background:white'>◆</span></strong><strong><span style='font-size:7.5pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>上課時間</span></strong><strong><span
+  lang=EN-US style='font-size:7.5pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'> : 18:50~21:40 (</span></strong><strong><span
+  style='font-size:7.5pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;
+  mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>每週三</span></strong><strong><span lang=EN-US
+  style='font-size:7.5pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>)<o:p></o:p></span></strong></p>
+  <p class=MsoNormal style='line-height:15.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:"微軟正黑體","sans-serif";
+  mso-bidi-font-family:Helvetica;color:#404040;letter-spacing:.75pt;background:
+  white'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=533 colspan=4 style='width:399.55pt;border:none;border-bottom:solid windowtext 1.0pt;
+  mso-border-top-alt:solid #365F91 1.5pt;mso-border-left-alt:solid #BFBFBF .5pt;
+  mso-border-left-themecolor:background1;mso-border-left-themeshade:191;
+  mso-border-top-alt:solid #365F91 1.5pt;mso-border-left-alt:solid #BFBFBF .5pt;
+  mso-border-left-themecolor:background1;mso-border-left-themeshade:191;
+  mso-border-bottom-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:208.75pt'>
+  <p class=MsoNormal style='line-height:12.0pt;mso-line-height-rule:exactly'><b><span
+  style='mso-bidi-font-size:12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:新細明體;mso-font-kerning:
+  0pt'>【台北</span></b><b><span lang=EN-US style='mso-bidi-font-size:12.0pt;
+  mso-bidi-font-family:新細明體;mso-font-kerning:0pt'>9/22</span></b><b><span
+  style='mso-bidi-font-size:12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:新細明體;mso-font-kerning:
+  0pt'>開課】</span></b><b><span lang=EN-US style='mso-bidi-font-size:12.0pt;
+  mso-bidi-font-family:新細明體;mso-font-kerning:0pt'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='line-height:12.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-bidi-font-size:
+  12.0pt;font-family:"微軟正黑體","sans-serif";mso-bidi-font-family:Arial;
+  color:#365F91;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:12.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;font-family:"Wingdings 3";
+  mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
+  新細明體;color:red;mso-font-kerning:0pt;mso-char-type:symbol;mso-symbol-font-family:
+  "Wingdings 3"'><span style='mso-char-type:symbol;mso-symbol-font-family:"Wingdings 3"'>&#8224;</span></span></b><b><span
+  style='mso-bidi-font-size:12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:新細明體;color:red;
+  mso-font-kerning:0pt'>台灣首富財產節稅規劃實務班</span></b><b style='mso-bidi-font-weight:
+  normal'><span lang=EN-US style='mso-bidi-font-size:12.0pt;font-family:"微軟正黑體","sans-serif";
+  mso-bidi-font-family:Arial;color:#365F91;mso-font-kerning:0pt'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='line-height:normal'><strong><span style='font-size:
+  8.0pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:red;background:white'>該系列課程共兩堂</span></strong><strong><span
+  lang=EN-US style='font-size:8.0pt;font-family:"Arial","sans-serif";
+  color:red;background:white'>6</span></strong><strong><span style='font-size:
+  8.0pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:red;background:white'>小時</span></strong><strong><span
+  lang=EN-US style='font-size:8.0pt;font-family:"Arial","sans-serif";
+  color:red;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></strong><strong><span
+  style='font-size:8.0pt;font-family:細明體;mso-bidi-font-family:細明體;color:red;
+  background:white'>※</span></strong><strong><span style='font-size:8.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:red;background:white'>有錄製線上課程</span></strong><strong><span
+  lang=EN-US style='font-size:8.0pt;font-family:"Arial","sans-serif";
+  color:red;background:white'>&nbsp;</span></strong><span lang=EN-US
+  style='font-size:8.0pt'><br>
+  </span><strong><span lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>09/22</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>【高資產人士財產節稅規劃及其商機</span></strong><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>(</span></strong><strong><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>上</span></strong><strong><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>)</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>】</span></strong><strong><span lang=EN-US style='font-size:
+  10.0pt;font-family:"Arial","sans-serif";color:#333333;background:white'><o:p></o:p></span></strong></p>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  line-height:20.0pt;mso-line-height-rule:exactly'><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>09/23</span></strong><strong><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>【高資產人士財產節稅規劃及其商機</span></strong><strong><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>(</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>下</span></strong><strong><span lang=EN-US style='font-size:
+  10.0pt;font-family:"Arial","sans-serif";color:#333333;background:white'>)</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>】</span></strong><strong><span lang=EN-US style='font-size:
+  10.0pt;font-family:"Arial","sans-serif";color:#333333;background:white'><o:p></o:p></span></strong></p>
+  <p class=MsoNormal><strong><span style='font-size:7.5pt;font-family:細明體;
+  mso-bidi-font-family:細明體;color:#333333;background:white'>◆</span></strong><strong><span
+  style='font-size:7.5pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;
+  mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>上課時間</span></strong><strong><span lang=EN-US
+  style='font-size:7.5pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'> : 18:50~21:40 (</span></strong><strong><span
+  style='font-size:7.5pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;
+  mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>每週四、五</span></strong><strong><span lang=EN-US
+  style='font-size:7.5pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>)<o:p></o:p></span></strong></p>
+  <p class=MsoNormal><strong><span lang=EN-US style='font-size:7.5pt;
+  font-family:"Arial","sans-serif";color:#333333;background:white'><o:p>&nbsp;</o:p></span></strong></p>
+  <p class=MsoNormal><strong><span lang=EN-US style='font-size:7.5pt;
+  font-family:"Arial","sans-serif";color:#333333;background:white'><o:p>&nbsp;</o:p></span></strong></p>
+  <p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:12.0pt;
+  font-family:"微軟正黑體","sans-serif";mso-bidi-font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:208.75pt;border:none' width=0 height=278></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:7;height:204.0pt'>
+  <td width=367 valign=top style='width:275.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid #BFBFBF 1.0pt;
+  mso-border-right-themecolor:background1;mso-border-right-themeshade:191;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid #BFBFBF .5pt;
+  mso-border-right-themecolor:background1;mso-border-right-themeshade:191;
+  padding:0cm 5.4pt 0cm 5.4pt;height:204.0pt'>
+  <p class=MsoNormal style='line-height:normal'><b><span lang=EN-US
+  style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;mso-font-kerning:
+  0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='mso-bidi-font-size:
+  12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:Calibri;mso-hansi-font-family:
+  Calibri;mso-bidi-font-family:新細明體;mso-font-kerning:0pt'>【台北</span></b><b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;
+  mso-font-kerning:0pt'>9/30</span></b><b><span style='mso-bidi-font-size:12.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Calibri;mso-hansi-font-family:
+  Calibri;mso-bidi-font-family:新細明體;mso-font-kerning:0pt'>開課】</span></b><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-bidi-font-size:
+  12.0pt;font-family:"微軟正黑體","sans-serif";mso-bidi-font-family:Arial;
+  color:#365F91;mso-font-kerning:0pt'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-right:8.65pt;mso-para-margin-right:.72gd;
+  line-height:14.0pt;mso-line-height-rule:exactly'><b><span lang=EN-US
+  style='mso-bidi-font-size:12.0pt;font-family:"Wingdings 3";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:新細明體;color:red;
+  mso-font-kerning:0pt;mso-char-type:symbol;mso-symbol-font-family:"Wingdings 3"'><span
+  style='mso-char-type:symbol;mso-symbol-font-family:"Wingdings 3"'>&#8224;</span></span></b><b><span
+  style='mso-bidi-font-size:12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:新細明體;color:red;
+  mso-font-kerning:0pt'>不動產節稅實務班<span class=GramE>》</span></span></b><b><span
+  style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;color:red;
+  mso-font-kerning:0pt'> </span></b><b><span style='mso-bidi-font-size:12.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Calibri;mso-hansi-font-family:
+  Calibri;mso-bidi-font-family:新細明體;color:red;mso-font-kerning:0pt'>房地合一稅</span></b><b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;
+  color:red;mso-font-kerning:0pt'>/</span></b><b><span style='mso-bidi-font-size:
+  12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:Calibri;mso-hansi-font-family:
+  Calibri;mso-bidi-font-family:新細明體;color:red;mso-font-kerning:0pt'>遺贈稅</span></b><b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;
+  color:red;mso-font-kerning:0pt'>/</span></b><b><span style='mso-bidi-font-size:
+  12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:Calibri;mso-hansi-font-family:
+  Calibri;mso-bidi-font-family:新細明體;color:red;mso-font-kerning:0pt'>房屋稅</span></b><b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;
+  color:red;mso-font-kerning:0pt'>/</span></b><b><span style='mso-bidi-font-size:
+  12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:Calibri;mso-hansi-font-family:
+  Calibri;mso-bidi-font-family:新細明體;color:red;mso-font-kerning:0pt'>契稅</span></b><b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;
+  color:red;mso-font-kerning:0pt'>/</span></b><b><span style='mso-bidi-font-size:
+  12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:Calibri;mso-hansi-font-family:
+  Calibri;mso-bidi-font-family:新細明體;color:red;mso-font-kerning:0pt'>地價稅</span></b><b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;
+  color:red;mso-font-kerning:0pt'>/</span></b><b><span style='mso-bidi-font-size:
+  12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:Calibri;mso-hansi-font-family:
+  Calibri;mso-bidi-font-family:新細明體;color:red;mso-font-kerning:0pt'>土增稅</span></b><b><span
+  style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;color:red;
+  mso-font-kerning:0pt'> </span></b><b><span style='mso-bidi-font-size:12.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Calibri;mso-hansi-font-family:
+  Calibri;mso-bidi-font-family:新細明體;color:red;mso-font-kerning:0pt'>節稅實務</span></b><b><span
+  style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;color:red;
+  mso-font-kerning:0pt'> <span lang=EN-US><o:p></o:p></span></span></b></p>
+  <p class=MsoNormal style='line-height:15.0pt;mso-line-height-rule:exactly'><span
+  style='font-size:10.0pt;font-family:"微軟正黑體","sans-serif";mso-bidi-font-family:
+  Helvetica;color:#404040;letter-spacing:.75pt;background:white'>如何避免買到不能指定建築線的土地<span
+  lang=EN-US> ?<span style='mso-spacerun:yes'>&nbsp; </span></span><span
+  class=GramE>畸</span>零地如何調處，如何開發<span lang=EN-US>?<o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:normal'><strong><span style='font-size:
+  7.5pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:red;background:white'>該系列課程共三堂</span></strong><strong><span
+  style='font-size:7.5pt;font-family:"Arial","sans-serif";color:red;background:
+  white'> <span lang=EN-US>9</span></span></strong><strong><span
+  style='font-size:7.5pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;
+  mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:red;background:
+  white'>小時</span></strong><strong><span lang=EN-US style='font-size:7.5pt;
+  font-family:"Arial","sans-serif";color:red;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></strong><strong><span style='font-size:7.5pt;font-family:"新細明體","serif";
+  mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+  Arial;color:red;background:white'>※會錄製線上課程</span></strong><strong><span
+  lang=EN-US style='font-size:7.5pt;font-family:"Arial","sans-serif";
+  color:red;background:white'>&nbsp;</span></strong><b><span lang=EN-US
+  style='font-size:7.5pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'><br>
+  </span></b><strong><span lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>09/30</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>【房地合一稅節稅實務】</span></strong><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'><o:p></o:p></span></strong></p>
+  <p class=MsoNormal style='line-height:normal'><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>10/07</span></strong><strong><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>【贈與稅</span></strong><strong><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>/</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>遺產稅</span></strong><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>/</span></strong><strong><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>房屋稅</span></strong><strong><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>/</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>契稅節稅實務】</span></strong><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'><o:p></o:p></span></strong></p>
+  <p class=MsoNormal style='line-height:15.0pt;mso-line-height-rule:exactly'><strong><span
+  lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>10/14</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>【地價稅</span></strong><strong><span lang=EN-US
+  style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>/</span></strong><strong><span style='font-size:10.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>土地增值稅節稅實務】</span></strong><strong><span
+  lang=EN-US style='font-size:7.5pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'>&nbsp;<o:p></o:p></span></strong></p>
+  <p class=MsoNormal style='line-height:15.0pt;mso-line-height-rule:exactly'><strong><span
+  style='font-size:7.5pt;font-family:細明體;mso-bidi-font-family:細明體;color:#333333;
+  background:white'>◆</span></strong><strong><span style='font-size:7.5pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;color:#333333;background:white'>上課時間</span></strong><strong><span
+  lang=EN-US style='font-size:7.5pt;font-family:"Arial","sans-serif";
+  color:#333333;background:white'> : 18:50~21:40 (</span></strong><strong><span
+  style='font-size:7.5pt;font-family:"新細明體","serif";mso-ascii-font-family:Arial;
+  mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#333333;
+  background:white'>每週五</span></strong><strong><span lang=EN-US
+  style='font-size:7.5pt;font-family:"Arial","sans-serif";color:#333333;
+  background:white'>)<o:p></o:p></span></strong></p>
+  <p class=MsoNormal style='line-height:15.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;
+  mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=533 colspan=4 style='width:399.55pt;border:none;border-bottom:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid #BFBFBF .5pt;
+  mso-border-left-themecolor:background1;mso-border-left-themeshade:191;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid #BFBFBF .5pt;
+  mso-border-left-themecolor:background1;mso-border-left-themeshade:191;
+  mso-border-bottom-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:204.0pt'>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  line-height:20.0pt;mso-line-height-rule:exactly'><b><span lang=EN-US
+  style='mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;mso-font-kerning:
+  0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:204.0pt;border:none' width=0 height=272></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:8;height:16.25pt'>
+  <td width=900 colspan=5 valign=top style='width:675.15pt;border:none;
+  border-bottom:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  background:#FBD4B4;padding:0cm 5.4pt 0cm 5.4pt;height:16.25pt'>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+  style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:"Wingdings 2";
+  mso-ascii-font-family:華康中黑體;mso-fareast-font-family:華康中黑體;mso-hansi-font-family:
+  華康中黑體;mso-bidi-font-family:華康中黑體;color:#7030A0;mso-char-type:symbol;
+  mso-symbol-font-family:"Wingdings 2"'><span style='mso-char-type:symbol;
+  mso-symbol-font-family:"Wingdings 2"'>&ecirc;</span></span></b><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:
+  華康中黑體;mso-hansi-font-family:華康中黑體;mso-bidi-font-family:華康中黑體;color:#7030A0'>更多課程歡迎進</span></b><b
+  style='mso-bidi-font-weight:normal'><u><span style='font-size:16.0pt;
+  mso-bidi-font-size:11.0pt;font-family:華康中黑體;mso-hansi-font-family:華康中黑體;
+  mso-bidi-font-family:華康中黑體;color:red'>創世紀教育機構</span></u></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  11.0pt;font-family:華康中黑體;mso-hansi-font-family:華康中黑體;mso-bidi-font-family:
+  華康中黑體;color:#7030A0'>網站查看<span lang=EN-US>:</span></span></b><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:16.0pt;
+  mso-bidi-font-size:11.0pt;font-family:細明體;mso-bidi-font-family:細明體;
+  color:#7030A0'> </span></b><span lang=EN-US><a
+  href="file:///C:\Users\user\Desktop\www.twret.com"><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:
+  細明體;mso-bidi-font-family:細明體'>www.twret.com</span></b></a></span><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:16.0pt;
+  mso-bidi-font-size:11.0pt;font-family:細明體;mso-bidi-font-family:細明體;
+  color:#7030A0'><o:p></o:p></span></b></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:16.25pt;border:none' width=0 height=22></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:9;height:16.25pt'>
+  <td width=900 colspan=5 valign=top style='width:675.15pt;border:none;
+  border-bottom:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  background:#27097B;padding:0cm 5.4pt 0cm 5.4pt;height:16.25pt'>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+  style='font-size:14.0pt;font-family:"Wingdings 2";mso-ascii-font-family:華康中黑體;
+  mso-fareast-font-family:華康中黑體;mso-hansi-font-family:華康中黑體;mso-bidi-font-family:
+  華康中黑體;color:white;mso-char-type:symbol;mso-symbol-font-family:"Wingdings 2"'><span
+  style='mso-char-type:symbol;mso-symbol-font-family:"Wingdings 2"'>&ecirc;</span></span></b><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:14.0pt;
+  font-family:華康中黑體;mso-hansi-font-family:華康中黑體;mso-bidi-font-family:華康中黑體;
+  color:white'>FB</span></b><span style='font-size:14.0pt;font-family:華康中黑體;
+  mso-hansi-font-family:華康中黑體;mso-bidi-font-family:華康中黑體;color:white'>粉絲團『創世紀不動產教育訓練中心』</span><span
+  lang=EN-US><a href="http://www.facebook.com/twret"><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:14.0pt;font-family:華康中黑體;mso-hansi-font-family:
+  華康中黑體;mso-bidi-font-family:華康中黑體;color:white'>www.facebook.com/twret</span></b></a></span><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:14.0pt;
+  font-family:華康中黑體;mso-hansi-font-family:華康中黑體;mso-bidi-font-family:華康中黑體;
+  color:white'><o:p></o:p></span></b></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:16.25pt;border:none' width=0 height=22></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:10;height:156.85pt'>
+  <td width=390 colspan=2 style='width:292.8pt;border:none;mso-border-top-alt:
+  solid windowtext .5pt;background:#00823B;padding:0cm 5.4pt 0cm 5.4pt;
+  height:156.85pt'>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:華康中黑體;
+  mso-hansi-font-family:華康中黑體;mso-bidi-font-family:華康中黑體;color:white'>近期</span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  11.0pt;font-family:細明體;mso-bidi-font-family:細明體;color:white'> </span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  11.0pt;font-family:華康中黑體;mso-hansi-font-family:華康中黑體;mso-bidi-font-family:
+  華康中黑體;color:white'>土地開發</span></b><b style='mso-bidi-font-weight:normal'><span
+  style='font-family:華康中黑體;mso-hansi-font-family:華康中黑體;mso-bidi-font-family:
+  華康中黑體;color:white'>課程訊息<span lang=EN-US><o:p></o:p></span></span></b></p>
+  <p class=MsoListParagraph style='margin-left:9.45pt;mso-para-margin-left:
+  -.23gd;text-align:justify;text-justify:inter-ideograph;text-indent:-12.2pt;
+  line-height:20.0pt;mso-line-height-rule:exactly;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+  lang=EN-US style='font-size:11.0pt;font-family:Wingdings;mso-fareast-font-family:
+  Wingdings;mso-bidi-font-family:Wingdings;color:white;mso-bidi-font-weight:
+  bold'><span style='mso-list:Ignore'>&Uuml;<span style='font:7.0pt "Times New Roman"'>
+  </span></span></span><![endif]><span lang=EN-US><a
+  href="http://www.twret.com/class.php?SecondID=60"><b><span lang=EN-US
+  style='font-size:11.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;color:white'><span lang=EN-US>土地開發系列</span></span></b><b><span
+  style='font-size:11.0pt;color:white'>-</span></b><b><span lang=EN-US
+  style='font-size:11.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;color:white'><span lang=EN-US>農地開發致富實務班</span></span></b></a></span><b><span
+  lang=EN-US style='font-size:11.0pt;color:white'><o:p></o:p></span></b></p>
+  <p class=MsoListParagraph style='margin-left:9.45pt;mso-para-margin-left:
+  -.23gd;text-align:justify;text-justify:inter-ideograph;text-indent:-12.2pt;
+  line-height:20.0pt;mso-line-height-rule:exactly;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+  lang=EN-US style='font-size:11.0pt;font-family:Wingdings;mso-fareast-font-family:
+  Wingdings;mso-bidi-font-family:Wingdings;color:white;mso-bidi-font-weight:
+  bold'><span style='mso-list:Ignore'>&Uuml;<span style='font:7.0pt "Times New Roman"'>
+  </span></span></span><![endif]><span lang=EN-US><a
+  href="http://www.twret.com/class.php?SecondID=61"><b><span lang=EN-US
+  style='font-size:11.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;color:#EEECE1'><span lang=EN-US>地主自地<span
+  class=GramE><span lang=EN-US>自建統包</span></span></span></span></b><b><span
+  lang=EN-US style='font-size:11.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;color:#EEECE1'><span lang=EN-US>銷售建設實務班</span></span></b></a></span><b><span
+  lang=EN-US style='font-size:11.0pt;color:#EEECE1'><o:p></o:p></span></b></p>
+  <p class=MsoListParagraph style='margin-left:9.45pt;mso-para-margin-left:
+  -.23gd;text-align:justify;text-justify:inter-ideograph;text-indent:-12.2pt;
+  line-height:20.0pt;mso-line-height-rule:exactly;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+  lang=EN-US style='font-size:11.0pt;font-family:Wingdings;mso-fareast-font-family:
+  Wingdings;mso-bidi-font-family:Wingdings;color:white;mso-bidi-font-weight:
+  bold'><span style='mso-list:Ignore'>&Uuml;<span style='font:7.0pt "Times New Roman"'>
+  </span></span></span><![endif]><span lang=EN-US><a
+  href="http://www.twret.com/class.php?SecondID=65"><b><span lang=EN-US
+  style='font-size:11.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;color:#EEECE1'><span lang=EN-US>市地重劃開發商機大解密</span></span></b><b><span
+  lang=EN-US style='font-size:11.0pt;color:#EEECE1'><span lang=EN-US> </span></span></b><b><span
+  style='font-size:8.0pt;color:#EEECE1'>~</span></b><b><span lang=EN-US
+  style='font-size:8.0pt;font-family:"新細明體","serif";mso-ascii-font-family:Calibri;
+  mso-hansi-font-family:Calibri;color:#EEECE1'><span lang=EN-US>以土城暫緩發展區為例</span></span></b></a></span><b><span
+  lang=EN-US style='font-size:8.0pt;color:#EEECE1'><o:p></o:p></span></b></p>
+  <p class=MsoListParagraph style='margin-left:9.45pt;mso-para-margin-left:
+  -.23gd;text-align:justify;text-justify:inter-ideograph;text-indent:-12.2pt;
+  line-height:20.0pt;mso-line-height-rule:exactly;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+  lang=EN-US style='font-size:11.0pt;font-family:Wingdings;mso-fareast-font-family:
+  Wingdings;mso-bidi-font-family:Wingdings;color:white;mso-bidi-font-weight:
+  bold'><span style='mso-list:Ignore'>&Uuml;<span style='font:7.0pt "Times New Roman"'>
+  </span></span></span><![endif]><span lang=EN-US><a
+  href="http://www.twret.com/class.php?SecondID=66"><b><span lang=EN-US
+  style='font-size:10.5pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;color:white'><span lang=EN-US>建築線、<span
+  class=GramE><span lang=EN-US>畸</span></span></span></span></b><b><span
+  lang=EN-US style='font-size:10.5pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;color:white'><span lang=EN-US>零地、容積移轉及土地興建面積計算</span></span></b></a></span><b><span
+  lang=EN-US style='font-size:10.5pt;color:white'><o:p></o:p></span></b></p>
+  </td>
+  <td width=510 colspan=3 rowspan=2 style='width:382.35pt;border:none;
+  border-bottom:solid black 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-bottom-alt:solid black .5pt;
+  background:#002060;padding:0cm 5.4pt 0cm 5.4pt;height:156.85pt'>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='font-family:華康中黑體;mso-hansi-font-family:華康中黑體;mso-bidi-font-family:
+  華康中黑體;color:white'>《創世紀創立》<span lang=EN-US><o:p></o:p></span></span></b></p>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  line-height:normal'><span style='text-fit:232.0pt;mso-text-fit-id:1185171458'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  11.0pt;font-family:華康中黑體;mso-hansi-font-family:華康中黑體;mso-bidi-font-family:
+  華康中黑體;color:white;letter-spacing:.85pt;mso-font-width:72%;mso-font-kerning:
+  0pt'>會員招募</span></b></span><span style='text-fit:232.0pt;mso-text-fit-id:
+  1185171458'><b style='mso-bidi-font-weight:normal'><span style='font-size:
+  16.0pt;mso-bidi-font-size:11.0pt;font-family:細明體;mso-bidi-font-family:細明體;
+  color:white;letter-spacing:.85pt;mso-font-width:72%;mso-font-kerning:0pt'> 『台北市建築經營管理協會』</span></b></span><span
+  lang=EN-US style='color:white'><o:p></o:p></span></p>
+  <p class=MsoNormal><span lang=EN-US style='mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  line-height:normal'><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Calibri;mso-hansi-font-family:
+  Calibri;mso-bidi-font-family:新細明體;color:white;mso-font-kerning:0pt;
+  mso-bidi-font-weight:bold'>單打獨鬥的時代已經過去了，加入組織，可以節省</span><span lang=EN-US
+  style='font-size:11.0pt;mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;
+  color:white;mso-font-kerning:0pt;mso-bidi-font-weight:bold'>30</span><span
+  style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"新細明體","serif";
+  mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
+  新細明體;color:white;mso-font-kerning:0pt;mso-bidi-font-weight:bold'>％的時間與提昇</span><span
+  lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:12.0pt;mso-bidi-font-family:
+  新細明體;color:white;mso-font-kerning:0pt;mso-bidi-font-weight:bold'>20</span><span
+  style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"新細明體","serif";
+  mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
+  新細明體;color:white;mso-font-kerning:0pt;mso-bidi-font-weight:bold'>％的獲利。</span><span
+  lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:12.0pt;mso-bidi-font-family:
+  新細明體;color:white;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><o:p></o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  line-height:normal'><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;
+  font-family:"新細明體","serif";mso-ascii-font-family:Calibri;mso-hansi-font-family:
+  Calibri;mso-bidi-font-family:新細明體;color:white;mso-font-kerning:0pt;
+  mso-bidi-font-weight:bold'>也許您現在執業上並沒有任何困難，也發展的很理想，並不想加入組織，但我們的組織的成員到目前為止，也都是跟您一樣發展的不錯，可是他們想的跟您想的不同。</span><span
+  lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:12.0pt;mso-bidi-font-family:
+  新細明體;color:white;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><o:p></o:p></span></p>
+  <p class=MsoNormal align=right style='margin-right:8.15pt;text-align:right;
+  line-height:normal'><b><span style='font-size:13.0pt;font-family:"新細明體","serif";
+  mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
+  新細明體;color:white;mso-font-kerning:0pt'>加入協會就能有多一個改變的力量！</span></b><b><span
+  lang=EN-US style='font-size:13.0pt;mso-bidi-font-family:新細明體;color:white;
+  mso-font-kerning:0pt'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='line-height:normal'><span lang=EN-US
+  style='font-size:11.0pt;mso-bidi-font-size:12.0pt;mso-bidi-font-family:新細明體;
+  color:white;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:normal'><span style='font-size:11.0pt;
+  mso-bidi-font-size:12.0pt;font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:新細明體;color:white;
+  mso-font-kerning:0pt;mso-bidi-font-weight:bold'>我們期望，因為有更多的參與，才能有更多的討論議題，把每個人好的想法都放進來，藉由豐富的資源平台讓各位提昇自我價值創造共贏新商機。</span><span
+  lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:12.0pt;mso-bidi-font-family:
+  新細明體;color:white;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:normal'><b style='mso-bidi-font-weight:
+  normal'><span lang=EN-US style='font-size:11.0pt;font-family:"Wingdings 2";
+  mso-ascii-font-family:標楷體;mso-fareast-font-family:標楷體;mso-hansi-font-family:
+  標楷體;color:#FFC000;mso-char-type:symbol;mso-symbol-font-family:"Wingdings 2"'><span
+  style='mso-char-type:symbol;mso-symbol-font-family:"Wingdings 2"'>&Aring;</span></span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:11.0pt;font-family:
+  標楷體;color:#FFC000'>聯誼餐會交流</span></b><b style='mso-bidi-font-weight:normal'><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Wingdings 2";mso-ascii-font-family:
+  標楷體;mso-fareast-font-family:標楷體;mso-hansi-font-family:標楷體;color:#FFC000;
+  mso-char-type:symbol;mso-symbol-font-family:"Wingdings 2"'><span
+  style='mso-char-type:symbol;mso-symbol-font-family:"Wingdings 2"'>&Aring;</span></span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:11.0pt;font-family:
+  標楷體;color:#FFC000'>建案考察</span></b><b style='mso-bidi-font-weight:normal'><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Wingdings 2";mso-ascii-font-family:
+  標楷體;mso-fareast-font-family:標楷體;mso-hansi-font-family:標楷體;color:#FFC000;
+  mso-char-type:symbol;mso-symbol-font-family:"Wingdings 2"'><span
+  style='mso-char-type:symbol;mso-symbol-font-family:"Wingdings 2"'>&Aring;</span></span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:11.0pt;font-family:
+  標楷體;color:#FFC000'>會員專題講座</span></b><b style='mso-bidi-font-weight:normal'><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Wingdings 2";mso-ascii-font-family:
+  標楷體;mso-fareast-font-family:標楷體;mso-hansi-font-family:標楷體;color:#FFC000;
+  mso-char-type:symbol;mso-symbol-font-family:"Wingdings 2"'><span
+  style='mso-char-type:symbol;mso-symbol-font-family:"Wingdings 2"'>&Aring;</span></span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:11.0pt;font-family:
+  標楷體;color:#FFC000'>讀書會<span lang=EN-US><o:p></o:p></span></span></b></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:156.85pt;border:none' width=0 height=209></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:11;height:131.15pt'>
+  <td width=390 colspan=2 style='width:292.8pt;border:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-alt:solid black .5pt;background:#984806;padding:0cm 5.4pt 0cm 5.4pt;
+  height:131.15pt'>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:華康中黑體;
+  mso-hansi-font-family:華康中黑體;mso-bidi-font-family:華康中黑體;color:white'>財稅</span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:華康中黑體;
+  mso-hansi-font-family:華康中黑體;mso-bidi-font-family:華康中黑體;color:white'>焦點課程</span></b><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;font-family:"Microsoft YaHei","sans-serif";
+  color:white'><o:p></o:p></span></p>
+  <p class=MsoListParagraph style='margin-left:12.2pt;mso-para-margin-left:
+  0gd;text-align:justify;text-justify:inter-ideograph;text-indent:-12.2pt;
+  line-height:20.0pt;mso-line-height-rule:exactly;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+  lang=EN-US style='font-size:11.0pt;font-family:Wingdings;mso-fareast-font-family:
+  Wingdings;mso-bidi-font-family:Wingdings;color:white;mso-font-kerning:1.0pt'><span
+  style='mso-list:Ignore'>&Uuml;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+  lang=EN-US><a href="http://www.twret.com/class.php?SecondID=56"><span
+  style='text-fit:240.0pt;mso-text-fit-id:1185206016'><b style='mso-bidi-font-weight:
+  normal'><span lang=EN-US style='font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;color:white;mso-font-width:89%'><span
+  lang=EN-US>新制房地合一稅對個人、建商及投資客如何節<span lang=EN-US>稅</span></span></span></b></span></a><span
+  style='color:white;mso-font-kerning:1.0pt'><o:p></o:p></span></span></p>
+  <p class=MsoListParagraph style='margin-left:12.2pt;mso-para-margin-left:
+  0gd;text-align:justify;text-justify:inter-ideograph;text-indent:-12.2pt;
+  line-height:20.0pt;mso-line-height-rule:exactly;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+  lang=EN-US style='font-size:11.0pt;font-family:Wingdings;mso-fareast-font-family:
+  Wingdings;mso-bidi-font-family:Wingdings;color:white;mso-font-kerning:1.0pt'><span
+  style='mso-list:Ignore'>&Uuml;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+  lang=EN-US><a href="http://www.twret.com/class.php?SecondID=68"><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-family:"新細明體","serif";
+  mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;color:white;
+  mso-font-kerning:1.0pt'><span lang=EN-US>高資產人士財產節稅規劃及其商機</span></span></b></a><b
+  style='mso-bidi-font-weight:normal'><span style='color:white;mso-font-kerning:
+  1.0pt'><o:p></o:p></span></b></span></p>
+  <p class=MsoListParagraph style='margin-left:12.2pt;mso-para-margin-left:
+  0gd;text-align:justify;text-justify:inter-ideograph;text-indent:-12.2pt;
+  line-height:20.0pt;mso-line-height-rule:exactly;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+  class=MsoHyperlink><span lang=EN-US style='font-size:11.0pt;font-family:Wingdings;
+  mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings;color:white;
+  text-decoration:none;text-underline:none'><span style='mso-list:Ignore'>&Uuml;<span
+  style='font:7.0pt "Times New Roman"'> </span></span></span></span><![endif]><span
+  lang=EN-US><a href="http://www.twret.com/class.php?SecondID=67"><b><span
+  lang=EN-US style='font-family:"新細明體","serif";mso-ascii-font-family:Calibri;
+  mso-hansi-font-family:Calibri;color:white;mso-font-kerning:1.0pt'><span
+  lang=EN-US>贈與稅</span></span></b><b><span style='color:white;mso-font-kerning:
+  1.0pt'>/</span></b><b><span lang=EN-US style='font-family:"新細明體","serif";
+  mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;color:white;
+  mso-font-kerning:1.0pt'><span lang=EN-US>遺產稅</span></span></b><b><span
+  style='color:white;mso-font-kerning:1.0pt'>/</span></b><b><span lang=EN-US
+  style='font-family:"新細明體","serif";mso-ascii-font-family:Calibri;mso-hansi-font-family:
+  Calibri;color:white;mso-font-kerning:1.0pt'><span lang=EN-US>房屋稅</span></span></b><b><span
+  style='color:white;mso-font-kerning:1.0pt'>/</span></b><b><span lang=EN-US
+  style='font-family:"新細明體","serif";mso-ascii-font-family:Calibri;mso-hansi-font-family:
+  Calibri;color:white;mso-font-kerning:1.0pt'><span lang=EN-US>契稅節稅實務</span></span></b></a><span
+  class=MsoHyperlink><span style='color:white'><o:p></o:p></span></span></span></p>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  line-height:15.0pt;mso-line-height-rule:exactly'><span lang=EN-US><a
+  href="http://www.twret.com/class.php?SecondID=67"><b style='mso-bidi-font-weight:
+  normal'><span lang=EN-US style='font-family:"新細明體","serif";mso-ascii-font-family:
+  Calibri;mso-hansi-font-family:Calibri;color:white'><span lang=EN-US>地價稅</span></span></b><b
+  style='mso-bidi-font-weight:normal'><span style='color:white'>/</span></b><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-family:"新細明體","serif";
+  mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;color:white'><span
+  lang=EN-US>土地增值稅節稅實務</span></span></b></a></span><span lang=EN-US
+  style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:華康中黑體;
+  mso-hansi-font-family:華康中黑體;mso-bidi-font-family:華康中黑體'><o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:131.15pt;border:none' width=0 height=175></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:12;height:16.25pt'>
+  <td width=900 colspan=5 valign=top style='width:675.15pt;border:none;
+  border-bottom:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  background:#FFFF93;padding:0cm 5.4pt 0cm 5.4pt;height:16.25pt'>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+  style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:"Wingdings 2";
+  mso-ascii-font-family:華康中黑體;mso-fareast-font-family:華康中黑體;mso-hansi-font-family:
+  華康中黑體;mso-bidi-font-family:華康中黑體;color:#0070C0;mso-char-type:symbol;
+  mso-symbol-font-family:"Wingdings 2"'><span style='mso-char-type:symbol;
+  mso-symbol-font-family:"Wingdings 2"'>&ecirc;</span></span></b><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:
+  華康中黑體;mso-hansi-font-family:華康中黑體;mso-bidi-font-family:華康中黑體;color:#0070C0'>你想要月收入增加<u>五萬十萬</u>嗎<span
+  lang=EN-US>?</span></span></b><b style='mso-bidi-font-weight:normal'><span
+  lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:
+  細明體;mso-bidi-font-family:細明體;color:#0070C0'><span
+  style='mso-spacerun:yes'>&nbsp; </span></span></b><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:16.0pt;mso-bidi-font-size:11.0pt;font-family:
+  華康中黑體;mso-hansi-font-family:華康中黑體;mso-bidi-font-family:華康中黑體;color:#0070C0'>你想要突破房地產不景氣嗎<span
+  lang=EN-US>?<br>
+  </span></span></b><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:15.0pt;font-family:華康中黑體;mso-hansi-font-family:華康中黑體;
+  mso-bidi-font-family:華康中黑體;color:#0070C0'>想成為創世紀課程代理商嗎<span lang=EN-US>?</span>介紹學員參與課程即可獲得高額引薦獎金！</span></b><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:16.0pt;
+  mso-bidi-font-size:11.0pt;font-family:細明體;mso-bidi-font-family:細明體;
+  color:#0070C0'><o:p></o:p></span></b></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:16.25pt;border:none' width=0 height=22></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:13;height:25.8pt'>
+  <td width=900 colspan=5 valign=top style='width:675.15pt;border:none;
+  background:#990000;padding:0cm 5.4pt 0cm 5.4pt;height:25.8pt'>
+  <p class=MsoNormal style='margin-top:9.0pt;margin-right:0cm;margin-bottom:
+  0cm;margin-left:29.05pt;margin-bottom:.0001pt;mso-para-margin-top:.5gd;
+  mso-para-margin-right:0cm;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  2.42gd;mso-para-margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;
+  line-height:12.0pt;mso-line-height-rule:exactly'><b><span style='font-size:
+  14.0pt;mso-bidi-font-size:11.0pt;font-family:"微軟正黑體","sans-serif";color:white'>創世紀不動產教育訓練中心　服務據點</span></b></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:25.8pt;border:none' width=0 height=34></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:14;height:5.0pt'>
+  <td width=900 colspan=5 valign=top style='width:675.15pt;border:none;
+  background:#FF9933;padding:0cm 5.4pt 0cm 5.4pt;height:5.0pt'>
+  <p class=MsoNormal style='margin-top:9.0pt;margin-right:0cm;margin-bottom:
+  0cm;margin-left:30.6pt;margin-bottom:.0001pt;mso-para-margin-top:.5gd;
+  mso-para-margin-right:0cm;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  2.55gd;mso-para-margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;
+  line-height:12.0pt;mso-line-height-rule:exactly'><b><span style='font-size:
+  10.0pt;mso-bidi-font-size:11.0pt;font-family:"微軟正黑體","sans-serif";color:black;
+  mso-themecolor:text1'>台北總部</span></b><span lang=EN-US style='font-size:10.0pt;
+  mso-bidi-font-size:11.0pt;font-family:"微軟正黑體","sans-serif";color:black;
+  mso-themecolor:text1'><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:30.6pt;mso-para-margin-left:2.55gd;
+  text-align:justify;text-justify:inter-ideograph;line-height:12.0pt;
+  mso-line-height-rule:exactly'><span style='font-size:8.0pt;mso-bidi-font-size:
+  11.0pt;font-family:"微軟正黑體","sans-serif";color:black;mso-themecolor:text1'>電話：<span
+  lang=EN-US>02-2758-6028 </span>分機<span lang=EN-US>216</span>、<span
+  lang=EN-US>226<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>傳真：<span lang=EN-US>02-2758-2699<o:p></o:p></span></span></p>
+  <p class=MsoNormal style='margin-left:30.6pt;mso-para-margin-left:2.55gd;
+  text-align:justify;text-justify:inter-ideograph;line-height:12.0pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:8.0pt;
+  mso-bidi-font-size:11.0pt;font-family:"微軟正黑體","sans-serif";color:black;
+  mso-themecolor:text1'>E-Mail</span><span style='font-size:8.0pt;mso-bidi-font-size:
+  11.0pt;font-family:"微軟正黑體","sans-serif";color:black;mso-themecolor:text1'>：</span><span
+  lang=EN-US><a href="mailto:twret2345@gmail.com"><span style='color:black;
+  mso-themecolor:text1'>twret2345@gmail.com</span></a><span style='color:black;
+  mso-themecolor:text1'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+  style='font-size:8.0pt;mso-bidi-font-size:11.0pt;font-family:"微軟正黑體","sans-serif";
+  color:black;mso-themecolor:text1'>地址：台北市信義區信義路四段<span lang=EN-US>415</span>號<span
+  lang=EN-US>8</span>樓之<span lang=EN-US>5<o:p></o:p></span></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:5.0pt;border:none' width=0 height=7></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:15;height:25.8pt'>
+  <td width=900 colspan=5 valign=top style='width:675.15pt;border:none;
+  background:#990000;padding:0cm 5.4pt 0cm 5.4pt;height:25.8pt'>
+  <p class=MsoNormal style='margin-top:9.0pt;margin-right:0cm;margin-bottom:
+  0cm;margin-left:29.05pt;margin-bottom:.0001pt;mso-para-margin-top:.5gd;
+  mso-para-margin-right:0cm;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  2.42gd;mso-para-margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;
+  line-height:12.0pt;mso-line-height-rule:exactly'><span class=GramE><b><span
+  style='font-size:14.0pt;mso-bidi-font-size:11.0pt;font-family:"微軟正黑體","sans-serif"'>創世紀線上學習</span></b></span><b><span
+  style='font-size:14.0pt;mso-bidi-font-size:11.0pt;font-family:"微軟正黑體","sans-serif"'>平台<span
+  lang=EN-US><span style='mso-spacerun:yes'>&nbsp; </span></span>歡迎體驗使用</span></b><b><span
+  lang=EN-US style='font-size:10.0pt;mso-bidi-font-size:11.0pt;font-family:
+  "微軟正黑體","sans-serif";color:white'><o:p></o:p></span></b></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:25.8pt;border:none' width=0 height=34></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:16;height:25.8pt'>
+  <td width=392 colspan=3 valign=top style='width:294.25pt;border:none;
+  background:#FF9933;padding:0cm 5.4pt 0cm 5.4pt;height:25.8pt'>
+  <p class=MsoListParagraph style='margin-top:9.0pt;margin-right:0cm;
+  margin-bottom:0cm;margin-left:23.8pt;margin-bottom:.0001pt;mso-para-margin-top:
+  .5gd;mso-para-margin-right:0cm;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  0gd;mso-para-margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;
+  text-indent:5.25pt;line-height:18.0pt;mso-line-height-rule:exactly;
+  mso-list:l1 level1 lfo4'><![if !supportLists]><span lang=EN-US
+  style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Wingdings;
+  mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings;color:black;
+  mso-themecolor:text1;mso-font-kerning:1.0pt'><span style='mso-list:Ignore'>u<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><b><span
+  style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:"微軟正黑體","sans-serif";
+  color:black;mso-themecolor:text1;mso-font-kerning:1.0pt'>不動產<span lang=EN-US>e</span><span
+  class=GramE>化線上多元</span>課程</span></b><span lang=EN-US style='font-size:10.0pt;
+  mso-bidi-font-size:12.0pt;font-family:"微軟正黑體","sans-serif";color:black;
+  mso-themecolor:text1;mso-font-kerning:1.0pt'><o:p></o:p></span></p>
+  <p class=MsoListParagraph style='margin-top:9.0pt;margin-right:0cm;
+  margin-bottom:0cm;margin-left:24.0pt;margin-bottom:.0001pt;mso-para-margin-top:
+  .5gd;mso-para-margin-right:0cm;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  0gd;mso-para-margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;
+  text-indent:4.5pt;line-height:12.0pt;mso-line-height-rule:exactly;mso-list:
+  l1 level1 lfo4'><![if !supportLists]><span lang=EN-US style='font-size:10.0pt;
+  mso-bidi-font-size:12.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+  mso-bidi-font-family:Wingdings;color:black;mso-themecolor:text1;mso-font-kerning:
+  1.0pt;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>u<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><b><span
+  style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:"微軟正黑體","sans-serif";
+  color:black;mso-themecolor:text1;mso-font-kerning:1.0pt'>隨時隨地即可學習 一手掌握<span
+  lang=EN-US><o:p></o:p></span></span></b></p>
+  <p class=MsoListParagraph style='margin-top:9.0pt;margin-right:0cm;
+  margin-bottom:0cm;margin-left:42.0pt;margin-bottom:.0001pt;mso-para-margin-top:
+  .5gd;mso-para-margin-right:0cm;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  0gd;mso-para-margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;
+  text-indent:-13.65pt;line-height:12.0pt;mso-line-height-rule:exactly;
+  mso-list:l1 level2 lfo4'><![if !supportLists]><span lang=EN-US
+  style='font-family:"微軟正黑體","sans-serif";mso-bidi-font-family:微軟正黑體;
+  color:#0070C0;mso-font-kerning:1.0pt;mso-bidi-font-weight:bold'><span
+  style='mso-list:Ignore'>●<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><b><span
+  lang=EN-US style='font-family:"微軟正黑體","sans-serif";color:#0070C0;mso-font-kerning:
+  1.0pt'><span style='mso-spacerun:yes'>&nbsp;</span></span></b><b><span
+  style='font-family:"微軟正黑體","sans-serif";color:#0070C0;mso-font-kerning:1.0pt'>點擊下列網址進入雲端學習↓<span
+  lang=EN-US><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><o:p></o:p></span></span></b></p>
+  </td>
+  <td width=508 colspan=2 valign=top style='width:380.9pt;border:none;
+  background:#FF9933;padding:0cm 5.4pt 0cm 5.4pt;height:25.8pt'>
+  <p class=MsoListParagraph style='margin-top:9.0pt;margin-right:0cm;
+  margin-bottom:0cm;margin-left:24.1pt;margin-bottom:.0001pt;mso-para-margin-top:
+  .5gd;mso-para-margin-right:0cm;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  0gd;mso-para-margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;
+  text-indent:5.85pt;line-height:18.0pt;mso-line-height-rule:exactly;
+  mso-list:l1 level1 lfo4'><![if !supportLists]><span lang=EN-US
+  style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Wingdings;
+  mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings;color:black;
+  mso-themecolor:text1;mso-font-kerning:1.0pt'><span style='mso-list:Ignore'>u<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><b><span
+  style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:"微軟正黑體","sans-serif";
+  color:black;mso-themecolor:text1;mso-font-kerning:1.0pt'>節省時間避免舟車勞頓</span></b><span
+  lang=EN-US style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:
+  "微軟正黑體","sans-serif";color:black;mso-themecolor:text1;mso-font-kerning:1.0pt'><o:p></o:p></span></p>
+  <p class=MsoListParagraph style='margin-top:9.0pt;margin-right:0cm;
+  margin-bottom:0cm;margin-left:24.0pt;margin-bottom:.0001pt;mso-para-margin-top:
+  .5gd;mso-para-margin-right:0cm;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  0gd;mso-para-margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;
+  text-indent:6.05pt;line-height:12.0pt;mso-line-height-rule:exactly;
+  mso-list:l1 level1 lfo4'><![if !supportLists]><span lang=EN-US
+  style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Wingdings;
+  mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings;color:black;
+  mso-themecolor:text1;mso-font-kerning:1.0pt;mso-bidi-font-weight:bold'><span
+  style='mso-list:Ignore'>u<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><b><span
+  style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:"微軟正黑體","sans-serif";
+  color:black;mso-themecolor:text1;mso-font-kerning:1.0pt'>講義教材寄送到府<span
+  lang=EN-US><o:p></o:p></span></span></b></p>
+  <p class=MsoListParagraph style='margin-top:9.0pt;margin-right:0cm;
+  margin-bottom:0cm;margin-left:24.0pt;margin-bottom:.0001pt;mso-para-margin-top:
+  .5gd;mso-para-margin-right:0cm;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  0gd;mso-para-margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;
+  line-height:7.0pt;mso-line-height-rule:exactly'><b><span lang=EN-US
+  style='font-family:"微軟正黑體","sans-serif";color:#0070C0;mso-font-kerning:1.0pt'>&lt;</span></b><b><span
+  style='font-family:"微軟正黑體","sans-serif";color:#0070C0;mso-font-kerning:1.0pt'>來電諮詢另贈<span
+  lang=EN-US>$6000</span>線上體驗課程<span lang=EN-US>&gt;<o:p></o:p></span></span></b></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:25.8pt;border:none' width=0 height=34></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:17;mso-yfti-lastrow:yes;height:25.8pt'>
+  <td width=900 colspan=5 valign=top style='width:675.15pt;border:none;
+  background:#CC0000;padding:0cm 5.4pt 0cm 5.4pt;height:25.8pt'>
+  <p class=MsoListParagraph style='margin-top:9.0pt;margin-right:0cm;
+  margin-bottom:0cm;margin-left:24.1pt;margin-bottom:.0001pt;mso-para-margin-top:
+  .5gd;mso-para-margin-right:0cm;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  0gd;mso-para-margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;
+  text-indent:5.85pt;line-height:18.0pt;mso-line-height-rule:exactly;
+  mso-list:l1 level1 lfo4'><![if !supportLists]><span lang=EN-US
+  style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+  Wingdings;color:yellow;mso-font-kerning:1.0pt;mso-bidi-font-weight:bold'><span
+  style='mso-list:Ignore'>u<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+  lang=EN-US><a
+  href="http://ent.gridow.com/ishare/Login/tabid/35848/Default.aspx"><b><span
+  style='font-family:"微軟正黑體","sans-serif";color:yellow;mso-font-kerning:1.0pt'>http://ent.gridow.com/ishare/Login/tabid/35848/Default.aspx</span></b></a></span><b><span
+  lang=EN-US style='font-family:"微軟正黑體","sans-serif";color:yellow;mso-font-kerning:
+  1.0pt'><o:p></o:p></span></b></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:25.8pt;border:none' width=0 height=34></td>
+  <![endif]>
+ </tr>
+ <![if !supportMisalignedColumns]>
+ <tr height=0>
+  <td width=367 style='border:none'></td>
+  <td width=23 style='border:none'></td>
+  <td width=2 style='border:none'></td>
+  <td width=494 style='border:none'></td>
+  <td width=14 style='border:none'></td>
+  <td style='border:none' width=0><p class='MsoNormal'>&nbsp;</td>
+ </tr>
+ <![endif]>
+</table>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

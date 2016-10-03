@@ -1,0 +1,189 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<style>
+#mobile-menu .apps3 img{top:-87.5px}
+#mobile-menu .apps4 img{top:-131.25px}
+#mobile-menu .apps5 img{top:-175px}
+#mobile-menu .apps6 img{top:-218.75px}
+#mobile-menu .ap<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>[Time to - be yourselfss]</title>
+<style>
+.ent_m234 .image_holder{background-color:unset;}
+.ent_m234 .live-stream__player-holder{max-width:1280px;margin:0 auto;}
+.ent_m234 .live-stream__provider-logo{max-width:none;max-height:none;width:120px;}
+.ent_m234 .live-stream--pinned .live-stream__camera:first-child .live-stream__camera-overlay{font-size:1em;}
+.ent_m234 .live-stream--pinned .live-stream__camera:first-child .live-stream__camera-overlay--locked-cta{padding-top:18%;}
+.ent_m234 .live-stream--pinned .live-stream__camera:first-child .live-stream__camera-overlay-button{font-size:8px;max-width:94%;margin-top:10px;}
+.ent_m234 .live-stream--pinned .live-stream__camera:first-child .live-stream__camera-title{font-size:10px;padding-top:12px;}
+.ent_m234 .live-stream--pinned .live-stream__camera .live-stream__camera-title{font-size:8px;padding:5px 0 0 0;}
+.ent_m234 .headline{display:none;margin-left:10px;}
+.ent_m234 .live-stream__tablet-ad{background-color:#f9f9f9;}
+.ent_m234 .live-stream__player-title{color:#800;}
+.ent_m234 .live-stream__cameras-select-wrapper{color:#f9f9f9;}
+.ent_m234 .live-stream__cameras-select-title{font-family:'AkzidenzGrotesk-Regular';text-transform:uppercase;font-size:11px;font-weight:700;line-height:13px;letter-spacing:2px;color:#f9f9f9;}
+.ent_m234 .live-stream__camera-title{font-family:'AkzidenzGrotesk-Regular';font-size:14px;font-weight:700;letter-spacing:1.5px;line-height:14px;text-transform:uppercase;}
+.ent_m234 .live-stream__camera:first-child .live-stream__camera-overlay-button{border:2px solid #1e0014;background-color:#f9f9f9;color:#1e0014;font-family:'AkzidenzGrotesk-Regular';font-size:12px;font-weight:700;letter-spacing:2.25px;line-height:1.5;padding:10px 10px 8px 10px;}
+.ent_m234 .live-stream__camera:first-child .live-stream__camera-overlay-button:after{padding:0 5px 3px;}
+.ent_m234 .live-stream__camera:first-child .live-stream_camera-thumbnail:after{font-size:26px;}
+.ent_m234 .live-stream__camera:first-child .live-stream__camera-overlay--locked-cta{display:inline-block;background-color:rgba(255,255,255,0.6);padding-top:50px;}
+.ent_m234 .live-stream__camera:first-child .live-stream__camera-overlay--locked-cta:before{color:#1e0014;font-family:'AkzidenzGrotesk-Regular';font-size:16px;font-weight:700;letter-spacing:3px;line-height:1.3;text-transform:uppercase;}
+.ent_m234 .live-stream__camera:first-child .live-stream__camera-title{background-color:#f9f9f9;color:#1e0014;font-family:'AkzidenzGrotesk-Regular';font-size:16px;font-weight:700;line-height:1;letter-spacing:2px;}
+.ent_m234 .live-stream__camera .live-stream__camera-thumbnail:after{content:"\e605";position:absolute;top:50%;left:50%;width:2.2em;height:2.2em;padding:0.65em 0 0.65em .3em;transform:translate(-50%,-50%);font:normal 16px/1 'event';color:#1e0014;text-align:center;border-radius:50%;background-color:rgba(249,249,249,0.75);}
+.ent_m234 .live-stream__camera-overlay{text-transform:uppercase;font-size:10px;font-weight:700;letter-spacing:1px;line-height:11px;flex-flow:unset;}
+.ent_m234 .live-stream__camera-overlay--cta{background-color:rgba(30,0,20,0.8);}
+.ent_m234 .live-stream__camera-overlay--cta:before{content:"\e605";background-color:#f9f9f9;color:#1e0014;font:1em/1 "event";height:1.8em;margin-right:0.7em;width:1.8em;padding:0.45em 0 1em 0.3em;}
+.ent_m234 .live-stream__camera-overlay--selected{background-color:rgba(30,0,20,0.8);border:1px solid #777;}
+.ent_m234 .live-stream__camera-overlay--selected:before{display:inline-block;background-color:#f9f9f9;border-radius:50%;color:#1e0014;font:1em/1 "event";height:1.8em;margin-right:0.7em;padding:0.5em 0.3em 1em 0.3em;text-align:center;width:1.8em;}
+.ent_m234 .live-stream :not(.live-stream--authorized) .live-stream__camera--locked .live-stream__camera-wrapper:after{background-color:#1e0014;}
+.ent_m234 .live-stream:not(.live-stream--pinned) .live-stream__content{background-color:#000;}
+.ent_m234 .live-stream:not(.live-stream--pinned) .live-stream__cameras-select:before{background-color:#f9f9f9;}
+.ent_m234 .live-stream:not(.live-stream--pinned) .live-stream__cameras-select:after{background-color:#f9f9f9;color:#1e0014;width:35px;border-radius:0;}
+.ent_m234 .live-stream:not(.live-stream--pinned) .live-stream__player-title{color:#f9f9f9;font-family:'BC-Falster-Grotesk-Bold';font-size:70px;font-weight:700;letter-spacing:6px;line-height:1;text-transform:uppercase;padding-left:5px;}
+.ent_m234 .live-stream:not(.live-stream--pinned) .live-stream__player-title:before{font-size:28px;font-weight:700;letter-spacing:2.4px;line-height:1;}
+.ent_m234 .live-stream__share-hashtag{color:#1e0014;font-family:'BC-Falster-Grotesk-Bold';font-size:28px;font-weight:700;line-height:1;letter-spacing:9.72px;text-transform:uppercase;}
+.ent_m234 .live-stream__share-cta{color:#1e0014;font-family:'AkzidenzGrotesk-Regular';font-size:14px;font-weight:700;line-height:1.1;letter-spacing:1px;text-transform:uppercase;}
+.ent_m234 .live-stream__share-options .live-stream__share-button{background-color:#1e0014;border-radius:0;}
+.ent_m234 .live-stream__share-options .live-stream__share-button:hover:before{color:#f9f9f9;opacity:0.7;}
+.ent_m234 .live-stream__player-title{color:#f9f9f9;text-transform:uppercase;font-size:16px;letter-spacing:1px;}
+.ent_m234 .live-stream--pinned .live-stream__player-info{background:#1e0014;height:45px;}
+.ent_m234 .live-stream--pinned .live-stream__cameras-select:before{background:#f9f9f9;color:#1e0014;border:1px solid #1e0014;height:45px;width:45px;padding-top:3px;}
+.ent_m234 .live-stream--pinned .live-stream__cameras-select:hover:before{background:rgba(249,249,249,0.4);color:#f9f9f9;border:1px solid #1e0014;}
+@media (max-width:979px){.ent_m234 .live-stream--authorized .live-stream__provider-holder--mobile{background-color:#f9f9f9;margin-top:5px;}
+.ent_m234 .live-stream--authorized .live-stream__provider-holder--mobile .live-stream__provider-title{color:#1e0014;}
+.ent_m234 .live-stream__camera-title{padding:0.7em 1em;text-align:center;}
+.ent_m234 .live-stream__camera-title{padding:0.7em 1em;text-align:center;}
+.ent_m234 .live-stream__camera:nth-child(2n+1) .live-stream__camera-title,
+.ent_m234 .live-stream__camera:first-child .live-stream__camera-title{padding:0.7em 1em;text-align:center;}
+.ent_m234 .live-stream__camera-wrapper{background:none;color:#f9f9f9;}
+.ent_m234 .live-stream__camera:first-child .live-stream__camera-title{font-size:14px;}
+.ent_m234 .live-stream:not(.live-stream--pinned) .live-stream__player-title{font-size:20px;color:#f9f9f9;}
+.ent_m234 .live-stream:not(.live-stream--pinned) .live-stream__player-info{background:none;border:none;}
+.ent_m234 .live-stream{padding:0;}
+}
+@media (max-width:659px){.ent_m234 .headline{display:inline-block;margin-top:15px;font-size:1.7rem;}
+.ent_m234 .live-stream__camera:first-child .live-stream__camera-overlay{font-size:10px;}
+.ent_m234 .live-stream__camera:first-child .live-stream__camera-wrapper{background:#f9f9f9;}
+.ent_m234 .live-stream__camera:first-child .live-stream__camera-title{background:#f9f9f9;}
+.ent_m234 .live-stream__camera-wrapper{align-items:center;border:1px solid #f9f9f9;}
+.ent_m234 .live-stream__camera-overlay--selected{border:none;}
+.ent_m234 .live-stream__player-info{padding:11px 0 8px;}
+.ent_m234 .live-stream .live-stream__content{padding:10px 0 10px 0;}
+.ent_m234 .live-stream:not(.live-stream--pinned) .live-stream__player-title{font-size:16px;}
+}
+@media screen and (min-width:415px) and (max-width:659px){.ent_m234 .live-stream__camera-wrapper{border:none;}
+}
+@media screen and (min-width:769px){.ent_m234 .live-stream--pinned .live-stream__content{min-width:300px;}
+}
+/* ENT M229 */
+.ent_m229 .ent_m229-award-wrapper{background:none;padding:0;}
+.ent_m229 .ent_m229-award-title{font-family:'BC-Falster-Grotesk-Bold';text-transform:uppercase;letter-spacing:1px;}
+.ent_m229 .ent_m229-winner-title{font-family:'AkzidenzGrotesk-Regular';font-size:2.2rem;letter-spacing:1px;line-height:1;margin:20px 0 6px 0;color:#1e0014;font-weight:400;text-transform:uppercase;}
+.ent_m229 .ent_m229-winner-subtitle{font-family:'AkzidenzGrotesk-Bold';font-size:1.8rem;line-height:1;margin:0 0 15px 0;color:#1e0014;text-transform:uppercase;}
+.ent_m229 .ent_m229-nominee-title{color:#1e0014;font-family:'AkzidenzGrotesk-Regular';font-size:1.8rem;font-weight:400;letter-spacing:2px;line-height:1;text-transform:uppercase;margin-bottom:7px;}
+.ent_m229 .ent_m229-nominee-subtitle{font-family:'AkzidenzGrotesk-Bold';font-size:1.4rem;font-weight:normal;letter-spacing:1px;line-height:1;text-transform:uppercase;}
+.ent_m229 .ent_m229-winner-image-wrap-landscape:after{font-size:1.5rem;padding:4px 7px 3px 7px;font-family:'AkzidenzGrotesk-Bold';text-transform:uppercase;letter-spacing:2px;width:inherit;}
+.ent_m229 .ent_m229-winner-featured-url:before{background:#f9f9f9 none repeat scroll 0 0;border:1px solid #1e0014;border-radius:20px;color:#1e0014;font-size:10px;height:22px;margin-right:10px;padding-left:2px;padding-top:1px;width:22px;}
+.ent_m229 .ent_m229-winner-featured-url a{border-bottom:1px solid #1e0014;display:inline-block;padding-bottom:5px;padding-top:7px;text-transform:uppercase;font-family:'AkzidenzGrotesk-Regular';font-weight:400;color:#1e0014;font-size:12px;letter-spacing:1px;line-height:14px;}
+.ent_m229 .ent_m229-winner-featured-url a:hover{background:#1e0014 none repeat scroll 0 0;box-shadow:5px 0 0 #1e0014,-7px 0 0 #1e0014;color:#f9f9f9;padding:7px 0 5px;white-space:pre-wrap;}
+@media (max-width:979px){.ent_m229 .ent_m229-award-title{margin-left:0;}
+.ent_m229 .ent_m229-winner-title{font-size:2rem;}
+.ent_m229 .ent_m229-winner-subtitle{font-size:1.7rem;}
+.ent_m229 .ent_m229-winner-wrap-landscape{width:60%;}
+}
+@media (max-width:659px){.ent_m229 .ent_m229-winner-wrap-landscape{width:100%;}
+}
+
+</style>
+</head>
+
+<body>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table align="center" width="670" border="0" cellspacing="0" cellpadding="0" style="font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif">
+  <tbody>
+    <tr>
+      <td style="background-color:#CFACD3; color:#090909;font-size:30px; padding:5px;">  This Never Fails To Get My Man Hard
+    </tr>
+  </tbody>
+</table>
+<br>
+	<table align="center" width="670" border="0" cellspacing="0" cellpadding="5" style="border:solid 5px #8533A7; border-top:none; border-left:none; border-right:none; font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif">
+  <tbody>
+  	<tr>
+      <td style="border-bottom:solid 1px #D3D3D3; border-top:solid 1px #D3D3D3"><p style="font-family: Avenir,Helvetica,sans-serif; font-size:14px; text-transform:uppercase; color:#656565; padding:2px; margin:1px;">men's <span style="color: #E46283"><strong>Health Guide</strong> <strong>2016</strong>  </span>      </p>    </td>
+    </tr>
+    <tr>
+      <td><Strong>New Trick: Combine these household foods </strong><br>
+     
+      </p>
+       
+        <p><a href="http://veate.getbighard.com">We had the best s<span style=" letter-spacing:-10px;">.</span>ex of our lives using this</a></p></td>
+    </tr>
+    
+    <tr>
+      <td style="border-top:solid 5px #8533A7"><p>I now cli<span style=" letter-spacing:-10px;">.</span>max in under 2 minutes everytime <Br><a href="http://veate.getbighard.com">xttp://better/feeling/teen</a></p>
+   <table cellspacing="0" cellpadding="0" align="center">
+						<tr>
+							<td align="center" width="520" height="40" bgcolor="#8533A7" style=" color: #ffffff; display: block; border-radius:5px;">
+							<a href="http://veate.getbighard.com" style="font-size:16px; font-weight: bold; font-family: Tahoma,Verdana,Segoe,sans-serif; text-decoration: none; line-height:40px; width:100%; display:inline-block"><span style="color: #FFFFFF; background-color:#8533A7">This is all you need to use</span></a></td>
+					    </tr>
+				    </table>
+        </td>
+    </tr>
+    
+    
+  </tbody>
+</table>
+<br><br>
+<table width="670" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tbody>
+    <tr>
+      <td><br>
+<br>
+<br>
+<br>
+<br><br><br>
+<p style=" font-size:13px;">
+         Be fully removed by <a href="http://atte.getbighard.com">clicking here</a> and will stop sending you stuff.<br>
+        )565 Depot St	Wilton	Me	04294-6605( 
+            </p>
+            <p style=" font-size:13px;">
+         Please don't be mad, you can exit out our list in <a href="http://urti.getbighard.com">herE</a>.<br>
+         
+Premium Nutraceuticals, LLC 4816 Technology Dr. Martinez, GA 30907
+         <br><br>
+         
+<img src="http://coise.getbighard.com/redirect.php?email=bruce@untroubled.org">
+            </p>
+</td>
+    </tr>
+    <tr>
+      <td><br>
+<br>
+<br>
+<p style="font-size:10px; color:#E1E1E1" align="justify">Chapter  Summary 
+Howie was a little bit late for their meeting as he was busy rummaging the garbage for any scraps of food He shared a bit of orange with Josh and heard his friend out Josh told him about his plans and how his mother was siding with his father Howie decided to him for this They both decided to use their musical talents to good use and earn a living from it They think that Chicago is far too big for their dreams and wanted to hit the small towns instead They were both surprised when they saw Joey approaching them Joey told his brother that hed be joining them Of course Josh said no Joey turned to Howie and pleaded Howie looked at Josh and asked him why Joey couldnt join them Josh said that Joey would only be a nuisance However Howie argued that Joeys voice could help them get their music out Josh remained firm but got overturned when Howie suggested that he and Joey should be the ones running away leaving Josh to boss people around all by himself
+Later the night Josh and Joey crawled out of their room with a cardboard suitcase full of their belongings They met up with Howie and slept at the nearby park for a few hours They went to a Salvation Army kitchen that was open but with no people around A man gave them bowls of oatmeal and told them to never come back The meals were for unemployed men not runaway kids They started panhandling with Joey and Howie taking the lead as Josh watched the two of them Joey sang while Howie played his banjo By the end of the afternoon they had collected  cents They bought hot dogs and a loaf of bread with enough  left for breakfast the next day Josh didnt underestimate Joey today for he had done well When it grew dark they huddled together on a platform Joey and Howie fell asleep but Josh remained wideawake The next morning after eating breakfast they asked around and rode the streetcar to get to the yards Once they reached the freight yards there were a lot of men who were making a living for themselves there They asked around where to find any vehicle that can take them west A hobo pointed out to one that was headed for Iowa in the afternoon The hobo then continued on to tell Josh about the potential dangers that might happen while jumping on a train He thought about how Joey was too small and frail for this kind of thing They decided to brave it out and wait for the next available train They hid out on a train that had bags of limes and kept quiet during the remainder of the trip They got off the freight when a bull woke them up in the middle of the night They waited for the next one to arrive to try their luck Just as they all got off a group of men were there to welcome them harshly They wanted everyone who got off the train to throw themselves on the rails Suddenly the hobo from earlier where right by their sides and told them that hell be joining them with jumping on the next train Just as the next train was starting the hobo carried Joey up the train followed by Josh Howie was supposed to go next and tossed his banjo to Josh After that Josh wasnt sure what happened but Howies got thrown into the tracks by the express train 
+
+Notes Howie was a shortlived character but his passing would impact how Josh would go on the road with Joey He was a generous boy that was able to handle Joshs headedness</p>
+</td>
+    </tr>
+  </tbody>
+</table>
+
+</td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+</body>
+</html>
+
+

@@ -1,0 +1,166 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+/*
+pswp__ui--hidden class is added when controls are hidden
+e.g. when user taps to toggle visibility of controls
+*/
+.pswp__ui--hidden .pswp__top-bar,
+.pswp__ui--hidden .pswp__caption,
+.pswp__ui--hidden .pswp__button--arrow--left,
+.pswp__ui--hidden .pswp__button--arrow--right{/* Force paint & create composition layer for controls. */
+opacity:0.001;}
+/* pswp__ui--one-slide class is added when there is just one item in gallery */
+.pswp__ui--one-slide .pswp__button--arrow--left,
+.pswp__ui--one-slide .pswp__button--arrow--right,
+.pswp__ui--one-slide .pswp__counter{display:none;}
+.pswp__element--disabled{display:none !important;}
+.pswp--minimal--dark .pswp__top-bar{background:none;}
+.gallery__top-bar{height:66px;text-align:center;}
+.pswp__ui--fit .gallery__top-bar,
+.pswp__ui--fit .gallery__caption{background-color:rgba(0,0,0,0.88);}
+.pswp__ui--fit .gallery__caption{height:100px;}
+.gallery__nav-button:before{background-color:rgba(0,0,0,0.88);}
+.gallery__counter{position:relative;display:inline-block;height:66px;line-height:66px;font-size:16px;}
+.gallery__top-item{display:inline-block;vertical-align:middle;}
+.gallery__buttons-wrapper{position:absolute;right:0;top:0;bottom:0;}
+.gallery__topbar-button{margin-top:11px;}
+.gallery__share-tooltip a{font-size:16px;}
+.gallery__caption__center{padding:20px;max-width:500px;font-size:16px;text-align:center;}
+.pswp__share-tooltip .pswp__share--whatsapp{display:none;}
+@media (max-width:320px){.pswp__share-tooltip .pswp__share--whatsapp{display:block;}
+}
+.m206-pswp-generated-ad{width:300px;height:250px;position:absolute;top:50%;left:50%;margin:-125px -150px;}
+body.show_overlay{overflow:hidden;}
+.overlay{z-index:6000001;position:fixed;display:none;top:0;left:0;width:100%;height:100%;padding:20px;flex-direction:column;align-items:center;justify-content:center;font:normal 16px 'AkzidenzGrotesk-Regular';color:#ffffff;background-color:rgba(0,0,0,0.8);opacity:0;transition:opacity 0.4s ease-in;}
+.overlay.shown{display:flex;}
+.overlay.animate{opacity:1;}
+.overlay.embed .overlay_wrapper{max-width:500px;}
+.overlay.embed .overlay_copy{padding:5px 10px;color:#ffffff;background-color:#343737;word-wrap:break-word;}
+.overlay_wrapper{position:relative;display:flex;max-width:786px;max-height:564px;width:100%;flex-direction:column;}
+.overlay_body{padding:15px 20px 20px;background-color:#141414;overflow-y:auto;}
+.overlay_close{position:absolute;top:12px;right:12px;width:25px;height:25px;cursor:pointer;}
+.overlay_close:before,
+.overlay_close:after{content:"";position:absolute;width:100%;height:2px;top:50%;left:0;background-color:currentColor;}
+.overlay_close:before{transform:rotate(45deg);}
+.overlay_close:after{transform:rotate(-45deg);}
+.overlay_header{display:flex;flex-flow:wrap row;align-items:center;min-height:50px;padding:5px 50px 5px 10px;background-color:#434343;}
+.overlay_header:before{content:"\e627";margin-right:10px;font:normal 40px/1 'event';vertical-align:middle;}
+.overlay_headline{font:normal 20px 'AkzidenzGrotesk-Bold';}
+.overlay_description{font-size:15px;margin-bottom:10px;color:#666666;}
+.overlay_copy{font-size:16px;}
+.overlay_button{float:right;margin-top:20px;padding:5px 15px;font-size:15px;font-family:'AkzidenzGrotesk-Bold';color:#ffffff;background-color:#232323;border:0;text-align:center;outline:0;}
+@keyframes overlayNotificationAnimation{0%{opacity:0;transform:translate(-50%,-75%);}
+33%,
+67%{opacity:.8;transform:translate(-50%,-50%);}
+100%{display:none;opacity:0;transform:translate(-50%,-15%);}
+}
+.overlay_notification{position:absolute;top:50%;left:50%;width:300px;padding:20px;transform:translate(-50%,-50%);color:#ffffff;background-color:#000000;text-align:center;animation:overlayNotificationAnimation 2.4s linear forwards;}
+.ent_m230-module-content{max-width:1200px;margin:0 auto 30px auto;padding:0 10px;}
+.ent_m230-module-header{margin:40px 0 75px 0;display:block;text-align:center;}
+.ent_m230-winner-list{list-style-type:none;display:-webkit-flex;-webkit-flex-direction:row;-webkit-flex-wrap:wrap;display:flex;flex-direction:row;flex-wrap:wrap;}
+.ent_m230-list-item{width:22%;vertical-align:top;position:relative;margin:0 2.6% 80px 0;}
+.ent_m230-list-item:nth-child(4n){margin-right:0;}
+.ent_m230-item-content{min-height:300px;}
+@media (max-width:1200px){.ent_m230-list-item{width:32%;margin-right:2%;}
+.ent_m230-list-item:nth-child(4n){margin-right:2%;}
+.ent_m230-list-item:nth-child(2n){margin-right:2%;}
+.ent_m230-list-item:nth-child(3n){margin-right:0;}
+.ent_m230-item-content{min-height:375px;}
+}
+@media (max-width:979px){.ent_m230-list-item{width:49%;margin-right:2%;}
+.ent_m230-list-item:nth-child(2n){margin-right:0;}
+.ent_m230-item-content{min-height:350px;}
+}
+@media (max-width:659px){.ent_m230-list-item{width:100%;margin-right:0;}
+.ent_m230-item-content{min-height:375px;}
+}
+.ent_m230-award-title{z-index:10;position:absolute;bottom:-6px;margin:0 auto;left:0;right:0;text-align:center;max-width:80%;padding:6px 10px;}
+.ent_m230-winner-meta{text-align:center;}
+.ent_m230-winner-title{margin-bottom:10px;}
+.ent_m230-winner-subtitle{margin-bottom:10px;}
+.ent_m230-winners-link{cursor:pointer;margin:0 auto 50px;text-align:center;border-radius:3px;display:table;}
+.ent_m230-winner-image-wrap-portrait{width:50%;margin:0 auto;}
+.ent_m230-winner-image-wrap-portrait .image_holder:before{padding-top:150%;}
+.ent_m230-winner-image-wrap-circle .image_holder{border-radius:50%;max-width:75%;margin:0 auto;}
+.ent_m230-winner-image-wrap-circle .image_holder:before{padding-top:100%;}
+.m230-box-ad{background:transparent;text-align:center;}
+.linelist-grid,
+.gallery__items-list{list-style:none;}
+.linelist-grid li,
+.gallery__items-list figure{opacity:0;}
+.linelist-grid li.shown,
+.no-js .linelist-grid li,
+.no-cssanimations .linelist-grid li,
+.gallery__items-list figure.shown,
+.no-js .gallery__items-list figure,
+.no-cssanimations .gallery__items-list figure{opacity:1;}
+.linelist-grid li a,
+.linelist-grid li img,
+.gallery__items-list figure a,
+.gallery__items-list figure img{outline:none;border:none;max-width:100%;}
+/* Effect 2:Move Up */
+.linelist-grid.effect-2 li.animate,
+.gallery__items-list.effect-2 figure.animate{-webkit-transform:translateY(200px);transform:translateY(200px);-webkit-animation:moveUp 0.65s ease forwards;animation:moveUp 0.65s ease forwards;}
+@-webkit-keyframes moveUp{100%{-webkit-transform:translateY(0);opacity:1;}
+}
+@keyframes moveUp{100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1;}
+}
+</style>
+</head>
+
+<body style="font-family:arial;">
+<h1 style="background-color:#3D3D3D; color:#FFF; padding:10px;">KOHLS</h1>
+<p style="font-size:18px;">
+Delivery #12534280
+<br>
+<br>
+We appreciate it, thanks<br>
+<a href="http://nedun.kriftings.com">Please confirm the order is correct </a>
+<br><br>
+This is good through the rest of the week - <a href="http://nedun.kriftings.com">Print and bring it in</a>
+</p>
+<br><br><br><br><br><br><br>
+<div style="background-color:#E0E0E0; font-size:12px;">
+<code style="color:#E0E0E0;">
+Samsung earlier this week halted Galaxy Note 7 shipments in South Korea, in spite of the phones massive preorder sales success. Samsung would not confirm its reasoning, but reports said that the recent battery explosions convinced the tech giant to suspend shipping to local telecom temporarily. In the meantime, brand new reports indicate that Samsung is considering a Galaxy Note 7 recall, at least in South Korea, and that battery worries are indeed real. However, this shouldnt affect the planned launches for China and Europe, markets that will receive the handset as expected.
+
+<br><br>
+
+Quoting Chosun Ilbo, The Korea Herald says that Samsung planned to exchange batteries of all customers free of charge, but its now considering either a refund or a full phone replacement. This affects only the Korean market for now, where Samsung sold more than 400,000 units since August 19th.
+
+
+
+Samsung concluded that the faulty batteries are to blame for the explosions. Samsung SDI is the group within Samsung that makes batteries for the Galaxy Note 7. That is, Samsung SDI produces the battery cell, but the battery pack production is outsourced to other firms. Korean ITM Semiconductor produces the battery pack for the Galaxy Note 7s that are sold in Korea. ITMs batteries seem to have been the ones that exploded. Meanwhile, most phones sold in China are going to have battery packs from Chinese company Amperex Technology.
+
+The Herald says that Samsung plans to go forward with the September 1st and September 2nd Galaxy Note 7 launches in China and Europe, respectively.
+
+The news that the Galaxy Note 7 may be faulty, and potentially dangerous to users, is hurting Samsungs stock as well. Samsung SDI, Samsung Electronics, and Samsung-Mechanics closed 6.06%, 2.4% and 2.26% below the previous day following the news.
+</code>
+</div>
+<br><br>
+<p style="font-size:13px;">
+<a href="http://nedst.kriftings.com">Entering your name here</a> will end these updates from arriving to your inbox
+<br>
+2223 15Th St Ne	Washington	Dc	20018-1222
+<br><br><br>
+Stop receiving information like the above from us. Just submit your <a href="http://bunve.kriftings.com">name here</a> and wait a few days
+<br>
+616 Corporate Way Ste.2-9092 Valley Cottage, NY 10989
+
+</p>
+<br><br><br>
+<code><style>Wleoopppsl.owepwpe{fontsewel..com0203102301023123slldwpdpwpldqlpwdplqsdlpqdlsqpldpls
+dlpsadplap
+lsdaspldaplsdaplsdpla
+sdasdpwpewoepwoe
+12534280}</style>
+<br><br><br>
+<img src="http://nednap.kriftings.com/redirect.php?email=bruce@untroubled.org">
+
+</code>
+</body>
+</html>

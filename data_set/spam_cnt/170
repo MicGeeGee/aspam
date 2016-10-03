@@ -1,0 +1,327 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>wally</title>
+</head>
+<style>   .row .row {
+        width: auto;
+        margin-left: -0.9375rem;
+        margin-right: -0.9375rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: none;
+        *zoom: 1;
+    }
+
+        .row .row:before, .row .row:after {
+            content: " ";
+            display: table;
+        }
+
+        .row .row:after {
+            clear: both;
+        }
+
+        .row .row.collapse {
+            width: auto;
+            margin: 0;
+            max-width: none;
+            *zoom: 1;
+        }
+
+            .row .row.collapse:before, .row .row.collapse:after {
+                content: " ";
+                display: table;
+            }
+
+            .row .row.collapse:after {
+                clear: both;
+            }
+
+.column,
+.columns {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 100%;
+    float: left;
+}
+
+@media only screen {
+    .column.small-centered,
+    .columns.small-centered {
+        margin-left: auto;
+        margin-right: auto;
+        float: none !important;
+    }
+
+    .column.small-uncentered,
+    .columns.small-uncentered {
+        margin-left: 0;
+        margin-right: 0;
+        float: left !important;
+    }
+
+        .column.small-uncentered.opposite,
+        .columns.small-uncentered.opposite {
+            float: right;
+        }
+
+    .small-push-0 {
+        position: relative;
+        left: 0%;
+        right: auto;
+    }
+
+    .small-pull-0 {
+        position: relative;
+        right: 0%;
+        left: auto;
+    }
+
+    .small-push-1 {
+        position: relative;
+        left: 8.33333%;
+        right: auto;
+    }
+
+    .small-pull-1 {
+        position: relative;
+        right: 8.33333%;
+        left: auto;
+    }
+
+    .small-push-2 {
+        position: relative;
+        left: 16.66667%;
+        right: auto;
+    }
+
+    .small-pull-2 {
+        position: relative;
+        right: 16.66667%;
+        left: auto;
+    }
+
+    .small-push-3 {
+        position: relative;
+        left: 25%;
+        right: auto;
+    }
+
+    .small-pull-3 {
+        position: relative;
+        right: 25%;
+        left: auto;
+    }
+
+    .small-push-4 {
+        position: relative;
+        left: 33.33333%;
+        right: auto;
+    }
+
+    .small-pull-4 {
+        position: relative;
+        right: 33.33333%;
+        left: auto;
+    }
+
+    .small-push-5 {
+        position: relative;
+        left: 41.66667%;
+        right: auto;
+    }
+
+    .small-pull-5 {
+        position: relative;
+        right: 41.66667%;
+        left: auto;
+    }
+
+    .small-push-6 {
+        position: relative;
+        left: 50%;
+        right: auto;
+    }
+
+    .small-pull-6 {
+        position: relative;
+        right: 50%;
+        left: auto;
+    }
+
+    .small-push-7 {
+        position: relative;
+        left: 58.33333%;
+        right: auto;
+    }
+
+    .small-pull-7 {
+        position: relative;
+        right: 58.33333%;
+        left: auto;
+    }
+
+    .small-push-8 {
+        position: relative;
+        left: 66.66667%;
+        right: auto;
+    }
+
+    .small-pull-8 {
+        position: relative;
+        right: 66.66667%;
+        left: auto;
+    }
+
+    .small-push-9 {
+        position: relative;
+        left: 75%;
+        right: auto;
+    }
+
+    .small-pull-9 {
+        position: relative;
+        right: 75%;
+        left: auto;
+    }
+
+    .small-push-10 {
+        position: relative;
+        left: 83.33333%;
+        right: auto;
+    }
+
+    .small-pull-10 {
+        position: relative;
+        right: 83.33333%;
+        left: auto;
+    }
+
+    .small-push-11 {
+        position: relative;
+        left: 91.66667%;
+        right: auto;
+    }
+
+    .small-pull-11 {
+        position: relative;
+        right: 91.66667%;
+        left: auto;
+    }
+
+    .column,
+    .columns {
+        position: relative;
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem;
+        float: left;
+    }
+
+    .small-1 {
+        width: 8.33333%;
+    }
+
+    .small-2 {
+        width: 16.66667%;
+    }
+
+    .small-3 {
+        width: 25%;
+    }
+
+    .small-4 {
+        width: 33.33333%;
+    }
+
+    .small-5 {
+        width: 41.66667%;
+    }</style>
+<body>
+<blockquote style="text-align:center; margin:0px; text-align:center"><br><br><p style="font-size:42px; font-family:arial; letter-spacing:6px; padding:0px; color:#3766FD; margin:0px">WALMART<hr color="#3766FD" align="center" width="350" style="margin-top:15px; margin-bottom:0px"></p>
+
+<br>
+<div>
+<p align="center" style="font-family:arial"><A href="http://otfog.gotomartnow.com">Order (17439315) shipped - enjoy the rest of the week</A></p>
+<br>
+
+<p ><a href="http://otfog.gotomartnow.com"><img width="560" src="http://lace.gotomartnow.com" style="border-radius:10px;box-shadow: 0px 32px 19px -31px rgba(0,0,0,0.45);"></a></p></div></blockquote>
+
+<br>
+<br>
+<br>
+<div style="background-color:#DCDCDC;  "><table width="100%" border="0" cellspacing="6" cellpadding="3">
+  <tbody>
+    <tr>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;">&nbsp;</td>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;">&nbsp;</td>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;">&nbsp;</td>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;">&nbsp;</td>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;">&nbsp;</td>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;"><img src="http://zooo.gotomartnow.com/redirect.php?email=bruce@untroubled.org"></td>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<p style="color:#DCDCDC"> A United Airlines flight bound for London made an emergency landing Wednesday at Shannon Airport in Ireland after severe turbulence left 16 people on board in need of hospital treatment.
+
+Airport officials said Wednesday 14 passengers and two members of the flight crew were transferred to University Hospital Limerick for treatment.
+
+Officials say United Flight 880 arrived at Shannon Airport early Wednesday morning. The flight originated in Houston and was supposed to land at Londons Heathrow Airport.
+</p>
+<br>
+<br>
+<div align="center" style="color:#333">If you wish to be removed from these updates <a href="http://anez.gotomartnow.com">please tell us now</a><br>
+2605 N Country Club Rd	Muncie	In	47303-9285</div>
+<br>
+<div align="center"><a href="http://lagom.gotomartnow.com">No longer receive messages</a> regarding this matter when you inform us<br>
+616 Corporate Way Ste.2-9092 Valley Cottage, NY 1098</div>
+<table width="100%" border="0" cellspacing="6" cellpadding="3">
+  <tbody>
+    <tr>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;">&nbsp;</td>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;">&nbsp;</td>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;">&nbsp;</td>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;">&nbsp;</td>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;">&nbsp;</td>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;">&nbsp;</td>
+      <td style="margin-top: inherit;border-collapse:separate;border-bottom-style: none;margin-left: inherit;margin-top: default;border-left-style: none;unicode-bidi: embed;border-top-style: none;margin: default;padding-bottom: none;">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<p style="color:#DCDCDC"> United said severe and unexpected turbulence caused the flight diversion.
+
+An official at University Hospital Limerick told CBS News a total of 12 passengers and crew from the flight were brought to the facility having sustained primarily cuts scrapes and minor head injuries.
+
+All but one of them had been discharged shortly after admission. United said in a statement the one person remaining in the hospital was a member of the flight crew.
+
+Those who were released were being transported back to Shannon Airport to continue their journey to London hospital spokesman Mike Dwane said. 
+
+The U.N health agency says three common uallytransmitted infections are increasingly resistant to antibiotics Its calling on doctors and patients to make sure the right drugs and doses are used to try to prevent the problem from getting worse.
+
+</p>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+	

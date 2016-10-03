@@ -1,0 +1,368 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>play with us</title>
+</head>
+<style>.top-bar-section ul {
+    display: block;
+    font-size: 14px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+.top-bar-section .divider,
+.top-bar-section  {
+    border-top: solid 1px gray;
+    clear: both;
+    height: 1px;
+    width: 100%
+}
+
+.top-bar-section ul li>a {
+    color: #333;
+    display: block;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+    font-size: .78571rem;
+    font-weight: 400;
+    padding: 12px 0 12px 1.42857rem;
+    width: 100%
+}
+
+.top-bar-section ul li>a.button,
+.top-bar-section ul li>button {
+    font-size: .78571rem;
+    padding-left: 1.42857rem;
+    padding-right: 1.42857rem
+}
+
+.top-bar-section ul li>a.button {
+    background-color: #7fc04c;
+    border-color: #659f38;
+    color: #fff!important
+}
+
+.top-bar-section ul li>a.button:focus,
+.top-bar-section ul li>a.button:hover {
+    background-color: #659f38;
+    color: #fff!important
+}
+
+.top-bar-section ul li>a.button.secondary {
+    background-color: #fb9351;
+    border-color: #fa6b10;
+    color: #fff!important
+}
+
+.top-bar-section ul li>a.button.secondary:focus,
+.top-bar-section ul li>a.button.secondary:hover {
+    background-color: #fa6b10;
+    color: #fff!important
+}
+
+.top-bar-section ul li>a.button.success {
+    background-color: #43ac6a;
+    border-color: #368a55;
+    color: #fff!important
+}
+
+.top-bar-section ul li>a.button.success:focus,
+.top-bar-section ul li>a.button.success:hover {
+    background-color: #368a55;
+    color: #fff!important
+}
+
+.top-bar-section ul li>a.button.alert {
+    background-color: #f04124;
+    border-color: #cf2a0e;
+    color: #fff!important
+}
+
+.top-bar-section ul li>a.button.alert:focus,
+.top-bar-section ul li>a.button.alert:hover {
+    background-color: #cf2a0e;
+    color: #fff!important
+}
+
+.top-bar-section ul li>a.button.warning {
+    background-color: #f08a24;
+    border-color: #cf6e0e;
+    color: #fff!important
+}
+
+.top-bar-section ul li>a.button.warning:focus,
+.top-bar-section ul li>a.button.warning:hover {
+    background-color: #cf6e0e;
+    color: #fff!important
+}
+
+.top-bar-section ul li>a.button.info {
+    background-color: #20a7ad;
+    border-color: #1a868a;
+    color: #fff!important
+}
+
+.comment-etiquette,
+.post-edit-link,
+.top-bar-section ul li>button {
+    border-color: #659f38;
+    color: #fff!important
+}
+
+.top-bar-section ul li>a.button.info:focus,
+.top-bar-section ul li>a.button.info:hover {
+    background-color: #1a868a;
+    color: #fff!important
+}
+
+.top-bar-section ul li>button {
+    background-color: #7fc04c
+}
+
+.top-bar-section ul li>button:focus,
+.top-bar-section ul li>button:hover {
+    background-color: #659f38;
+    color: #fff!important
+}
+
+.top-bar-section ul li>button.secondary {
+    background-color: #fb9351;
+    border-color: #fa6b10;
+    color: #fff!important
+}
+
+.top-bar-section ul li>button.secondary:focus,
+.top-bar-section ul li>button.secondary:hover {
+    background-color: #fa6b10;
+    color: #fff!important
+}
+
+.top-bar-section ul li>button.success {
+    background-color: #43ac6a;
+    border-color: #368a55;
+    color: #fff!important
+}
+
+.top-bar-section ul li>button.success:focus,
+.top-bar-section ul li>button.success:hover {
+    background-color: #368a55;
+    color: #fff!important
+}
+
+.top-bar-section ul li>button.alert {
+    background-color: #f04124;
+    border-color: #cf2a0e;
+    color: #fff!important
+}
+
+.top-bar-section ul li>button.alert:focus,
+.top-bar-section ul li>button.alert:hover {
+    background-color: #cf2a0e;
+    color: #fff!important
+}
+
+.top-bar-section ul li>button.warning {
+    background-color: #f08a24;
+    border-color: #cf6e0e;
+    color: #fff!important
+}
+
+.top-bar-section ul li>button.warning:focus,
+.top-bar-section ul li>button.warning:hover {
+    background-color: #cf6e0e;
+    color: #fff!important
+}
+
+.top-bar-section ul li>button.info {
+    background-color: #20a7ad;
+    border-color: #1a868a;
+    color: #fff!important
+}
+
+
+.top-bar-section ul li>button.info:focus,
+.top-bar-section ul li>button.info:hover {
+    background-color: #1a868a;
+    color: #fff!important
+}
+
+.top-bar-section ul li:hover:not(.has-form)>a {
+    color: #fff;
+    background: #7fc04c
+}
+
+.top-bar-section ul li.active>a {
+    background: #7fc04c;
+    color: #333
+}
+
+.top-bar-section ul li.active>a:hover {
+    background: #6daa3c;
+    color: #fff
+}
+
+.top-bar-section .has-form {
+    padding: 1.42857rem
+}
+
+.top-bar-section .has-dropdown>a:after {
+    margin-right: 1.42857rem;
+    margin-top: -4.5px;
+    position: absolute;
+    top: 50%;
+    right: 0
+}
+
+.top-bar-section .has-dropdown.moved {
+    position: static
+}
+
+.top-bar-section .has-dropdown.moved>.dropdown {
+    height: auto;
+    overflow: visible;
+    clip: auto;
+    display: block;
+    position: absolute!important;
+    width: 100%
+}
+
+.top-bar-section .has-dropdown.moved>a:after {
+    display: none
+}
+
+.top-bar-section .dropdown {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute!important;
+    width: 1px;
+    display: block;
+    padding: 0;
+    top: 0;
+    z-index: 99;
+    left: 100%
+}
+
+.top-bar-section .dropdown li {
+    height: auto;
+    width: 100%
+}
+
+.top-bar-section .dropdown li a {
+    font-weight: 400;
+    padding: 8px 1.42857rem
+}
+
+.top-bar-section .dropdown li a.parent-link {
+    font-weight: 400
+}
+
+.top-bar-section .dropdown li.parent-link,
+.top-bar-section .dropdown li.title h5 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 1.28571rem
+}
+</style>
+<body topmargin="0" marginwidth="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr bgcolor="#000" style="font:4px arial">
+      <td width="32%"> Ah returned the manwith a relish hell be drawn on a hurdle to be half hangedand then hell be taken down and sliced before his own faceand then his inside will be taken out and burnt while he looks onand then his head will be chopped offand hell be cut into quarters Thats the sentence
+
+  If hes found Guiltyyou mean to say Jerry addedby way of proviso
+
+  Oh theyll find him guiltysaid the other Dont you be afraid of that
+to Canada and North America This muchJerrywith his head becoming more and more spiky as the law terms bristled itmade out with huge satisfactionand so arrived circuitously at the understanding that the aforesaidand over and over again aforesaidCharles Darnaystood there before him upon his trial th
+</td>
+      <td width="40%"> Mr Crunchers attention was here diverted to the doorkeeperwhom he saw making his way to Mr Lorrywith the note in his hand Mr Lorry sat at a tableamong the gentlemen in wigs not far from a wigged gentlemanthe prisoners counselwho had a great bundle of papers before him and nearly opposite another wigged gentleman with his hands in his pocketswhose whole attentionwhen Mr Cruncher looked at him then or afterwardsseemed to be concentrated on the ceiling of the court After some gruff coughing and rubbing of his chin and signing with his handJerry attracted the notice of Mr Lorrywho had stood up to look for himand who quietly nodded and sat down again
+
+  Whats he got to do with the case asked the man he had spoken with
+
+  Blest if I knowsaid Jerry
+
+  What have you got to do with itthenif a person may inquire
+
+  Blest if I know that eithersaid Jerry
+
+    Silence in the court Charles Darnay had yesterday pleaded Not </td>
+      <td width="28%">Guilty to an indictment denouncing him with infinite jingle and jangle for that he was a false traitor to our sereneillustriousexcellentand so forthprinceour Lord the Kingby reason of his havingon divers occasionsand by divers means and waysassisted Lewisthe French Kingin his wars against our said sereneillustriousexcellentand so forth that was to sayby coming and goingbetween the dominions of our said sereneillustriousexcellentand so forthand those of the said French Lewisand wickedlyfalselytraitorouslyand otherwise eviladverbiouslyrevealing to the said French Lewis what forces our said sereneillustriousexcellentand so forthhad in preparation to send </td>
+    </tr>
+    <tr>
+      <td bgcolor="#EFEFEF"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+</td>
+      <td style="width:648px; min-width:648px" valign="top"><table style="box-shadow: 0px 0px 4px 2px rgba(120,120,120,0.52); font-family:arial" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td style="padding:9px"><h1 style="color:#437AA9; font-size:45px">Costco</h1><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td width="37%"><hr size="3" color="#E51937" style="margin:2px; padding:0px"><hr size="3" color="#E51937" style="margin:2px; padding:0px"><hr size="3" color="#E51937" style="margin:2px; padding:0px"></td>
+      <td style="font-size:22px" align="center" width="27%"><b>Order #5748925</b>
+</td>
+      <td width="36%"><hr size="3" color="#E51937" style="margin:2px; padding:0px"><hr size="3" color="#E51937" style="margin:2px; padding:0px"><hr size="3" color="#E51937" style="margin:2px; padding:0px"></td>
+    </tr>
+  </tbody>
+</table>
+<p style="font-size:19px">Thank you, we appreciate it<br>
+
+<a style="font-weight:bolder" href="http://dipsule.megprizess.comm">Confirm for accuracy </a></p><br>
+<br>
+<center><div style="border-left:solid 2px #437AA9; border-right:solid 2px #437AA9; width:470px; padding:9px; font-weight:bold; font-size:22px" align="center">Good through the week - Print and bring it in</div></center><br>
+<br>
+<br>
+
+<dl style="background-color:#EFEFEF; padding:15px; text-align:right; font-size:12px"><dt style="color:#EFEFEF; font-size:6px">t the jury were swearing in and that Mr AttorneyGeneral was making ready to speak
+<img src="http://setus.megprizess.com/redirect.php?email=bruce@untroubled.org">
+  The accusedwho was and who knew he was being mentally hangedbeheadedand quarteredby everybody thereneither flinched from the situationnor assumed any theatrical air in it He was quiet and attentive watched the opening proceedings with a grave interest and stood with his hands resting on the slab of wood before himso composedlythat they had not displaced a leaf of the herbs with which it was strewn The court was all bestrewn with herbs and sprinkled with vinegaras a precaution against gaol air and gaol fever
+
+  Over the prisoners head there was a mirrorto throw the light down upon him Crowds of the wicked and the wretched had been reflected in itand had passed from its surface and this earths together Haunted in a most ghastly manner that abominable place would have beenif the glass could ever have rendered back its reflectionsas the ocean is one day to give up its  Some passing thought of the infamy and disgrace for which it had been reservedmay have struck the prisoners mind Be that as it maya change in his position making him conscious of a bar of light across his facehe looked up and when he saw the glass his face flushedand his right hand pushed the herbs away
+
+  It happenedthat the action turned his face to that side of the court which was on his left About on a level with his eyesthere satin that corner of the Judges benchtwo persons upon whom his look immediately rested so immediatelyand so much to the changing of his aspectthat all the eyes that were turned upon himturned to them
+
+</dt><dt>Its important your happy and not bothered so please <a href="http://unsu.megprizess.com">reqiest removal</a> from these if you wish to not get further<br>
+4800 Lyon Heart Dr Apt A	Owings Mills	Md	21117-6617</dt><br>
+<dt>Further updates like these will stop when you <a href="http://dile.megprizess.com">tell us on this page</a><br>
+616 Corporate Way Ste.2-9092 Valley Cottage, NY 10989</dt></dl></td>
+    </tr>
+  </tbody>
+</table><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+</td>
+      <td bgcolor="#EFEFEF"><br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table><br>
+</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+
+</body>
+</html>

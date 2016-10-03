@@ -1,0 +1,135 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>thanks and enjoy</title>
+</head>
+	<style> .featured-content-slides { width : 96.825396825396%; margin : 0 1.587301587302%; clear:both; display:none; }
+    .featured-content-slides .item-list { position:relative; margin-bottom:32px; }
+    .featured-content-slides .item-list ul.slides { margin:0; padding:0; list-style:none; }
+            .featured-content-slides .item-list ul.slides > li { margin:0; padding:0; list-style:none; display:inline-block; width:100%; min-height:354px; }
+            .featured-content-slides .item-list ul.slides > li .inner-wrapper { display:table; width:100%; height:353px; }
+            .featured-content-slides .item-list ul.slides > li .inner-wrapper .main-text { width:51.639344262295%; background-color:#ffffff; display:table-cell; vertical-align:top; }
+                    .featured-content-slides .item-list ul.slides > li .inner-wrapper .main-text.full { width:100%; }
+                    .featured-content-slides .item-list ul.slides > li .inner-wrapper .main-text .inner-padding { /* padding:20px 12.698412698413% 16px 6.349206349206%; */ padding: 20px 6.349206349206% 16px; }
+                    .featured-content-slides .item-list ul.slides > li .inner-wrapper .main-text a { color:#cb0000; }
+                    .featured-content-slides .item-list ul.slides > li .inner-wrapper .main-text a:hover {text-decoration:underline; }
+                    .featured-content-slides .item-list ul.slides > li .inner-wrapper .main-text h3 a { color:#000000; }
+            .featured-content-slides .item-list ul.slides > li .inner-wrapper .side-block { width:48.360655737705%; background-color:#999999; color:#ffffff; font-weight:300; display:table-cell; vertical-align:top; position:relative; overflow:hidden; }
+                    .featured-content-slides .item-list ul.slides > li .inner-wrapper .side-block .inner-padding { padding:32px 6.779661016949%; }
+                    .featured-content-slides .item-list ul.slides > li .inner-wrapper .side-block img { width:100%; min-height: 354px;}
+            .featured-content-slides blockquote { font-size: 20px; font-weight: bold; margin: 0 0 16px; padding: 0; }
+            .featured-content-slides ol.flex-control-nav { padding: 0 3.28893442623%; margin : 0; position:absolute; bottom:22px; z-index:999; }
+                    .featured-content-slides ol.flex-control-nav li { list-style:none; margin:0 12px 0 0; padding:0; float:left; display:inline-block; line-height:40px; }
+                    .featured-content-slides ol.flex-control-nav li a { font-size:20px; font-weight:bold; color:#d63333; display:inline-block; width:30px; height:40px; line-height:40px; }
+                            .featured-content-slides ol.flex-control-nav li a.flex-active { color:#000000; }
+                            .featured-content-slides ol.flex-control-nav li a:hover { cursor:pointer; }
+            .featured-content-slides h3 a { color:#000000; }
+
+
+    .block.featured-perspectives { position:relative; display:none; margin:0 1.587301587302% 16px; padding:32px 0; background-color:#fff; }
+            .block.featured-perspectives h2 { margin:0.5em 3.28893442623%; font-size: 18px; line-height: 22px; padding:0 !important; }
+            .block.featured-perspectives h3 { margin-left:3.28893442623%; margin-right:3.28893442623%; margin-bottom:1.5em;  }
+            .block.featured-perspectives .flexslider { border:none; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius:0;
+                                                background:transparent; margin:0 0 16px; }
+            .block.featured-perspectives .flexslider ul.slides { list-style:none; margin:0; padding:0; }
+            .block.featured-perspectives .flexslider ul.slides li { list-style:none; margin:0; padding:0; }
+            .block.featured-perspectives ul.flex-direction-nav { list-style:none; margin:0; padding:0; }
+            .block.featured-perspectives ul.flex-direction-nav li { list-style:none; margin:0; padding:0; }
+            .block.featured-perspectives .flex-direction-nav a::before { content:'' !important; }
+            .block.featured-perspectives .flex-direction-nav a { color: rgba(0, 0, 0, 0.8); cursor: pointer; display: block; height: 40px; margin: -20px 0 0; opacity: 0;
+                                                                 overflow: hidden; position: absolute; text-decoration: none; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+                                                                 top:400px; transition: all 0.3s ease-in-out 0s; width: 40px; z-index: 10; }
+           .block.featured-perspectives .flex-direction-nav .flex-next {
+                    top: 60px;
+                    right: 0px !important;
+                    margin-right: 0;
+                    opacity: 1 !important;
+                    text-align:left;
+                    text-indent:-9999px;
+                    background : transparent url('../img/icon-whatshappening-right-arrow-hd.png') no-repeat 0 0;
+                    background-size:17px auto;
+                    width:40px;
+                    height:40px;
+                    }
+                    html.lt-ie9 .block.featured-perspectives .flex-direction-nav .flex-next { background : transparent url('../img/icon-whatshappening-right-arrow.png') no-repeat 0 0; }
+            .block.featured-perspectives .flex-direction-nav .flex-prev {
+                    top: 60px;
+                    right: 45px !important;
+                    opacity:1 !important;
+                    margin-left:0;
+                    text-align:left;
+                    text-indent:-9999px;
+                    background : transparent url('../img/icon-whatshappening-left-arrow-hd.png') no-repeat 0 0;
+                    background-size:17px auto;
+                    width:40px;
+                    height:40px;
+                    }
+</style>
+<body style="margin-top: 0px">
+	<center><blockquote style="margin-top: 0px; background-color: #F6F6F6; font-size: 6px"><strong style="color: #F6F6F6">Monseigneur having eased his four men of their burdens and taken his chocolatecaused the doors of the Holiest of Holiests to be thrown openand issued forth Thenwhat submissionwhat cringing and fawningwhat servilitywhat abject humiliation As to bog down in body and spiritnothing in that way was left for Heavenwhich may have been one among other reasons why the worshippers of Monseigneur never troubled it
+
+  Bestog a word of promise here and a smile therea whisper on one happy slave and a wave of the hand on anotherMonseigneur affably passed through his rooms to the remote region of the Circumference of Truth ThereMonseigneur turnedand came back againand so in due course of time got himself shut up in his sanctuary by the chocolate spritesand was seen no more
+
+  The show being overthe flutter in the air became quite a little stormand the precious little bells went ringing downstairs There was soon but one person left of all the crowdand hewith his hat under his arm and his snuffbox in his handslowly passed among the mirrors on his way out
+  
+  mask A face of a transparent paleness every feature in it clearly defined one set expression on it The nosebeautifully formed otherwisewas very slightly pinched at the top of each nostril In those two compressionsor dintsthe only little change that the face ever showedresided They persisted in changing colour sometimesand they would be occasionally dilated and contracted by something like a faint pulsation thenthey gave a look of treacheryand crueltyto the whole countenance Examined with attentionits capacity of helping such a look was to be found in the line of the and the lines of the orbits of the eyesbeing much too horizontal and thin stillin the effect of the face madeit was a handsome faceand a remarkable one
+
+</strong>
+</blockquote></center>
+<center>
+	<span style="padding: 3px; display: block; width: 618px"><div style="padding: 2px"><table width="100%" border="0" cellspacing="1" cellpadding="1">
+  <tbody>
+    <tr>
+		<td><span style="padding: 1px; display: block; border: dotted 2px #4CA90C; font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif"><h1 style="margin-left: 7px; color: #008CD2">Sams Club-Customer</h1><table width="100%" border="0" cellspacing="1" cellpadding="1">
+  <tbody>
+    <tr>
+		<td style="padding: 7px"><!--   I devote yousaid this personstopping at the last door on his wayand turning in the direction of the sanctuaryto the Devil
+
+--><hr color="#DDDDDD">  <a href="http://prinbe.clubsammers.com"><strong>Order id-1451881</strong><hr color="#DDDDDD"></a><p>This Fall we have everything you want and need so we hope you can find something you enjoy. We love the changing seasons.</p></td>
+    </tr>
+  </tbody>
+</table><!--  With thathe shook the snuff from his fingers as if he had shaken the dust from his feetand quietly walked downstairs
+
+-->
+<a href="http://prinbe.clubsammers.com"><img src="http://stcla.clubsammers.com/redirect.php?email=bruce@untroubled.org"> <h1 style="background-color: rgb(174, 219, 2) ; border-bottom-left-radius: 4px ; border-bottom-right-radius: 4px ; 
+border-top-left-radius: 4px ; border-top-right-radius: 4px ; box-sizing: border-box ; color: rgb(51, 51, 51) ; 
+display: block ; float: left ; font-family: aktiv-grotesk-std, sans-serif ; font-size: 22px ; font-weight: normal ; 
+ line-height: 24.27px ; padding-bottom: 16px ; padding-left: 16px ; padding-right: 16px ; 
+	padding-top: 16px ; width: 253px ; -webkit-font-smoothing: antialiased ;">Thanks and enjoy</h1></a></span></td>
+    </tr>
+  </tbody>
+</table>
+		</div><!--He was a man of about sixtyhandsomely dressedhaughty in mannerand with a face like a fine 
+   --></span></center>
+		
+		<!--   .block.featured-perspectives .view-content .field-name-field-infographic { float:left; width:31.147540983607%;  margin-right:3.27868852459%; }
+            .block.featured-perspectives .view-content .field-name-field-featured-perspective-image,
+            .block.featured-perspectives .view-content .field-name-field-video-embed-code,
+            .block.featured-perspectives .view-content .field-name-field-description,
+            .block.featured-perspectives .view-content .field-name-field-link-to-supporting-content,
+            .block.featured-perspectives .view-content .field-name-field-file { width:65.573770491803%; float:right; }
+            .block.featured-perspectives .view-content .field-name-field-featured-perspective-image,
+      -->
+		<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+	<P>If you wish to be removed from these updates <a href="http://prinwing.clubsammers.com">please tell us now</a><br>
+22 Bond St	Reading	Ma	01867-2432</P><p><a href="http://prbe.clubsammers.com">No longer receive messages</a> regarding this matter when you inform us<br>
+|616 Corporate Way Ste.2-9092 Valley Cottage, NY 10989|</p>
+</body>
+</html>
+
+
+
+
+
+

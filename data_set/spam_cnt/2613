@@ -1,0 +1,150 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Work hard for the keynote speaker</title>
+<style>
+/* hero promo */
+.ent_m214 .hero-promo-container-overlay-background{background-color:#f9f9f9;}
+.ent_m214 .hero-promo-content-meta-wrap{width:50%;}
+.ent_m214 .hero-promo-content-meta-title{font-family:'BC-Falster-Grotesk-Bold';letter-spacing:2px;line-height:1.1;text-transform:uppercase;font-size:4rem;width:100%;}
+.ent_m214 .hero-promo-content-meta-description{font-family:'AkzidenzGrotesk-Regular';text-transform:uppercase;line-height:1.2;letter-spacing:2px;font-weight:200;font-size:1.2rem;}
+.ent_m214 .hero-promo-load-more-btn{border-radius:0;box-shadow:none;color:#f9f9f9;opacity:1;background-color:rgba(30,0,20,0.7);border:2px solid #f9f9f9;}
+.ent_m214 .hero-promo-load-more-btn:hover{opacity:1;color:#f9f9f9;background-color:#1e0014;}
+.ent_m214 .hero-promo-content-meta-label{display:inline-block;padding:5px 0 3px 13px;margin-bottom:15px;background-color:#f9f9f9;color:#1e0014;white-space:nowrap;letter-spacing:15px;text-transform:uppercase;font-weight:bold;line-height:1.2;font-size:1.6rem;}
+.ent_m214 .hero-promo-content-meta-tunein{display:inline-block;margin-bottom:15px;background-color:#f9f9f9;color:#1e0014;white-space:nowrap;text-transform:uppercase;font-weight:bold;padding:7px 3px 19px 11px;line-height:1;font-size:1.4rem;letter-spacing:8px;}
+.ent_m214 .hero-promo-container--centered .hero-promo-content-meta-items{width:50%;padding-left:0;}
+.ent_m214 .hero-promo-container--centered .hero-promo-content-meta-wrap{width:100%;}
+.ent_m214 .hero-promo-container--centered .hero-promo-content-meta-title{margin-bottom:5px;}
+@media (max-width:979px){.ent_m214 .hero-promo-content-meta-title{font-size:3.4rem;}
+.ent_m214 .hero-promo-content-meta-wrap{width:70%;}
+.ent_m214 .hero-promo-content-meta-label{margin-bottom:5px;}
+.ent_m214 .hero-promo-container--centered .hero-promo-content-meta-items{width:70%;}
+.ent_m214 .hero-promo-container--centered .hero-promo-content-meta-title{font-size:2rem;}
+.ent_m214 .hero-promo-content-meta-description{font-size:1.2rem;}
+}
+@media (max-width:659px){.ent_m214 .hero-promo-load-more-btn{max-width:98%;margin-top:25px;border:1px solid #f9f9f9;}
+.ent_m214 .hero-promo-content-meta-title{font-size:2rem;line-height:1;}
+.ent_m214 .hero-promo-content-meta-label{font-size:1.1rem;line-height:1.2;padding:4px 0 3px 9px;letter-spacing:10px;}
+.ent_m214 .hero-promo-container--centered .hero-promo-content-meta-title{margin-bottom:10px;}
+.ent_m214 .hero-promo-content-meta-description{font-size:1.1rem;line-height:1;}
+.ent_m214 .hero-promo-content-meta-tunein{margin-bottom:0;padding:5px 1px 16px 7px;letter-spacing:5px;font-size:1.2rem;}
+}
+/* Video Loop */
+.ent_m219{background-color:#f9f9f9;}
+.ent_m219 .video-loop-promo-meta-items{padding-left:5px;}
+.ent_m219 .video-loop-promo-meta-items .video-loop-promo-meta-title{font-family:'BC-Falster-Grotesk-Bold';font-weight:200;text-transform:uppercase;font-size:4rem;letter-spacing:2px;margin-bottom:5px;line-height:1;}
+.ent_m219 .video-loop-promo-meta-items .video-loop-promo-meta-description{font-family:'BC-Falster-Grotesk-Bold';text-transform:uppercase;font-weight:normal;letter-spacing:1px;font-size:1.8rem;margin-bottom:20px;}
+.ent_m219 .video-loop-promo-meta-items .video-loop-cta-btn{border-radius:0;box-shadow:none;color:#f9f9f9;opacity:1;background-color:rgba(30,0,20,0.7);border:2px solid #f9f9f9;margin-top:0;}
+.ent_m219 .video-loop-promo-meta-items .video-loop-cta-btn:hover{opacity:1;color:#f9f9f9;background-color:#1e0014;}
+@media (max-width:979px){.ent_m219 .video-loop-promo-meta-items .video-loop-promo-meta-wrap{padding:0 0 4% 30px;}
+.ent_m219 .video-loop-promo-meta-items .video-loop-promo-meta-items{padding-left:30px;}
+.ent_m219 .video-loop-promo-meta-items .video-loop-promo-meta-title{font-size:3.4rem;}
+}
+@media (max-width:659px){.ent_m219 .video-loop-promo-meta-items .video-loop-promo-meta-wrap{padding:10px;}
+.ent_m219 .video-loop-promo-meta-items .video-loop-promo-meta-items{padding-left:0;}
+.ent_m219 .video-loop-promo-meta-items .video-loop-promo-meta-title{font-size:2rem;margin-bottom:0;}
+.ent_m219 .video-loop-promo-meta-items .video-loop-promo-meta-description{font-size:1.3rem;margin-bottom:0;}
+.ent_m219 .video-loop-promo-meta-items .video-loop-cta-btn{margin-top:10px;border:1px solid #f9f9f9;}
+}
+/* Photo Gallery */
+.ent_m206 .gallery__overlay{padding-top:15px;}
+.ent_m206 .gallery__overlay .gallery__overlay-description{font-family:'BC-Falster-Grotesk-Bold';font-size:1.1rem;font-weight:bold;letter-spacing:1.5px;text-transform:uppercase;text-align:left;line-height:20px;}
+/* Player */
+.ent_m209 .player_meta .player_parent-title{text-transform:uppercase;font-size:13px;font-weight:200;line-height:21px;margin:5px 0;}
+.ent_m209 .player_meta .player_video-title{text-transform:uppercase;font-family:'BC-Falster-Grotesk-Bold';font-size:2.1rem;letter-spacing:8px;line-height:25px;display:inline-block;padding:5px 0 0 4px;}
+.ent_m209 .player_meta .player_description{font-size:13px;line-height:21px;}
+.ent_m209 .player_share .player_share-button{background:transparent;width:40px;height:40px;border-radius:30px;border:1px solid #f9f9f9;padding:9px;}
+.ent_m209 .player_share .player_share-button:before{font-size:1.1em;}
+.ent_m209 .player_share .has_icon:before{color:#f9f9f9;}
+/* Right Rail */
+.rightrail .rightrail-header{font-family:'BC-Falster-Grotesk-Bold';text-transform:uppercase;font-size:2rem;font-weight:700;letter-spacing:4px;line-height:1.07;display:inline-block;}
+.rightrail .rightrail-item-meta{text-transform:uppercase;font-weight:200;font-size:13px;line-height:12px;letter-spacing:1px;}
+.rightrail .rightrail-item-duration-badge{background-color:#f9f9f9;color:#1e0014;font-family:'BC-Falster-Grotesk-Bold';letter-spacing:5px;text-transform:uppercase;font-size:10px;padding:4px 0 2px 5px;font-weight:normal;}
+/* ENT-M232 Schedule Module */
+.ent_m232-module-header{font-family:'BC-Falster-Grotesk-Bold';text-transform:uppercase;font-size:24px;padding-bottom:3px;font-weight:700;letter-spacing:10px;line-height:24px;display:inline-block;/* letter spacing screws it up if we use border-bottom,so use a pseudo instead */}
+.ent_m232-module-header:after{content:'';display:block;height:3px;width:98%;background:#1e0014;}
+.ent_m232-summary-weekday,
+.ent_m232-summary-date{text-transform:uppercase;font-family:'BC-Falster-Grotesk-Bold';font-size:44px;font-weight:700;letter-spacing:1px;line-height:1;color:#1e0014;}
+.ent_m232-summary-date{margin-bottom:20px;}
+.ent_m232-summary-times{font-size:28px;line-height:1;text-transform:uppercase;color:#1e0014;letter-spacing:1px;border-top-color:#D8D8D8;/* for the AM/PM suffix */}
+.ent_m232-summary-times span{font-size:12px;}
+.ent_m232-summary-timezone{margin-bottom:10px;}
+.ent_m232-summary-timezone,
+.ent_m232-summary-location{font-size:16px;line-height:22px;font-weight:400;color:#1e0014;text-transform:uppercase;letter-spacing:1px;}
+.ent_m232-summary-timezone svg,
+.ent_m232-summary-location svg{transform:translateY(4px);-webkit-transform:translateY(4px);}
+.ent_m232-schedule-item-time{font-family:'AkzidenzGrotesk-Bold';color:#1e0014;font-size:28px;font-weight:700;letter-spacing:1px;line-height:46px;}
+.ent_m232-schedule-item-time-suffix{font-size:12px;letter-spacing:1px;line-height:14px;text-transform:uppercase;}
+.ent_m232-schedule-item-meta-title{font-family:'BC-Falster-Grotesk-Bold';font-size:34px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#1e0014;padding-right:20px;margin:0;line-height:1.2;}
+.ent_m232-schedule-item-meta-duration{text-transform:uppercase;margin:6px 0 20px 0;font-size:12px;padding:8px 8px 7px 8px;}
+.ent_m232-schedule-item-meta-copy{font-size:14px;text-transform:uppercase;letter-spacing:0.5px;color:#1e0014;line-height:1.4;margin-top:10px;}
+.ent_m232-schedule-item-meta-copy a{border-bottom:2px solid #1e0014;padding:0 3px;}
+.ent_m232-schedule-item-meta-copy a:hover{color:#ffffff;background:#1e0014;}
+.ent_m232-schedule-item-meta-button{background:#ffffff;color:#1e0014;border:2px solid #1e0014;font-family:'AkzidenzGrotesk-Regular';text-transform:uppercase;white-space:nowrap;font-size:14px;letter-spacing:5px;padding:15px 8px 13px 14px;line-height:1;font-weight:700;}
+.ent_m232-schedule-item-meta-button:after{font-weight:normal;font-size:13px;content:"\e614";font-family:'mtv';}
+.ent_m232-schedule-item-meta-button:hover{background:#1e0014;color:white;}
+.ent_m232-schedule-item-meta-wrap.no-image .ent_m232-schedule-item-time{width:25%;padding-top:15px;}
+.ent_m232-schedule-item-meta-wrap.no-image .ent_m232-schedule-item-meta{width:70%;}
+.ent_m232-schedule-item-minimized .ent_m232-schedule-item-time{width:25%;}
+.ent_m232-schedule-item-minimized .ent_m232-schedule-item-meta-title{font-size:22px;font-family:'BC-Falster-Grotesk-Bold';padding-right:20px;margin:0;line-height:1.2;}
+/* == EVEN MORE COLLAPSED VIEW == */
+@media (max-width:680px){.ent_m232-module-wrapper{padding-top:0;background:none;}
+.ent_m232-module-header{letter-spacing:5px;font-size:20px;}
+.ent_m232-summary-date{margin-bottom:20px;}
+.ent_m232-schedule-item-time{width:30%;text-align:left;}
+.ent_m232-schedule-item-meta{width:70%;border-left:3px solid black;}
+.ent_m232-schedule-item-minimized .ent_m232-schedule-item-meta{width:70%;}
+.ent_m232-schedule-item-minimized .ent_m232-schedule-item-time{width:30%;}
+.ent_m232-schedule-item-meta-wrap.no-image .ent_m232-schedule-item-time{width:30%;font-size:28px;padding-top:8px;}
+.ent_m232-schedule-item-meta-wrap.no-image .ent_m232-schedule-item-meta{width:70%;}
+.ent_m232-schedule-item-time{font-size:28px;}
+}
+</style>
+</head>
+
+<body>
+<table width="611" border="0" cellspacing="5" cellpadding="5" style="font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <tbody>
+    <tr>
+      <td style=" font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:30px;"><span style="border-bottom:solid 4px #257AD4">Thanks For Your Loyalty </span></td>
+    </tr>
+    <tr>
+      <td style="font-size:20px;"><br />
+    You earned rewards for anything in store, Costco<Br><br>  <a href="http://tisechop.cotongos.com"><b><font color="#5C972E"><u>Member pickup  (Card #17366772)</u> </font></b></a>
+    <br />
+<hr />
+<hr />
+Valid through the weekend<br />
+<br />
+<a href="http://tisechop.cotongos.com">One time use - Confirm</a>
+<hr />
+<hr />
+</td>
+    </tr>
+    <tr>
+      <td style="font-size:10px; color:#E0C9C9" align="justify">The day that Little returned to school was a happy one for the students They all welcomed her enthusiastically optimistic about the follog days However that same day was a stressful one for Braxton and other school administrators Gwen Roberts a math teacher for the gifted magnet program was attacked by a group of young students who were cutting classes Braxton drove her to the hospital where she got treatment for a black eye a concussion and torn ligaments in her elbow Shortly after Braxton drove Roberts home Lisa Lippa the twelfthgrade physiology teacher had her classroom shot at Curt and another student manage to find the slug Lippas class was evacuated immediately Lippa who was eight months pregnant was thankful that she wasnt sitting at her desk when it happened or else she wouldve been hit in the head The rest of the week follog the incident was tumultuous Olivia has suffered a few setbacks while inside the center She was successful in passing Babson College and was offered a substantial amount for her scholarship However when a school official found out where she was they reluctantly pulled back the offer Fortunately a handful of colleges in California have accepted her Shes still positive that shell be out by the fall 
+<br /><br />
+Its the day of the exam and Little is worried about how her students will fare She becomes fidgety until the afternoon She asks the students how it went Most of the students are pessimistic about their results with Robert the only one expressing confidence Little was outraged when Miesha told her about the distractions during the exam She called the organization that administers the AP exams in New York She asked for names and numbers to call to complain about the environment during her students exams 
+<br /><br />
+A week after the AP exams the author visited Olivia at the center She tells him that she was devastated when she found out about Babson College pulling back their offer Her counselor told her that its still unclear if shell be out in time for college After meeting with Olivia the author talked to Dunne Dunne told him that Olivia needs at least eight to ten months before she could get out Little still aims to land a job at another high school If she decides to stay at Crenshaw she will not be teaching AP English classes which will instead by taught by Moultrie Toni Little hands out farewell letters for her students to read before graduation Half of the class cried at what she had written Then the students in her class start making accounts about what they remember from Little After the class they were all reluctant to leave and each gave Little a hug She had made an impact in the minds of these ren Three days later these same students made their way to the football field for their graduation Danielle becomes the class valedictorian and delivers her speech Braxton watched them graduate and realized that despite the casualties they have excelled and made it to the finish line 
+<br /><br />
+A few months after the graduation they received the results of their Advanced Placement English and Literature exam Only Daniel and Robert passed out of all of them Its obvious that Little had some responsibility with this as the same students that didnt pass received high grades for their AP US and Government exams Little still couldnt find a job at another high school She had filed a lawsuit against the administrators at the school As of the books writing two years after graduation her rivals at the school have left Little remained at Crenshaw and is still teaching AP English</td>
+    </tr>
+    <tr>
+      <td align="right" style="font-size:14px;">Stop receiving information like the above from us. Just submit your <a href="http://boufate.cotongos.com">name here</a> and wait a few days
+      <br />
+      ))225 Tiny Springs Rd	Swansea	Sc	29160-8886((
+      <br /><br />
+In a few days these will no longer arrive in your inbox by <a href="http://conete.cotongos.com">requesting removal</a> now
+<br />
+))225 Tiny Springs Rd	Swansea	Sc	29160-8886((
+</td>
+    </tr>
+  </tbody>
+</table>
+<br /><br />
+<img src="http://nodise.cotongos.com/redirect.php?email=bruce@untroubled.org">
+</body>
+</html>

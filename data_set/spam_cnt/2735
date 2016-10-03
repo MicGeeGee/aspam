@@ -1,0 +1,187 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>more than that</title>
+</head>
+<style>/*scrollbar themes*/
+/*dark (dark colored scrollbar)*/
+.mCS-dark > .mCSB_scrollTools .mCSB_draggerRail {
+    background: #000;
+    /* rgba fallback */
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.mCS-dark > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background: #000;
+    /* rgba fallback */
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.mCS-dark > .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.mCS-dark > .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-dark > .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.mCS-dark > .mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -80px 0;
+}
+
+.mCS-dark > .mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -80px -20px;
+}
+
+.mCS-dark > .mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -80px -40px;
+}
+
+.mCS-dark > .mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -80px -56px;
+}
+
+/*light-2*/
+.mCS-light-2 > .mCSB_scrollTools .mCSB_draggerRail {
+    width: 4px;
+    background: #fff;
+    /* rgba fallback */
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.mCS-light-2 > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 4px;
+    background: #fff;
+    /* rgba fallback */
+    background: rgba(255, 255, 255, 0.75);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.mCS-light-2.mCSB_horizontal > .mCSB_scrollTools .mCSB_draggerRail {
+    width: 100%;
+    height: 4px;
+    margin: 6px 0;
+}
+
+.mCS-light-2.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 100%;
+    height: 4px;
+    margin: 6px auto;
+}
+
+.mCS-light-2 > .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.mCS-light-2 > .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-light-2 > .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.mCS-light-2 > .mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -32px 0;
+}
+
+.mCS-light-2 > .mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -32px -20px;
+}</style>
+<body style="font-size:19px; font-family:Gill Sans, Gill Sans MT, Calibri, sans-serif">
+<center>
+<div style="background-color:#232F3E; padding:12px; letter-spacing:7px; font-size:46px; font-family:arial"><b style="text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15); color:#fff">Amazon</b></div>
+<hr size="4" color="#232F3E" />
+<small><a href="http://cocib.centerofshop.com"><img width="540" src="http://chofate.centerofshop.com" ></a></small><br />
+<small><a  href="http://cocib.centerofshop.com">Enjoy the rest of the week - Shipped-order (5092951) </a></small>
+<hr size="4" color="#232F3E" />
+<div style="background-color:#232F3E; padding:12px; letter-spacing:7px; font-size:9px; font-family:arial"><span style="color:#232F3E"> Mr Stryver had left them in the passagesto shoulder his way back to the robingroom Another personwho had not joined the groupor interchanged a word with any one of thembut who had been leaning against the wall where its shadow was darkesthad silently strolled out after the restand had looked on until the coach drove away He now stepped up to where Mr Lorry and Mr Darnay stood upon the pavement
+
+  SoMr Lorry Men of business may speak to Mr Darnay now
+
+  Nobody had made any acknowledgment of Mr Cartons part in the days proceedings nobody had known of it He was unrobedand was none the better for it in appearance
+
+  If you knew what a conflict goes on in the business mindwhen the business mind is divided between goodnatured impulse and business appearancesyou would be amusedMr Darnay
+
+  Mr Lorry reddenedand saidwarmlyYou have mentioned that beforesir We men of businesswho serve a Houseare not our own masters We have to think of the House more than ourselves
+
+  I knowI knowrejoined Mr Cartoncarelessly Dont be nettledMr Lorry You are as good as anotherI have no doubt betterI dare say
+
+  And indeedsirpursued Mr Lorrynot minding himI really dont know what you have to do with the matter If youll excuse meas very much your elderfor saying soI really dont know that it is your business
+Wellsir cried Mr Lorrythoroughly heated by his indifferencebusiness is a very good thingand a very respectable thing Andsirif business imposes its restraints and its silences and impedimentsMr Darnay as a young gentleman of generosity knows how to make allowance for that circumstance Mr Darnaygood nightGod bless yousir I hope you have been this day preserved for a prosperous and happy lifeChair there
+
+  Perhaps a little angry with himselfas well as with the barristerMr Lorry bustled into the chairand was carried off to Tellsons Cartonwho smelt of port eand did not appear to be quite soberlaughed thenand turned to Darnay
+
+  This is a strange chance that throws you and me together This must be a strange night to youstanding alone here with your counterpart on these street stones
+
+  I ly seem yetreturned Charles Darnayto belong to this world again
+
+  I dont der at it its not so long since you were pretty far advanced on your way to another You speak faintly
+
+  
+</span></div>
+<span style="font-size:13.5px">If you wish to be removed from these updates <a href="http://fatho.centerofshop.com">please tell us now</a><br />
+4221 Roxbury Dr	Valdosta	Ga	31605-7008</span><br />
+<br />
+<!-- .mCS-dark-2 > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 4px;
+    background: #000;
+    /* rgba fallback */
+    background: rgba(0, 0, 0, 0.75);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.mCS-dark-2.mCSB_horizontal > .mCSB_scrollTools .mCSB_draggerRail {
+    width: 100%;
+    height: 4px;
+    margin: 6px 0;
+}
+
+.mCS-dark-2.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 100%;
+    height: 4px;
+    margin: 6px auto;
+}
+
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -112px 0;
+}-->
+<span style="font-size:13.5px">These will no longer arrive to your inbox by telling us <a href="http://vedone.centerofshop.com">on this page</a><br />
+616 Corporate Way Ste.2-9092 Valley Cottage, NY 1098</span>
+</center>
+</body>
+</html>
+
+
+
+
+
+
+	

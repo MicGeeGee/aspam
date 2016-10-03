@@ -1,0 +1,106 @@
+Received: from 54.240.10.177 (unknown [54.240.10.177])
+	by newmx13.qq.com (NewMx) with SMTP id 
+	for <474733787@qq.com>; Sun, 28 Aug 2016 04:00:27 +0800
+X-QQ-FEAT: LyTQA/bbxswtDMrz0TmV3ZaAri4+RhjeWTWCHaCACvRzt9MHRWNMOa3ircQwE
+	rVGnLWPlDZEedhs10WnKiVCGjC0X/NXt6zsStlRPb/w+EXl2UtARuEduK6c3KhN/aQcS+f3
+	KZ74mEVcd4jbZKDQtAoyuTSHCcLzY1umuUmlHstrOYff4lSCxmuK4UUH4ZmEPRgUEXH3HEc
+	iptM2OnLq5ZWT+A2NKbTgVxXdudOrCbM3mMvZAFdrEzt57Nd7Tqq+cMqXUjUz14zZaD5YdU
+	iwdncVmFtTePl8pJmyvRNrwETwfcSJznOGZQ==
+X-QQ-MAILINFO: ODvMQTwIxEi3QdcFtvFTSJUcFKKbJS32BTHwAT6woKR+++v+bCEZ7FUNV
+	xyJS9PwuChPl2trqUtEJmx7yjI+GIIzvmXF6Lcmz0mO6hJlBpgpde5gmXdFSLTpU23HsqMk
+	L9GmxOu7v2/4yNOcmSDvGM0/F1Aou2ALEWaFYRc3wurd
+X-QQ-mid: usamxproxy11t1472328055t8kzxd3
+X-QQ-CSender: amazonses.com#noreply@keepersecurity.com
+X-QQ-ORGSender: 01000156cd967ba5-2f9c4e35-1bfb-4b63-893a-c3403f18fa31-000000@amazonses.com
+X-KK-mid:usamxproxy11t1472328055t8kzxd3
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=m6amhxg3jh35wl643lzloflm7vh7cm5m; d=keepersecurity.com;
+	t=1472328006;
+	h=MIME-Version:Date:Message-ID:Content-Type:Content-Transfer-Encoding:Subject:To:From;
+	bh=4l+I2TlsQbClEqdXPtnB1ArRGJnl24OKcJiAWuKuDR8=;
+	b=yvvXYIB2Fn52naVJqoomVTU2aZvBKHYDOeKgR4k5uvEZKgFi36XGS9ksbDAXQIrS
+	Xg5CAG4YDJyW1Icbpzyp7b40FSwsmBx5eftDdEVmd7K7q2LVUUi7I3TgOEkFMZ6LCHn
+	tUAXKilciUVTxb4JxPH/Ic+Vv5VXAHgZx7oFL/q0=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw; d=amazonses.com; t=1472328006;
+	h=MIME-Version:Date:Message-ID:Content-Type:Content-Transfer-Encoding:Subject:To:From:Feedback-ID;
+	bh=4l+I2TlsQbClEqdXPtnB1ArRGJnl24OKcJiAWuKuDR8=;
+	b=QsWRzPCTToivDYhduwLgf9J3AkFl028SU0bPBzXEGchZTB4134Xit6oEzuc3YMgR
+	686LjwMkdTPwSAbdfQjyajCKZe0cD+I0gjtxKHV4kpJJ9HT02SCovYURVurivk+TyOE
+	BvaOLG1ZlcutXffeqbU+HVtSmXioslISUNx/a2U4=
+MIME-Version: 1.0
+Date: Sat, 27 Aug 2016 20:00:06 +0000
+Message-ID: <01000156cd967ba5-2f9c4e35-1bfb-4b63-893a-c3403f18fa31-000000@email.amazonses.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Priority: 3 (Normal)
+Subject: Share Important Cybersecurity Research with Your Company
+To: 474733787@qq.com
+From: "Keeper Security" <noreply@keepersecurity.com>
+X-SES-Outgoing: 2016.08.27-54.240.10.177
+Feedback-ID: 1.us-east-1./dNHWi7WrCgRTomLiDIABZvnMi/7Zz3lUbYzglwYeO0=:AmazonSES
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd"><html xmlns=3D"http://www.w3.org/1999/xhtml"=
+><head><meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-T=
+ype"></head><body style=3D"padding: 0; width: 100% !important; -webkit-text=
+-size-adjust: 100%; margin: 0; -ms-text-size-adjust: 100%; font-family:'Hel=
+vetica','Arial','Lucida Grande','sans-serif'; -webkit-font-smoothing:antial=
+iased;" marginheight=3D"0" marginwidth=3D"0"><center><table cellpadding=3D"=
+8" cellspacing=3D"0" style=3D"*width: 540px; padding: 0; width: 100% !impor=
+tant; background: #ffffff; margin: 0; background-color: #ffffff;" border=3D=
+"0"><tr><td valign=3D"top"><table cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"border-radius: 4px; -webkit-border-radius: 4px; border: 1px #eeeeee sol=
+id; -moz-border-radius: 4px;" border=3D"0" align=3D"center"><tr><td height=
+=3D"6"></td></tr><tr style=3D"line-height: 0px;"><td width=3D"100%" style=
+=3D"font-size: 0px;" align=3D"center" height=3D"1"></td></tr><tr><td> <tabl=
+e cellpadding=3D"0" cellspacing=3D"0" style=3D"line-height: 25px;" border=
+=3D"0" align=3D"center"> <!-- body --> <tr><td width=3D"36"></td><td width=
+=3D"454" align=3D"center" style=3D"color: #000001 !important; border-collap=
+se: collapse; font-size: 11pt; max-width: 454px;" valign=3D"top"><p style=
+=3D"text-align:left;"><img width=3D"140px" style=3D"max-height: 75px; width=
+: 140px; *width: 140px; *height: 75px;" alt=3D"" src=3D"https://s3.amazonaw=
+s.com/keeper-email-images/common/keeper-logo%402x.png"><br/><br/>Hi,<br/><b=
+r/>We want to thank you for being a valued Keeper customer. <br/><br/>Just =
+as we protect your personal information and the information of millions of =
+other Keeper customers, Keeper also protects thousands of businesses.<br/><=
+br/>We recently led a study with the Ponemon Institute analyzing the state =
+of cybersecurity in small and medium-sized businesses (SMBs). The study fou=
+nd 50% of SMBs have been breached in the last 12 months.  In addition, stro=
+ng passwords were identified as an essential component of a strong security=
+ defense.<br/><br/>The research study can be accessed here:<br/><strong>=3D=
+&gt; <a href=3D"https://signup.keepersecurity.com/state-of-smb-cybersecurit=
+y-report/?caid=3Dshare">Ponemon Study on State of SMB Cybersecurity</a></st=
+rong><br/><br/>The study provides invaluable information and insight into c=
+ybersecurity risks for SMBs and how IT departments can reduce risk of breac=
+h. Please share the link above with your IT department, colleagues and othe=
+r business associates.<br/><br/>If you would like to explore Keeper for you=
+r business, please contact sales@keepersecurity.com for a free trial or cal=
+l us at (312) 829-2680.<br/><br/>Thank you,<br/><br/>Darren &amp; Craig<br/=
+><br/><table border=3D"0" style=3D"width:100%; font-size:11pt;"><tr><td sty=
+le=3D"width:60px;"><img width=3D"50px" style=3D"max-height:50px; width:50px=
+; *width:50px; *height: 50px;" src=3D"https://s3.amazonaws.com/keeper-email=
+-images/common/darren_bubble%402x.jpg"></td><td>Darren Guccione<br/>CEO, Ke=
+eper Security</td></tr><tr height=3D"15"><td colspan=3D"2"></td></tr><tr><t=
+d style=3D"width:60px;"><img width=3D"50px" style=3D"max-height:50px; width=
+:50px; *width:50px; *height: 50px;" src=3D"https://s3.amazonaws.com/keeper-=
+email-images/common/craig_bubble%402x.jpg"></td><td>Craig Lurey<br/>CTO, Ke=
+eper Security</td></tr></table><br><br><!-- footer --><table cellpadding=3D=
+"0" cellspacing=3D"0" align=3D"center" border=3D"0"> <tr> <td><a href=3D"ht=
+tps://www.facebook.com/keeperapp"><img width=3D"40px" style=3D"max-height: =
+40px; width: 40px; *width: 40px; *height: 40px;" alt=3D"" src=3D"https://s3=
+=2Eamazonaws.com/keeper-email-images/common/facebook-icon%402x.png"></a></t=
+d> <td><a href=3D"https://twitter.com/keepersecurity"><img width=3D"40px" s=
+tyle=3D"max-height: 40px; width: 40px; *width: 40px; *height: 40px;" alt=3D=
+"" src=3D"https://s3.amazonaws.com/keeper-email-images/common/twitter-icon%=
+402x.png"></a></td> </tr> </table> <center style=3D"font-size:11px; color:#=
+333333;"><br>=E5=A6=82=E6=9E=9C=E6=82=A8=E4=BB=8A=E5=90=8E=E4=B8=8D=E6=83=
+=B3=E7=BB=A7=E7=BB=AD=E6=94=B6=E5=88=B0=E8=BF=99=E7=B1=BB=E9=82=AE=E4=BB=B6=
+=EF=BC=8C=E8=AF=B7<a href=3D"https://keepersecurity.com/zh_CN/unsubscribe?e=
+mail=3D474733787%40qq.com&utm_campaign=3Dscripts&utm_medium=3Demail&utm_sou=
+rce=3Dponemon&unsub_token=3D25260799715115325831403875098856852441">=E7=82=
+=B9=E5=87=BB=E6=AD=A4=E5=A4=84</a>=E9=80=80=E8=AE=A2=E3=80=82<br>&copy; 201=
+6 Keeper Security, Inc.<br> 850 W. Jackson Suite 500, Chicago IL 60607 USA =
+</center> </td> <td width=3D"36"></td> </tr> <tr> <td colspan=3D"3" height=
+=3D"30"></td> </tr> </table> </td></tr></table></td></tr></table></center><=
+/body></html>

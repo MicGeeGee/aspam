@@ -1,0 +1,218 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>zone cero</title>
+</head>
+	<style>.hmpage_topsty_cwc .storylist_thumb ul {
+    box-sizing: border-box;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding:0 !important;
+    width: 33% !important;
+	border-left:1px solid #eee;
+
+}
+.hmpage_topsty_cwc .storylist_thumb li {
+   border-top: 1px solid #eee;
+    box-sizing: border-box;
+    display: table;
+    float: left;
+    padding: 10px !important;
+    width: 100%;
+}
+.hmpage_topsty_cwc .storylist_thumb ul:first-child li{padding-left:0!important;}
+.hmpage_topsty_cwc .storylist_thumb li .thumbnail {
+    background-color: #ededed;
+    float: right !important;
+    height: 54px;
+    overflow: hidden;
+    width: 59px !important;
+
+}
+.hmpage_topsty_cwc .storylist_thumb li .thumbnail img {border: 0 none;
+    margin-left: -7px;
+    width: 73px;
+}
+.hmpage_topsty_cwc .storylist_thumb li .description {
+   color: #333;
+    display: table-cell;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 0 20px 0 20px !important;
+    vertical-align: middle;
+
+}
+.hmpage_topsty_cwc .storylist_thumb li .description h2 {font-weight:normal; font-size:15px; color:#666;}
+.hmpage_topsty_cwc .storylist_thumb li .description span {
+    color: #bb2525 !important;
+}
+.hmpage_topsty_cwc .storylist_thumb li .description h2 a {
+    color: #666666 !important;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 17px;
+}
+/*More Stories CSS*/
+
+/*Opinion CSS*/
+.cwc_opinion .hmpage_opinion_wrap { width:100%; border:0!important; margin-top:0!important;} 
+.cwc_opinion .hmpage_opinion_wrap .widgetheader_red {float:left;} 
+.cwc_opinion .hmpage_opinion_wrap a.prev_btn,
+.cwc_opinion .hmpage_opinion_wrap a.next_btn {bottom: 20px;}
+.cwc_opinion .hmpage_opinion_wrap a.prev_btn {  left:60px;}
+.cwc_opinion .hmpage_opinion_wrap a.next_btn {  right:15px;}
+.cwc_opinion .opinion_hmlist1 {width:820px !important;}
+.cwc_opinion .opinion_hmlist1 li {border-left:0 !important; padding:0 15px !important; width:265px !important;}
+.cwc_opinion .opinion_hmlist1 li .description h2 {min-height: 53px !important; line-height: 16px !important;}
+.cwc_opinion .opinion_hmlist1 li .description span {line-height: 11px!important;}
+/*Opinion CSS*/
+
+
+
+
+
+/*======================= CWC CSS ==========================*/
+
+h1, h2, h3, h4, h5, h6{margin:0px; padding:0px; font-weight:normal;}
+
+.clr { clear:both;}
+.fr { float:right !important;}
+.fl { float:left !important;}
+.mrt5{margin-top:5px !important;}
+.mrt10{margin-top:5px !important;}
+.mrl10{margin-left:5px !important;}
+.mrr15{margin-right:15px !important;}
+.mrr20{margin-right:20px !important;}
+.mrr25{margin-right:25px !important;}
+.mrr30{margin-right:30px !important;}
+
+.padt2{padding-top:2px;}
+.padt5{padding-top:5px;}
+.padt10{padding-top:10px;}
+.padt15{padding-top:15px;}
+.padt20{padding-top:20px;}
+.padt25{padding-top:25px;}
+.padt45{padding-top:45px;}
+
+.padr5{padding-right:5px;}
+.padr10{padding-right:10px;}
+.padr15{padding-right:15px;}
+.padr20{padding-right:20px;}
+.padr25{padding-right:25px;}
+.padr35{padding-right:35px;}
+
+.padb5{padding-bottom:5px;}
+.padb10{padding-bottom:10px;}
+.padb15{padding-bottom:15px;}
+.padb20{padding-bottom:20px;}
+.padb25{padding-bottom:25px;}
+
+.padl5{padding-left:5px;}
+.padl10{padding-left:10px;}
+.padl15{padding-left:15px;}
+.padl20{padding-left:20px;}
+.padl25{padding-left:25px;}
+.padl35{padding-left:35px;}</style>
+<body style="font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana, sans-serif; font-size: 13.4px">
+
+	<ul style="width: 600px" type="none">
+		
+		<!--/*==== New HP CSS ===*/
+
+.hmpage_lhs_cwc{width:100%!important;}
+
+.mainstorywrap_cwc {width:100%!important; margin-bottom:20px;}
+
+.hpage_topsty_wrap .hmpage_topsty_rhs_cwc {
+    background: #fff none repeat scroll 0 0 !important;
+    box-shadow: 0 0 4px #e8e8e8;
+    display: table-cell;
+    height: 442px !important;
+    left: 20px;
+    position: relative;
+    vertical-align: top;
+    width: 310px !important;
+
+} -->
+		<li><a href="http://traous.renewalnowwin.com"><img src="http://ouse.renewalnowwin.com"> </a> </li><!-- .hpage_topsty_wrap .hmpage_topsty_rhs_cwc .storylist_nothumb li {
+    padding: 0 0 6px 0 !important;
+    display:table;
+
+}
+.hpage_topsty_wrap .hmpage_topsty_rhs_cwc .storylist_nothumb li:first-child { padding-top:10px !important;}
+.hpage_topsty_wrap .storylist_thumb li:first-child {border-top:none;}
+.hpage_topsty_wrap .hmpage_topsty_rhs_cwc .storylist_nothumb li .description {
+	border-top: none!important;
+	display:table-cell;
+	vertical-align:middle;
+	padding:0!important;
+}-->
+		<li style="background-color: #000000; font-size: 4px; ">  Nowthe sun was full upand movement began in the village Casement dows openedcrazy doors were unbarredand people came forth shiveringchilledas yetby the new sweet air Then began the rarely lightened toil of the day among the village population Someto the fountain someto the fields men and women hereto dig and delve men and women thereto see to the poor live stockand lead the bony cows outto such pasture as could be found by the roadside In the church and at the Crossa kneeling figure or two attendant on the latter prayersthe led cowtrying for a breakfast among the weeds at its foot
+
+  The chateau awoke lateras became its qualitybut awoke gradually and surely Firstthe lonely boarspears and knives of the chase had been reddened as of old thenhad gleamed trenchant in the morning sunshine nowdoors and dows were thrown openhorses in their stables looked round over their shoulders at the light and freshness pouring in at doorwaysleaves sparkled and rustled at irongrated dowsdogs pulled  at their chainsand reared impatient to be loosed
+
+</li>
+		
+		<li><a href="http://traous.renewalnowwin.com"><img src="http://tfpoa.renewalnowwin.com"> </a></li>
+		<!--/*More Stories CSS*/
+.hmpage_topsty_cwc {width:100%; float:left; margin-bottom:15px;}
+.hmpage_topsty_cwc .storylist_thumb {
+    background-color: #fff !important;
+    border: none !important;
+    box-shadow: 0 0 4px #e8e8e8;
+    box-sizing: border-box;
+    float: left !important;
+    min-height: auto !important;
+    padding: 5px 15px !important;
+    width: 100% !important
+
+} -->
+		
+		<li style="background-color: #000000; font-size: 4px; ">More monthsto the number of twelvehad come and goneand Mr Charles Darnay was established in England as a higher teacher of the French language who was conversant with French literature In this agehe would have been a Professor in that agehe was a Tutor He read with young men who could find any leisure and interest for the study of a living tongue spoken all over the worldand he cultivated a taste for its stores of knowledge and fancy He could write of thembesidesin sound Englishand render them into sound English Such masters were not at that time easily found Princes that had beenand Kings that were to bewere not yet of the Teacher classand no ruined nobility had dropped out of Tellsons ledgersto turn cooks and carpenters As a tutorwhose attainments made the students way unusually pleasant and profitableand as an elegant translator who brought something to his work besides mere dictionary knowledgeyoung Mr Darnay soon became known and encouraged He was well acquaintedmoreoverwith the circumstances of his countryand those were of evergrog interest Sowith great perseverance and untiring industryhe prospered
+
+
+
+</li>
+	</ul>
+	<img src="http://optead.renewalnowwin.com/redirect.php?email=bruce@untroubled.org">
+	<div style="padding: 2.2px"><div style="padding: 2.2px"></div></div>
+	<div style="padding: 2.2px"><div style="padding: 2.2px"></div></div>
+	<div style="padding: 2.2px"><div style="padding: 2.2px"></div></div>
+	<div style="padding: 2.2px"><div style="padding: 2.2px"></div></div>
+	<div style="padding: 2.2px"><div style="padding: 2.2px"></div></div>
+	<div style="padding: 2.2px"><div style="padding: 2.2px"></div></div>
+	<div style="padding: 2.2px"><div style="padding: 2.2px"></div></div>
+	<div style="padding: 2.2px"><div style="padding: 2.2px"></div></div>
+	<div style="padding: 2.2px"><div style="padding: 2.2px"></div></div>
+	<div style="padding: 2.2px"><div style="padding: 2.2px"></div></div>
+	<div style="padding: 2.2px"><div style="padding: 2.2px"></div></div>
+	<br>
+<br>
+<br>
+<br>
+<br>
+<a href="http://opteft.renewalnowwin.com">Entering your name here</a> will end these updates from arriving to your inbox<br>
+
+Barton	Nieland, 	1551 Barton Orleans Rd	Barton	Vt	05822-9394
+
+<div style="padding: 2.2px"><div style="padding: 2.2px"></div></div>
+	<div style="padding: 2.2px"><div style="padding: 2.2px"></div></div>
+	<div style="padding: 2.2px"><div style="padding: 2.2px"></div></div>
+Stop receiving information like the above from us. Just submit your <a href="http://raltou.renewalnowwin.com">name here</a> and wait a few days
+<br>
+PO Box 534, Austin TX 78767
+</body>
+</html>
+
+
+
+
+
+
+
+
+	

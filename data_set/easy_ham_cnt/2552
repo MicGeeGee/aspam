@@ -1,0 +1,11 @@
+
+i=1
+
+for file in *.*
+	do
+		mv "$file" "/mnt/hgfs/ML/SPAM_CLASSIFIER/data_set/easy_ham_cnt/$i"
+		let i+=1
+	done
+
+
+

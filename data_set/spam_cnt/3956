@@ -1,0 +1,131 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sincerellys</title>
+<style type="text/css">
+.carousel *{font-family:"Gotham","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif}
+.carousel a{color:#0bacff}
+.clearfix:before,.clearfix:after{content:" ";display:table}
+.clearfix:after{clear:both}
+.link-img{vertical-align:middle;background-color:#fff;margin:-2px 0 0 0;padding-right:4px;background-repeat:no-repeat}
+#maestro-nav{line-height:normal}
+#maestro-nav h2{padding-top:0;padding-bottom:0}
+#account-header{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;float:right;font-size:13px}
+#account-header .account-header__avatar{margin-top:-3px}
+#account-header.show-account-photo .sub-nav .clickable,#account-header.show-account-photo .account-dropdown .clickable{cursor:pointer}
+#account-header.show-account-photo .sub-nav .name-container .name,#account-header.show-account-photo .account-dropdown .name-container .name{line-height:18px;word-wrap:break-word;width:100%}
+#account-header p{font-size:13px}
+#account-header .nav{margin:0}
+#account-header .nav li{display:inline-block;vertical-align:middle;list-style:none;position:relative;margin-left:10px}
+@media (max-width:767px){#account-header .nav li{margin-left:0}
+}
+#account-header .nav li.top-level-nav-item{padding-left:20px}
+#account-header .nav li.top-level-nav-item--align-baseline{margin-top:3px}
+#account-header .nav li .header-nav-link{display:inline-block;vertical-align:baseline;margin:0;padding:0}
+#account-header .nav li .header-nav-link img.link-img{opacity:.25;vertical-align:middle;background-color:#fff;margin:-1px 0 0 5px;padding-right:0px;background-repeat:no-repeat}
+#account-header .nav li .header-nav-link--space{margin-top:-3px}
+#account-header .nav li .header-nav-link--bold{vertical-align:top;padding-left:3px;font-weight:700}
+.tabbing #account-header .sprite-button:focus{margin:-4px;padding:4px}
+#header-account-menu .bubble-dropdown{padding:20px;left:auto !important;right:0px;min-width:165px;max-width:195px}
+#account-header .bubble-dropdown-target:hover{text-decoration:underline}
+#account-header .multistep--inactive{display:none}
+#account-header li.active .sub-nav{display:block}
+#account-header .sub-nav{display:none;position:absolute;right:2px;top:100%;margin-top:12px;z-index:1;padding-bottom:12px}
+#account-header .sub-nav .title,#account-header .bubble-dropdown .title{width:100%;font-size:14px;color:#000;margin:-7px 0 10px}
+#account-header .sub-nav ul,#account-header .bubble-dropdown ul{margin:0;padding:0}
+#account-header .sub-nav ul a:hover,#account-header .bubble-dropdown ul a:hover{text-decoration:none}
+#account-header .sub-nav ul .role-title,#account-header .bubble-dropdown ul .role-title{vertical-align:top}
+#account-header .sub-nav ul .subheader-gray-text,#account-header .bubble-dropdown ul .subheader-gray-text{color:#aaa;font-size:12px;margin-top:2px}
+#account-header .sub-nav ul .email,#account-header .bubble-dropdown ul .email{margin-bottom:6px}
+#account-header .sub-nav ul li,#account-header .bubble-dropdown ul li{margin:0 -20px;display:block;float:none}
+#account-header .sub-nav ul li.user-list-item,#account-header .bubble-dropdown ul li.user-list-item{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;margin-right:0;padding:6px 20px}
+#account-header .sub-nav ul li.user-list-item a,#account-header .bubble-dropdown ul li.user-list-item a{padding:0px}
+#account-header .sub-nav ul li.user-list-item a:hover,#account-header .bubble-dropdown ul li.user-list-item a:hover{background:#fff}
+#account-header .sub-nav ul li.user-list-item .button-as-link,#account-header .bubble-dropdown ul li.user-list-item .button-as-link{font-size:12px}
+#account-header .sub-nav ul li.divider,#account-header .bubble-dropdown ul li.divider{border-top:1px solid #edf1f5;margin-top:10px;padding-top:10px}
+#account-header .sub-nav ul li .sign-in-user-list,#account-header .bubble-dropdown ul li .sign-in-user-list{float:right;position:relative;top:-40px;right:10px;box-shadow:-10px 0px 15px 5px #fff}
+#account-header .sub-nav ul li a,#account-header .bubble-dropdown ul li a{padding:5px 20px}
+#account-header .sub-nav ul li a.standalone,#account-header .bubble-dropdown ul li a.standalone{display:block;zoom:1;min-width:165px}
+#account-header .sub-nav ul li a.standalone img,#account-header .bubble-dropdown ul li a.standalone img{margin-right:10px;margin-bottom:-3px}
+#account-header .sub-nav ul li a:hover,#account-header .bubble-dropdown ul li a:hover{background-color:#e3f2ff;cursor:pointer;text-decoration:none}
+#account-header .sub-nav ul .quota_graph_container,#account-header .bubble-dropdown ul .quota_graph_container{margin:16px 0 12px 0;border-top:1px solid #ddd;background:#eee;height:5px;width:165px}
+#account-header .sub-nav ul .quota_graph_container .quota_graph_bar,#account-header .bubble-dropdown ul .quota_graph_container .quota_graph_bar{margin-top:-1px;background:#69b5f2;border:1px solid #5d9fd5;height:4px}
+#account-header .sub-nav ul .quota_graph_container .quota_graph_bar.over,#account-header .bubble-dropdown ul .quota_graph_container .quota_graph_bar.over{border-color:#c00;background:#e00}
+#account-header .account-dropdown ul li.exp-dropdown-upsell a{background-color:#fffdec}
+#account-header .account-dropdown ul li.exp-dropdown-upsell a:hover{background-color:#fffdec}
+#account-header .account-dropdown ul li.exp-dropdown-upsell-v2 a{padding-top:15px;padding-bottom:15px;text-align:center;font-weight:700}
+#page-footer .bubble-dropdown,#page-full-footer .bubble-dropdown{padding:9px 0;bottom:35px;min-width:80px}
+#page-footer .bubble-dropdown .bubble-menu-item,#page-full-footer .bubble-dropdown .bubble-menu-item{padding:6px 15px;margin:0;min-width:80px;font-size:13px}
+#page-full-footer{clear:both;padding:0 0 120px 0}
+#page-full-footer .sub-nav{right:-35px}
+#page-full-footer #footer-top-margin{height:6em}
+#page-full-footer #footer-border{width:100%;height:0;margin-bottom:2em;border-top:1px solid #d0d4d9}
+#page-full-footer .footer-col{display:inline-block;vertical-align:top;max-width:200px;margin:15px 45px 20px 15px}
+#page-full-footer .footer-col ul{margin:0;padding:0}
+#page-full-footer .footer-col ul li{list-style:none;font-size:11px;margin:5px 0;padding:0}
+#page-full-footer .footer-col ul li.header{font-weight:600}
+#page-full-footer .footer-col ul li a,#page-full-footer .footer-col ul li.header{font-size:13px;color:#767676}
+@media (max-width:767px){#page-full-footer .footer-col ul li a,#page-full-footer .footer-col ul li.header{height:22px;line-height:22px;display:inline-block}
+}
+</style>
+</head>
+
+<body style="font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<h2>Order Confirmation</h2>
+<p style="font-size:18px;">
+Thank you for shopping with us<Br><br> This power gadget completely wipes out your power costs and works on all AC units, light, electronics, and appliances. 
+								<br>
+<br>
+<a href="http://phuoc.freedomofelectricity.com">See it in action</a>
+</p>
+<br><br>
+<table width="500" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td  align="left"><span style=" color: #000">Estimated delivery date:</span><br>
+													<b><font style="color:#2578BB;">Friday, Sep 09 -
+													Monday, Sep 12</font></td></tr>
+                             <tr>                       
+      <td align="left" colspan="2"><a href="http://phuoc.freedomofelectricity.com"  title="ItemImage"> <img border="0" id="asin" src="http://phpri.freedomofelectricity.com"  width="340" /></a><br>
+      
+<a href="http://phuoc.freedomofelectricity.com" style="	
+box-shadow:inset 0px 1px 0px 0px #fff6af;	
+background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%); 	
+background-color:#ffec64; 	-moz-border-radius:6px; 	-webkit-border-radius:6px; 	border-radius:6px; 	border:1px 
+solid #ffaa22; 	display:inline-block; 	cursor:pointer; 	color:#333333; 	font-family:Arial; 	
+font-size:15px; 	font-weight:bold; 	padding:6px 24px; 	text-decoration:none; 	text-shadow:0px 1px 0px #ffee66; width:300px; text-align:center">View or manage order</a></td>
+    </tr>
+  </tbody>
+</table>
+<hr color="#000000">
+<hr color="#000000">
+<br><br><br>
+<div style="font-size:10px; color:#E9E5E5; width:50%">
+One night while Emily was bringing her boys back home Josh helped her carry her youngest As soon as the boys were in their places Emily stopped Josh and asked if she could speak to him She said she wished she knew a girl thats Joshs age so that he could have someone to hang out with He suddenly blurted out that he wished that Emily were his age She said she was grateful for what he had said and bid him good night The next morning Emily invited the boys and Edward over to her home on Christmas Eve for some cocoa and molasses cookies The boys thought of something to give her for Christmas and Josh decided on giving her a perfume instead However Edward was more practical He suggested to a box full of dimes instead He had a point Emily needed  more than she needed perfume When they arrived by Emilys house she was dressed normally No clown costume or makeup to hide her beauty She kissed the boys and Edward on the forehead When they entered they found Pete Harris on the dining table along with Emilys boys Josh was annoyed about how Pete spoke to Emily He felt as if Pete thinks he owned Emily It was an unhappy night for Josh as he was really jealous of how Pete was treating Emily The follog days Josh continued to be unhappy He kept to himself mostly with Joey avoiding him most of the time He lashed out at Pete and Edward by speaking with Florrie a dancer They had already warned him about her but he continued to speak to her She was the one who told him about how Emily was Petes girl He retaliated by no longer waiting for Emily to say good night to him He always left his post early to avoid her 
+<br>
+<img src="http://phroc.freedomofelectricity.com/redirect.php?email=bruce@untroubled.org">
+<br>
+One night he decided to wait for her He offered to walk home with her He suddenly asked her about how she could marry Pete Harris She explained to him about how Pete was there for her Suddenly Josh told her to just forget that she knew him She told him that it hurt her but she has to accept it The next morning Joey told Josh about how he had hurt Emily and Edwards feelings 
+
+The weather during that day in Louisiana drove people away from the carnival Relieved of his duties Josh decided to walk around He sat by a tree and thought about how lonely he had been He wanted to see Lonnie again to speak to him When he went back to the carnival he noticed that it was on fire and began to run He found Joey standing with Emily her boys and Edward Watching how gentle Pete was with Emily Josh finally understood
+Notes Josh came to terms with falling for the wrong person at the wrong time He also came to terms with the fact that Emily needed Pete more than she needed him
+Chapter  Summary 
+Pete noticed that Josh seemed to want to return to Lonnie once again Pete admitted that hed like to help the boys but he t be able to until the next six months or so Josh knew this and told him that they could get by with the  that they have saved up He told the boys to get back to Lonnie Josh accepted everything now and said goodbye to Emily She made Josh promise to write to her Edward just asked Blegan to give a letter to the boys from him and cried to himself Josh kept this letter in his wallet
+They went got a ride late in the afternoon The man kept talking endlessly until he couldnt give the boys a ride anymore They found a group of men cooking dinner by the railways The group invited them to share the rabbit stew that they cooked </div>
+<br><br><br>
+<p style="font-size:14px;">
+Request to not get these updates from us by  <a href="http://apvi.freedomofelectricity.com">submitting your info here</a>
+<br>
+10910 W Arabian Way	Boise	Id	83709-5009
+</p>
+<p style="font-size:14px;">
+Remove your name and info from our list by <a href="http://oarsoc.freedomofelectricity.com">subitting your name here</a><br>
+9884 Se Southworth Dr	Port Orchard	Wa	98366-8943w
+</p>
+
+</body>
+</html>
+
+

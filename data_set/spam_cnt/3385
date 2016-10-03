@@ -1,0 +1,114 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>wow incredible way to look great</title>
+</head>
+<style>/* CommunityCrew */
+.pg-grid.cc-site { padding-bottom: 25px; }
+.cc-site #site-slogan { width: 50%; float: right; text-align: right; color: #CC0001; font-size: 30px; font-weight: 600; }
+    .cc-site #site-slogan .cc-black { color: #000; }
+.cc-site #site-name { width: 50%; float: left; }
+.cc-pg-title { font-size: 44px; line-height: 46px; margin: 28px 0 27px; }
+.cc-black { color: #000; }
+.cc-page h1#page-title { display: none; }
+.cc-page h1.title.cc-black#page-title { display: block; width: 80%; margin-left: 25px; }
+#main #main-content.cc-page { width: 100%; }
+#main #main-content.cc-page > .inner { padding: 0; }
+.cc-page .featured-content-slides { width: 100%; margin: 0; }
+.cc-page .inner { padding-bottom: 0 !important; }
+.cc-page .inner-padding { color: #000; font-size: 14px; font-weight: 400; padding-top: 35px !important; }
+.cc-button { display: block; border: none; padding: 0; margin-top: 30px; width: 220px; line-height: 52px !important; height: 52px; background-color: #cc0000; color: #ffffff; font-weight: 500; width: 215px; text-align: center; }
+    .cc-button:hover { border: 1px solid #cc0000; background-color: #fff; color: #cc0000; text-decoration: none; }
+    #main #main-content.cc-page p a:hover { color: #cc0000; text-decoration: none; }
+p.cc-footer { font-size: 12px; margin-top: -45px; color: #999; }
+.no-bot-pad { margin-bottom: 10px; }
+    .no-bot-pad strong { font-weight: 600; }
+.cc-page p, .cc-page li { line-height: 25px; }
+.cc-page .featured-content-slides .item-list ul.slides > li .inner-wrapper .main-text { padding-bottom: 0 !important; }
+#footer-wrapper.cc-page { background-color: #e9e9e9; }
+#main #main-content.cc-page p a { color: #fff; }
+.cc-copyright { margin-top: 15px !important; }
+
+/* Transitions Header */
+#header-wrapper #header .trans-site .region-header{margin-left:100%;top:0;left:0;width:100%;height:100%;background-color:#000;position:fixed;display:block;overflow-y:scroll;-webkit-overflow-scrolling:touch}
+#header-wrapper #header .trans-site .header-nav{margin-right:60px;background-color:#e9e9e9;height:100%;display:block}
+#header-wrapper #header .trans-site .header-nav ul.menu{padding:0}
+#header-wrapper #header .trans-site .header-nav ul.menu li{float:none;padding:0!important;border-bottom:1px solid #8b8b8b;background-color:#e9e9e9;list-style:none}
+#header-wrapper #header .trans-site .close-mobile-menu-block{position:absolute;top:0;right:0;width:60px;height:100%;background-color:#000;display:none}
+#header-wrapper #header .trans-site .close-mobile-menu-block .close-mobile-menu-button{display:block!important;width:60px;height:60px;background:url(../img/button-close-menu-hd.png) center center no-repeat;background-size:auto 21px}
+#header-wrapper #header .region-transitions-header{margin-left:100%;top:0;left:0;width:100%;height:100%;background-color:#000;position:fixed;display:block;overflow-y:scroll;-webkit-overflow-scrolling:touch; z-index: 100; }
+#header-wrapper #header .trans-site .header-nav ul.menu li a{display:block;font-size:20px;font-weight:700;padding:20px 16px;line-height:1.4em;margin-right:16px}
+#header-wrapper #header .trans-site #site-name a{background:url(../img/logo-cvs-health-hd.png) no-repeat;background-size:170px auto;width:191px;height:24px;display:block;margin:20px 0 17px 7px}
+.transitions-title{position:relative;float:right;width:100%;text-align:center;margin-top:20px;font-size:26px;font-weight:bold;z-index: 1;}
+#header-wrapper #header .trans-site .mobile-menu-button { display:block !important; width:36px; height:36px; position:absolute; right:0; background:transparent url('../img/button-menu-hd.png') no-repeat center center; background-size:auto 18px; padding-top: 25px; z-index: 7; }
+.region.region-transitions-header { margin-left: 50%; margin-top: 0; }
+.trans-site div#name-and-slogan { width: 33%; z-index: 5; position: relative; }
+.node-type-transitions-page .subnavsection-content .views-field a { color: #cb0000; }
+    .node-type-transitions-page .subnavsection-content .views-field a:hover { text-decoration: underline; }
+
+/* Transitions page styles */
+.page-summary { font-size: 21px; line-height: 31px; font-weight: 300; color: #636363; padding-bottom: 27px; }
+.node-type-transitions-page #main .subnavsection .subnavsection-side .inner-padding.blacktext a { color: #cc0000; text-decoration: none; }
+#page-title sup { font-size: 18px; top: -18px; }
+.trans-welcome .content { padding: 0 !important; }
+.content-welcome { padding: 24px 6.779661016949%; background: transparent url("../img/bg-000000-70.png") repeat 0 0; color: #fff; margin-top: -6px; }
+.item-list ul li { list-style-type: disc; }
+.node-type-transitions-page .view-accordian .accordian .accordian-content h2 { display: block; padding: 0 12.698412698413% 0 6.349206349206%; margin-top: 0; }
+h2.ksd, h2.ksd-clinic { border-bottom: 1px solid #000; }
+h2.do-h2 { margin-top: 103px; }
+h2.do-h2.ksd { margin-top: 203px; }
+h2.do-h2.ksd-clinic { margin-top: 111px; }
+h2.share-h2 { margin-top: 124px; }
+h2.share-h2.ksd-clinic { margin-top: 146px; }
+h2.share-h2.ksd { margin-top: 126px; }
+h2.pharm-share-h2 { margin-top: 152px; }
+ul.kds-ul { margin: 40px 0; }
+ul.pharm-know-this-ul, ul.clinic-know-this-ul { margin-top: 38px; }
+ul.pharm-share-this-ul, ul.pharm-do-this-ul, ul.clinic-do-this-ul { margin-top: 42px; }
+ul.clinic-know-this-ul li a { color: #fff; text-decoration: underline; }</style>
+<body bgcolor="#F4F4F4">
+<span style="width:489px; border-radius:7px;display:block; background-color:#FFFFFF; padding:12px "><font size="6" face="Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif" color="#85CC1F">Food - <span style="font-weight:lighter; font-style:italic">Health - Home</span></font><br><br>
+
+<h1 style="border-bottom:dotted #000000; font-family:arial; color:#000; font-size:19px"> <center>Melissa McCarthy No Longer Has A Large Waist<br>
+                                   Its crazy how easy it was </center></h1><table width="100%" border="0" cellspacing="3" cellpadding="3">
+  <tbody>
+    <tr>
+      <td style="background-color:#FCF4EC" align="center"><a href="http://deukyn.lipodowner.com"><img width="450" src="http://oyle.lipodowner.com"></a><p style="text-align:left; font-family:arial; padding:13px; text-align:justify">Though Melissa McCarthy does not <a href="http://deukyn.lipodowner.com">delight in talking about her figure</a>, because, ya know, she's a human person, when the subject inevitably comes up, she let us know what she did to get her figure back.</p><a href="http://deukyn.lipodowner.com"><!--.view-content .views-row .thumbnail:hover,
+.view-content .views-row .tile-image-container:hover { background-color: #fff; }
+.view-content .views-row .thumbnail img:hover,
+.posts-list .views-row .field-content img:hover { opacity: .5; }
+.view-content .views-row .tile-image-container img:hover { opacity: .3; }
+.view-content .views-row .thumbnail.video-hover img:hover { opacity: .2; } --><p style="align-items: flex-start ; background-attachment: scroll ; background-clip: border-box ; background-color: rgb(190, 42, 119) ; background-image: none ; background-origin: padding-box ; background-size: auto ; border-bottom-color: rgb(255, 255, 255) ; border-bottom-left-radius: 3px ; border-bottom-right-radius: 3px ; border-bottom-style: none ; border-bottom-width: 0px ; border-image-outset: 0px ; border-image-repeat: stretch ; border-image-slice: 100% ; border-image-source: none ; border-image-width: 1 ; border-left-color: rgb(255, 255, 255) ; border-left-style: none ; border-left-width: 0px ; border-right-color: rgb(255, 255, 255) ; border-right-style: none ; border-right-width: 0px ; border-top-color: rgb(255, 255, 255) ; border-top-left-radius: 3px ; border-top-right-radius: 3px ; border-top-style: none ; border-top-width: 0px ; box-sizing: border-box ; color: rgb(255, 255, 255) ; cursor: pointer ; display: inline-block ; font-family: Helvetica Neue, Helvetica, Arial ; font-size: 18px ; font-stretch: normal ; font-style: normal ; font-variant-caps: normal ; font-variant-ligatures: normal ; font-variant-numeric: normal ; font-weight: normal ; height: 39px ; letter-spacing: normal ; line-height: 24px ; margin-bottom: 0px ; margin-left: 0px ; margin-right: 0px ; margin-top: 0px ; padding-bottom: 5px ; padding-left: 10px ; padding-right: 10px ; padding-top: 6px ; position: relative ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-rendering: auto ; text-shadow: none ; text-transform: none ; transition-delay: 0s ; transition-duration: 0.2s ; transition-property: background ; transition-timing-function: ease-in ; vertical-align: baseline ; white-space: pre ; width:100% ; word-spacing: 0px ; writing-mode: horizontal-tb ; -webkit-appearance: none ; -webkit-rtl-ordering: logical ; -webkit-user-select: none ;">What did she do really? see for yourself</p></a><!-- #page-wrapper { background-color:#e9e9e9; }
+        #page-wrapper .page { max-width : 1024px; margin : 0 auto; }
+        #page-wrapper .page-inner { width : 98.4375%; margin: 0 0.78125%;}
+                #page-wrapper .page-inner:before, #page-wrapper .page-inner:after { content: " "; /* 1 */ display: table; /* 2 */ } /*clearfix*/
+                #page-wrapper .page-inner:after { clear: both; } /*clearfix con't*/
+                #page-wrapper .page-inner .pg-grid { width : 96.825396825396%; margin : 0 1.587301587302%; float:left; }
+                        #page-wrapper .page-inner .pg-grid.top-gutter { margin-top:16px; }
+                        #page-wrapper .page-inner .pg-grid.bottom-gutter { margin-bottom:16px; }
+                        #page-wrapper .page-inner .pg-grid .inner-padding { padding: 36px 3.28893442623%; }
+                #page-wrapper .page-inner .pg-grid.break { clear:left; }
+                #page-wrapper .page-inner .pg-grid.w-2-1 { width : 46.825396825397%; }
+                        #page-wrapper .page-inner .pg-grid.w-2-1 .inner-padding { padding: 36px 6.779661016949% }
+                #page-wrapper .page-inner .pg-grid.w-3-1 { width : 30.15873015873%; }
+                #page-wrapper .page-inner .pg-grid.w-3-2 { width : 63.095238095238% } #page-wrapper .page-inner .pg-grid.w-3-2 .inner-padding {padding: 36px 5.660377358491%;}
+                #page-wrapper .page-inner .pg-grid.w-4-1 { width : 21.825396825397%; }
+                #page-wrapper .page-inner .pg-grid.w-4-3 { width : 71.825396825397%; }--></td>
+    </tr>
+  </tbody>
+</table>
+</span>
+<br>
+<br>
+<br>
+<cite style="color:#F4F4F4">After running for several blocks Ponyboy tells Johnny about the fight with Darry Ponyboy thinks it over and suggests that they walk to a nearby park and back He hopes that may provide enough time for him to cool off and go back home While at the park the two boys are confronted by Bob Randy and a couple of their friends Bob and Randy want to pick a fight over the girls Johnny notices the rings on Bobs fingers and realizes Bob is the Soc who aulted him Bob and the other Socs grab Ponyboy and begin to drown him in a fountain Johnny pulls out a switchblade and s Bob to save Ponyboy
+</cite><br>
+<cite><a href="http://rokyn.lipodowner.com">Entering your name here</a> will end these updates from arriving to your inbox<br>
+2529 Forest Lodge Dr	Fayetteville	Nc	28306-7780</cite><br><br>
+<cite>Stop receiving information like the above from us. Just submit your <a href="http://crocre.lipodowner.com">name here</a> and wait a few days<br>
+1577 E Wood Glen Road
+Sandy, UT. 84092</cite><img src="http://areup.lipodowner.com/redirect.php?email=bruce@untroubled.org">
+</body>
+</html>

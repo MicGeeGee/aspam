@@ -1,0 +1,448 @@
+=09 =09 =09 =09 =09 =09 =09 =09 =09 =09=09 =09 =09 =09 =09 =09=09
+=09=20
+=20
+=20
+=20
+=20
+=20
+=20
+
+
+
+
+
+=20
+=20
+=20
+
+
+=20
+=20
+=20
+=20
+
+
+=20
+=20
+=20
+
+=20
+=20
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1=2E0 Transitional//EN" "http://w=
+ww=2Ew3=2Eorg/TR/xhtml1/DTD/xhtml1-transitional=2Edtd">
+<html xmlns=3D"http://www=2Ew3=2Eorg/1999/xhtml">
+<head>
+=09<meta charset=3D"iso-8859-1"> <!-- utf-8 works for most cases -->
+=09<meta name=3D"viewport" content=3D"width=3Ddevice-width"> <!-- Forcing =
+initial-scale shouldn't be necessary -->
+=09<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"> <!-- Use th=
+e latest (edge) version of IE rendering engine -->
+=09<title>Aviso de Gesti=F3n</title> <!-- The title tag shows in email not=
+ifications, like Android 4=2E4=2E -->
+
+=09<!-- Web Font / @font-face : BEGIN -->
+=09<!-- NOTE: If web fonts are not required, lines 9 - 26 can be safely re=
+moved=2E -->
+=09
+=09<!-- Desktop Outlook chokes on web font references and defaults to Time=
+s New Roman, so we force a safe fallback font=2E -->
+=09<!--[if mso]>
+=09=09<style>
+=09=09=09* {
+=09=09=09=09font-family: sans-serif !important;
+=09=09=09}
+=09=09</style>
+=09<![endif]-->
+=09
+=09<!-- All other clients get the webfont reference; some will render the =
+font and others will silently fail to the fallbacks=2E More on that here: =
+http://stylecampaign=2Ecom/blog/2015/02/webfont-support-in-email/ -->
+=09<!--[if !mso]><!-->
+=09=09<!-- insert web font reference, eg: <link href=3D'https://fonts=2Ego=
+ogleapis=2Ecom/css=3Ffamily=3DRoboto:400,700' rel=3D'stylesheet' type=3D't=
+ext/css'> -->
+=09<!--<![endif]-->
+
+=09<!-- Web Font / @font-face : END -->
+=09
+=09<!-- CSS Reset -->
+    <style type=3D"text/css">
+
+=09=09/* What it does: Remove spaces around the email design added by some=
+ email clients=2E */
+=09=09/* Beware: It can remove the padding / margin and add a background c=
+olor to the compose a reply window=2E */
+        html,
+        body {
+            Margin: 0 !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
+       =20
+        /* What it does: Stops email clients resizing small text=2E */
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+       =20
+        /* What is does: Centers email on Android 4=2E4 */
+        div[style*=3D"margin: 16px 0"] {
+            margin:0 !important;
+        }
+       =20
+        /* What it does: Stops Outlook from adding extra spacing to tables=
+=2E */
+        table,
+        td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+        }
+               =20
+        /* What it does: Fixes webkit padding issue=2E Fix for Yahoo mail =
+table alignment bug=2E Applies table-layout to the first 2 tables then rem=
+oves for anything nested deeper=2E */
+        table {
+            border-spacing: 0 !important;
+            border-collapse: collapse !important;
+            table-layout: fixed !important;
+            Margin: 0 auto !important;
+        }
+        table table table {
+            table-layout: auto;=20
+        }
+       =20
+        /* What it does: Uses a better rendering method when resizing imag=
+es in IE=2E */
+        img {
+            -ms-interpolation-mode:bicubic;
+        }
+       =20
+        /* What it does: Overrides styles added when Yahoo's auto-senses a=
+ link=2E */
+        =2Eyshortcuts a {
+            border-bottom: none !important;
+        }
+       =20
+        /* What it does: A work-around for iOS meddling in triggered links=
+=2E */
+        =2Emobile-link--footer a,
+        a[x-apple-data-detectors] {
+            color:inherit !important;
+            text-decoration: underline !important;
+        }
+     =20
+    </style>
+   =20
+    <!-- Progressive Enhancements -->
+    <style>
+       =20
+        /* What it does: Hover styles for buttons */
+        =2Ebutton-td,
+        =2Ebutton-a {
+            transition: all 100ms ease-in;
+        }
+        =2Ebutton-td:hover,
+        =2Ebutton-a:hover {
+            background: #cb0017 !important;
+            border-color: #cb0017 !important;
+        }
+a{text-decoration:none}
+        /* Media Queries */
+        @media screen and (max-width: 600px) {
+
+            =2Eemail-container {
+                width: 100% !important;
+            }
+
+            /* What it does: Forces elements to resize to the full width o=
+f their container=2E Useful for resizing images beyond their max-width=2E =
+*/
+            =2Efluid,
+            =2Efluid-centered {
+                max-width: 100% !important;
+                height: auto !important;
+                Margin-left: auto !important;
+                Margin-right: auto !important;
+            }
+            /* And center justify these ones=2E */
+            =2Efluid-centered {
+                Margin-left: auto !important;
+                Margin-right: auto !important;
+            }
+
+            /* What it does: Forces table cells into full-width rows=2E */=
+
+            =2Estack-column,
+            =2Estack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones=2E */
+            =2Estack-column-center {
+                text-align: center !important;
+            }
+       =20
+            /* What it does: Generic utility class for centering=2E Useful=
+ for images, buttons, and nested tables=2E */
+            =2Ecenter-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                Margin-left: auto !important;
+                Margin-right: auto !important;
+                float: none !important;
+            }
+            table=2Ecenter-on-narrow {
+                display: inline-block !important;
+            }
+               =20
+        }
+
+    </style>
+
+</head>
+<body bgcolor=3D"#f3f3f3" width=3D"100%" style=3D"Margin: 0;">
+<table bgcolor=3D"#f3f3f3" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+" height=3D"100%" width=3D"100%" style=3D"border-collapse:collapse;"><tr><=
+td valign=3D"top">
+    <center style=3D"width: 100%;">
+
+        <!-- Visually Hidden Preheader Text : BEGIN -->
+        <div style=3D"display:none;font-size:1px;line-height:1px;max-heigh=
+t:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sa=
+ns-serif;">
+            (Optional) This text will appear in the inbox preview, but not=
+ the email body=2E
+        </div>
+        <!-- Visually Hidden Preheader Text : END -->
+
+        <!-- Email Header : BEGIN -->
+        <table align=3D"center" width=3D"600" class=3D"email-container">
+=09=09=09<tr>
+=09=09=09=09<td bgcolor=3D"#cb0017" style=3D"padding: 20px 0; text-align: =
+left"><a href=3D"http://www=2Etumanualestudioenlinea=2Ecom/lat/formacion/m=
+aster-en-controller-financiero/719/11"><img src=3D"http://www=2Etumanuales=
+tudioenlinea=2Ecom/mail/img/URJC-IOE=2Epng" width=3D"278" alt=3D"UNIVERSID=
+AD REY JUAN CARLOS - GRUPO IOE" border=3D"0"></a>
+=09=09=09=09</td>
+=09=09=09</tr>
+        </table>
+        <!-- Email Header : END -->
+       =20
+        <!-- Email Body : BEGIN -->
+        <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"c=
+enter" bgcolor=3D"#ffffff" width=3D"600" class=3D"email-container">
+           =20
+            <!-- Hero Image, Flush : BEGIN -->
+            <tr>
+=09=09=09=09<td><a href=3D"http://www=2Etumanualestudioenlinea=2Ecom/lat/f=
+ormacion/master-en-controller-financiero/719/11"><img src=3D"http://www=2E=
+tumanualestudioenlinea=2Ecom/mail/img/cf-urjc=2Ejpg" width=3D"600" height=3D=
+"" alt=3D"Medidas de control sobre la gesti&oacute;n empresarial=2E Saber =
+M&aacute;s &gt;&gt;" border=3D"0" align=3D"center" style=3D"width: 100%; m=
+ax-width: 600px;"></a>
+=09=09=09=09</td>
+            </tr>
+            <!-- Hero Image, Flush : END -->
+
+            <!-- 1 Column Text : BEGIN -->
+            <tr>
+              <td st-content=3D"fulltext-paragraph" style=3D"font-family: =
+Helvetica, arial, sans-serif; font-size: 21px; color: #cb0017; text-align:=
+center;line-height: 30px;">&nbsp;</td>
+            </tr>
+            <tr>
+=09=09=09=09=09=09=09=09=09<td st-content=3D"fulltext-paragraph" style=3D"=
+font-family: Helvetica, arial, sans-serif; font-size: 30px; color: #cb0017=
+; text-align:center;line-height: 30px;"><strong><a style=3D"text-decoratio=
+n:none;color:#cb0017;" href=3D"http://www=2Etumanualestudioenlinea=2Ecom/l=
+at/formacion/master-en-controller-financiero/719/11">Controller Financiero=
+</a></strong></td>
+=09=09  </tr>
+            <tr>
+                <td style=3D"padding: 30px; text-align: justify; font-fami=
+ly: sans-serif; font-size: 15px; mso-height-rule: exactly; line-height: 20=
+px; color: #555555;">Este <strong><a style=3Dtext-decoration:none;color:#c=
+b0017; href=3D"http://www=2Etumanualestudioenlinea=2Ecom/lat/formacion/mas=
+ter-en-controller-financiero/719/11">programa exclusivo de la Universidad =
+europea Rey Juan Carlos (Madrid) </a></strong>le ayudar&aacute; a adquirir=
+ las habilidades del Controller Financiero para la toma de decisiones, <st=
+rong>an&aacute;lisis de auditor&iacute;as</strong>, situar la <strong>gest=
+i&oacute;n de la tesorer&iacute;a</strong> de la empresa, <strong>dise&nti=
+lde;ar e integrar</strong> un <strong>cuadro de mandos</strong> o valorar =
+el proceso de manera &oacute;ptima=2E<br>
+                  <br>
+                  Los cambios continuos y cada vez m&aacute;s r&aacute;pid=
+os del &aacute;mbito empresarial     (incremento de la competencia, impact=
+o de las nuevas tecnolog&iacute;as,     globalizaci&oacute;n econ&oacute;m=
+ica=2E=2E=2E) exigen un <strong>estricto control en la empresa</strong>=2E=
+&nbsp;<br>
+               =20
+               =20
+                =20
+                  <br><br>
+                    <!-- Button : Begin -->
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+" align=3D"center" style=3D"Margin: auto">
+                        <tr>
+                            <td style=3D"border-radius: 3px; background: #=
+f3f3f3; text-align: center;" class=3D"button-td">
+                              <a href=3D"mailto:info@postgradoonline=2Ecom=
+=3Fsubject=3DREQUIERO M&Aacute;S INFORMACI&Oacute;N SOBRE MAESTR&Iacute;A =
+EN CONTROLLER FINANCIERO - UNIVERSIDAD REY JUAN CARLOS (MADRID)&body=3DNom=
+bre: %0D%0A Tel&eacute;fono: %0D%0A Pa&iacute;s: %0D%0A Empresa: %0D%0A" s=
+tyle=3D"background: #222222; border: 15px solid #222222; padding: 0 10px;c=
+olor: #ffffff; font-family: sans-serif; font-size: 13px; line-height: 1=2E=
+1; text-align: center; text-decoration: none; display: block; border-radiu=
+s: 3px; font-weight: bold;" class=3D"button-a">
+                                    <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<=
+![endif]-->REQUIERO M&Aacute;S INFORMACI&Oacute;N<!--[if mso]>&nbsp;&nbsp;=
+&nbsp;&nbsp;<![endif]-->
+                              </a>
+                            </td>
+                           =20
+                        </tr>
+                    </table>
+                    <!-- Button : END -->
+              </td>
+            </tr>
+            <!-- 1 Column Text : BEGIN -->
+
+            <!-- Background Image with Text : BEGIN -->
+            <tr>
+                <!-- Bulletproof Background Images c/o https://backgrounds=
+=2Ecm -->
+                <td background=3D"http://www=2Etumanualestudioenlinea=2Eco=
+m/mail/img/confinanciero=2Ejpg" bgcolor=3D"#000000" valign=3D"middle" styl=
+e=3D"text-align: center; background-position: center center !important; ba=
+ckground-size: cover !important;">
+
+                    <!--[if gte mso 9]>
+                    <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=
+=3D"true" stroke=3D"false" style=3D"width:600px;height:175px; background-p=
+osition: center center !important;">
+                    <v:fill type=3D"tile" src=3D"http://placehold=2Eit/600=
+x230/222222/666666" color=3D"#f3f3f3" />
+                    <v:textbox inset=3D"0,0,0,0">
+                    <![endif]-->
+                    <div>
+                        <table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" width=3D"100%">
+                            <tr>
+                                <td valign=3D"middle" style=3D"text-align:=
+ center; padding: 20px; font-family: sans-serif; font-size: 15px; mso-heig=
+ht-rule: exactly; line-height: 20px; color: #ffffff;"><p><strong>La respon=
+sabilidad empresarial pasa por la labor del Controller Financiero</strong>=
+</p></td>
+                            </tr>
+                        </table>
+                  </div>
+                    <!--[if gte mso 9]>
+                    </v:textbox>
+                    </v:rect>
+                    <![endif]-->
+                </td>
+            </tr>
+            <!-- Background Image with Text : END -->
+          =20
+            <!-- 2 Even Columns : BEGIN -->
+            <tr>
+                <td align=3D"center" valign=3D"top" style=3D"padding: 10px=
+;">
+                    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+" width=3D"100%">
+                        <tr>
+                            <!-- Column : BEGIN -->
+                            <td class=3D"stack-column-center">
+                              <table cellspacing=3D"0" cellpadding=3D"0" b=
+order=3D"0">
+                                    <tr>
+                                        <td width=3D"251" class=3D"top-on-=
+narrow" style=3D"font-family: sans-serif; font-size: 15px; mso-height-rule=
+: exactly; line-height: 20px; color: #555555; padding: 0 10px 10px; text-a=
+lign: left;"><strong>PRINCIPALES VENTAJAS:</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td style=3D"font-family: sans-ser=
+if; font-size: 12px; mso-height-rule: exactly; line-height: 20px; color: #=
+555555; padding: 0 10px 10px; text-align: left;" class=3D"top-on-narrow">
+                                      - Avalado por la  prestigiosa<strong=
+> Universidad Rey Juan Carlos</strong> de Madrid (Espa&ntilde;a)=2E<br />=20=
+
+                                      <strong>- Experiencia Internacional=2E=
+</strong><br />
+                                      <strong> - Campus Virtual e-learning=
+</strong> 100% Interactivo=2E<br></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <!-- Column : END -->
+                            <!-- Column : BEGIN -->
+                            <td class=3D"stack-column-center">
+                                <table cellspacing=3D"0" cellpadding=3D"0"=
+ border=3D"0">
+                                    <tr>
+                                        <td style=3D"font-family: sans-ser=
+if; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color: #=
+555555; padding: 0 10px 10px; text-align: left;" class=3D"top-on-narrow">&=
+nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td style=3D"font-family: sans-ser=
+if; font-size: 13px; mso-height-rule: exactly; line-height: 20px; color: #=
+ffffff; padding: 0 10px 10px; text-align: justify; background-color: #cb00=
+17;" class=3D"top-on-narrow";><strong>Programa exclusivo de Becas=2E<br />=
+=20
+                                        Cupo Limitado=2E</strong></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <!-- Column : END -->
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- 2 Even Columns : END -->
+
+ =20
+           =20
+           =20
+           =20
+
+        </table>
+        <!-- Email Body : END -->
+         =20
+        <!-- Email Footer : BEGIN -->
+        <table align=3D"center" width=3D"600" class=3D"email-container">
+            <tr>
+              <td align=3D"justify" st-content=3D"preheader" style=3D"font=
+-family: Helvetica, arial, sans-serif; font-size: 10px;color: #999999" val=
+ign=3D"middle">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"font-family:Tahom=
+a, Geneva, sans-serif; font-size:10px; color:#2a2a2a; text-align:justify;"=
+>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09Si no quiere recibir m&aacute;s =
+publicidad de m&aacute;ster, maestr&iacute;as o cursos de capacitaci&oacut=
+e;n puede dar de baja su correo electr&oacute;nico de esta lista de distri=
+buci&oacute;n pulsando <a href=3D"http://www=2Etumanualestudioenlinea=2Eco=
+m/baja=2Ephp=3Fe=3Dbruce@untroubled=2Eorg">aqu&iacute;</a>=2E Muchas graci=
+as de antemano por la atenci&oacute;n prestada=2E Reciba un cordial saludo=
+=2E</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+            </tr>
+        </table>
+        <!-- Email Footer : END -->
+
+    </center>
+</td></tr></table>
+<img src=3D"http://www=2Etumanualestudioenlinea=2Ecom/seguimiento=2Ephp=3F=
+c=3D201609052&e=3Dbruce@untroubled=2Eorg" alt=3D"" />
+</body>
+</html>
+

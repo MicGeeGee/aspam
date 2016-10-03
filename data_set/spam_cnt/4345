@@ -1,0 +1,140 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>a goner really</title>
+</head>
+	<style>/* Thought Leadership */
+body.page-node-5156 .view-featured-stories-and-updates .stories-item-list ul li,
+body.page-node-40026 .view-featured-stories-and-updates .stories-item-list ul li,
+body.page-node-40196 .view-featured-stories-and-updates .stories-item-list ul li,
+body.page-node-40221 .view-featured-stories-and-updates .stories-item-list ul li,
+body.page-node-40311 .view-featured-stories-and-updates .stories-item-list ul li,
+body.page-node-39621 .view-featured-stories-and-updates .stories-item-list ul li { padding-left: 20px; }
+body.page-node-5156 .view-featured-stories-and-updates .stories-item-list ul li .thumbnail,
+body.page-node-40026 .view-featured-stories-and-updates .stories-item-list ul li .thumbnail,
+body.page-node-40196 .view-featured-stories-and-updates .stories-item-list ul li .thumbnail,
+body.page-node-40221 .view-featured-stories-and-updates .stories-item-list ul li .thumbnail,
+body.page-node-40311 .view-featured-stories-and-updates .stories-item-list ul li .thumbnail,
+body.page-node-39621 .view-featured-stories-and-updates .stories-item-list ul li .thumbnail { float: none; width: 95%; }
+body .view-featured-stories-and-updates .stories-item-list ul li .flaglabel { margin-top: 10px; }
+body.page-node-5156 .view-featured-stories-and-updates .stories-item-list ul li .inner-text,
+body.page-node-40026 .view-featured-stories-and-updates .stories-item-list ul li .inner-text,
+body.page-node-40196 .view-featured-stories-and-updates .stories-item-list ul li .inner-text,
+body.page-node-40221 .view-featured-stories-and-updates .stories-item-list ul li .inner-text,
+body.page-node-40311 .view-featured-stories-and-updates .stories-item-list ul li .inner-text,
+body.page-node-39621 .view-featured-stories-and-updates .stories-item-list ul li .inner-text { padding: 0; margin-left: 0; }
+
+}
+
+
+@media only screen and (max-width : 750px) {
+
+.view-be-the-first-header .views-field-field-sub-text { float: left; margin-left: 4%; width: 100%; }
+
+
+/* Transitions Header */
+.transitions-title { float: right; text-align: right; margin-top: 22px; font-size: 15px; padding-right: 12%; }
+
+.addthis_native_counter { margin: -31.5px 0 0 2px !important; background: transparent; }
+#main form input, #main form input, #main form input  { max-width: 243px; width:auto !important; }
+    #main form .select-year-placeholder, #main form ul#year-selector li { width:210px; }
+    #main form input { width: 243px; }
+
+
+h1, h2, h3, h4, h5 { font-weight : bold;}
+        h1 { font-size : 36px; line-height : 38px; letter-spacing: -0.0176em; margin:0.5em 0 1em; }
+        h2 { font-size : 24px; line-height : 28px; letter-spacing: -0.0176em; margin:0.5em 0 1em; }
+        h3 { font-size : 18px; line-height : 22px; letter-spacing: 0; margin:0.5em 0 1em; }
+        h4 { font-size : 16px; line-height : 18px; letter-spacing: 0; margin:0.5em 0 1em; }
+
+#page-wrapper .page-inner { width : auto; margin: 0;}
+        #page-wrapper .page-inner .pg-grid { margin:0; width:100%;}
+        #page-wrapper .page-inner .pg-grid.w-2-1 { width : 100%; }
+                #page-wrapper .page-inner .pg-grid.w-2-1 .inner-padding { padding:36px 0; }
+        #header-wrapper #header .page-inner { margin:0 10px; }
+        #main-wrapper #main .page-inner { margin:0 10px; }
+
+#header-wrapper {}
+        #header-wrapper #header { padding:0; }
+        #header-wrapper #header #site-name a { background : transparent url('../img/logo-cvs-health-hd.png') no-repeat 0 0; background-size:auto 18px; width: 156px; height:18px; margin:17px 0 17px 7px; }
+        html.lt-ie9 #header-wrapper #header #site-name a { background : transparent url('../img/logo-cvs-health-m.png') no-repeat 0 0; width: 156px; height:18px; margin:17px 0 17px 7px; }
+        #header-wrapper #header .region-header { margin-left:100%; top:0; left:0; width:100%; height:100%; background-color:#000000; position:fixed; display:block; overflow-y:scroll; -webkit-overflow-scrolling:touch; }
+        #header-wrapper #header #block-search-form { display:none; top:0; bottom:0; right:auto; left:0; width:100%; height:100%; background-color:#e9e9e9; }
+                #header-wrapper #header #block-search-form label { display:none; }
+                #header-wrapper #header #block-search-form form input { display:block; background:#ffffff url('../img/button-search-hd.png') no-repeat 10px center; background-size:auto 22px; height:52px; line-height:52px; padding-left:40px; color:#000000; }
+                html.lt-ie9 #header-wrapper #header #block-search-form form input { display:block; background:#ffffff url('../img/button-search-m.png') no-repeat 10px center; height:52px; line-height:52px; padding-left:40px; color:#000000; }
+        #header-wrapper #header .header-nav { margin-right:60px; background-color:#e9e9e9; height:100%; display:block; }
+                #header-wrapper #header .header-nav ul.menu { padding:0; }
+                #header-wrapper #header .header-nav ul.menu li { float:none; padding:0 !important; border-bottom:1px solid #8b8b8b; background-color:#e9e9e9; list-style:none; }
+                        #header-wrapper #header .header-nav ul.menu li a { display:block; font-size:16px; font-weight:bold; padding:20px 16px; line-height:1.4em; margin-right:16px;  }
+                        #header-wrapper #header .header-nav ul.menu li.expanded a { background:transparent url('../img/icon-mobile-menu-item-arrow-hd.png') no-repeat right center; background-size:auto 19px; }
+                        html.lt-ie9 #header-wrapper #header .header-nav ul.menu li.expanded a { background:transparent url('../img/icon-mobile-menu-item-arrow.png') no-repeat right center; }
+                #header-wrapper #header .mobile-sub-menu-block { background-color:#e9e9e9; position:absolute; top:0; left:0; right:60px; margin-left:100%; min-height:600px;  }
+                    #header-wrapper #header .mobile-sub-menu-block .back-to-main-container { overflow: hidden; border-bottom:1px solid #8b8b8b; }
+                        #header-wrapper #header .mobile-sub-menu-block #main-section-link { float: left; width: 65%; padding: 20px 0 0 ; text-align: center; }
+                            #header-wrapper #header .mobile-sub-menu-block #main-section-link a { font-size: 16px; font-weight: bold; }
+                        #header-wrapper #header .mobile-sub-menu-block .back-to-main-menu { display:block; padding:20px 0 20px 20px; font-size:16px; font-weight:bold; text-align:center; width: 10%; float: left; background:transparent url('../img/icon-mobile-menu-item-arrow-back-hd.png') no-repeat 16px center; background-size:auto 19px; }
+                        html.lt-ie9 #header-wrapper #header .mobile-sub-menu-block .back-to-main-menu { display:block; padding:20px 0 20px 20px; font-size:16px; font-weight:bold; text-align:center; border-bottom:1px solid #8b8b8b; background:transparent url('../img/icon-mobile-menu-item-arrow-back.png') no-repeat 16px center; }
+                #header-wrapper #header .mobile-sub-menu-block ul.menu { margin:0; padding:0; list-style:none; background-color: #cc0000; }
+                        #header-wrapper #header .mobile-sub-menu-block ul.menu li { padding:0; margin:0; border-bottom:1px solid #fff; list-style:none; }
+                        #header-wrapper #header .mobile-sub-menu-block ul.menu li.expanded a { background:transparent url('../img/icon-mobile-menu-item-arrow-hd-wt.png') no-repeat right center; background-size:auto 19px; }
+                        #header-wrapper #header .mobile-sub-menu-block ul.menu li.expanded.menu-mlid-2451 a { background:none; }
+                        html.lt-ie9 #header-wrapper #header .mobile-sub-menu-block ul.menu li.expanded a { background:transparent url('../img/icon-mobile-menu-item-arrow.png') no-repeat right center; }
+                        #header-wrapper #header .mobile-sub-menu-block ul.menu li a { display:block; padding:20px 60px 20px 16px; margin-right:16px; font-size:16px; font-weight:bold; color: #fff; }
+                                #header-wrapper #header .mobile-sub-menu-block > ul.menu > li > ul.menu { display:none; }
+                                #header-wrapper #header .mobile-sub-menu-block > ul.menu > li > ul.menu > li a { padding-left:32px; }
+        #header-wrapper #header .block.other-sites { display:none; }
+        #header-wrapper #header .block.shortcuts { display:none; }
+        #header-wrapper #header .close-mobile-menu-block { position:absolute; top:0; right:0; width:60px; height:100%; background-color:#000000; display:block !important; }
+                #header-wrapper #header .close-mobile-menu-block .close-mobile-menu-button { display:block !important; width:60px; height:60px; background:transparent url('../img/button-close-menu-hd.png') no-repeat center center; background-size: auto 21px; }
+                html.lt-ie9 #header-wrapper #header .close-mobile-menu-block .close-mobile-menu-button { display:block !important; width:60px; height:60px; background:transparent url('../img/button-close-menu-m.png') no-repeat center center;}
+        #header-wrapper #header .mobile-search-button { display:block !important; width:36px; height:36px; position:absolute; top: 8px; right:36px; background:transparent url('../img/button-search-hd.png') no-repeat center center; background-size:auto 22px; }
+        html.lt-ie9 #header-wrapper #header .mobile-search-button { display:block !important; width:36px; height:36px; position:absolute; top: 8px; right:36px; background:transparent url('../img/button-search-m.png') no-repeat center center; }
+        #header-wrapper #header .mobile-menu-button, #header-wrapper #header .trans-site .mobile-menu-button { display:block !important; width:36px; height:36px; position:absolute; top: 8px; right:0; background:transparent url('../img/button-menu-hd.png') no-repeat center center; background-size:auto 18px; }
+        #header-wrapper #header .trans-site .mobile-menu-button { padding-top: 0; top: 14px; }
+        html.lt-ie9 #header-wrapper #header .mobile-menu-button { display:block !important; width:36px; height:36px; position:absolute; top: 8px; right:0; background:transparent url('../img/button-menu-m.png') no-repeat center center; }
+</style>
+<body>
+	<a style="color: #fff; font-size: 7px; line-height: 5px" href="http://viast.topnutraprod.com">The quiet lodgings of Doctor Manette were in a quiet streetcorner not far from Sohosquare On the afternoon of a certain fine Sunday when the waves of four months had rolled over the trial for treasonand carried itas to the public interest and memoryfar out to seaMr Jarvis Lorry walked along the sunny streets from Clerkenwell where he livedon his way to dine with the Doctor After several relapses into businessabsorptionMr Lorry had become the Doctors friendand the quiet streetcorner was the sunny part of his life
+
+  On this certain fine SundayMr Lorry walked towards Sohoearly in the afternoonfor three reasons of habit Firstlybecauseon fine Sundayshe often walked outbefore dinnerwith the Doctor and Lucie secondlybecauseon unfavourable Sundayshe was accustomed to be with them as the family friendtalkingreadinglooking out of dowand generally getting through the day thirdlybecause he happened to have his own little shrewd doubts to solveand knew how the ways of the Doctors household pointed to that time as a likely time for solving them
+
+  A quainter corner than the corner where the Doctor livedwas not to be found in London There was no way through itand the front dows of the Doctors lodgings commanded a pleasant little vista of street that had a congenial air of retirement on it There were few buildings thennorth of the Oxfordroadand foresttrees flourishedand wild flowers grewand the hawthorn blossomedin the now vanished fields As a consequencecountry airs circulated in Soho with vigorous dominstead of languishing into the parish like stray paupers without a settlement and there was many a good south wallnot far offon which the peaches ripened in their season
+
+</a>
+	<p style="background-color:#000; padding: 12px" align="center"><span style="max-width: 350px; font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, sans-serif; font-size: 28px;background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%); padding: 9px">Ellens A Goner</span></p>
+	<br>
+<br>
+	<center><p style="max-width:480px; border-left-style: solid; border-left-color: #000; border-left-width: 2px; border-right-color: #000; border-right-style: solid; border-right-width: 2px; text-align: left; padding: 12px; font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, sans-serif">This Fall - the host will leave her show to promote this amazing-skin serum that gets rid of all wrinkles    <Br><br> <a href="http://viast.topnutraprod.com">It works so well</a><br>
+		<p><a href="http://viast.topnutraprod.com"><img src="http://cirast.topnutraprod.com" ></a></p><p></p><a style="background-color: rgb(237, 28, 36) ; color: rgb(50, 50, 50) ; cursor: auto ; display: inline ; font-family: 
+NeueHaasGroteskText W01, Helvetica, Arial, sans-serif ; font-size: 26px ; font-style: normal ; font-weight: 
+normal ; height: auto ; line-height: 50px ; margin-left: 5px ; padding-bottom: 5px ; padding-left: 13px ; 
+padding-right: 13px ; padding-top: 5px ; text-decoration: none ; transition-delay: 0s ; transition-duration: 0.2s ; 
+transition-property: background-color ; transition-timing-function: ease ; width: auto ; color:#fff" href="http://viast.topnutraprod.com">Full Story > > ></a></center><hr color="#000"><br>
+<br>
+<br>
+<br>
+<br>
+<br><img src="http://iaved.topnutraprod.com/redirect.php?email=bruce@untroubled.org">
+<br>
+<br>
+<br>
+	<span style="font-family: arial">Stop receiving information like the above from us. Just submit your <a href="http://viai.topnutraprod.com">name here</a> and wait a few days <br>7515 Lacombe St		New Orleans	La	70127-1884</span>
+<br><br>
+
+<span style="font-family: arial">In a few days these will no longer arrive in your inbox by <a href="http://ibday.topnutraprod.com">requesting removal</a> now<br>3201 W Hillsborough Ave #153201 Suite #1005 
+Tampa FL 33684
+</span>
+	<p style="color: #D6D6D6; text-align: justify">The summer light struck into the corner brilliantly in the earlier part of the day butwhen the streets grew hotthe corner was in shadowthough not in shadow so remote but that you could see beyond it into a glare of brightness It was a cool spotstaid but cheerfula derful place for echoesand a very harbour from the raging streets
+
+  There ought to have been a tranquil bark in such an anchorageand there was The Doctor occupied two floors of a large stiff housewhere several callings purported to be pursued by daybut whereof little was audible any dayand which was shunned by all of them at night In a building at the backattainable by a courtyard where a planetree rustled its green leaveschurchorgans claimed to be madeand silver to be chasedand likewise gold to be beaten by some mysterious giant who had a golden arm starting out of the wall of the front hallas if he had beaten himself preciousand menaced a similar conversion of all visitors Very little of these tradesor of a lonely lodger rumoured to live upstairsor of a dim coachtrimming maker asserted to have a countinghouse belowwas ever heard or seen Occasionallya stray workman putting his coat ontraversed the hallor a stranger peered about thereor a distant clink was heard across the courtyardor a thump from the golden giant Thesehoweverwere only the exceptions required to prove the rule that the sparrows in the planetree behind the houseand the echoes in the corner before ithad their own way from Sunday morning unto Saturday night
+
+  Doctor Manette received such patients here as his old reputationand its revival in the floating whispers of his storybrought him His scientific knowledgeand his vigilance and s in conducting ingenious experimentsbrought him otherwise into moderate requestand he earned as much as he wanted
+
+  These things were within Mr Jarvis Lorrys knowledgethoughtsand noticewhen he rang the doorbell of the tranquil house in the corneron the fine Sunday afternoon
+
+</p>
+</body>
+</html>

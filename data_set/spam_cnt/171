@@ -1,0 +1,203 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>the clash</title>
+</head>
+<style>/******************************
+*
+*  RoyalSlider Default Skin 
+*
+*    1. Arrows 
+*    2. Bullets
+*    3. Thumbnails
+*    4. Tabs
+*    5. Fullscreen button
+*    6. Play/close video button
+*    7. Preloader
+*    8. Caption
+*    
+*  Sprite: 'rs-default.png'
+*  Feel  to edit anything
+*  If you don't some part - just delete it
+* 
+******************************/
+/* Background */
+.rsDefault,
+.rsDefault .rsOverflow,
+.rsDefault .rsSlide,
+.rsDefault .rsVideoFrameHolder,
+.rsDefault .rsThumbs {
+    background: transparent;
+}
+
+    /***************
+*
+*  1. Arrows
+*
+****************/
+    .rsDefault .rsArrow {
+        height: 100%;
+        width: 70px;
+        position: absolute;
+        display: block;
+        cursor: pointer;
+        z-index: 21;
+    }
+
+    .rsDefault.rsVer .rsArrow {
+        width: 100%;
+        height: 100px;
+    }
+
+    .rsDefault.rsVer .rsArrowLeft {
+        top: 0;
+        left: 0;
+    }
+
+    .rsDefault.rsVer .rsArrowRight {
+        bottom: 0;
+        left: 0;
+    }
+
+    .rsDefault.rsHor .rsArrowLeft {
+        left: 0;
+        top: 0;
+    }
+
+    .rsDefault.rsHor .rsArrowRight {
+        right: 0;
+        top: 0;
+    }
+
+    .rsDefault .rsArrowLeft {
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        margin-left: 0;
+    }
+
+    .rsDefault .rsArrowRight {
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        margin-right: 0;
+    }
+
+    .rsDefault .rsArrowLeft.rsHidden {
+        opacity: 1;
+        visibility: visible;
+        margin-left: -70px;
+    }
+
+    .rsDefault .rsArrowRight.rsHidden {
+        opacity: 1;
+        visibility: visible;
+        margin-right: -70px;
+    }
+
+    .rsDefault .rsArrowIcn {
+        width: 70px;
+        height: 70px;
+        top: 50%;
+        left: 50%;
+        margin-top: -35px;
+        margin-left: -35px;
+        position: absolute;
+        cursor: pointer;
+        background: #bf1626;
+        text-align: center;
+        line-height: 80px;
+        display: none;
+    }
+
+        .rsDefault .rsArrowIcn:after {
+            font-family: "hammer" !important;
+            font-style: normal !important;
+            font-weight: normal !important;
+            font-variant: normal !important;
+            text-transform: none !important;
+            speak: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-size: 1.7rem;
+            color: #fff;
+        }
+
+        .rsDefault .rsArrowIcn:hover:after {
+            color: #000;
+        }
+
+    .rsDefault.rsHor .rsArrowLeft .rsArrowIcn:after {
+        content: "\e601";
+    }
+
+    .rsDefault.rsHor .rsArrowRight .rsArrowIcn:after {
+        content: "\e600";
+    }</style>
+<body>
+<table width="58%" border="0" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <td><table><td style="font-size:33px">We Honor Your Achivements</td></table>
+      <hr color="#000000">
+      <table><td><i><b style="font-size:22px">This is time senstive for inclusion</b></i></td></table>
+      <table><td><p style="font-size:19px">It is my pleasure to inform you that you may qualify for inclusion in the 2016-Professional Who's-Who-Network.
+<br><br>
+<A href="http://coane.gaingreatjobs.com">Confirm your spot if interested</A><br>
+<br>
+<span style="background-color:#E1E1E1; display:block; padding:5px">On behalf of our team we salute your amazing accomplishments in 2016 and welcome you</span></p>
+
+<br>
+<a href="http://coane.gaingreatjobs.com"><table><td style="-moz-box-shadow:inset 0px 1px 0px 0px #f5978e; 	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e; 	
+box-shadow:inset 0px 1px 0px 0px #f5978e; 	background-color:#f24537; 	-moz-border-radius:6px; 	
+-webkit-border-radius:6px; 	border-radius:6px; 	border:1px solid #d02718; 	display:inline-block; 	
+cursor:pointer; 	color:#ffffff; 	font-size:24px; 	font-weight:bold; 	padding:6px 24px; 	
+text-decoration:none; 	text-shadow:0px 1px 0px #810e05;">Approval  - Accept Today</td></table></a><hr color="#000000">
+
+
+<br>
+<br>
+<br>
+<br>
+<table bgcolor="#F5F5F5"><td style="color:#F5F5F5">The result was so incredibly gratifying she said. It really fills my heart to know the people I have represented said with this margin and this vote: â€˜We know her and we have been able to count on her for all these years. 
+
+In the states closelywatched Senate primaries Republican incumbent Sen. Marco Rubio and Democratic Rep. Patrick Murphy  their respective races  setting up a highprofile November contest that will help determine whether Democrats can retake control of the Senate.
+
+Wasserman Schultzs race against law professor Tim Canova gained national attention when Democratic presidential candidate Sen. Bernie Sanders accused her as DNC chairwoman of rigging the primary for frontrunning Hillary Clinton.
+
+Sanders later endorsed Canova which helped him build a sizable 3.3  war chest to challenge Wasserman Schultz who has the support of Clinton and President Obama.
+
+Canovas longshot bid was further helped by leaked emails last month that suggested Wasserman Schultz and other DNC staffers indeed favored Clinton which resulted in Wasserman Schultzs resignation.
+
+Wasserman Schultz is expected to  a seventh term in November against Republican Joe Kaufman in the states Democraticleaning 23rd Congressional District part of suburban Fort Lauderdale.
+</td></table></td></table>
+<img src="http://vasane.gaingreatjobs.com/redirect.php?email=bruce@untroubled.org">
+<br>
+<br>
+<table><td>Remove your name and info from our list by <a href="http://nesrian.gaingreatjobs.com">subitting your name here</a><br>
+<b>3989 E 136 N	Rigby	Id	83442-5594</b><br>
+<br><a href="http://ritr.gaingreatjobs.com">Entering your name here</a> will end these updates from arriving to your inbox<br>
+26 RXR Plaza Uniondale, NY 11556
+</td></table></td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

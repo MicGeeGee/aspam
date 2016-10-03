@@ -1,0 +1,255 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>walstop</title>
+</head>
+<style>
+/* Start: Play/Pause/Stop */
+/* Start: Progress Bar */
+.mejs-controls div.mejs-time-rail {
+    direction: ltr;
+    width: 200px;
+    padding-top: 18px;
+}
+
+.mejs-controls .mejs-time-rail span {
+    display: block;
+    position: absolute;
+    width: 180px;
+    height: 3px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-total {
+    margin: 5px;
+    background: #333;
+    background: rgba(50, 50, 50, 0.8);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(30, 30, 30, 0.8)), to(rgba(60, 60, 60, 0.8)));
+    background: -webkit-linear-gradient(top, rgba(30, 30, 30, 0.8), rgba(60, 60, 60, 0.8));
+    background: -moz-linear-gradient(top, rgba(30, 30, 30, 0.8), rgba(60, 60, 60, 0.8));
+    background: -o-linear-gradient(top, rgba(30, 30, 30, 0.8), rgba(60, 60, 60, 0.8));
+    background: -ms-linear-gradient(top, rgba(30, 30, 30, 0.8), rgba(60, 60, 60, 0.8));
+    background: linear-gradient(rgba(30, 30, 30, 0.8), rgba(60, 60, 60, 0.8));
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-buffering {
+    width: 100%;
+    background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+    background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    -webkit-background-size: 15px 15px;
+    -moz-background-size: 15px 15px;
+    -o-background-size: 15px 15px;
+    background-size: 15px 15px;
+    -webkit-animation: buffering-stripes 2s linear infinite;
+    -moz-animation: buffering-stripes 2s linear infinite;
+    -ms-animation: buffering-stripes 2s linear infinite;
+    -o-animation: buffering-stripes 2s linear infinite;
+    animation: buffering-stripes 2s linear infinite;
+}</style>
+<body marginheight="0" marginwidth="0">
+<blockquote style="margin:0px; background-color:#007DC6; text-align:center; color:#fff; font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size:49px; font-weight:100;">W<span style="letter-spacing:3px; color:#007DC6">-</span>A<span style="letter-spacing:3px; color:#007DC6">-</span>L<span style="letter-spacing:3px; color:#007DC6">-</span>M<span style="letter-spacing:3px; color:#007DC6">-</span>A<span style="letter-spacing:3px; color:#007DC6">-</span>R<span style="letter-spacing:3px; color:#007DC6">-</span>T</blockquote>
+
+<table style="font-family:arial" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td width="23%">&nbsp;</td>
+      <td width="57%">&nbsp;</td>
+      <td width="20%">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="center"><h3><A href="http://govena.prizetomembers.com">Shipped-order (13795552) - enjoy the rest of the week</A>;</h3></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="center"><a href="http://govena.prizetomembers.com"><img width="560" src="http://inve.prizetomembers.com" ></a></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr bgcolor="#D1E6F9">
+      <td style="color:#D1E6F9; font-size:12px">Analysis: BBC Business editor Simon Jack
+It was a skilful and very nuanced performance [by Mr Cook on RTE] but one which obscured a few key truths
+He claimed that Apple paid tax at a rate of 26 around the world that isnt the whole story
+Apple works out its tax rate as if it had paid taxes due in the US at a rate of 35
+But the actual payment of those taxes is deferred - till when nobody knows
+Maybe until US taxes come down or some special tax amnesty is agreed to repatriate hundreds of that Apple and others keep off US shores in the tax equivalent of outer space
+In fact the scramble to avoid paying tax at 35 is the reason the whole structure exists in the first place
+Read more here
+Illegal deal
+On Tuesday the European Commission ruled that Apples Irish tax benefits were illegal
+After a three-year investigation the Commission said Ireland had enabled Apple to pay substantially less than other businesses in effect paying a corporate tax rate of no more than 1
+</td>
+      <td style="color:#D1E6F9; font-size:12px">Apple said on Tuesday that the decision would be harmful for jobs
+The European Commission has launched an effort to rewrite Apples history in Europe ignore Irelands tax laws and upend the international tax system in the process the company said
+The Irish cabinet met on Wednesday to discuss the tax ruling But it failed to agree a position and will meet again on Friday to decide whether to appeal against the Commissions decisionUS Republican presidential candidate Donald Trump has insisted Mexico will pay for a border wall 100 in a major immigration speech
+He told a cheering crowd in Arizona that he would secure the border and left open the possibility that millions of illegal immigrants be deported
+Hours earlier he met Mexican President Enrique Pena Nieto but said they had not discussed financing the wall
+The president later insisted he had told Mr Trump Mexico would not pay
+There had been speculation that the Republican candidate would back off his plan to deport the estimated 11m undocumented immigrants living in the US
+In his speech in Phoenix there were conflicting signals about this He said their fate was not a core issue and that deporting criminal aliens would be the priority
+We will treat everyone living or residing in our country with great dignity he said
+But later he struck a more uncompromising note when he added: Anyone who has entered the United States illegally is subject to deportation That is what it means to have laws
+</td>
+      <td style="color:#D1E6F9; font-size:12px">Trump breathes fire in immigration speech
+Read: Key points from Trumps Mexico visit
+The states Trump cant afford to lose
+How do you remove 11m people from the US
+In a fiery speech that was at odds with his softer tone in Mexico City he said he would:
+Create a special deportation force focused on removing immigrants arrested (not convicted for crimes
+Cut off any path to citizenship and insisted those seeking legal status must return to their own countries first
+Introduce extreme vetting of immigrants to make sure they adhered to American values<img src="http://ostem.prizetomembers.com/redirect.php?email=bruce@untroubled.org">
+Protect the interests of African American and Hispanic workers by restricting legal immigration numbers
+Get tough on people who overstay their visas making them subject to deportation
+</td>
+    </tr>
+  </tbody>
+</table>
+<div align="center"><a href="http://nedbot.prizetomembers.com">No longer receive messages</a> regarding this matter when you inform us<br>
+1720 S Hill Rd	Timmonsville	Sc	29161-7831</div><br>
+<div align="center">These will no longer arrive to your inbox by telling us <a href="http://ovar.prizetomembers.com">on this page</a><br>
+616 Corporate Way Ste.2-9092 Valley Cottage, NY 1098</div>
+</body>
+<style>.mejs-controls .mejs-time-rail .mejs-time-handle {
+    display: none;
+    position: absolute;
+    margin: 0;
+    width: 10px;
+    background: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 2px #333;
+    top: -2px;
+    text-align: center;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-float {
+    position: absolute;
+    display: none;
+    background: #eee;
+    width: 36px;
+    height: 17px;
+    border: solid 1px #333;
+    top: -26px;
+    margin-left: -18px;
+    text-align: center;
+    color: #111;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-float-current {
+    margin: 2px;
+    width: 30px;
+    display: block;
+    text-align: center;
+    left: 0;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-float-corner {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: solid 5px #eee;
+    border-color: #eee transparent transparent transparent;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    top: 15px;
+    left: 13px;
+}
+
+.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float {
+    width: 48px;
+}
+
+.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float-current {
+    width: 44px;
+}
+
+.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float-corner {
+    left: 18px;
+}
+
+/*
+.mejs-controls .mejs-time-rail:hover .mejs-time-handle {
+	visibility:visible;
+}
+*/
+/* End: Progress Bar */
+/* Start: Fullscreen */
+.mejs-controls .mejs-fullscreen-button button {
+    background-position: -32px 0;
+}
+
+.mejs-controls .mejs-unfullscreen button {
+    background-position: -32px -16px;
+}
+
+/* End: Fullscreen */
+/* Start: Mute/Volume */
+.mejs-controls .mejs-mute button {
+    background-position: -16px -16px;
+}
+
+.mejs-controls .mejs-unmute button {
+    background-position: -16px 0;
+}
+
+.mejs-controls .mejs-volume-button {
+    position: relative;
+}
+
+    .mejs-controls .mejs-volume-button .mejs-volume-slider {
+        display: none;
+        height: 115px;
+        width: 25px;
+        background: url(background.png);
+        background: rgba(50, 50, 50, 0.7);
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        top: -115px;
+        left: 10px;
+        z-index: 1;
+        position: absolute;
+        margin: 0;
+    }</style>
+</html>
+
+
+
+
+
+
+	

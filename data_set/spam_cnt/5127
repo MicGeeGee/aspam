@@ -1,0 +1,241 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>super duper</title>
+</head>
+	<style>.bordernone{border:none !important;}
+.width100per{ width:100% !important}
+.winningscore{color:#003366 !important; font-size:14px !important; font-weight:400 !important;}
+.colblk{color:#000 !important; font-size:15px !important; font-weight:500 !important;}
+/*Scenario-01 Start*/
+.cwc-main-wrap {float:left; margin:0px; padding: 15px 15px;  width: 100%; height:auto;box-sizing: border-box;background: #ececec; margin-bottom:10px!important;}
+.cwc-cont{float:left; margin:0px;padding:0; width:100%; box-sizing:border-box;}
+.cwc-cont .cwc-left-cont{float:left; margin:0px; padding:0px; width: 370px;}
+.cwc-cont .head-text{float:left; margin:0px; padding:0px; width:auto;}
+.cwc-cont .head-text h2{float:left; margin:0px; padding: 0 0 0 5px; width:auto; font-size:20px; color:#000; font-family: 'Montserrat', sans-serif !important; }
+.cwc-cont .head-text h2 a{float:left; margin:0px; padding:1px 0px; width:auto; font-size:20px; color:#000; line-height:30px; font-family: 'Montserrat', sans-serif !important; text-decoration:none; font-weight:normal; text-transform:uppercase; }
+.cwc-cont .head-text h2 span{font-size:20px; color:#4a9400;  }
+
+.cwc-cont .cwc-left-cont .gray-bg{float:left; margin:0px; padding: 15px 13px 15px 5px; width:100%; box-sizing:border-box; background: #ececec;}
+.cwc-cont .cwc-left-cont .gray-bg a { color:#262626;}
+
+.cwc-cont .cwc-left-cont .thumb-left{float:left; margin:0 15px 15px 0px; padding:0px; width:100px; height:auto;}
+.cwc-cont .cwc-left-cont .thumb-leftbig{float:left; margin:0 15px 15px 0px; padding:0px; width:143px; height:107px;}
+
+.cwc-cont .cwc-left-cont .thumb-leftbig img,
+.cwc-cont .cwc-left-cont .thumb-left img{float:left; width:100%; height:auto;}
+
+.cwc-cont .cwc-left-cont .stry-head{display:flex; margin:0px; padding:0 0 15px; width:auto;}
+.cwc-cont .cwc-left-cont .stry-head h3{float:left; margin:0px; padding:0px; width:auto;}
+.cwc-cont .cwc-left-cont .stry-head h3 a{float:left; margin:0px; padding:0px; width:auto; font-size:18px; line-height:22px; font-weight:400; color:#074c8d; text-decoration:none;}
+
+.cwc-cont .cwc-left-cont .stry-list{float:left; margin:0px; padding:0px; width:100%; }
+.cwc-cont .cwc-left-cont .stry-list ul{ margin:0px; padding:0px; list-style-type:none;}
+.cwc-cont .cwc-left-cont .stry-list ul li{ margin:0px; padding:0px 0px 0px 20px; float:left; color:#4a9400; background:url(http://drop.ndtv.com/homepage/images/bulltet_green.png) no-repeat left;}
+.cwc-cont .cwc-left-cont .stry-list ul li a{margin:0px; padding:0px; float:left; line-height:22px; font-size:14px; font-weight:400; text-decoration:none;}       
+
+/*Right Cont Start*/
+.cwc-cont .cwc-right-cont{float:left; margin:0px; padding:0px; width:540px;background:#fff;box-sizing: border-box;border: 1px solid #e5e5e5;border-bottom:none;}
+.cwc-cont .cwc-right-cont .menu-top{float:left; margin:0px; padding:0px; width:100%; background: #fff;box-sizing: border-box;}
+.cwc-cont .cwc-right-cont .menu-top ul{ margin:0px; padding:0px;}
+.cwc-cont .cwc-right-cont .menu-top ul li{ margin:0px; padding:0px; float:left; list-style-type:none; width:auto;}
+.cwc-cont .cwc-right-cont .menu-top ul li a{ margin:0px; padding:8px 10px; float:left; list-style-type:none; width:auto; color:#000; font-size:12px; font-weight:400; text-transform:uppercase; text-decoration:none;}
+.cwc-cont .cwc-right-cont .menu-top ul li a:hover,
+.cwc-cont .cwc-right-cont .menu-top ul li a.active { background: #4a9400!important;color: #fff;}
+
+
+.cwc-cont .cwc-right-cont .menu-top .active{background:#4a9400 !important; color:#fff; }
+.cwc-cont .cwc-right-cont .menu-top .active a{color:#fff; }
+/*Right Cont End*/
+
+.cwc-cont .cwc-right-cont .score-wid{float:left; margin:0px; padding:0px; width:100%; box-sizing:border-box; box-sizing: border-box;}
+.cwc-cont .cwc-right-cont .score-wid .match-head{margin:0px; padding:0px; width:auto; font-size:18px; color:#000; font-weight:400; text-align:center; vertical-align:middle; padding:8px 10px;}
+
+
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1{margin:0px; padding:5px 10px; width:100%; box-sizing:border-box; background:#fff;border-top: 1px solid #e5e5e5;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1 .projected-cont{margin:0px; padding:0px; width:50%; box-sizing:border-box; border-right:1px #c2c2c2 dashed; line-height:20px;}
+
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1 .projected-cont2{margin:0px; padding:0px; width:100%; box-sizing:border-box; border-right:1px #c2c2c2 dashed; line-height:20px;}
+
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1 .projected-cont h3{margin:0px; padding:0px; width:auto; text-align:center; }
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1 .projected-cont h3 a{margin:0px; padding:0px; width:auto; text-align:center; font-size:14px; font-weight:500; color:#4a9400; text-transform:uppercase; text-decoration:none;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1 .projected-cont .team-name{margin:0px; width:auto; text-align:center;  }
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1 .projected-cont .team-name a{margin:0px; padding:0px; width:auto; text-align:center; font-size:16px; color:#003399; font-weight:500; text-transform:uppercase; text-decoration:none;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1 .projected-cont .team-name span{font-size:12px; color:#444; font-weight:400; text-transform:normal; padding-left:5px;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1 .projected-cont .overs{margin:0px; padding:0px; width:auto; text-align:center; font-size:14px; color:#1f1e23; 
+font-weight:600;  }
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1 .projected-cont .projectection-rpo{margin:0px; padding:0px; width:auto; text-align:center; font-size:14px; color:#666; 
+font-weight:400;}
+.crawlernav{margin:0px auto; padding:10px 0px; width:185px; text-align:center;}
+.crawlernav .dottedcont{margin:0px auto; padding:0px 0px; width:60px;}
+.crawlernav .dotted{margin:0px; padding:0px 4px; float:left;}
+.teamscore_cont{width:auto; margin:0 auto;}
+.teamscore{width:183px;}
+.teamscore img{}
+.crr{color:#F00; font-weight:500; font-size:12px;}
+.sponscont{ clear: both;margin: 0;padding: 5px 0 0;text-align: center;width: 928px;border-top: 1px solid #e0e0e0;width:100%}
+.sponscont img {width:100%; height:auto;}
+.bat{background:url(../images/bat_icon.png) no-repeat; width:19px; height:31px; margin-top:7px;}
+
+.scenerio1 .match-head {padding: 5px 10px !important;}</style>
+<body>
+	<span style="font-size: 8px; background-color: #F6F6F6; display: table; padding: 1px"><em style="color:#F6F6F6 "> A certain portion of his time was passed at Cambridgewhere he read with undergraduates as a sort of tolerated smuggler who drove a contraband trade in European languagesinstead of conveying Greek and Latin through the Customhouse The rest of his time he passed in London
+
+  Nowfrom the days when it was always summer in Edento these days when it is mostly ter in fallen latitudesthe world of a man has invariably gone one wayCharles Darnays waythe way of the love of a woman</em>
+
+</span>
+
+	<blockquote style="background-color: #F6F6F6; border-top-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-width: 1px; border-color: #7ABBDB; border-top-style: solid; border-bottom-style: solid; border-left-style: solid; border-right-style: solid; width: 488px; padding-left: 5px"><h1 style="color: #007DC6; font-family: arial black; margin-bottom: 0px">Walmart-Friend #1768964</h1>
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+      </tbody>
+</table>
+<a style="color: #78BA1C; font-family: arial; font-weight: bold" href="http://trus.marttoshopnow.com">Enjoy and thank you for everything</a>
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    
+  </tbody>
+</table>
+	<center>
+		<a href="http://trus.marttoshopnow.com"><strong style="align-items: flex-start ; background-color: rgb(0, 125, 198) ; border-bottom-color: rgb(255, 255, 255) ; 
+border-bottom-left-radius: 4px ; border-bottom-right-radius: 4px ; border-bottom-style: none ; border-bottom-width: 
+0px ; border-image-outset: 0px ; border-image-repeat: stretch ; border-image-slice: 100% ; border-image-source: 
+none ; border-image-width: 1 ; border-left-color: rgb(255, 255, 255) ; border-left-style: none ; border-left-width: 
+0px ; border-right-color: rgb(255, 255, 255) ; border-right-style: none ; border-right-width: 0px ; 
+border-top-color: rgb(255, 255, 255) ; border-top-left-radius: 4px ; border-top-right-radius: 4px ; 
+border-top-style: none ; border-top-width: 0px ; box-sizing: border-box ; color: rgb(255, 255, 255) ; cursor: 
+pointer ; display: inline-block ; font-family: myriad-pro, Helvetica Neue, Helvetica, Arial, sans-serif ; 
+font-size: 18px ; font-stretch: normal ; font-style: normal ; font-variant-caps: normal ; font-variant-ligatures: 
+normal ; font-variant-numeric: normal ; font-weight: 600 ; height: 30px ; letter-spacing: normal ; line-height: 
+18px ; margin-bottom: 0px ; margin-left: 0px ; margin-right: 0px ; margin-top: 0px ; outline-color: rgb(255, 255, 
+255) ; outline-style: none ; outline-width: 0px ; padding-bottom: 7px ; padding-left: 20px ; padding-right: 20px ; 
+padding-top: 5px ; text-align: center ; text-indent: 0px ; text-rendering: auto ; text-shadow: none ; 
+text-transform: none ; vertical-align: middle ; white-space: nowrap ; width: 326.111257px ; word-spacing: 0px ; 
+			writing-mode: horizontal-tb ; -webkit-appearance: none ; -webkit-font-smoothing: antialiased ;">Swing by anytime this week</strong></a></center><br>
+
+</blockquote>
+
+<span style="font-size: 8px; background-color: #F6F6F6; display: table; padding: 1px"><em style="color:#F6F6F6 "> A certain portion of his time was passed at Cambridgewhere he read with undergraduates as a sort of tolerated smuggler who drove a contraband trade in European languagesinstead of conveying Greek and Latin through the Customhouse The rest of his time he passed in London
+
+  Nowfrom the days when it was always summer in Edento these days when it is mostly ter in fallen latitudesthe world of a man has invariably gone one wayCharles Darnays waythe way of the love of a woman</em>
+
+</span>
+<table width="100%" border="0" cellspacing="0" cellpadding="5" height="200px">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+      </tbody>
+</table>
+	<div style="padding: 7px" align="center">In a few days these will no longer arrive in your inbox by <a href="http://osttise.marttoshopnow.com">requesting removal</a> now<br>
+Carl	Nieland |	1667 Cumberland Rd	Bedford	Pa	15522-1653</div>
+	<p align="center">Removal from further updates will occur <a href="http://osyaz.marttoshopnow.com">once you press this button</a><br>
+616 Corporate Way Ste.2-9092 Valley Cottage, NY 10989</p>
+</body>
+	<style>
+/*--------------Scenario2----------------------*/
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio2{margin:0px; padding:0px; width:100%; box-sizing:border-box; background:#fff;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio2 .contl{margin:0px; padding:20px 10px ; width:269px; box-sizing:border-box; background:#fff;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio2 .contr{margin:0px; padding:27px 10px; width:269px; box-sizing:border-box; background:#f9f9f9; border-left:1px solid #f3f3f3;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio2 .projected-cont{margin:0px; padding:0px; width:225px; box-sizing:border-box; line-height:20px;}
+
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio2 .projected-cont2{margin:0px; padding:0px; width:100%; box-sizing:border-box; border-right:1px #c2c2c2 dashed; line-height:20px;}
+
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio2 .projected-cont h3{margin:0px; padding:0px; width:auto; text-align:center; }
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio2 .projected-cont h3 a{margin:0px; padding:0px; width:auto; text-align:center; font-size:14px; font-weight:500; color:#4a9400; text-transform:uppercase; text-decoration:none;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio2 .projected-cont .team-name{margin:0px; width:auto; text-align:center;  }
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio2 .projected-cont .team-name a{margin:0px; padding:0px; width:auto; text-align:center; font-size:16px; color:#003399; font-weight:500; text-transform:uppercase; text-decoration:none;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio2 .projected-cont .team-name span{font-size:12px; color:#444; font-weight:400; text-transform:normal; padding-left:5px;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio2 .projected-cont .overs{margin:0px; padding:0px; width:auto; text-align:center; font-size:14px; color:#1f1e23; 
+font-weight:600;  }
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio2 .projected-cont .projectection-rpo{margin:0px; padding:0px; width:auto; text-align:center; font-size:14px; color:#666; 
+font-weight:400;}
+
+
+/*--------------Scenario3----------------------*/
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio3{margin:0px; padding:0px; width:100%; box-sizing:border-box; background:#fff;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio3 .contl{margin:0px; padding:14px 20px 7px ; width:269px; box-sizing:border-box; background:#fff;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio3 .contr{margin:0px; padding:10px 10px; width:269px; box-sizing:border-box; background:#f9f9f9; border-left:1px solid #f3f3f3;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio3 .projected-cont{margin:0px; padding:0px; width:250px; box-sizing:border-box; line-height:20px;}
+
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio3 .projected-cont2{margin:0px; padding:0px; width:100%; box-sizing:border-box; border-right:1px #c2c2c2 dashed; line-height:20px;}
+
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio3 .projected-cont h3{margin:0px; padding:0px; width:auto; text-align:center; }
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio3 .projected-cont h3 a{margin:0px; padding:0px; width:auto; text-align:center; font-size:14px; font-weight:500; color:#4a9400; text-transform:uppercase; text-decoration:none;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio3 .projected-cont .team-name{margin:0px; width:auto; text-align:center;  }
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio3 .projected-cont .team-name a{margin:0px; padding:0px; width:auto; text-align:center; font-size:16px; color:#003399; font-weight:500; text-transform:uppercase; text-decoration:none;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio3 .projected-cont .team-name span{font-size:12px; color:#444; font-weight:400; text-transform:normal; padding-left:5px;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio3 .projected-cont .overs{margin:0px; padding:0px; width:auto; text-align:center; font-size:14px; color:#1f1e23; 
+font-weight:600;  }
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio3 .projected-cont .projectection-rpo{margin:0px; padding:0px; width:auto; text-align:center; font-size:14px; color:#666; 
+font-weight:400;}
+
+.video_cont{width:100px; font-size:13px;  color:#000; font-weight:500}
+.video_cont span{color:#0C3; font-weight:bold}
+.video_cont .time{color:#8a8a8a; font-weight:regular; font-size:11px;}
+.video_cont img{width:100px; margin-bottom:10px;}
+
+.scenerio4 .contl { padding: 22px 20px !important;}
+.scenerio4 .contr {padding:22px 10px!important;}
+
+/*--------------Scenario5----------------------*/
+
+/*--------------Scenario3----------------------*/
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio5{margin:0px; padding:0px; width:100%; box-sizing:border-box; background:#fff;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio5 .contl{margin:10px auto 10px;padding:5px 10px ; width:267px; box-sizing:border-box; background:#fff;display: inline-block;text-align: center;border-right: 1px dashed #e5e5e5;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio5 .contr{margin:5px 0; padding:5px; width:269px; box-sizing:border-box; background:#fff;/* border-left:1px solid #f3f3f3;*/}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio5 .projected-cont{margin:0px; padding:0px; width:250px; box-sizing:border-box; line-height:20px;}
+
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio5 .projected-cont2{margin:0px; padding:0px; width:100%; box-sizing:border-box; border-right:1px #c2c2c2 dashed; line-height:20px;}
+
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio5 .projected-cont h3{margin:0px; padding:0px; width:auto; text-align:center; }
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio5 .projected-cont h3 a{margin:0px; padding:0px; width:auto; text-align:center; font-size:14px; font-weight:500; color:#4a9400; text-transform:uppercase; text-decoration:none;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio5 .projected-cont .team-name{margin:0px; width:auto; text-align:center;  }
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio5 .projected-cont .team-name a{margin:0px; padding:0px; width:auto; text-align:center; font-size:16px; color:#003399; font-weight:500; text-transform:uppercase; text-decoration:none;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio5 .projected-cont .team-name span{font-size:12px; color:#444; font-weight:400; text-transform:normal; padding-left:5px;}
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio5 .projected-cont .overs{margin:0px; padding:0px; width:auto; text-align:center; font-size:14px; color:#1f1e23; 
+font-weight:600;  }
+.cwc-cont .cwc-right-cont .score-wid .gray-bg1_scenerio5 .projected-cont .projectection-rpo{margin:0px; padding:0px; width:auto; text-align:center; font-size:14px; color:#666; 
+font-weight:400;}
+
+.video_cont{width:100px; font-size:13px;  color:#000; font-weight:500;display: inline-block;text-align: left;  }
+.video_cont span{color:#4a9400; font-weight:bold}
+.video_cont .time{color:#8a8a8a; font-weight:regular; font-size:11px;}
+.video_cont img{width:100px; margin-bottom:15px;}
+
+.gray-bg1_scenerio5 .gray-bg1 .projected-cont { position:relative;}
+.gray-bg1_scenerio5 .gray-bg1 .schedule { width: 330px; margin:0 auto; text-align:center;}
+.gray-bg1_scenerio5 .gray-bg1 .schedule_date { width:72% !important;  margin-bottom: 5px !important;}
+.gray-bg1_scenerio5 .gray-bg1 .crawlernav {   position: absolute; right: 10px; top:0; padding:5px 0 !important;}
+.gray-bg1_scenerio5 .score_total { font-size:12px; font-weight:normal; text-align:center;}
+.gray-bg1_scenerio5 .score_total span.team_info { font-size:16px; font-weight:bold; width:100%; display:block;text-transform: uppercase;}
+.gray-bg1_scenerio5 .score_total span.score_update { font-weight:bold;width:100%; display:block;}
+.gray-bg1_scenerio5 .score_total span.score_over {width:100%; display:block;}
+.gray-bg1_scenerio5 .crr {color: #de3f27;font-size: 11px;font-weight: 500;text-align: center;    width: 100%;}
+
+.gray-bg1_scenerio5 .winningscore  { padding:0 20px !important; box-sizing:border-box;}
+.scenerio5 .gray-bg1  {padding: 7px 10px !important;}</style><img src="http://teise.marttoshopnow.com/redirect.php?email=bruce@untroubled.org">
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

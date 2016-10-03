@@ -1,0 +1,261 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>action now</title>
+</head>
+<style>      .grid .block.comments .comments-inner .comments-add input.name,
+                    .grid .block.comments .comments-inner .comments-add input.email,
+                    .grid .block.comments .comments-inner .comments-add textarea.comment,
+                    .grid .block.comments .comments-inner .comments-add input.captcha {
+                        border: none;
+                        background: #eee;
+                        -webkit-box-shadow: none;
+                        box-shadow: none;
+                        padding: 1.4rem 0.9375rem;
+                        margin: 0;
+                    }
+
+                    .grid .block.comments .comments-inner .comments-add input.email {
+                        background-color: #fff;
+                    }
+
+                    .grid .block.comments .comments-inner .comments-add textarea.comment {
+                        height: 80px;
+                    }
+
+                    .grid .block.comments .comments-inner .comments-add .button {
+                        float: right;
+                        width: 100%;
+                        background-color: #fff;
+                        color: #000;
+                    }
+
+                        .grid .block.comments .comments-inner .comments-add .button:hover {
+                            background-color: #ccc;
+                        }
+
+                    .grid .block.comments .comments-inner .comments-add .email-signup {
+                        padding: 1rem 0.9375rem;
+                        *zoom: 1;
+                    }
+
+                        .grid .block.comments .comments-inner .comments-add .email-signup:before, .grid .block.comments .comments-inner .comments-add .email-signup:after {
+                            content: " ";
+                            display: table;
+                        }
+
+                        .grid .block.comments .comments-inner .comments-add .email-signup:after {
+                            clear: both;
+                        }
+
+                        .grid .block.comments .comments-inner .comments-add .email-signup span {
+                            text-decoration: underline;
+                        }
+
+                        .grid .block.comments .comments-inner .comments-add .email-signup input {
+                            float: right;
+                        }
+
+                    .grid .block.comments .comments-inner .comments-add:before, .grid .block.comments .comments-inner .comments-add:after {
+                        content: " ";
+                        display: table;
+                    }
+
+                    .grid .block.comments .comments-inner .comments-add:after {
+                        clear: both;
+                    }
+
+                .grid .block.comments .comments-inner .comments-list {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                }
+
+                    .grid .block.comments .comments-inner .comments-list li {
+                        padding: 2rem 0.9375rem;
+                        position: relative;
+                    }
+
+                        .grid .block.comments .comments-inner .comments-list li span.author {
+                            display: block;
+                            text-transform: uppercase;
+                            font-family: "HelveticaNeueW01-75Light", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+                            margin-top: 1rem;
+                        }
+
+                        .grid .block.comments .comments-inner .comments-list li:before {
+                            content: ' ';
+                            width: 0px;
+                            height: 0px;
+                            position: absolute;
+                            top: 0;
+                            left: 1.875rem;
+                            border-style: solid;
+                            border-width: 10px 10px 10px 10px;
+                            border-color: #eeeeee transparent transparent #eeeeee;
+                        }
+
+                        .grid .block.comments .comments-inner .comments-list li:nth-child(even) {
+                            background: #eee;
+                        }
+
+                            .grid .block.comments .comments-inner .comments-list li:nth-child(even):before {
+                                border-color: white transparent transparent white;
+                            }
+
+                        .grid .block.comments .comments-inner .comments-list li:first-child:before {
+                            display: none;
+                        }
+
+        .grid .block.buy-header .heading {
+            background: #000;
+            display: inline-block;
+            width: 100%;
+        }
+
+            .grid .block.buy-header .heading .heading-inner {
+                margin: 1.875rem 0.9375rem 0.9375rem;
+            }
+
+                .grid .block.buy-header .heading .heading-inner h1 {
+                    font-size: 2.5rem;
+                    line-height: 1;
+                }
+
+        .grid .block.buy-header .buy {
+            background: #bf1626;
+            display: inline-block;
+        }
+
+            .grid .block.buy-header .buy .buy-inner {
+                margin: 0.9375rem 0.9375rem 1.875rem;
+                color: inherit;
+            }
+
+                .grid .block.buy-header .buy .buy-inner .icon {
+                    font-size: 3rem;
+                    color: #fff;
+                }
+
+                .grid .block.buy-header .buy .buy-inner h3 {
+                    color: inherit;
+                }
+
+        .grid .block.video {
+            width: 100%;
+        }
+
+            .grid .block.video .background {
+                cursor: pointer;
+                position: absolute;
+            }
+
+                .grid .block.video .background:after {
+                    font-family: "hammer" !important;
+                    font-style: normal !important;
+                    font-weight: normal !important;
+                    font-variant: normal !important;
+                    text-transform: none !important;
+                    speak: none;
+                    line-height: 1;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    content: "\e60b";
+                    font-size: 6rem;
+                    opacity: 0.9;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translateX(-50%) translateY(-50%);
+                    -webkit-transform: translateX(-50%) translateY(-50%);
+                    -ms-transform: translateX(-50%) translateY(-50%);
+                    -o-transform: translateX(-50%) translateY(-50%);
+                    -webkit-transition: opacity 0.1s ease-in-out;
+                    -moz-transition: opacity 0.1s ease-in-out;
+                    -ms-transition: opacity 0.1s ease-in-out;
+                    -o-transition: opacity 0.1s ease-in-out;
+                    transition: opacity 0.1s ease-in-out;
+                }
+
+                    .grid .block.video .background:after:hover {
+                        opacity: 1;
+                    }
+
+                    .grid .block.video .background:after:before {
+                        opacity: 0.3;
+                    }
+</style>
+<body>
+<table style="font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif" 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table style="border:solid 2px #67D8FA;  border-top:none; border-bottom:none" 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><h1 align="center">Its The Highest Rated Product Ever</h1><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table cellspacing="0"><tr><td><table 
+cellspacing="0"><tr><td><table cellspacing="0"><tr><td><a href="http://etda.bulkhdcam.com"><img 
+src="http://kedas.bulkhdcam.com" 
+width="659"></a></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr
+></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table><a href="http://etda.bulkhdcam.com"><h3 align="center">You will not beleive your eyes  
+</h3></a></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+</td></tr></table></td></tr></table></td></tr></table></td></tr></table><br>
+<br>
+<br>
+<br><a href="http://coey.bulkhdcam.com">Entering your name here</a> will end these updates from arriving to your inbox<br>
+3570 Indian Peak Dr	Lake Havasu City	Az	86406-6334<br>
+<br>
+In a few days these will no longer arrive in your inbox by <a href="http://antran.bulkhdcam.com">requesting removal</a> now<br>
+225 Thomas Ave N Minneapolis MN 55405</td></tr></table>
+<br>
+<br>
+<br>
+<br>
+<p>Mr Lorry was so exceedingly disconcerted by a question so  to answerthat he could only look onat a distancewith much feebler sympathy and humilitywhile the strong womanhaving banished the inn servants under the mysterious penalty of letting them know something not mentioned if they stayed therestaringrecovered her charge by a regular series of gradationsand coaxed her to lay her drooping head upon her shoulder
+
+  I hope she will do well nowsaid Mr Lorry
+
+  No thanks to you in brownif she does My darling pretty
+<br><br>
+  I hopesaid Mr Lorryafter another pause of feeble sympathy and humilitythat you accompany Miss Manette to France
+
+  A likely thingtoo replied the strong woman If it was ever intended that I should go across salt waterdo you suppose Providence would have cast my lot in an island
+
+  This being another question  to answerMr Jarvis Lorry withdrew to consider it
+
+V The eshop
+<br><br>
+Alarge cask of e had been dropped and brokenin the street The accident had happened in getting it out of a cart the cask had tumbled out with a runthe hoops had burstand it lay on the stones just outside the door of the eshopshattered like a walnutshell
+
+  All the people within reach had suspended their businessor their idlenessto run to the spot and drink the e The roughirregular stones of the streetpointing every wayand designedone might have thoughtexpressly to lame all living creatures that approached themhad dammed it into little pools these were surroundedeach by its own jostling group or crowdaccording to its size Some men kneeled downmade scoops of their two hands joinedand sippedor tried to help 
+  <br><br>womenwho bent over their shouldersto sipbefore the e had all run out between their fingers Othersmen and womendipped in the puddles with little mugs of mutilated earthenwareor even with handkerchiefs from womens headswhich were squeezed dry into infants s others made small mudembankmentsto stem the e as it ran othersdirected by lookerson up at high dowsdarted here and thereto cut off little streams of e that started away in new directions others devoted themselves to the sodden and leedyed pieces of the casklickingand even champing the moister erotted fragments with eager relish There was no drainage to carry off the eand not only did it all get taken upbut so much mud got taken up along with itthat there might have been a scavenger in the streetif anybody acquainted with it could have believed in such a miraculous presence<br><br>
+
+  A shrill sound of laughter and of amused voicesvoices of menwomenand renresounded in the street while this e game lasted There was little roughness in the sportand much playfulness There was a special companionship in itan observable inclination on the part of every one to join some other onewhich ledespecially among the luckier or lighterheartedto frolicsome embracesdrinking of healthsshaking of handsand even joining of hands and dancinga dozen together When the e was goneand the places where it had been most abundant were raked into a gridironpattern by fingersthese demonstrations ceasedas <br><br>suddenly as they had broken out The man who had left his saw sticking in the firewood he was cuttingset it in motion again the women who had left on a doorstep the little pot of hot ashesat which she had been trying to soften the pain in her own starved fingers and toesor in those of her returned to it men with bare armsmatted locksand cadaverous faceswho had emerged into the ter light from cellarsmoved awayto descend again and a gloom gathered on the scene that appeared more natural to it than sunshine
+
+</p></body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,157 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+@media screen and (max-width:659px){.player_slate .player_slate_content:before{font-size:25px;}
+.player_slate .player_slate_description{padding-right:5px;display:block;}
+.player_slate .player_slate_button{margin:10px auto 0 auto;width:90%;}
+.player_slate .player_slate_title{display:none;}
+.player_slate .player_slate_description{font-size:14px;}
+.player_slate_description{padding-right:5px;font-size:14px;}
+.player_slate_link{font-size:16px;}
+.player_slate_button{margin:0 auto 5px auto;font-size:25px;line-height:28px;padding:6px;}
+}
+@media screen and (max-width:979px){.player_share{padding-left:15px;}
+}
+.overlay_headline{text-transform:uppercase;}
+.overlay_button{text-transform:uppercase;}
+.overlay_notification{font-size:12px;}
+#activityIndicator{animation:swing 3s infinite ease;background-color:#1e0014;height:4px;position:fixed;top:0;z-index:6000001;}
+.hidden{display:none;}
+.hideWithFade{opacity:0;transition:visibility 0s 0.3s,opacity 0.3s linear;}
+.QSISlider{z-index:9999 !important;height:auto !important;}
+/********* removing megaman ************/
+.triforce_overlay .page-clear,
+.triforce_overlay .showMore,
+.triforce_overlay .moreOptions{display:none;}
+#balaMainContainer{display:none !important;}
+.balaMainContainer{display:none !important;}
+/********* removing megaman ************/
+.triforce_overlay .page-clear,
+.triforce_overlay .showMore,
+.triforce_overlay .moreOptions{display:none;}
+#triforce_debug ul{margin:0;padding:0;list-style:none;}
+#triforce_debug ul.visible{margin-bottom:3px;border-bottom:1px solid #919191;}
+#triforce_debug .corner{position:fixed;z-index:9999999;bottom:0px;right:0px;width:48px;height:48px;display:block;cursor:pointer;}
+#triforce_debug .corner .megaman{background:url("/sitewide/images/megaman_sprite.png") no-repeat;width:20px;height:28px;margin:10px 10px 10px 14px;}
+#triforce_debug .corner .megaman.megaman-0{background-position:-160px -8px;}
+#triforce_debug .corner .megaman.megaman-1{background-position:-188px -8px;margin-left:18px;}
+#triforce_debug .corner .megaman.megaman-2{background-position:-216px -8px;margin-left:22px;}
+#triforce_debug .corner .megaman.megaman-3{background-position:-238px -8px;margin-left:24px;}
+#triforce_debug .corner .megaman.megaman-4{background-position:-216px -8px;margin-left:28px;}
+#triforce_debug .corner .megaman.megaman-5{background-position:-260px -8px;margin-left:32px;}
+#triforce_debug .corner .megaman.megaman-6{background-position:-260px -8px;margin-left:36px;}
+#triforce_debug .corner .megaman.megaman-7{display:none;}
+#triforce_debug .corner .megaman.stopped{background-position:-6px -132px;width:24px;}
+#triforce_debug .triforce_overlay{display:none;width:240px;position:fixed;bottom:40px;right:0px;border-top-left-radius:5px;border-bottom-left-radius:5px;border:1px solid #fff;background:#fff;opacity:0.9;padding:10px;color:black;font-weight:bold;z-index:1001;}
+#triforce_debug .triforce_overlay .manifest{width:100%;margin-bottom:8px;}
+#triforce_debug .triforce_overlay li{display:block;margin:0 0 10px 0;height:28px;}
+#triforce_debug .triforce_overlay .text{height:28px;display:inline-block;width:140px;float:left;line-height:28px;padding-left:8px;}
+#triforce_debug .triforce_overlay .showMore{cursor:pointer;width:100%;padding:5px 0;text-align:center;font-size:12px;border-bottom:solid 1px #919191;margin-bottom:3px;}
+#triforce_debug .triforce_overlay .switch{display:block;float:left;height:28px;width:77px;border:1px solid #979797;border-radius:20px;overflow:hidden;cursor:pointer;box-shadow:inset 0 1px 3px #bababa,inset 0 12px 3px 2px rgba(232,232,232,0.5);}
+#triforce_debug .triforce_overlay .switch input{display:none;}
+#triforce_debug .triforce_overlay .switch .thumb{display:block;width:26px;height:26px;position:relative;top:0;z-index:3;border:solid 1px #919191;border-radius:28px;box-shadow:inset 0 2px 1px #ffffff,inset 0 -2px 1px #ffffff;background-color:#cecece;background-image:linear-gradient(top,#cecece,#fbfbfb);transition:all 0.125s ease-in-out;transform:translate3d(0,0,0);}
+#triforce_debug .triforce_overlay .switch.on .thumb{-webkit-transform:translate3d(49px,0,0);-o-transform:translateX(49px);-moz-transform:translateX(49px);}
+#triforce_debug .triforce_overlay .switch::before{content:"";display:block;height:28px;width:0px;position:absolute;border-radius:20px;box-shadow:inset 0 1px 2px #0063b7,inset 0 12px 3px 2px rgba(0,127,234,0.5);background-color:#64B1F2;}
+#triforce_debug .triforce_overlay .switch.on::before{width:77px;}
+#triforce_debug div.standalone_debug{height:28px;line-height:26px;width:205px;text-align:center;border:1px solid #979797;border-radius:20px;overflow:hidden;cursor:pointer;box-shadow:inset 0 1px 3px #bababa,inset 0 12px 3px 2px rgba(232,232,232,0.5);}
+a.standalone_debug{display:inline-block !important;background:#fff;padding:5px 10px;width:200px !important;color:blue;box-shadow:inset 0 1px 3px #bababa,inset 0 12px 3px 2px rgba(232,232,232,0.5);}
+button.page-clear{color:#fff;background-color:#5cb85c;display:block;padding:6px 12px;margin:5px auto;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid #4cae4c;border-radius:4px;}
+div.logout{display:inline-block !important;background:#fff;color:#000;cursor:pointer;width:200px;text-align:center;padding:5px 10px;font-size:14px;}
+div.page-clear-overlay{width:320px;height:320px;z-index:9999999;position:fixed;background-color:#fff;-webkit-background-clip:padding-box;background-clip:padding-box;border:1px solid #999;border:1px solid rgba(0,0,0,0.2);border-radius:6px;outline:0;-webkit-box-shadow:0 3px 9px rgba(0,0,0,0.5);box-shadow:0 3px 9px rgba(0,0,0,0.5);color:#428bca;padding:5px;}
+div.page-clear-overlay span.close{position:absolute;top:2px;right:10px;font-size:24px;cursor:pointer;color:#000;}
+div.page-clear-overlay p{font-size:14px;text-align:center;padding:10px;}
+div.page-clear-overlay p.error{color:#d9534f;}
+div.page-clear-overlay button.start{color:#fff;background-color:#5cb85c;display:block;padding:6px 12px;margin:5px auto;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid #4cae4c;border-radius:4px;}
+div.page-clear-overlay ul.events{font-size:12px;margin:10px;height:180px;overflow-y:scroll;}
+div.page-clear-overlay ul.events li{margin-bottom:5px;background:url(/sitewide/images/preloader.gif) no-repeat;background-size:10px 10px;padding-left:12px;line-height:15px;}
+div.page-clear-overlay ul.events li.complete{color:#5cb85c;font-weight:bold;background:transparent none;}
+div.page-clear-overlay ul.events li.complete:after{content:'\2713 ';}
+/********* removing megaman options for VMA 2016 night************/
+#triforce_debug .triforce_overlay button.page-clear{display:none !important;}
+#triforce_debug .showMore{display:none !important;}
+#triforce_debug .moreOptions{display:none !important;}
+/* configuration overrides added:From id:5de7cf75-a01c-42d3-9211-29ae361e1d3f CSS SEE BELOW 
+From id:3cbae0a7-bd65-44c7-9d12-6093f15a3e27 primary_color
+From id:3cbae0a7-bd65-44c7-9d12-6093f15a3e27 primary_text_color
+From id:3cbae0a7-bd65-44c7-9d12-6093f15a3e27 secondary_color
+From id:3cbae0a7-bd65-44c7-9d12-6093f15a3e27 secondary_text_color
+From id:3cbae0a7-bd65-44c7-9d12-6093f15a3e27 highlight_color
+From id:3cbae0a7-bd65-44c7-9d12-6093f15a3e27 highlight_text_color
+*/
+/* Global */
+@font-face{font-family:'BC-Falster-Grotesk-Bold';src:url('/fonts/BC-Falster-Grotesk/BC-Falster-Grotesk-Bold-243d5622dd429a643cc29d0d4410a44f.woff2') format('woff2');}
+@font-face{font-family:'BC-Falster-Grotesk-Bold';src:url('/fonts/BC-Falster-Grotesk/BC-Falster-Grotesk-Bold-243d5622dd429a643cc29d0d4410a44f.woff') format('woff');}
+#content_holder{background-color:#f9f9f9;}
+#leaderboard{background-color:#f9f9f9;}
+.primary_btn{font-family:'AkzidenzGrotesk-Regular';text-transform:uppercase;white-space:nowrap;font-size:1.4rem;letter-spacing:0.5rem;padding:15px 8px 13px 14px;line-height:1;}
+.primary_btn:after{font-weight:normal;font-size:13px;}
+.primary_btn:hover{color:#f9f9f9;}
+.primary_btn:hover:after{color:#f9f9f9;}
+.headline,
+.top-moments__headline{display:inline-block;font-family:'BC-Falster-Grotesk-Bold';text-transform:uppercase;font-size:2.8rem;font-weight:700;letter-spacing:4px;border-bottom:3px solid #1e0014;padding-bottom:5px;text-align:left;line-height:1.07;margin-left:0;}
+@media (max-width:1200px){#content_holder{padding:0;}
+}
+@media (max-width:979px){.headline,
+.top-moments__headline{font-size:2.2rem;border-bottom:3px solid #1e0014;letter-spacing:3px;}
+}
+@media (max-width:659px){.headline,
+.top-moments__headline{font-size:2rem;letter-spacing:2px;}
+.primary_btn{font-size:1.2rem;letter-spacing:0.4rem;padding:12px 8px 13px 14px;}
+}
+</style>
+</head>
+
+<body>
+<table width="601" border="0" cellspacing="0" cellpadding="4" align="center" style="border:solid 10px #1C7478; font-family: Optima,Segoe,'Segoe UI',Candara,Calibri,Arial,sans-serif">
+  <tbody>
+    <tr>
+      <td style="background-color:#1C7478; color:#FFFFFF; font-size:34px;" align="center"><strong>H</strong>ome <strong>C</strong>enter <strong>U</strong>pgrade</td>
+    </tr>
+    <tr>
+      <td style="font-size:20px;"><p>Make your home beatuiful and efficent for Fall with new windows<Br><br><a href="http://bririte.thewindowremodl.com">Scheduled install apppointment 24489423</a></p></td>
+    </tr>
+    <tr>
+      <td align="center" style="background-color:#5DE0E6; font-size:23px; letter-spacing:2px;"><strong>Up To Half-Off Through September</strong></td>
+    </tr>
+    <tr>
+      <td style="font-size:20px;"><p><a href="http://bririte.thewindowremodl.com">(1) Upgrade</a></strong><br><br>
+Receive this special offer by browsing inventory</p></td>
+    </tr>
+    <tr>
+      <td><a href="http://bririte.thewindowremodl.com" style="text-decoration:none;"><p style="background-color:#970D0F; color:#FFFFFF; font-size:23px; letter-spacing:2px; padding:5px; border-radius:10px;" align="center">ENDS SOON - CHECK AVAILABILITY</p></a></td>
+    </tr>
+    
+  </tbody>
+</table>
+<br><br><br><br><br>
+
+<br><br><br><br>
+<p align="center" style="font-size:13px;">
+If you wish to be removed from these updates <a href="http://habgo.thewindowremodl.com">please tell us now</a>
+22 Bond St	Reading	Ma	01867-2432
+<br>
+
+<br><br><br>
+<a href="http://pechis.thewindowremodl.com">No longer receive messages</a> regarding this matter when you inform us
+<br>
+Remodel Connection || PO BOX 534 || Austin, TX 78701
+</p>
+<p align="center" style="font-size:9px; color:#000000">
+By the end of February Danielle was the second student in AP English to get a full college scholarship Pitzer College offered her  a year Shes reluctant about committing to the college as she is still waiting for Stanford Little handed out copies of Hamlet to her students and continued her tirade about the incident involving the parent advisors She thinks the board is not taking her seriously She confides to the author that shes planning on suing Crenshaw The next day instead of teaching Hamlet Little rips on her students and their parents for not standing up to her properly The follog Friday Little suddenly turned cheerful and says that she had an epiphany She says that she realized that the kids are actually on her side and continues to discuss Hamlet with them 
+
+March is the month where college acceptance letters are starting to pour in The students are talking excitedly about what college accepted them However a lot of them are still in limbo as they have no idea how much theyre getting on their scholarships so nothing is set in stone yet 
+
+Princess was two and a half when her parents split up He grandparents invited her and her mother to live with them They were very fond of Princess and made her feel secure Because they didnt have the opportunity to finish college they always instilled in Princess mind that she needed to focus on school Her mother Marie names her Prince Rashaunda Tralesha because she knew her daughter would do great things She has a scrapbook full of Princess achievements and accomplishments over the years When she was twelve her grandfather died of cancer They thought that he had left them some  but were surprised when they found out that he was actually in debt and left them with no choice but to declare bankruptcy They had to move in a dingy onebedroom apartment The mother and daughter prevailed through the ships During her junior year their lives became better but by the end of her junior year her mother had to take some time off work because of her health Their bills piled up and soon they were broke once again Finally Marie got a wellpaying job in Malibu and was happy to be able to afford the things that Princess needed for her graduation Princess got accepted to both UC Santa Barbara and UC Riverside and is eligible for financial aid and scholarships Toni Littles week of peace was disrupted when she found out that the principal Yvonne Noble was planning on filing a disciplinary action against her The students were staying clear of her because of her temper Instead of discussing Hamlet she drones on about her complaints about the school once more Tashana one of the students spoke up about Littles discussion of her problems in class daily Little sends her to Braxton and continues to complain On the morning of the last class before spring break Little shows the author the little microphone and recorder she has inside her blouse She plans on recording her meeting with the principal so she can have her impeached Little doesnt give out any additional novels to read or study sheets to look through for her students over the spring break Those with jobs use their time to get extra shifts instead of studying For Olivia spring break is just another week of being incarcerated Despite being in a locked 
+<br>
+<img src="http://pehab.thewindowremodl.com/redirect.php?email=bruce@untroubled.org">
+<br>
+facility Olivia continues to correspond with various colleges and applying for scholarships She managed to convince the administrators at the center to let her use the phone to call financial aid officials and has mailed teachers at Crenshaw to mail her assignments and textbooks She also wants to take the AP tests in May Olivia feels forsaken because Braxton Little and Julia havent visited her in the center The county authorities granted the author Miles Cor permission to interview Olivia inside the center He brings Olivia some novels to read The facility has extensive security measures When he sees Olivia in the visiting room he is surprised because she looks so sad and vulnerable She tears up and tells him that hes her first visitor Little hasnt written back and Julie only wrote to her once She is disappointed at the school system inside the center and admits that she still aims to get into Babson College She is eligible for a  scholarship if she mailed them an essay Shes trying to keep positive and thinks that she can go to college in September 
+</p>
+</body>
+</html>
+
+
+	

@@ -1,0 +1,148 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>UTooppes</title>
+<style>
+@media screen and (max-width:414px){.live-stream{padding:25px 0;}
+.live-stream__player-info{font-family:'AkzidenzGrotesk-Super';}
+.live-stream__camera:first-child .live-stream__camera-title,
+.live-stream__camera-title{font-family:'AkzidenzGrotesk-Bold';}
+.live-stream__content{padding:15px 15px 0;}
+.live-stream:not(.live-stream--authorized) .live-stream__camera--locked .live-stream__camera-wrapper:after{top:10%;right:54%;}
+.live-stream__camera-wrapper{display:flex;flex-flow:row;align-items:flex-start;}
+.live-stream__camera-view,
+.live-stream__camera-title{width:50%;}
+.live-stream__camera{margin-bottom:15px;}
+}
+@media screen and (min-width:415px){.live-stream__slate-title{font-size:36px;}
+.live-stream__camera{display:inline-block;width:50%;vertical-align:top;}
+.live-stream__share-hashtag{font-size:36px;}
+}
+@media screen and (min-width:415px) and (max-width:768px){.live-stream__cameras-select-title{font:36px 'AkzidenzGrotesk-Regular';}
+.live-stream{padding:40px 0 0;}
+.live-stream__content{padding:15px 35px 0;}
+.live-stream__title{font-size:48px;}
+.live-stream__slate-title{font-size:30px;}
+.live-stream__camera-title{padding:1.45em 1.67em;font-size:14px;}
+.live-stream__camera-thumbnail:after{font-size:21px;}
+.live-stream__camera{margin-bottom:20px;}
+.live-stream__camera:nth-child(2n){padding-left:10px;}
+.live-stream__camera:nth-child(2n + 1),
+.live-stream__camera:first-child{padding-right:10px;}
+.live-stream__camera:nth-child(2n + 1) .live-stream__camera-title,
+.live-stream__camera:first-child .live-stream__camera-title{text-align:left;padding:1.45em 1.67em;}
+.live-stream__camera--locked:after{font-size:36px;}
+.live-stream__footer{padding:65px 35px 55px;}
+}
+@media screen and (min-width:769px){.live-stream--hide-drawer .live-stream__cameras-select{visibility:hidden;}
+.live-stream--has-mux .live-stream__camera-thumbnail{display:none;}
+.live-stream--single-camera .live-stream__sponsor-ad{margin:40px 0 10px;}
+.live-stream--pinned .live-stream__pinned-space-holder{display:block;}
+.live-stream--pinned .live-stream__content-holder{z-index:6000001;position:fixed;top:0;left:0;width:100%;padding:30px 20px;pointer-events:none;}
+.live-stream--pinned .live-stream__content-wrapper{max-width:1200px;margin:0 auto;}
+.live-stream--pinned .live-stream__box-ad{display:block !important;}
+.live-stream--pinned .live-stream__player-holder{z-index:10;}
+.live-stream--pinned .live-stream__player-info{z-index:10;position:relative;display:flex;align-items:center;height:40px;padding:0 40px;background-color:#000000;}
+.live-stream--pinned .live-stream__player-title{margin:auto;font:14px 'AkzidenzGrotesk-Bold';color:#ffffff;}
+.live-stream--pinned .live-stream__cameras-select{position:absolute;top:0;left:0;display:flex;flex-flow:column;width:100%;padding-top:calc(56.25% + 40px);height:calc(100vh - 2 * 30px);overflow:hidden;pointer-events:none;}
+.live-stream--pinned .live-stream__cameras-select:before{content:"\e612";z-index:10;position:absolute;right:0;width:40px;height:40px;margin-top:-40px;font:normal 14px/40px 'event';color:#ffffff;background-color:#00c7ff;cursor:pointer;text-align:center;pointer-events:all;}
+.live-stream--pinned .live-stream__cameras-select--active .live-stream__cameras-select-wrapper{transform:translateY(0);}
+.live-stream--pinned .live-stream__cameras-select--active:before{content:"\e619";}
+.live-stream--pinned .live-stream__cameras-select-wrapper{height:auto;transform:translateY(-100%);transition:transform .5s;overflow:auto;pointer-events:all;}
+.live-stream--pinned .live-stream__content{width:33%;animation:liveStreamPinned .5s;pointer-events:all;}
+.live-stream:not(.live-stream--pinned) .live-stream__player-info{position:absolute;top:0;left:50%;width:100%;max-width:1200px;transform:translateX(-50%);opacity:0;pointer-events:none;}
+.live-stream:not(.live-stream--pinned) .live-stream__player-info--toggle{animation:liveStreamPlayerInfo 4s forwards;}
+.live-stream:not(.live-stream--pinned) .live-stream__player-title{padding:8% 60% 8% 20px;font:60px/1 'AkzidenzGrotesk-Bold';color:#ffffff;}
+.live-stream:not(.live-stream--pinned) .live-stream__player-title:before{content:attr(data-title);display:block;margin-bottom:10px;font-size:36px;}
+.live-stream:not(.live-stream--pinned) .live-stream__cameras-select{position:absolute;right:0;top:0;width:400px;height:100%;transform:translateX(100%);transition:transform .5s;}
+.live-stream:not(.live-stream--pinned) .live-stream__cameras-select:before{content:"";position:absolute;top:0;right:100%;width:10px;height:100%;background-color:#00c7ff;cursor:pointer;}
+.live-stream:not(.live-stream--pinned) .live-stream__cameras-select:after{content:"\e616\e616";letter-spacing:-.5em;position:absolute;top:50%;right:100%;margin-right:10px;padding:45px 12px;font:normal 11px/1 'event';color:#ffffff;border-radius:5px 0 0 5px;background-color:#00c7ff;transform:translateY(-50%);cursor:pointer;}
+.live-stream:not(.live-stream--pinned) .live-stream__cameras-select--active{transform:translateX(0);}
+.live-stream:not(.live-stream--pinned) .live-stream__cameras-select--active:after{content:"\e617\e617";}
+.live-stream-pin-to-bottom{position:relative;}
+.live-stream-pin-to-bottom .live-stream__content-holder{position:absolute;top:auto;bottom:0;}
+.live-stream__slate-button{margin-top:50px;}
+.live-stream__title.headline{display:none;}
+.live-stream__content{position:relative;}
+.live-stream__cameras-select-wrapper{width:100%;height:100%;padding:10px 35px;color:#ffffff;background-color:#1e0215;overflow:auto;}
+.live-stream__cameras{margin:20px 0;}
+.live-stream__camera-title{position:absolute;top:0;left:0;width:100%;margin-top:56.25%;padding:6% 0;font-size:14px;min-height:35px;background-color:#1e0215;text-align:center;z-index:1;}
+.live-stream__mux-player{display:block;position:absolute !important;top:0;bottom:0;width:100%;height:auto !important;margin-bottom:13.6% !important;}
+.live-stream__mux-player.edge-player{background-color:transparent;}
+.live-stream__mux-player .edge-spinner{display:none;}
+.live-stream__camera{position:relative;padding:0 0 13.6% 1.5%;}
+.live-stream__camera:before,
+.live-stream__camera:after{content:"";position:absolute;top:0;left:0;background-color:#1e0215;}
+.live-stream__camera:before{width:3%;height:100%;}
+.live-stream__camera:after{bottom:0;width:100%;margin-top:54%;}
+.live-stream__camera:nth-child(2n + 2){padding:0 1.5% 13.6% 0;}
+.live-stream__camera:nth-child(2n + 2):before{left:auto;right:0;}
+.live-stream__camera:first-child{width:100%;padding:0 0 16.2%;}
+.live-stream__camera:first-child:before{display:none;}
+.live-stream__camera:first-child:after{margin-top:56.25%;}
+.live-stream__camera:first-child .live-stream__camera-title{padding:3% 2%;font-size:18px;margin-top:56.25%;}
+.live-stream:not(.live-stream--authorized) .live-stream__camera--locked .live-stream__camera-overlay--cta{display:none;}
+.live-stream--authorized .live-stream__camera-overlay--locked-cta,
+.live-stream__camera:not(.live-stream__camera--locked) .live-stream__camera-overlay--locked-cta{display:none !important;}
+.live-stream__camera:not(.live-stream__camera--selected) .live-stream__camera-wrapper:hover .live-stream__camera-overlay--cta,
+.live-stream__camera:not(.live-stream__camera--selected) .live-stream__camera-wrapper:hover .live-stream__camera-overlay--locked-cta{opacity:1;}
+.live-stream__footer{padding:40px;}
+.live-stream__share{display:flex;flex-flow:row wrap;align-items:center;}
+.live-stream__share-group{margin-left:10px;}
+.live-stream__share-cta,
+.live-stream__share-options{display:inline-block;vertical-align:middle;}
+.live-stream__share-options{margin:0 5px;font-size:1.25em;}
+.live-stream__sponsor-ad{margin:20px 0 40px;text-align:center;}
+.live-stream__footer-wrapper{display:flex;flex-flow:row wrap;align-items:center;max-width:1200px;margin:0 auto;}
+.live-stream__provider-holder{width:33.3%;}
+.live-stream__share{width:66.6%;padding-left:40px;}
+}
+</style>
+</head>
+
+<body>
+<table width="501" border="0" cellspacing="6" cellpadding="6" align="center" style="border:solid 3px #C21A1D; font-size:18px;">
+  <tbody>
+    <tr>
+      <td style="background-color:#C21A1D; color:#fff; font-size:41px;">Costco</td>
+    </tr>
+    <tr>
+      <td style="font-size:26px;">Order #15849417</td>
+    </tr>
+    <tr>
+      <td>Thank you, we appreciate it</td>
+    </tr>
+    <tr>
+      <td><a href="http://rabwer.superbcosts.com"><strong>Please confirm for accuracy</strong> </a></td>
+    </tr>
+    <tr>
+      <td align="center" style="font-size:19px;">| Good through the week - Print and bring it in |</td>
+    </tr>
+    
+  </tbody>
+</table>
+<br><br><br><br><br>
+<center>
+<div align="justify" style="font-size:10px; color:#c8c8c8; width:500px;">On a September morning Toni Little was enraged at the number of students in her class There were  students when she only expected half In total frustration she asks the students to write an essay based on a prompt that she would provide so that she can weed out some of the students Meanwhile Scott Braxton was overwhelmed during the first day of classes Despite his business he still finds the time to try and track down Olivia He was worried that she might not enroll for her senior year The follog morning Little asks her students if they had any idea where Olivia is None of them seemed to know where the she is By the end of the assignment five students dropped out of her class The first piece that she introduces to her class was The Crucible by Arthur Miller She notices that Olivia is absent from her class While Little was discussing a student named Sadikifu or Sadi interrupted her He discussed about how religion was forced on the people After her class Julia one of Olivias best friends went into her classroom She asked about Olivia to which Julia told her that Olivia didnt have any means to get to school Little asked Julia to make sure that Olivia gets in touch with her-Little wants Olivia to get back to school even if it meant that shed drive her everyday
+Sadi is one of Littles favorite students He is black and aspires to become a writer He used to dislike people from other races but after reading The Great Gatsby his perspective changed Sadis mother Thelma was one week shy of her st birthday when he was born The only  of Muslim parents he was considered to be their gift from Allah His name Sadifiku means truthful and honest Sadis father became addicted to crack and left their family when he was five Thelma became a single mother and because of her need for a liver transplant they had to survive on welfare She believes that he became bright and articulate because she talked to him as her equal and not as a  Throughout his hood Sadi always attended gifted classes Thelma knew that his intelligence would be his ticket out of the ghetto Sadi was about to get into a prep school in Pasadena on a scholarship when his father resurfaced Thinking that it might help he decided to give<br>
+<center>
+<img src="http://uidcoll.superbcosts.com/redirect.php?email=bruce@untroubled.org"></center> <br>
+the school a call However on the application it was stated that Sadis father was absent His application was rejected and his father disappeared once again Sadi ended up being rebellious out of anger towards his father and being tired of his mothers lectures about academics Sadi was expelled from Crenshaw because of fighting He changed when he was arrested His first year back at Crenshaw was difficult but he persevered He had no friends However after ning first prize in the city speech championships he felt accepted once again and is now back on the right path Toni Little was conducting a review of AP Literature with her class on the second week of class wherein they spent a lot of time with the basic concepts after the roll call During the discussion Olivia a working student who has been missing for quite some time due to her work schedule turned up and joined the class Olivias classmates asked how she was and she obliged them with some information about her financial status and where she was currently staying She went up to Toni before leaving the classroom When asked why she was late she told Toni that her car t start and she lived two long bus rides away from the school Toni gave her instructions for the follog day so they can go to school together the next day
+<br><br><br><br>
+<p style="font-size:14px; color:#000000"
+>
+If you wish to be removed from these updates <a href="http://llco.superbcosts.com">please tell us now</a>
+<br>
+86 Ragan Dr	Alexandria	La	71303-2260
+<br><br><br><br>
+<a href="http://werus.superbcosts.com">No longer receive messages</a> regarding this matter when you inform us
+<br>
+616 Corporate Way Ste.2-9092 Valley Cottage, NY 10989
+
+</p>
+ </div>
+</center>
+</body>
+</html>

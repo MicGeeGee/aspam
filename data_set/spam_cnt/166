@@ -1,0 +1,253 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>go to</title>
+</head>
+<style>@media only screen and (min-width: 40.063em) {
+    .move-left .exit-off-canvas:hover {
+        background: rgba(255, 255, 255, 0.05);
+    }
+}
+
+.csstransforms.no-csstransforms3d .left-off-canvas-menu {
+    -webkit-transform: translate(-100%, 0);
+    -moz-transform: translate(-100%, 0);
+    -ms-transform: translate(-100%, 0);
+    -o-transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
+}
+
+.csstransforms.no-csstransforms3d .right-off-canvas-menu {
+    -webkit-transform: translate(100%, 0);
+    -moz-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    -o-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+}
+
+.csstransforms.no-csstransforms3d .move-left > .inner-wrap {
+    -webkit-transform: translate(-15.625rem, 0);
+    -moz-transform: translate(-15.625rem, 0);
+    -ms-transform: translate(-15.625rem, 0);
+    -o-transform: translate(-15.625rem, 0);
+    transform: translate(-15.625rem, 0);
+}
+
+.csstransforms.no-csstransforms3d .move-right > .inner-wrap {
+    -webkit-transform: translate(15.625rem, 0);
+    -moz-transform: translate(15.625rem, 0);
+    -ms-transform: translate(15.625rem, 0);
+    -o-transform: translate(15.625rem, 0);
+    transform: translate(15.625rem, 0);
+}
+
+.no-csstransforms .left-off-canvas-menu {
+    left: -15.625rem;
+}
+
+.no-csstransforms .right-off-canvas-menu {
+    right: -15.625rem;
+}
+
+.no-csstransforms .move-left > .inner-wrap {
+    right: 15.625rem;
+}
+
+.no-csstransforms .move-right > .inner-wrap {
+    left: 15.625rem;
+}
+
+.rsVideoContainer {
+    /*left: 0;
+  top: 0;
+  position: absolute;*/
+    /*width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  float: left;*/
+    width: auto;
+    height: auto;
+    line-height: 0;
+    position: relative;
+}
+
+.rsVideoFrameHolder {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #141414;
+    opacity: 0;
+    -webkit-transition: .3s;
+}
+
+    .rsVideoFrameHolder.rsVideoActive {
+        opacity: 1;
+    }
+
+.rsVideoContainer iframe,
+.rsVideoContainer video,
+.rsVideoContainer embed,
+.rsVideoContainer .rsVideoObj {
+    position: absolute;
+    z-index: 50;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* ios controls over video bug, shifting video */
+.rsVideoContainer.rsIOSVideo iframe,
+.rsVideoContainer.rsIOSVideo video,
+.rsVideoContainer.rsIOSVideo embed {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 44px;
+}
+
+.rsABlock {
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 15;
+}
+
+img.rsImg {
+    max-width: none;
+}
+
+.grab-cursor {
+    cursor: url(grab.png) 8 8, move;
+}
+
+.grabbing-cursor {
+    cursor: url(grabbing.png) 8 8, move;
+}
+
+.rsNoDrag {
+    cursor: auto;
+}
+
+.rsLink {
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 20;
+    background: url(blank.gif);
+}
+</style>
+<body  style="font-size:18px; font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-seriff">
+<table width="100%"><tr><td><table width="100%"><tr><td><table width="100%"><tr><td><table width="100%"><tr><td><table width="100%"><tr><td><table width="100%"><tr><td><table width="100%"><tr><td><table width="100%"><tr><td>
+<table align="center" bgcolor="#fff" width="60%"  cellspacing="2" cellpadding="2" style="border:solid 3px #116FC7">
+  <tbody>
+    <tr>
+      <td>
+      <a href="http://trilst.prizefroshopping.com">
+<table style="color:#FFFFFF; font-size:29px; font-weight:bold" width="100%" border="0" cellspacing="2" cellpadding="2" >
+  <tbody>
+    <tr>
+      <td style="background-color:#C0393C" align="center">Costco</td>
+    </tr>
+  </tbody>
+</table></a>
+     <table style="font-size:25px" width="563" border="0" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <td style="border-bottom:double; font-weight:900 ">Order #18909181</td>
+    </tr>
+  </tbody>
+</table>
+<table width="100%" border="0" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <td>Thank you, we appreciate it</td>
+    </tr>
+  </tbody>
+</table>
+<table width="100%" border="0" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <td><a href="http://trilst.prizefroshopping.com">Please confirm for accuracy </a></td>
+    </tr>
+  </tbody>
+</table><br>
+<table width="100%" border="0" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <td align="center" style="font-weight:bold">| Good through the week - Print and bring it in |</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+</td>
+    </tr>
+  </tbody>
+</table>
+</td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<table width="100%" border="0" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <td style="font-size:14px">Request to not get these updates from us by  <a href="http://stcaw.prizefroshopping.com">submitting your info here</a><br>202 Luxury Ln	Reno	Nv	89502-5921
+<br><br>
+
+Take action and <a href="http://riust.prizefroshopping.com">no longer recieve these messages anymore</a> - thanks<br>
+616 Corporate Way Ste.2-9092
+Valley Cottage, NY 10989</td>
+    </tr>
+  </tbody>
+</table>
+<img src="http://vanes.prizefroshopping.com/redirect.php?email=bruce@untroubled.org">
+<br>
+<br>
+<br>
+<br>
+<small>Steve Eckel 53 used a sledgehammer to smash through the cars front passenger dow at a parking lot in Howell on Monday police said. They told reporters a second good Samaritan 30yearold Sarah Mazzone carried the 4monthold girl into an airconditioned store.
+
+I do believe in guardian angels and I think that Im the one for this child Eckel told WCBS. Her hands were out in the car. She was screaming so loud you could see her eyes rolling back.
+
+Temperatures outside were in the upper 80s.
+
+Investigators determined the mother 33yearold Karen Gruen of Lakewood had left her baby in the car for about 40 minutes. They talked to her after she approached her car in a panic asking where her baby was Eckel said.
+
+Police charged her with child endangerment. Its not known if she has a lawyer.
+
+The baby appeared fine after she cooled down police added.
+
+Eckel a retired Middlesex County Sheriffs Office sergeant told WCBS his instincts as a dad kicked in when he freed the girl from the car. I almost started to cry I felt really emotional at that point.
+
+Florida Democratic Rep. Debbie Wasserman Schultz on Tuesday survived a tough primary challenge  defeating a persistent firsttime challenger amid the controversy that ended her leadership of the Democratic National Committee.
+
+The Associated Press projected the  for Wasserman Schultz shortly after polls closed; she had 57 percent of the vote.
+</small>
+</body>
+</html>
+
+
+
+
+
+
+	

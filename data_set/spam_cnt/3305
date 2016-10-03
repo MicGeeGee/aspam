@@ -1,0 +1,155 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>betsy boooone</title>
+</head>
+<style>/* Ask the Experts form */
+#main .ask-the-experts form input, #main .ask-the-experts form input { color: #a9a9ab; width: 237px; height: 50px; padding-left: 20px; font-weight: 200; font-size: 14px; }
+#main .ask-the-experts form textarea { color: #a9a9ab; height: 200px; padding: 20px 0 0 20px; width: 237px; font-weight: 200; font-size: 14px;  }
+#main .ask-the-experts form .form-textarea-wrapper { margin-bottom: 0 !important; }
+#main .ask-the-experts form div.form-item { padding: 0 0 4px 0; }
+#main .ask-the-experts form div.form-item:first-child { padding-bottom: 0; margin-bottom: 0; }
+#main .ask-the-experts form .form-item p { margin-bottom: 0; padding-bottom: 4px !important; }
+#main .ask-the-experts form input { width: 237px; height: 50px; border: 1px solid #fff; background: transparent; }
+#main .ask-the-experts form input:hover { background-color: #fff; color: #30BBAD; border: 1px solid #fff; }
+
+/* Homepage 'Persective' block link hover */
+#block-block-86 h2 a span:hover {text-decoration: underline; }
+h4 a.home-page-tile:hover { color: #000; text-decoration: underline; }
+
+
+
+.field-collection-view, .field-collection-container, .field-collection-container .field-items .field-item { border:none; margin:0; padding:0; }
+.field-collection-view-links, .action-links-field-collection-add { display:none; }
+
+/* Careers Link Container */
+.careers-link-container { width: 100%; overflow: hidden; margin: 15px 0; }
+    .careers-link-container .careers-link-left { width: 50%; float: left; }
+    .careers-link-container .careers-link-right { width: 50%; float: right; }
+    .careers-link-container h2, .careers-link-container h4 { margin: 0 !important; color: #fff; }
+    .careers-link-container h2 a { display: inline-block; border: 1px solid #ffffff; padding: 15px 30px; }
+    .careers-link-container h2 a:hover { color: #646464 !important; background-color: #fff; text-decoration: none; }
+a.white-link { color: #fff !important; }
+a.red-link { color: #cc0000 !important; }
+a.white-link:hover, a.red-link:hover { text-decoration: underline; }
+
+
+
+                         
+
+#main-wrapper {z-index:9; position:relative;}
+         #main .module-block.wide:before{ padding-top:48.360655737705% }
+                      
+                        html.lt-ie9 .block.whatshappening .flex-direction-nav .flex-next { background : transparent url('../img/icon-whatshappening-right-arrow.png') no-repeat 0 0; }
+                        html.lt-ie9 .block.whatshappening .flex-direction-nav .flex-next.flex-disabled { display:block !important; background : transparent url('../img/icon-whatshappening-right-arrow-w.png') no-repeat 0 0; filter: inherit; }
+                        html.lt-ie9 .flex-direction-nav .flex-prev { filter: inherit; }
+                   .block.whatshappening .flexslider ul.slides li .inner-text { margin:0 4.761904761905%; background-color:#ffffff; }
+                   .block.whatshappening .flexslider ul.slides li .text .date {margin-bottom:15px;margin-top: -15px;}
+               
+        .block.thoughtleadership { position:relative; display:none; margin:0 1.587301587302% 32px; padding-top:52px;  }
+                .block.thoughtleadership h2 { margin:0 3.28893442623% 1em; font-size: 18px; line-height: 22px;}
+                .block.thoughtleadership .view-content { padding:32px 3.28893442623%; background-color:#ffffff; }
+                .block.thoughtleadership .flexslider { border:none; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius:0;
+                                  text-align:left; text-indent:-9999px; background : transparent url('../img/icon-whatshappening-right-arrow-hd.png') no-repeat 0 0;
+                        background-size:16px auto; width:16px; height:28px; }
+                        .block.thoughtleadership .flex-direction-nav .flex-next.flex-disabled { background : transparent url('../img/icon-whatshappening-right-arrow-w-hd.png') no-repeat 0 0;
+                                background-size:16px auto;}
+                        html.lt-ie9 .block.thoughtleadership .flex-direction-nav .flex-next { background : transparent url('../img/icon-whatshappening-right-arrow.png') no-repeat 0 0; }
+                        html.lt-ie9 .block.thoughtleadership .flex-direction-nav .flex-next.flex-disabled { background : transparent url('../img/icon-whatshappening-right-arrow-w-hd-16.png') no-repeat 0 0; filter: inherit; display: block!important; }
+                .block.thoughtleadership .flex-direction-nav .flex-prev { left:auto !important; right:75px !important; top:25px !important; opacity:1 !important; margin-left:0;
+                        text-align:left; text-indent:-9999px; background : transparent url('../img/icon-whatshappening-left-arrow-hd.png') no-repeat 0 0;
+                        background-size:16px auto; width:16px; height:28px; }
+                        .block.thoughtleadership .flex-direction-nav .flex-prev.flex-disabled { background : transparent url('../img/icon-whatshappening-left-arrow-w-hd.png') no-repeat 0 0;
+                                background-size:16px auto;}
+                        html.lt-ie9 .block.thoughtleadership .flex-direction-nav .flex-prev { background : transparent url('../img/icon-whatshappening-left-arrow.png') no-repeat 0 0; }
+                        html.lt-ie9 .block.thoughtleadership .flex-direction-nav .flex-prev.flex-disabled { background : transparent url('../img/icon-whatshappening-left-arrow-w.png') no-repeat 0 0; }
+                .block.thoughtleadership .inner-text h3 { font-size:36px; line-height:38px; margin-top: 0.2em; margin-bottom:0.5em;  }
+                .block.thoughtleadership .inner-text a:hover { text-decoration:underline; }
+
+        .view-featuresection { width:46.825396825397%; margin:0 1.587301587302% 32px; float:left; overflow: hidden; background-color:#ffffff; }
+                .view-featuresection .field-content .content { background-color:#ffffff; padding:32px 6.779661016949%; min-height:416px;  }
+                .view-featuresection a { color:#cc0000; }
+                .view-featuresection a:hover { text-decoration:underline; }
+                .view-featuresection h2 { margin-bottom:0.8em; }
+                .view-featuresection h2 a { color:#000000; }
+                .view-featuresection ul { list-style:none; margin:0; padding:0 0 6px 0; }
+                        .view-featuresection ul li { padding-bottom:10px; }
+                                .view-featuresection.three-columns-layout {  width:30.15873015873%; margin:0 1.587301587302% 32px;   max-height: 310px;}
+                .view-featuresection.three-columns-layout .field-content .content { padding:32px 10.526315789474%; min-height:504px; }
+                .view-featuresection.short.three-columns-layout .field-content .content { padding:32px 10.526315789474%; min-height:252px; max-height: 275px;}
+</style>
+<body>
+<span style="font-family: arial; color: #000000
+"><a href="http://stel.mensrockhard.com">Women / Cars / Tools / Work Out >></a></span><br><br>
+<br>
+
+<span style="border-bottom-color: rgb(153, 153, 153) ; border-bottom-style: none ; border-bottom-width: 0px ; 
+border-image-outset: 0px ; border-image-repeat: stretch ; border-image-slice: 100% ; border-image-source: none ; 
+border-image-width: 1 ; border-left-color: rgb(153, 153, 153) ; border-left-style: none ; border-left-width: 0px ; 
+border-right-color: rgb(153, 153, 153) ; border-right-style: none ; border-right-width: 0px ; border-top-color: 
+rgb(153, 153, 153) ; border-top-style: none ; border-top-width: 0px ; box-sizing: border-box ; color: rgb(153, 153, 
+153) ; display: block ; font-family:  Arial ; font-size: 18px ; font-style: normal ; 
+font-weight: 300 ; height: 21px ; line-height: 21px ; margin-bottom: 15px ; margin-left: 0px ; margin-right: 0px ; 
+margin-top: 0px ; outline-color: rgb(153, 153, 153) ; outline-style: none ; outline-width: 0px ; padding-bottom: 
+0px ; padding-left: 0px ; padding-right: 0px ; padding-top: 0px ; vertical-align: baseline ; width: 590px ;"> Sep 09th 2016 - Friday</span>
+<h1 style="margin-bottom: 0px; font-family:arial; text-transform: uppercase; color: #BD2B2E">mens health</h1>
+<hr color="#000000" size="4"><br>
+<span style=" padding: 5px; background-color:#FFED00 ; font-weight: bolder; font-family: arial; font-size: 32px">The Secret To Getting <br>
+Hard In 30 Seconds</span><br><br>
+<hr color="#000000" size="4">
+
+
+<p style="font-family: arial"><A href="http://stel.mensrockhard.com">last 4x longer in the bedroom</A><br>
+<br>
+Give it to her harder, thicker and longer without medication<br>
+<br>
+<a href="http://stel.mensrockhard.com">This is you need to use </a></p>
+
+<div style=" background-color: #E52529; padding: 10px"><a style="align-items: flex-start ; background-attachment: scroll ; background-clip: border-box ; background-color: rgb(255, 
+255, 255) ; background-image: none ; background-origin: padding-box ; background-size: auto ; border-bottom-color: 
+rgb(229, 37, 41) ; border-bottom-style: none ; border-bottom-width: 0px ; border-image-outset: 0px ; 
+border-image-repeat: stretch ; border-image-slice: 100% ; border-image-source: none ; border-image-width: 1 ; 
+border-left-color: rgb(229, 37, 41) ; border-left-style: none ; border-left-width: 0px ; border-right-color: 
+rgb(229, 37, 41) ; border-right-style: none ; border-right-width: 0px ; border-top-color: rgb(229, 37, 41) ; 
+border-top-style: none ; border-top-width: 0px ; box-sizing: border-box ; color: rgb(229, 37, 41) ; cursor: pointer 
+; display: inline-block ; float: none ; font-family: Arial, Helvetica, sans-serif ; font-size: 
+14px ; font-stretch: normal ; font-style: normal ; font-variant-caps: normal ; font-variant-ligatures: normal ; 
+font-variant-numeric: normal ; font-weight: 900 ; letter-spacing: normal ;  
+margin-bottom: 0px ; margin-left: 10px ; margin-right: 0px ; margin-top: 0px ; padding-bottom: 15px ; padding-left: 
+6px ; padding-right: 6px ; padding-top: 15px ; text-align: center ; text-indent: 0px ; text-rendering: auto ; 
+text-shadow: none ; text-transform: uppercase ; white-space: pre ; width: 380px ; word-spacing: 0px ; writing-mode: 
+horizontal-tb ; -webkit-appearance: none ; -webkit-rtl-ordering: logical ; -webkit-user-select: none; text-decoration:none " href="http://stel.mensrockhard.com">Make It Feel So Good</a></div>
+<br>
+<br>
+<br>
+<br>
+<br><div style="margin-top: 150px">Your name will be removed from future correspdance by informing us <a href="http://tral.mensrockhard.com">on this page</a><br>
+3308 Lovell Ct	Las Vegas	Nv	89121-3733<br>
+<br>
+
+<a href="http://coleel.mensrockhard.com">Never receive these again</a> by telling us as soon as possible <br>
+Premium Nutraceuticals, LLC 4816 Technology Dr. Martinez, GA 30907</div><br>
+<br>
+
+<div style="background-color: #A5A5A5"><br>
+<div style="color:#A5A5A5 ">ss Manetteif the prisoner does not perfectly understand that you give the evidence which it is your duty to givewhich you must giveand which you cannot escape from givingwith great unwillingnesshe is the only person present in that condition Please to go on
+
+  He told me that he was travelling on business of a delicate and difficult naturewhich might get people into troubleand that he was therefore travelling under an assumed name He said that this business hadwithin a few daystaken him to Franceand mightat intervalstake him backwards and forwards between France and England for a long time to come
+
+  Did he say anything about AmericaMiss Manette Be particular
+
+  He tried to explain to me how that quarrel had arisenand he said thatso far as he could judgeit was a wrong and foolish one on Englands part He addedin a jesting waythat perhaps George Washington might gain almost as great a name in history as George the Third But there was no harm in his way of saying this it was said laughinglyand to beguile the time
+
+  Any strongly marked expression of face on the part of a chief actor in a scene of great interest to whom many eyes are directedwill be unconsciously imitated by the spectators Her forehead was painfully anxious and intent as she gave this evidenceandin the pauses when she stopped for the Judge to write it downwatched its effect upon the counsel for and against Among the lookerson there was the same expression in all quarters of the court insomuchthat a great majority of the foreheads theremight have been mirrors reflecting the witnesswhen the Judge looked up from his notes to glare at that tremendous heresy about George Washington
+
+  Mr AttorneyGeneral now signified to my Lordthat he deemed it necessaryas a matter of precaution and formto call the young ladys fatherDoctor Manette Who was called accordingly
+
+  Doctor Manettelook upon the prisoner Have you ever seen him before
+	</div>
+	
+</div>
+
+</body>
+</html>

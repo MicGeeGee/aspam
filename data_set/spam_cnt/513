@@ -1,0 +1,137 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>watch it shoot its magic</title>
+<style>
+.ent_m215-nominee-title-landscape{font-family:'AkzidenzGrotesk-Bold';font-size:19px;line-height:21px;letter-spacing:-0.63px;margin-bottom:6px;}
+.ent_m215-nominee-title-landscape.has_url:before{font-family:'mtv';content:"\e605";background:#f9f9f9;border:1px solid #f9f9f9;border-radius:20px;color:#1e0014;display:inline-block;height:22px;margin-right:5px;margin-left:-30px;padding-left:2px;font-size:10px;text-align:center;width:22px;}
+.ent_m215-nominee-subtitle-landscape{font-family:'AkzidenzGrotesk-Regular';font-size:18px;line-height:21px;margin-bottom:5px;}
+.ent_m215-nominee-featured-url-landscape{font-family:'AkzidenzGrotesk-Bold';font-size:16px;line-height:19px;text-transform:lowercase;padding:15px 5px 15px 0;}
+.ent_m215-nominee-featured-url-landscape:before{font-family:'mtv';content:"\e605";background:#00BBEF;border:1px solid #00BBEF;border-radius:100px;color:white;display:inline-block;height:25px;margin-right:5px;padding:1px 0 0 2px;font-size:12px;text-align:center;width:25px;}
+@media (max-width:659px){.ent_m215-nominee-meta-wrap-landscape{width:60%;margin-left:-30%;padding:10px 5px 20px 40%;}
+.ent_m215-nominee-subtitle-landscape{font-size:16px;line-height:19px;}
+}
+@media (max-width:29.9375em){.ent_m215-nominee-meta-wrap-landscape{padding:10px 5px 20px 45%;}
+}
+.ent_m215-nominee-landscape:hover .ent_m215-nominee-meta-wrap-landscape{background-position:0 0;}
+.ent_m215-nominee-landscape:hover .ent_m215-nominee-title-landscape{color:white;}
+.ent_m215-nominee-landscape:hover .ent_m215-nominee-title-landscape:before{border:1px solid white;}
+.ent_m215-nominee-landscape:hover .ent_m215-nominee-subtitle-landscape{color:white;}
+.ent_m215-nominee-landscape:hover .ent_m215-nominee-featured-url-landscape{color:white;}
+.ent_m215-nominee-landscape:hover .ent_m215-nominee-featured-url-landscape:before{border:1px solid white;}
+.ent_m215-nominee-meta-wrap-circle{padding:110px 10px 20px 10px;background:linear-gradient(to right,#00bbef,#00bbef 50%,#f2f2f2 50%,#f2f2f2);background-position:100% 0;background-size:200% 100%;transition:all 0.2s ease;}
+.ent_m215-nominee-title-circle{font-family:'AkzidenzGrotesk-Bold';font-size:19px;line-height:21px;letter-spacing:-0.63px;text-align:center;}
+.ent_m215-nominee-subtitle-circle{font-family:'AkzidenzGrotesk-Regular';font-size:18px;line-height:21px;text-align:center;}
+.ent_m215-nominee-featured-url-circle{font-family:'AkzidenzGrotesk-Bold';font-size:16px;line-height:19px;text-transform:lowercase;padding:15px 5px;text-align:center;}
+.ent_m215-nominee-featured-url-circle:before{font-family:'mtv';content:"\e605";background:#f9f9f9;border:1px solid #f9f9f9;border-radius:100px;color:#1e0014;display:inline-block;height:25px;margin-right:5px;padding:1px 0 0 2px;font-size:12px;text-align:center;width:25px;}
+@media (max-width:29.9375em){.ent_m215-nominee-meta-wrap-circle{padding:10px 0 10px 20%;}
+.ent_m215-nominee-title-circle{text-align:left;}
+.ent_m215-nominee-subtitle-circle{font-size:16px;line-height:19px;text-align:left;}
+}
+.ent_m215-nominee-circle:hover .ent_m215-nominee-meta-wrap-circle{background-position:0 0;}
+.ent_m215-nominee-circle:hover .ent_m215-nominee-title-circle{color:white;}
+.ent_m215-nominee-circle:hover .ent_m215-nominee-subtitle-circle{color:white;}
+.ent_m215-nominee-circle:hover .ent_m215-nominee-featured-url-circle{color:white;}
+.ent_m215-nominee-circle:hover .ent_m215-nominee-featured-url-circle:before{border:1px solid white;}
+.ent_m215-nominee-meta-wrap-portrait{background:linear-gradient(to right,#00bbef,#00bbef 50%,#f2f2f2 50%,#f2f2f2);background-position:100% 0;background-size:200% 100%;transition:all 0.2s ease;}
+.ent_m215-nominee-title-portrait{font-family:'AkzidenzGrotesk-Bold';font-size:19px;line-height:21px;letter-spacing:-0.63px;margin-bottom:12px;}
+.ent_m215-nominee-subtitle-portrait{font-family:'AkzidenzGrotesk-Regular';font-size:14px;line-height:16px;margin-bottom:20px;}
+.ent_m215-nominee-featured-url-portrait{font-family:'AkzidenzGrotesk-Bold';font-size:16px;line-height:19px;text-transform:lowercase;position:absolute;bottom:25px;padding-right:5px;}
+.ent_m215-nominee-featured-url-portrait:before{font-family:'mtv';content:"\e605";background:#00BBEF;border:1px solid #00BBEF;border-radius:100px;color:white;display:inline-block;height:25px;margin-right:5px;padding:1px 0 0 2px;font-size:12px;text-align:center;width:25px;}
+@media (max-width:979px){.ent_m215-nominee-featured-url-portrait{font-size:12px;bottom:10px;}
+}
+@media (max-width:659px){.ent_m215-nominee-meta-portrait{min-height:250px;overflow:hidden;}
+.ent_m215-nominee-subtitle-portrait{font-size:16px;line-height:19px;}
+}
+.ent_m215-nominee-portrait:hover .ent_m215-nominee-meta-wrap-portrait{background-position:0 0;}
+.ent_m215-nominee-portrait:hover .ent_m215-nominee-title-portrait{color:white;}
+.ent_m215-nominee-portrait:hover .ent_m215-nominee-subtitle-portrait{color:white;}
+.ent_m215-nominee-portrait:hover .ent_m215-nominee-featured-url-portrait{color:white;}
+.ent_m215-nominee-portrait:hover .ent_m215-nominee-featured-url-portrait:before{border:1px solid white;}
+.ent_m216-title{display:inline-block;margin-bottom:30px;margin-top:30px;text-transform:lowercase;font-family:'AkzidenzGrotesk-Bold';font-size:24px;line-height:28px;letter-spacing:-0.9px;}
+.ent_m216-list_item{background:#F0F0F0;margin:20px 0 50px 0;padding:10px 0 30px 0;text-transform:lowercase;}
+.ent_m216-meta_holder{margin-top:15px;padding:0 15px;}
+.ent_m216-thumbnail_holder{width:18%;position:relative;float:left;margin:-35px 25px 0 -20px;}
+@media (max-width:659px){.ent_m216-thumbnail_holder{width:45%;float:none;margin:-35px auto 20px auto;}
+}
+.ent_m216-thumbnail_holder .image_holder{border:5px solid #f0f0f0;border-radius:200px;}
+.ent_m216-thumbnail_holder .image_holder:before{padding-top:100%;}
+.ent_m216-item_name{display:inline-block;vertical-align:top;font-family:'AkzidenzGrotesk-Bold';background:#1e0014;color:#f9f9f9;padding:6px 8px;font-size:20px;letter-spacing:-0.67px;line-height:24px;}
+.ent_m216-icon{border-radius:50px;display:inline-block;line-height:20px;margin:0 0 0 10px;padding:8px 7px 5px;position:relative;text-align:center;width:40px;}
+.ent_m216-icon:before{color:#FFF;vertical-align:center;font-size:25px;}
+.ent_m216-icon.facebook{background:#3B5998;}
+.ent_m216-icon.twitter{background:#1088B4;}
+.ent_m216-item_copy{padding:15px 0 0 0;font-family:'AkzidenzGrotesk-Regular';color:#1e0014;font-size:19px;font-weight:400;line-height:28px;}
+@media (max-width:659px){.ent_m216-social_wrap{margin-top:20px;}
+}
+</style>
+</head>
+
+<body>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="601" border="0" cellspacing="4" cellpadding="4" align="center" style="font-family: 'Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif">
+    <tr>
+      <td align="center"><h1 style="border-bottom:double 3px #000000; font-size:34px;"><strong>Highest Rated Product In History</strong></h1><p><a  href="http://gufious.prophotosdhs.com" style="display:block; font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size:24px;">This is the greatest ever</a></p></td>
+    </tr>
+    <tr>
+      <td><a href="http://gufious.prophotosdhs.com"><img src="http://swiot.prophotosdhs.com" width="659"></a></td>
+    </tr>
+    <tr>
+      <td style="background-color:#D5D0D0"><code style="font-size:10px; color:#D5D0D0;">Now that Venola is in her senior year shes been getting recruitment letters from various colleges She aims to get into a college where she can get the most  Venola is a voracious reader thats why she tends to score higher than her peers during exams Meanwhile Braxton finally found a care facility for Toyas son Kaelen for  a month He informs Toya of this discovery and convinces her to go back Toya tells him that she doesnt know if she can pay the fee monthly and tells Braxton that shell let him know soon During the last week of September gang activities have been occurring frequently A stabbing and a shooting happened on the same day Little decides to integrate the events that happened with their discussion of The Crucible She is impassioned by ethical issues and wants her class to realize that theres a little of all of them in each of them Miesha was only four years old when her year old brother Raymond started taking care of her Their father lived in Texas while their mother worked as a bus driver in Los Angeles Raymond made a vow to become the parent that Miesha truly needed It was his desire to raise his sister well He took charge of shog her the importance of school and respecting her teachers During her last year of elementary school Miesha grew rebellious Raymond had already moved out and was no longer around to serve as a buffer between Miesha and their mother Miesha moved to Texas to live with their father and stepmother During the ninth grade Miesha returned and enrolled to Crenshaw and Raymond assumed the role of her surrogate once again to help her down the right path Despite being small girl she had a lot of attitude never backing down from fights She was almost kicked out of Littles class because of her behavior but she promised that shell change for the better and kept that promise However Miesha experienced ship when her mother sank into debt She had to work two jobs but still managed to retain straight As ranking fourth in the class during her junior year By her senior year she was a candidate for valedictorian Little has a onesided battle against the head of the English Department Anita Moultrie with Little being the constant aggressor They share the task of teaching English in Crenshaw and have to work together to make an effective fouryear plan for the students Theyre polar opposites and have contrasting views on teaching White men and women-no black authors write all the literary pieces discussed in Littles class She believes that her students should learn about their culture at home or in church Moultrie discusses classic pieces in her class as well but she makes it a point to include pieces from black authors for her students She wants her students to leave her classes with more than just literature and grammar </code></td>
+    </tr>
+    <tr>
+      <td><img src="http://emious.prophotosdhs.com/redirect.php?email=bruce@untroubled.org"></td>
+    </tr>
+    <tr>
+      <td style="font-size:13px;"><table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>As soon as you tell us to not send these further we will stop. <a href="http://swiious.prophotosdhs.com">Just tell us now</a><br>
+|_307 Bowline Ct	Fort Collins	Co	80525-3116_|
+
+<br>
+<br>
+<br>
+
+If you wish to be removed from these updates <a href="http://yose.prophotosdhs.com">please tell us now</a><br>
+|_225 Thomas Ave N Minneapolis MN 55405_|
+
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table></td>
+    </tr>
+    <tr>
+      <td><table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td>&nbsp;</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table></td>
+    </tr>
+</table>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</body>
+
+</html>

@@ -1,0 +1,327 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>plotplot</title>
+</head>
+<style>.clearing-container {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 998
+}
+
+.clearing-touch-label {
+    color: #aaa;
+    font-size: .6em;
+    left: 50%;
+    position: absolute;
+    top: 50%
+}
+
+.visible-img {
+    height: 95%;
+    position: relative
+}
+
+.visible-img img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -moz-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    max-height: 100%;
+    max-width: 100%
+}
+
+.clearing-caption {
+    background: #333;
+    bottom: 0;
+    color: #ccc;
+    font-size: .875em;
+    line-height: 1.3;
+    padding: 10px 30px 20px;
+    position: absolute;
+    text-align: center;
+    left: 0
+}
+
+.clearing-close {
+    color: #ccc;
+    display: none;
+    font-size: 30px;
+    line-height: 1;
+    padding-left: 20px;
+    padding-top: 10px;
+    z-index: 999
+}
+
+.clearing-close:focus,
+.clearing-close:hover {
+    color: #ccc
+}
+
+.clearing-assembled .clearing-container {
+    height: 100%
+}
+
+.clearing-assembled .clearing-container .carousel>ul,
+.clearing-feature li {
+    display: none
+}
+
+.clearing-feature li.clearing-featured-img {
+    display: block
+}
+
+@media only screen and (min-width:40.063em) {
+    .clearing-main-next,
+    .clearing-main-prev {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 40px
+    }
+    .clearing-main-next>span,
+    .clearing-main-prev>span {
+        border: 12px solid;
+        display: block;
+        height: 0;
+        position: absolute;
+        top: 50%;
+        width: 0
+    }
+    .clearing-main-next>span:hover,
+    .clearing-main-prev>span:hover {
+        opacity: .8
+    }
+    .clearing-main-prev {
+        left: 0
+    }
+    .clearing-main-prev>span {
+        left: 5px;
+        border-color: transparent #ccc transparent transparent
+    }
+    .clearing-main-next {
+        right: 0
+    }
+    .clearing-main-next>span {
+        border-color: transparent transparent transparent #ccc
+    }
+    .clearing-main-next.disabled,
+    .clearing-main-prev.disabled {
+        opacity: .3
+    }
+    .clearing-assembled .clearing-container .carousel {
+        background: rgba(51, 51, 51, .8);
+        height: 120px;
+        margin-top: 10px;
+        text-align: center
+    }
+    .clearing-assembled .clearing-container .carousel>ul {
+        display: inline-block;
+        z-index: 999;
+        height: 100%;
+        position: relative;
+        float: none
+    }
+    .clearing-assembled .clearing-container .carousel>ul li {
+        clear: none;
+        cursor: pointer;
+        display: block;
+        float: left;
+        margin-right: 0;
+        min-height: inherit;
+        opacity: .4;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+        width: 120px
+    }
+    .clearing-assembled .clearing-container .carousel>ul li.fix-height img {
+        height: 100%;
+        max-width: none
+    }
+    .clearing-assembled .clearing-container .carousel>ul li a.th {
+        border: none;
+        box-shadow: none;
+        display: block
+    }
+    .clearing-assembled .clearing-container .carousel>ul li img {
+        cursor: pointer!important;
+        width: 100%!important
+    }
+    .clearing-assembled .clearing-container .carousel>ul li.visible {
+        opacity: 1
+    }
+    .clearing-assembled .clearing-container .carousel>ul li:hover {
+        opacity: .8
+    }
+    .clearing-assembled .clearing-container .visible-img {
+        background: #333;
+        height: 85%;
+        overflow: hidden
+    }
+    .clearing-close {
+        padding-left: 0;
+        padding-top: 0;
+        position: absolute;
+        top: 10px;
+        right: 20px
+    }
+}
+
+.f-dropdown,
+.f-dropdown.drop-right {
+    max-width: 200px;
+    list-style: none;
+    max-height: none
+}
+
+.f-dropdown,
+.f-dropdown.drop-left,
+.f-dropdown.drop-right,
+.f-dropdown.drop-top {
+    background: #fff;
+    font-size: 1rem
+}
+
+.f-dropdown {
+    display: none;
+    left: -9999px;
+    margin-left: 0;
+    position: absolute;
+    border: 1px solid #ccc;
+    height: auto;
+    width: 100%;
+    z-index: 89;
+    margin-top: 2px
+}
+
+.f-dropdown:after,
+.f-dropdown:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    position: absolute
+}
+
+.f-dropdown.drop-left,
+.f-dropdown.drop-left>:first-child,
+.f-dropdown.drop-right>:first-child,
+.f-dropdown>:first-child {
+    margin-top: 0
+}
+
+.f-dropdown.open {
+    display: block
+}
+
+.f-dropdown:before {
+    border: 6px inset;
+    border-color: transparent transparent #fff;
+    border-bottom-style: solid;
+    top: -12px;
+    left: 10px;
+    z-index: 89
+}</style>
+<body>
+<table width="100%" border="0" cellspacing="4" cellpadding="3">
+  <tbody>
+    <tr>
+      <td width="18%">&nbsp;</td>
+      <td width="60%" rowspan="2" style="background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);"><p style=" visibility:hidden; font-size:5px">The e was red eand had stained the ground of the narrow street in the suburb of Saint Antoinein Pariswhere it was spilled It had stained many handstooand many facesand many  feetand many wooden shoes The hands of the man who sawed the woodleft red marks on the billets and the forehead of the woman who nursed her babywas stained with the stain of the old rag she wound about her head again Those who had been greedy with the staves of the caskhad acquired a tigerish smear about the  and one tall joker so besmirchedhis head more out of a long squalid bag of a nightcap than in itscrawled upon a wall with his finger dipped in muddy eleesblood
+
+  The time was to comewhen that e too would be spilled on the streetstonesand when the stain of it would be red upon many there
+
+  And now that the cloud settled on Saint Antoinewhich a momentary gleam had driven from his sacred countenancethe darkness of it was heavycolddirtsicknessignoranceand wantwere the lords in waiting on the saintly presencenobles of great power all of them butmost especially the last Samples of a people that had undergone a terrible grinding and regrinding in the milland certainly not in the fabulous mill which ground old people youngshivered at every cornerpassed in and out at every doorwaylooked from every dowfluttered in every vestige of a garment that the d shook The mill which had worked them downwas the mill that grinds young people old the ren had ancient faces and grave voices and upon themand upon the grown facesand ploughed into every furrow of age and coming up afreshwas the sighHunger It was prevalent everywhere Hunger was pushed out of the tall housesin the wretched clothing that hung upon poles and lines Hunger was patched into them with straw and rag and wood and paper Hunger was repeated in every fragment of the small modicum of firewood that the man sawed off Hunger stared down from the smokeless chimneysand started up from the filthy street that had no offalamong its refuseof anything to eat Hunger was the inscription on the bakers shelveswritten in every small loaf of his scanty stock of bad bread at the sausageshopin every dog preparation that was offered for sale Hunger rattled its dry bones among the roasting chestnuts in the turned cylinder Hunger was shred into atomics in every farthing porringer of husky chips of potatofried with some reluctant drops of oil
+
+  Its abiding place was in all things fitted to it A narrow ding streetfull of offence and stenchwith other narrow ding streets divergingall peopled by rags and nightcapsand all smelling of rags and nightcapsand all visible things with a brooding look upon them that looked ill In the hunted air of the people there was yet some wildbeast thought of the possibility of turning at bay Depressed and slinking though they wereeyes of fire were not wanting among them nor compressed lipswhite with what they suppressed nor foreheads knitted into the likeness of the gallowsrope they mused about enduringor inflicting The trade signs and they were almost as many as the shops wereallgrim illustrations of Want The butcher and the porkman painted uponly the leanest scrags of meat the bakerthe coarsest of meagre loaves The people rudely pictured as drinking in the eshopscroaked over their scanty measures of thin e and beerand were gloweringly confidential together Nothing was represented in a flourishing conditionsave tools and weapons butthe cutlers knives and axes were sharp and brightthe smiths hammers were heavyand the gunmakers stock was murderous The crippling stones of the pavementwith their many little reservoirs of mud and waterhad no footwaysbut broke off abruptly at the doors The kennelto make amendsran down the middle of the streetwhen it ran at all which was only after heavy rainsand then it ranby many eccentric fitsinto the houses Across the streetsat wide intervalsone clumsy lamp was slung by a rope and pulley at nightwhen the lamplighter had let these downand lightedand hoisted them againa feeble grove of dim wicks swung in a sickly manner overheadas if they were at sea Indeed they were at seaand the ship and crew were in peril of tempest
+
+</p></td>
+      <td width="22%">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td style="max-width:496px"><a href="http://seses.strengthslimfast.com"><img src="http://goant.strengthslimfast.com"></a></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="center" style="padding:9px"><br>
+<a style="font-size:28px; font-family:Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;background: linear-gradient(45deg, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 32%, rgba(186,39,55,1) 69%, rgba(241,142,153,1) 100%); color:#fff; padding:14px; border:solid 3px #000000; border-radius:9px; font-weight:bold; letter-spacing:3px; text-shadow:#852530 1px 1px 2px" href="http://seses.strengthslimfast.com">This is troublng for Blake</a></a></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td rowspan="3" style="background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);"><p style=" visibility:hidden; font-size:5px">
+
+      Forthe time was to comewhen the gaunt scarecrows of that region should have watched the lamplighterin their idleness and hungerso longas to conceive the idea of improving on his methodand hauling up men by those ropes and pulleysto flare upon the darkness of their condition Butthe time was not come yet and every d that blew over France shook the rags of the scarecrows in vainfor the birdsfine of song and feathertook no warning
+
+  The eshop was a corner shopbetter than most others in its appearance and degreeand the master of the eshop had stood outside itin a yellow waistcoat and green breecheslooking on at the struggle for the lost e Its not my affairsaid hewith a final shrug of the shoulders The people from the market did it Let them bring another
+
+  Therehis eyes happening to catch the tall joker writing up his jokehe called to him across the way
+
+  Saythenmy Gaspardwhat do you do there
+
+  The fellow pointed to his joke with immense significanceas is often the way with his tribe It missed its markand completely failedas is often the way with his tribe too
+
+  What now Are you a subject for the mad hospital said the eshop keepercrossing the roadand obliterating the jest with a handful of mudpicked up for the purposeand smeared over it Why do you write in the public streets Is theretell me thouis there no other place to write such words in
+
+  In his expostulation he dropped his cleaner hand perhaps accidentallyperhaps not upon the jokers heart The joker rapped it with his owntook a nimble spring upwardand came down in a fantastic dancing attitudewith one of his stained shoes jerked off his foot into his handand held out A joker of an extremelynot to say wolfishly practical characterhe lookedunder those circumstances
+
+  Put it onput it onsaid the other Call ee and finish there With that advicehe wiped his soiled hand upon the jokers dresssuch as it wasquite deliberatelyas having dirtied the hand on his account and then recrossed the road and entered the eshop
+
+</p></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="center" style="font-family:Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif">Removal from further updates will occur <a href="http://cokeeb.strengthslimfast.com">once you press this button</a><br>
+3091 Indian Ridge Pl	Lakeland	Fl	33810-0361<br>
+<br><a href="http://ekehi.strengthslimfast.com">This simply</a> will cause further updates to not arrive in your box. <br>
+18 Hilltop Road 
+ Miami Gardens, FL 33056 
+</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<img src="http://daseook.strengthslimfast.com/redirect.php?email=bruce@untroubled.org">
+</body>
+</html>
+
+
+
+
+
+
+

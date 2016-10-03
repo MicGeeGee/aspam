@@ -1,0 +1,107 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>shoot to thrill</title>
+</head>
+<body>
+<span style="padding-bottom:5px; display:block"><!-- 
+                     #header-wrapper #header .block.shortcuts { position:absolute; top:-18px; right:0; }
+                        #header-wrapper #header .block.shortcuts .content ul { margin:0; padding:0; list-style:none; }
+                                #header-wrapper #header .block.shortcuts .content ul li { float:left; margin:0; padding: 0 20px 0 0; }
+                                        #header-wrapper #header .block.shortcuts .content ul li:last-child { padding-right:0; }
+                                        #header-wrapper #header .block.shortcuts .content ul li a { color:#646464; font-size:14px; line-height:20px; font-weight:400; white-space: nowrap; display:inline-block; }
+                                        #header-wrapper #header .block.shortcuts .content ul li a:hover {color:#cb0000; }
+-->
+<span style="padding-bottom:5px; display:block"><!--   #header-wrapper #header .header-nav h2 { display:none; }
+                #header-wrapper #header .header-nav ul.menu { margin:0; padding:18px 0; list-style:none; }
+                        #header-wrapper #header .header-nav ul.menu:before, #header-wrapper #header #block-system-main-menu ul.menu:after { content: " "; /* 1
+             -->
+<span style="padding-bottom:5px; display:block"><!--  */ display: table; /* 2 */ } /*clearfix*/
+                        #header-wrapper #header .header-nav ul.menu:after { clear: both; } /*clearfix con't*/
+                        #header-wrapper #header .header-nav ul.menu li { float:left; margin:0; padding:0; padding-left: 3.28893442623%; list-style:none; }-->
+<span style="padding-bottom:5px; display:block"><!-- #header-wrapper #header .header-nav ul.menu li.first { }
+                        #header-wrapper #header .header-nav ul.menu li a { font-size:16px; font-weight:bold; color:#000000; line-height:36px; }
+                        #header-wrapper #header .header-nav ul.menu li a:hover { opacity: .5; }
+                     -->
+<span style="padding-bottom:5px; display:block"><!-- 
+                                    #header-wrapper #header .header-nav ul.menu li a.active-trail { color:#8b8b8b; }
+                                #header-wrapper #header .header-nav ul.menu li a.selected { color:#cb0000; }
+                              -->
+<span style="padding-bottom:5px; display:block"><!--  #header-wrapper #header .header-nav ul.menu li > ul.menu { display:none; }
+                #header-wrapper #header .sub-menu { background-color:#cb0000; }
+                        #header-wrapper #header .sub-menu .content { width: 100%; } /*fix jumpy after slidedown*/
+  -->
+<span style="padding-bottom:5px; display:block"><!--  #header-wrapper #header .sub-menu .content > ul.menu { list-style:none; padding:40px 0 60px; margin:0; }
+                                #header-wrapper #header .sub-menu .content > ul.menu > li { list-style:none; padding:0 3.28893442623% 20px; margin:0; /*width:43.42213114754%; float:left;*/ }
+                    -->
+<span style="padding-bottom:5px; display:block"><!--   #header-wrapper #header .sub-menu .content > ul.menu > li:nth-child(even) { /*float:right;*/ }
+                                #header-wrapper #header .sub-menu .content > ul.menu > li:last-child { padding-bottom:0; }
+                                #header-wrapper #header .sub-menu .content > ul.menu > li a { display:inline-block; color:#ffffff; font-weight:600; margin-bottom:3px; }
+                             -->
+<span style="padding-bottom:5px; display:block"><!--   #header-wrapper #header .sub-menu .content > ul.menu > li a:hover { text-decoration:underline; }
+                                        #header-wrapper #header .sub-menu .content > ul.menu > li > ul.menu { list-style:none; padding:0; margin:0;  }
+                                        #header-wrapper #header .sub-menu .content > ul.menu > li > ul.menu > li { list-style:none; padding:0 30px 0 0; margin:0; float:left; }
+-->
+<span style="padding-bottom:5px; display:block"><!--     
+                                        #header-wrapper #header .sub-menu .content > ul.menu > li > ul.menu > li a { font-weight:300; font-size:15px; }
+                                        #header-wrapper #header .sub-menu .content > ul.menu > li > ul.menu > li a:hover,
+                                        #header-wrapper #header .sub-menu .content > ul.menu > li > ul.menu > li a.active-trail.active,
+                                    -->
+<span style="padding-bottom:5px; display:block"><!-- 
+
+                                         #header-wrapper #header .sub-menu .content > ul.menu > li a.active-trail.active { text-decoration:underline; }
+                                        #header-wrapper #header .sub-menu .content .button-close-submenu { position:absolute; top:20px; right:5px; display:none; text-indent: 999px; width:21px; height:21px; background:transparent url('../img/button-close-submenu.png') no-repeat center center;}
+-->
+<span style="padding-bottom:5px; display:block"><!-- #page-slideshow-wrapper {z-index:0; position:relative; }
+        #page-slideshow-wrapper #slideshow-images { min-height:800px; }
+        #page-slideshow-wrapper #slideshow-images img { max-width:none; width:100%; min-width:1200px; min-height:800px; }
+-->
+<span style="padding-bottom:5px; display:block"><!--   #page-slideshow-wrapper #page-slideshow .flexslider { padding: 36px 6.779661016949% 72px; border:none; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; min-height:352px; margin: 160px 0 60px; color:#ffffff; background:transparent url('../img/bg-000000-70.png') repeat 0 0; z-index:99;}
+        #page-slideshow-wrapper #page-slideshow .flexslider a:hover { text-decoration: underline; }
+      -->
+<span style="padding-bottom:5px; display:block"><!-- #page-slideshow-wrapper #page-slideshow .flexslider ul.slides {  }
+                #page-slideshow-wrapper #page-slideshow .flexslider ul.slides li { height:432px; }
+              -->
+<span style="padding-bottom:5px; display:block"><!--  #page-slideshow-wrapper #page-slideshow .flexslider img {display:none;}
+                #page-slideshow-wrapper #page-slideshow .flexslider .nav { z-index: 9; position:relative; }
+                    #page-slideshow-wrapper #page-slideshow .flexslider .nav .pg-grid { position:relative; }
+              -->
+<span style="padding-bottom:5px; display:block"><!--  #page-slideshow-wrapper #page-slideshow .flexslider .nav .controls { padding: 0 6.779661016949%; }
+                    #page-slideshow-wrapper #page-slideshow .flexslider  ol.flex-control-nav { text-align:left; bottom:auto; width:auto; z-index:99; position:absolute; bottom:36px; }
+                    #page-slideshow-wrapper #page-slideshow .flexslider .flex-control-paging li {margin: 0 15px 0 0; display:inline-block; float:left;  }
+                 --><center><a style="font-family:arial; text-align:left; font-weight:bold; color:#000000" href="http://eloy.highwaytomems.com">Your memories are fading - Transer them now</a><br><a href="http://eloy.highwaytomems.com"><img src="http://crohare.highwaytomems.com"></a></center><!-- novel When I stepped out into the bright sunlight from the darkness of --></span><!-- The three are heading back home when they notice that the church is on fire Ponyboy jumps out of Dallys car  --></span><!-- Dally robs a grocery store He pulls a gun on the police who are pursuing him and is shot to  while his friends look --></span><!-- a school picnic and their teachers are outside the church waiting for firemen to--></span><!-- to investigate A group of kids on --></span><!--arrive One of the teachers realizes that some of the kids are missing They hear faint screams coming from inside the church Ponyboy runs into the burning building  --></span><!--ohnny and broke his back Dally escaped with a severely burned arm but is otherwise all right Ponyboy also learns  --></span><!--followed by Johnny and Dally Together they manage to rescue the ren trapped inside Dally pulls Ponyboy out of the church just before the roof collapses Ponyboy pes out  --></span><!--When he comes to he learns that a large timber fell on J
+ --></span><!--that they are being lauded as heroes which strikes him as funny since he is used to being called a punk or a hood
+
+Johnny dies before the rumble Dally cannot cope with --></span><!-- Johnnys  While the rest of the gang fights the Socs and s --></span><!-- on Ponyboy is traumatized by his experiences and suffers a break with reality He thinks that he is the one who ed Bob and that Johnny is still alive
+--></span><!-- At a court hearing the judge acquits Ponyboy based on Randy and Cherrys testimony Ponyboy returns to school but has a  time readjusting to normal life His grades drop ----></span><table width="100%" border="0" cellspacing="3" cellpadding="3">
+  <tbody>
+    <tr>
+      <td align="center" style=" font-size:13px">If you wish to be removed from these updates <a href="unsub">please tell us now</a><br>
+631 Aspenwood Ln	Grand Junction	Co	81504-5210</td>
+    </tr>
+  </tbody>
+</table>
+<!-- Ponyboys English teacher knows he is capable of doing better and offers him a chance to improve his grade by writing an essay for extra credit Ponyboy chooses to write 
+--></span><table style=" font-size:13px" width="100%" border="0" cellspacing="3" cellpadding="3">
+  <tbody>
+    <tr>
+      <td align="center">These will no longer arrive to your inbox by telling us <a href="unsub">on this page</a><br>
+9181 East Bell Road | Scottsdale, AZ 85260</td>
+    </tr>
+  </tbody>
+</table>
+<!--an essay telling the Greasers side of the story He opens the essay with the first sentence of the 
+ --></span><!-- the movie house I had only two things on my mind Paul Newman and a ride home Ponyboys essay is the novel The Outsiders--></span>
+ 
+ 
+
+</body>
+</html>
+
+
+
+
+
+	

@@ -1,0 +1,419 @@
+<html>
+
+
+<title>Ticketfly</title>
+<meta charset=3D"utf-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <!--[if gte mso 9]>
+    <style>
+
+.outlookFix{
+    width:600px !important;
+}
+    </style>
+    <![endif]-->
+    =
+
+<style type=3D"text/css">
+
+    /* RESET & CLIENT-SPECIFIC STYLES */
+    body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+    table, td{mso-table-lspace: 0pt; mso-table-rspace: 0pt;} /* Remove spac=
+ing between tables in Outlook 2007 and up */
+    img{-ms-interpolation-mode: bicubic;} /* Allow smoother rendering of re=
+sized image in Internet Explorer */
+    img{border: 0; line-height: 100%; outline: none; text-decoration: none;}
+    table{border-collapse: collapse !important;}
+    body{height: 100% !important; margin: 0 !important; padding: 0 !importa=
+nt; width: 100% !important;}
+
+    /* iOS BLUE LINKS */
+    a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+    }
+
+    /* MOBILE STYLES */
+    @media screen and (max-width: 425px) {
+
+        .wrapper {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+        =
+
+        .logo-area{
+          padding: 20px !important;
+        }
+        .logo-area img{
+          width:auto;
+          height:21px;
+        }
+        .img-responsive{
+          width:100% !important;
+          height:auto !important;
+        }
+        .hero{
+          height:auto;
+        }
+        .hero img{
+
+          width:100% !important;
+          height:auto !important;
+        }
+        .module-img{
+         =
+
+        }
+        .copy{
+          font-size:22px !important;
+          line-height:28px !important;
+          padding: 38px 48px 48px 48px !important;
+        }
+		 .second-copy{
+          font-size:20px !important;
+          line-height:26px !important;
+          padding: 38px 48px 48px 48px !important;
+        }
+		.grey-copy{
+          font-size:20px !important;
+          line-height:26px !important;
+          padding: 28px 48px 28px 48px !important;
+        }
+		.fine-print{
+          font-size:14px !important;
+          line-height:20px !important;
+          padding-top: 48px !important;
+        }
+        .keyline{
+          padding:38px 23px 32px 23px !important;
+        }
+        .greeting{
+          font-size: 19px !important;
+          line-height:30px !important;
+        }
+        .cta-container{
+          padding: 0 23px !important;
+        }
+        .cta{
+          font-size:22px !important;
+          line-height:22px !important;
+          padding:20px 0px !important;
+          border-radius:3px !important;
+		  width:100%;
+		  border-top: none !important;
+		  border-bottom: none !important;
+		  border-right: none !important;
+		  border-left: none !important;
+        }
+        .rescue{
+          padding-bottom:25px !important;
+          font-size:11px !important;
+        }
+        .event-details td{
+          padding-left:15px !important;
+        }
+        .hide{
+          display:none;
+        }
+        .module{
+          width:100% !important;
+        }
+        .module+.module{
+          margin-top:25px !important;          =
+
+        }
+    }
+
+    /* ANDROID CENTER FIX */
+    div[style*=3D"margin: 16px 0;"] { margin: 0 !important; }
+</style>
+
+
+
+<div class=3D"hide" style=3D"letter-spacing: 596px; line-height: 0; mso-hid=
+e: all">&nbsp;</div><!-- Gmail app fix -->
+
+<table cellspacing=3D"0" cellpadding=3D"0" style=3D"max-width:600px;" class=
+=3D"outlookFix wrapper" align=3D"center">
+<tbody><tr><td width=3D"100%" align=3D"center" style=3D"padding:10px 20px; =
+background-color:#ecedf1;" bgcolor=3D"#ecedf1">  =
+
+
+	<table cellspacing=3D"0" cellpadding=3D"0" style=3D"max-width:600px;" clas=
+s=3D"outlookFix wrapper" align=3D"center">
+	=
+
+	<!-- START TICKETFLY LOGO -->
+	<tbody><tr><td width=3D"100%" align=3D"center" style=3D"padding:20px 0; ba=
+ckground-color:#ecedf1;" bgcolor=3D"#ecedf1" class=3D"logo-area">
+	<a href=3D"https://www.ticketfly.com/?utm_source=3DTicketflyMarketing&utm_=
+medium=3DWB14b" target=3D"_blank"><img src=3D"http://cdn.ticketfly.com/file=
+s/2016/01/tfly-logo-2016.png" width=3D"136" height=3D"21" border=3D"0" alt=
+=3D"Free 2 month Pandora One trial with any purchase." style=3D"display:blo=
+ck; font-family: Helvetica, sans-serif;color:#5746de; font-weight:bold;font=
+-size:18px;"></a>
+    </td></tr>
+	<!-- END TICKETFLY LOGO -->
+	=
+
+	<!-- START HERO CARD -->
+	<!-- start hero image -->
+	<tr><td width=3D"100%" bgcolor=3D"#ffffff" align=3D"center">
+	<a href=3D"https://www.ticketfly.com/?utm_source=3DTicketflyMarketing&utm_=
+medium=3DWB14b" target=3D"_blank"><img src=3D"http://cdn.ticketfly.com/file=
+s/2016/08/Win-Back-Hero-animation.gif" width=3D"600" border=3D"0" alt=3D"" =
+style=3D"display:block;"></a>
+	</td></tr>
+	<!-- end hero image -->
+	=
+
+	<!-- start hero copy -->
+	<tr><td width=3D"100%" bgcolor=3D"#ffffff" align=3D"center">
+		<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+		<tbody><tr><td align=3D"left" class=3D"copy" style=3D"padding:50px 50px 5=
+0px 50px; font-family: Helvetica, Arial, Verdana, sans-serif; color:#7f8291=
+; font-size:22px; line-height:30px; letter-spacing:0.3px;">
+		If you were waiting for a kick in the pants to go out and see a show, wel=
+l here it is.
+		=
+
+		<br><br>
+		=
+
+		Purchase any ticket from now through September 16th and we=E2=80=99ll thr=
+ow in a <strong>60-day Pandora One trial*</strong> at no cost.
+            =
+
+		<br><br>
+
+		<a target=3D"_blank" href=3D"https://www.ticketfly.com/?utm_source=3DTick=
+etflyMarketing&utm_medium=3DWB14b" style=3D"background-color: #6561DF; bord=
+er-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border=
+-top: 10px solid #6561DF; border-bottom: 10px solid #6561DF; border-right: =
+162px solid #6561DF; border-left: 161px solid #6561DF; color:#FFFFFF; displ=
+ay: inline-block; font-family: sans-serif; font-size: 22px; line-height: 1.=
+5; letter-spacing:1px; text-align: center; text-decoration: none;  white-sp=
+ace:nowrap;" class=3D"cta"><font color=3D"#FFFFFF"><!--[if mso]>&nbsp;<![en=
+dif]-->Baby come back<!--[if mso]>&nbsp;<![endif]--></font></a>
+		=
+
+            =
+
+		</td></tr>
+		</tbody></table>
+	</td></tr>
+	<!-- end hero copy -->
+	<!-- END HERO CARD -->
+	=
+
+	<!-- START GREY CALLOUT -->
+	<tr><td>
+		<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+		<tbody><tr><td align=3D"center" bgcolor=3D"#ecedf1" class=3D"grey-copy" s=
+tyle=3D"padding:30px 50px 30px 50px; font-family: Helvetica, Arial, Verdana=
+, sans-serif; color:#7f8291; font-size:20px; line-height:30px; letter-spaci=
+ng:0.4px;background-color:#ecedf1;">
+		Since you've been gone, we've turned it up to eleven.
+		<br>
+		Catch up on what you've missed below! =
+
+		</td></tr>
+		</tbody></table>
+	</td></tr>
+	<!-- END GREY CALLOUT -->
+	=
+
+	<!-- START SECOND COPY -->
+	<tr><td>
+		<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+		<tbody><tr><td align=3D"left" bgcolor=3D"#ffffff" class=3D"second-copy" s=
+tyle=3D"padding:50px 50px 50px 50px;">
+			<table cellspacing=3D"0" cellpadding=3D"0">
+			<tbody><tr><td style=3D"padding-bottom: 45px; border-bottom: solid 1px #=
+ecedf1;">
+				<table cellspacing=3D"0" cellpadding=3D"0" align=3D"left">
+				<tbody><tr><td align=3D"left" class=3D"module-img" width=3D"20" valign=
+=3D"top">
+				<a href=3D"https://www.ticketfly.com/?utm_source=3DTicketflyMarketing&u=
+tm_medium=3DWB14b" target=3D"_blank"><img src=3D"http://cdn.ticketfly.com/f=
+iles/2016/08/explore.gif" width=3D"20" border=3D"0" alt=3D"Explore Events" =
+style=3D"display:block;"></a>
+				</td>
+				<td align=3D"left" style=3D"padding-left:15px;font-family: Helvetica, A=
+rial, Verdana, sans-serif; color:#535663; font-size:20px; line-height:26px;=
+ font-weight:bold; letter-spacing: 0.5px;">
+				Bored of the same old nights out?
+				<br>
+				<span style=3D"color:#7f8291; font-weight:normal; font-size:18px; lette=
+r-spacing: 0.1px;">
+				More cities, more shows, more music. Excitement awaits! Browse, search =
+and buy tickets to your favorite shows. <a href=3D"https://www.ticketfly.co=
+m/?utm_source=3DTicketflyMarketing&utm_medium=3DWB14b" style=3D"font-weight=
+:bold; color:#6127ff; text-decoration:none;" target=3D"_blank"><font color=
+=3D"#6127ff">Explore</font></a>.</span>
+				</td></tr>
+				</tbody></table>
+			</td></tr>
+			</tbody></table>
+			=
+
+			<table cellspacing=3D"0" cellpadding=3D"0">
+			<tbody><tr><td style=3D"padding: 45px 0 45px 0; border-bottom: solid 1px=
+ #ecedf1;">
+				<table cellspacing=3D"0" cellpadding=3D"0" align=3D"left">
+				<tbody><tr><td align=3D"left" class=3D"module-img" width=3D"20" valign=
+=3D"top">
+				<a href=3D"https://ticketfly.onelink.me/2844192318?pid=3DEmail&c=3DWB" =
+target=3D"_blank"><img src=3D"http://cdn.ticketfly.com/files/2016/08/app.gi=
+f" width=3D"20" border=3D"0" alt=3D"Get The App" style=3D"display:block;"><=
+/a>
+				</td>
+				<td align=3D"left" style=3D"padding-left:15px;font-family: Helvetica, A=
+rial, Verdana, sans-serif; color:#535663; font-size:20px; line-height:26px;=
+ font-weight:bold; letter-spacing: 0.5px;">
+				Oh sn-app. Buy tickets in just two taps.
+				<br>
+				<span style=3D"color:#7f8291; font-weight:normal; font-size:18px; lette=
+r-spacing: 0.1px;">
+				With the new Ticketfly iOS app, get tickets faster than ever and store =
+them in the app for easy access when you need them. <a href=3D"https://tick=
+etfly.onelink.me/2844192318?pid=3DEmail&c=3DWB" style=3D"font-weight:bold; =
+color:#6127ff; text-decoration:none;" target=3D"_blank"><font color=3D"#612=
+7ff">Get the app</font></a>.</span>
+				</td></tr>
+				</tbody></table>
+			</td></tr>
+			</tbody></table>
+			=
+
+			<table cellspacing=3D"0" cellpadding=3D"0">
+			<tbody><tr><td style=3D"padding-top: 45px;">
+				<table cellspacing=3D"0" cellpadding=3D"0" align=3D"left">
+				<tbody><tr><td align=3D"left" class=3D"module-img" width=3D"20" valign=
+=3D"top">
+				<img src=3D"http://cdn.ticketfly.com/files/2016/08/emails.gif" width=3D=
+"20" border=3D"0" alt=3D"Email Subscription" style=3D"display:block;">
+				</td>
+				<td align=3D"left" style=3D"padding-left:15px;font-family: Helvetica, A=
+rial, Verdana, sans-serif; color:#535663; font-size:20px; line-height:26px;=
+ font-weight:bold; letter-spacing: 0.5px;">
+				Emails that don=E2=80=99t suck.
+				<br>
+				<span style=3D"color:#7f8291; font-weight:normal; font-size:18px; lette=
+r-spacing: 0.1px;">
+				As an email subscriber, get access to presales, onsale announcements, d=
+iscounts and other ridiculously awesome offers.</span>
+				</td></tr>
+				</tbody></table>
+			</td></tr>
+			</tbody></table>
+		</td></tr>
+		</tbody></table>
+	</td></tr>
+	<!-- END SECOND COPY -->
+	=
+
+	<!-- START FINE PRINT -->
+	<tr><td>
+		<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+		<tbody><tr><td align=3D"left" bgcolor=3D"#ecedf1" class=3D"fine-print" st=
+yle=3D"padding-top:50px; font-family: Helvetica, Arial, Verdana, sans-serif=
+; color:#7f8291; font-size:12px; line-height:24px; letter-spacing:0.1px;bac=
+kground-color:#ecedf1;">
+		*Your 60-day subscription to Pandora One must be initiated using the emai=
+l address this email was sent to. You have until 9/16/16 to make a purchase=
+ to be eligible. Your code will be sent within two weeks of successful purc=
+hase. Pandora Terms &amp; Conditions:
+Redeemable only on www.pandora.com/gift for a two (2) month Pandora One tri=
+al subscription. Open to US residents 13+; no purchase necessary. Current P=
+andora One Subscribers are not eligible for trial. Trial code expires 9/30/=
+16. One time use only; trial code is void after activation or expiration. P=
+andora One subscriptions are subject to the Pandora One Terms available at =
+http://www.pandora.com/legal/one/. Use of trial code constitutes acceptance=
+ of all applicable terms and conditions. Trial codes, Pandora One trial sub=
+scriptions, and Pandora One subscriptions are issued by Pandora Media Calif=
+ornia, LLC. =C2=A92016 Pandora Media California, LLC. All rights reserved. =
+
+		</td></tr>
+		</tbody></table>
+	</td></tr>
+	<!-- END FINE PRINT -->
+	=
+
+<!-- and finally the footer -->              =
+
+	<tr>
+	<td width=3D"600">
+		<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=3D"#ECEDF=
+0"><tbody>
+		<tr><td height=3D"30" colspan=3D"5"></td></tr>
+		<tr>
+		<td width=3D"257"></td>
+		<td width=3D"31" align=3D"left"><a href=3D"http://www.facebook.com/ticket=
+fly" target=3D"_blank">
+    	<img src=3D"http://cdn.ticketfly.com/files/2016/01/2016-facebook.png" =
+width=3D"20" height=3D"20" style=3D"border-style:none;display:block;"></a><=
+/td>
+		<td width=3D"24" align=3D"center"><a href=3D"http://twitter.com/ticketfly=
+" target=3D"_blank">
+		<img src=3D"http://cdn.ticketfly.com/files/2016/01/2016-twitter.png" widt=
+h=3D"23" height=3D"18" style=3D"border-style:none;display:block;"></a></td>
+		<td width=3D"31" align=3D"right"><a href=3D"http://instagram.com/ticketfl=
+y" target=3D"_blank">
+		<img src=3D"http://cdn.ticketfly.com/files/2016/01/2016-instagram.png" wi=
+dth=3D"20" height=3D"20" style=3D"border-style:none;display:block;"></a></t=
+d>
+		<td width=3D"257"></td>
+		</tr>
+		</tbody></table>
+	</td>
+	</tr>
+    <tr>
+                                <td align=3D"center" style=3D"padding:20px =
+5px 52px 5px;font-family:helvetica, arial, sans-serif; font-size:11px; colo=
+r:#8f92a2;" bgcolor=3D"#ECEDF0">
+                                  =
+
+                                    Ticketfly, LLC 111 Townsend St. San Fra=
+ncisco, CA 94107 | =
+
+                                    <a href=3D"http://www.ticketfly.com/reg=
+ional-email-unsubscribe/?id=3D17687857" style=3D"color:#8f92a2; text-decora=
+tion:none; font-weight:bold;" target=3D"_blank">Unsubscribe</a>
+                                </td>
+                            </tr>
+    <!-- and simulated body bottom margin -->              =
+
+	 </tbody></table>
+     =
+
+</td></tr><tr><td align=3D"center" bgcolor=3D"#ECEDF0" height=3D"25"></td><=
+/tr>
+</tbody></table>
+<!-- ensure grey border -->  =
+
+
+
+
+
+<div style=3D"display:none; white-space:nowrap; font:15px courier; line-hei=
+ght:0;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; =
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; =
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+</div>
+</html><img src=3D"http://api.mixpanel.com/track?data=3DeyJldmVudCI6ICIkY2F=
+tcGFpZ25fb3BlbiIsICJwcm9wZXJ0aWVzIjogeyJ0b2tlbiI6ICIwNzk4YTllYmNjZjg4NzBhNj=
+VhOGQzYjkwNmQwODBjMSIsICJkaXN0aW5jdF9pZCI6ICIxNzY4Nzg1NyIsICJ0eXBlIjogImVtY=
+WlsIiwgImNhbXBhaWduX2lkIjogMTQxNDUyOX19&img=3D1" />

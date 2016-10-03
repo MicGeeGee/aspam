@@ -1,0 +1,271 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>pre form</title>
+</head>
+<body style="font-family:arial">
+<style>
+.mejs-clear {
+    clear: both;
+}
+
+/* Start: LAYERS */
+.mejs-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mejs-controls {
+    z-index: 165;
+}
+
+.mejs-mediaelement {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mejs-poster {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+:root .mejs-poster img {
+    display: none;
+}
+
+.mejs-poster img {
+    border: 0;
+    padding: 0;
+    border: 0;
+}
+
+.mejs-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mejs-overlay-play {
+    cursor: pointer;
+}
+
+.mejs-overlay-button {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin: -50px 0 0 -50px;
+    background: url(../img/bigplay.svg) no-repeat;
+}
+
+.no-svg .mejs-overlay-button {
+    background-image: url(../img/bigplay.png);
+}
+
+.mejs-overlay:hover .mejs-overlay-button {
+    background-position: 0 -100px;
+}
+
+.mejs-overlay-loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin: -40px 0 0 -40px;
+    background: #333;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+}
+
+    .mejs-overlay-loading span {
+        display: block;
+        width: 80px;
+        height: 80px;
+        background: transparent url(../img/preloader.gif) 50% 50% no-repeat;
+    }
+
+/* End: LAYERS */
+/* Start: CONTROL BAR */
+.mejs-container .mejs-controls {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    left: 0;
+    background: #111;
+    height: 50px;
+    width: 100%;
+    visibility: visible !important;
+}
+
+    .mejs-container .mejs-controls div {
+        list-style-type: none;
+        background-image: none;
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 46px;
+        height: 46px;
+        font-size: 11px;
+        line-height: 11px;
+        font-family: Helvetica, Arial;
+        border: 0;
+    }
+
+.mejs-controls .mejs-button button {
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    text-decoration: none;
+    margin: 17px 15px;
+    padding: 0;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    border: 0;
+    background: transparent url(../img/controls.svg) no-repeat;
+}
+
+.no-svg .mejs-controls .mejs-button button {
+    background-image: url(../img/controls.png);
+}
+
+/* :focus for accessibility */
+.mejs-controls .mejs-button button:focus {
+    outline: dotted 1px #999;
+}
+
+/* End: CONTROL BAR */
+/* Start: Time (Current / Duration) */
+.mejs-container .mejs-controls .mejs-time {
+    color: #fff;
+    display: block;
+    height: 17px;
+    width: auto;
+    padding: 8px 3px 0 3px;
+    overflow: hidden;
+    text-align: center;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+    .mejs-container .mejs-controls .mejs-time span {
+        color: #fff;
+        font-size: 11px;
+        line-height: 12px;
+        display: block;
+        float: left;
+        margin: 1px 2px 0 0;
+        width: auto;
+    }
+
+/* End: Time (Current / Duration) */
+/* Start: Play/Pause/Stop */
+.mejs-controls .mejs-play button {
+    background-position: 0 0;
+}
+
+.mejs-controls .mejs-pause button {
+    background-position: 0 -16px;
+}
+
+.mejs-controls .mejs-stop button {
+    background-position: -112px 0;
+}</style>
+
+<h1 align="center" style="font-family:arial"><span style="display:block; padding:6px; background-color:#142E3F"><table width="45%" border="0" cellspacing="0" cellpadding="0" style=" display:inline-block; font-size:8px">
+  <tbody>
+    <tr>
+      <td style="color:#142E3F">Apple chief executive Tim Cook says the European Commission ruling that Apple should pay of euros in back taxes to the Republic of Ireland is maddening and political
+He told Irish broadcaster RTE that Apple had not been given preferential tax breaks in Ireland
+The EU ruling said Apple had been given 13bn of illegal tax benefits
+Mr Cook said he was very confident the ruling would be overturned on appeal</td>
+    </tr>
+  </tbody>
+</table>
+<table width="45%" border="0" cellspacing="0" cellpadding="0" style=" display:inline-block;font-size:8px">
+  <tbody>
+    <tr>
+      <td style="color:#142E3F">Outrage
+On Tuesday the European Commission said Ireland had granted undue tax benefits of up to 13bn (11bn to Apple
+Speaking about the ruling Mr Cook told RTE: Its maddening its disappointing its clear that this comes from a political place it has no basis in fact or in law and unfortunately its one of those things we have to work through
+When youre accused of doing something that is so foreign to your values it brings out an outrage in you and thats how we feel Apple has always been about doing the right thing
+<br><br>
+We havent done anything wrong and the Irish government hasnt done anything wrong
+Mr Cook disputed the Commissions finding that Apple had effectively paid a corporate tax rate of just 0005 or 50 out of every 1m from one of its Ireland-based subsidiaries in 2014
+Its a false number I have no idea where the number came from It is not true Here is the truth In that year we paid 400m to Ireland and that amount of money was based on the statutory Irish income tax rate of 125
+</td>
+    </tr>
+  </tbody>
+</table>
+</span>
+<br>
+You Have A Phone - You Need To Get This<hr color="#142E3F" style="margin:0px">
+<br>
+
+<a href="http://nedvem.locuslenshd.com" ><img style="box-shadow: 0px 0px 9px 25px rgba(0,0,0,0.02);" src="http://bunos.locuslenshd.com" width="650" alt="camprime" border="0" align="center" ></a>
+<br>
+<br>
+<span style="display:block; padding:6px; background-color:#142E3F"><table width="45%" border="0" cellspacing="0" cellpadding="0" style=" display:inline-block;font-size:8px">
+  <tbody>
+    <tr>
+      <td style="color:#142E3F;font-size:16px">Bite of the Apple
+However the European Commission said the rate of 0005 applied to one of Apples subsidiaries
+Apple Sales International made research payments totalling 2bn to its parent Apple Inc in 2011 which significantly increased in 2014 the Commission said
+Apple paid an effective tax rate of 0005 in 2014 on the profits of Apple Sales International
+Apple has more subsidiaries in Ireland as indicated in the Commissions decision to open an investigation
+The tax affairs of other Apple subsidiaries be it in Ireland or elsewhere have not been the focus of this investigation it said
+</td>
+    </tr>
+  </tbody>
+</table>
+<table width="45%" border="0" cellspacing="0" cellpadding="0" style=" display:inline-block;font-size:8px">
+  <tbody>
+    <tr>
+      <td style="color:#142E3F;font-size:16px">Commissioner Margrethe Vestager said: This is a decision based on the facts of the case looking into Apple Sales International how they are arranged within Ireland and with the profit recorded there how theyre taxed
+But Apple said it was the largest corporate taxpayer in Ireland in 2014
+He said Apple paid income tax on products sold in different European countries to those countries and an additional income taxes on profits in the US at a rate of 35
+In addition Apple has provisioned several  dollars from its profits in 2014 to be repatriated to the US he said
+Right now I would forecast that repatriation to occur next year Its not true that we paid just 400m or even just 800m [to Ireland and the US combined]  the number is materially larger
+In 2014 our worldwide income tax rate was 261 Mr Cook added
+</td>
+    </tr>
+  </tbody>
+</table>
+</span></h1>
+
+<br>
+<br>
+<h4>As soon as you tell us to not send these further we will stop. <a href="http://ingsin.locuslenshd.com">Just tell us now</a><br>186 Denton Phelps Rd	Somerset	Ky	42501-4450<hr>If you wish to be removed from these updates <a href="http://ostap.locuslenshd.com">please tell us now</a><br>
+Thomas Ave N 
+Minneapolis MN 55405
+</h4>
+<br>
+<br>
+
+</body>
+</html>
+
+
+
+
+
+
+

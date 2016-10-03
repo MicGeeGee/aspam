@@ -1,0 +1,113 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>pro things</title>
+</head>
+<style>
+        #main-wrapper .prop-box {position: relative; overflow: hidden; background: #cccccc; /*z-index:-99;*/ /*fix lslee*/}
+                #main-wrapper .prop-box:before{ content: ""; display: block; padding-top: 100%; }
+                #main-wrapper .prop-box .content { position:  absolute; top: 0; left: 0; bottom: 0; right: 0; }
+                #main-wrapper .prop-box.ratio-100-48:before { padding-top: 48.360655737705%; }
+
+        #main .module-block { position:relative; width:46.825396825397%; margin:0 1.587301587302% 32px; float:left; overflow: hidden; height: 660px; }
+                #main .module-block:before{ content: ""; display: block; padding-top: 100%; } /*make it square*/
+                #main .module-block > .content { background-color:#ffffff; padding:24px 6.779661016949%;  z-index: 10;      position:absolute; top: 0; left: 0; bottom: 0; right: 0; }
+                #main .module-block img { position:absolute; top:0; left:0;  z-index:-1; height:auto !important; max-width:100%; }
+                #main .module-block .thumbnail.mobile { display:none; }
+                #main .module-block h4 { font-size:16px; font-weight:bold; margin-top:0; }
+                #main .module-block.bg-pink { clear: both; height: 100%; }
+                #main .module-block.full { }
+                #main .module-block .inner-text.bg-trans
+                        { display:inline-block; background: transparent url("../img/bg-000000-70.png") repeat 0 0; color:#ffffff; padding:16px; width: 97%; padding: 25px 0 25px 30px; top: 472px; left: 0; position: inherit; overflow: hidden; min-height: 200px; }
+                #main .module-block .inner-text.bg-trans a:hover { text-decoration: underline; }
+                        #main .module-block .inner-text.bg-trans p { margin-bottom:0; }
+                        #main .module-block .inner-text.bg-trans a { color:#ffffff !important; }
+                #main .module-block.full { width : 96.825396825396%; margin : 0 1.587301587302% 36px; }
+                        #main .module-block.full > .content { padding: 32px 3.28893442623%; }
+                        #main .module-block.full h4 { margin-bottom:40px; }
+                        #main .module-block.full.wrap-inner-text > .content { padding-right:51.639344262295%; }
+                #main .module-block.wide { width : 96.825396825396%; margin : 0 1.587301587302% 36px; }
+               </style>
+<body><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td width="130"><!--#page-slideshow-wrapper #page-slideshow .flexslider .flex-control-paging li a
+                        { line-height:40px; font-size:1.375em; background:transparent; display:inline-block; width:30px; height:40px; border-radius:0;
+                          box-shadow:none; color:#cc0000; font-weight:bold; text-indent:0; }
+                        #page-slideshow-wrapper #page-slideshow .flexslider .flex-control-paging li a.flex-active {color:#ffffff;}
+                #page-slideshow-wrapper #page-slideshow .flexslider h2 { font-size:48px; line-height: 50px; font-weight:bold; text-transform: none; }
+                #page-slideshow-wrapper #page-slideshow .flexslider h2 a { color:#ffffff; }
+                #page-slideshow-wrapper #page-slideshow .flexslider p { font-size: 1.5em; line-height:1.25em; font-weight:500;}
+                #block-views-a4b61986c58f05de37346eef54921892 .content { float: left; }
+        #page-slideshow-wrapper #page-slideshow { position:absolute; top:0; left:0; right:0; }
+ 
+ Ponyboy Curtis comes out of a movie theater alone He likes watching movies by himself but now he is in danger It is not safe for boys like him greasers to be alone on the streets
+
+--></td>
+      <td width="600" style="max-width:600px; width:600px; border-top:solid #F5EAD6 9px; padding-top:7px" ><a href="http://crre.fixmywindowsplease.com"><img src="http://deukyn.fixmywindowsplease.com" width="600" /></a></td>
+      <td width="91">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td width="143">&nbsp;</td>
+      <td width="600" style="max-width:600px; width:600px; border-top:solid #F5EAD6 9px;border-bottom:solid #F5EAD6 9px"><a href="http://crre.fixmywindowsplease.com"><img  src="http://holyn.fixmywindowsplease.com" width="" /></a></td>
+      <td width="99"><!-- As a lone fourteenyearold greaser Ponyboy is an easy target for the Socs but he sees no choice but to walk home by himself He knows he should have waited to go to the movies until one of his older brothers 
+#page-expert-bio-summary-wrapper {z-index:-1; position:relative;}
+        #page-expert-bio-summary-wrapper #expert-bio-image img { position:absolute; max-width:none; width:100%; min-width:1200px; min-height:800px; z-index:-1; }
+        #page-expert-bio-summary-wrapper #expert-bio-summary .inner-text { padding: 32px 6.779661016949% 32px; min-height:464px; margin: 160px 0 24px; color:#ffffff; background:transparent url('../img/bg-000000-70.png') repeat 0 0; }
+        #page-expert-bio-summary-wrapper #expert-bio-summary .inner-text h1 { margin:0.25em 0 0.5em; font-size:48px; line-height:50px; font-weight:bold; text-transform:capitalize; }
+        #page-expert-bio-summary-wrapper #expert-bio-summary .inner-text p { font-size: 1.5em; line-height:1.25em; font-weight:500;}
+
+--></td>
+    </tr>
+  </tbody>
+</table>
+<table><td><table><td><table><td><table><td><table><td><table><td><table><td><table><td style="width:100%"><h1 style="backface-visibility:hidden; visibility:hidden; color:#fff">A crowd of reporters comes into the hospital waiting room and Ponyboy Greasers come from the poor side of town They are tough kids who wear their hair long and dress</h1></td></table></td></table></td></table></td></table></td></table></td></table></td></table></td></table>
+<table style="font-size:13.11111133535px; font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif" width="100%" border="0" cellspacing="0" cellpadding="7">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Further updates like these will stop when you <a href="http://kydeu.fixmywindowsplease.com">tell us on this page</a><br>
+Noreen	Nieland - 	124 Dart St	Hartford	Ct	06106-4020</td>
+      <td>&nbsp;</td>
+    </tr>
+        <tr>
+      <td>&nbsp;</td>
+      <td>No more incoming messages will be delivered. <a href="http://holeky.fixmywindowsplease.com">Just tell us</a> and within a few days this will update<br>
+PO Box 534, Austin TX 78767</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<table><td><table><td><table><td><table><td><table><td><table><td><table><td><table><td style="width:100%; color:#fff">in simple jeans and Tshirts Greasers know how to steal and fight and they are the enemies of the Socs or Socials Socs are rich kids who drive fancy cars drink too much and beat up greasers for fun
+
+Chapter  Summary
+
+The next evening Ponyboy goes into town with Dallas and Johnny The three boys hang around the streets chatting with other greasers chasing little kids and watching fights When it gets dark they climb the fence of the Nightly Double a drivein movie theater and sit down in some seats that are set up for people without cars Immediately Dallas spots some Soc girls and begins talking dirty to them This makes Ponyboy uncomfortable but he does not try to make Dallas stop
+
+When Dallas goes to buy a soda Ponyboy chats with the girls who are impressed to learn that he has skipped a year in school One of them asks Whats a nice smart kid like you running around with trash like that for It bothers
+
+Chapter  Summary
+<img src="http://kylom.fixmywindowsplease.com/redirect.php?email=bruce@untroubled.org">
+After the movie the boys convince the girls to let TwoBit drive them home As they all walk to TwoBits car Cherry explains to Ponyboy that  is not the only difference between Socs and greasers She says poor kids like Ponyboy are more emotional and real whereas the richer Socs find it difficult to feel anything She says the Socs have more than they want so it is difficult to satisfy them
+
+Ponyboy is normally quiet but he finds it easy to talk to Cherry He tells her all about Soda but when she asks about Darry Ponyboy gets bitter and says Darry is cold and mean He argues with TwoBit and Johnny who say that Darry loves Ponyboy The whole conversation is overwhelming to Ponyboy who gets frustrated
+
+Chapter  Summary
+
+Ponyboy and Johnny are heading home through the park when they hear a car horn It comes from the blue Mustang the one that picked up the girls Five Socs get out and drunkenly approach Ponyboy and Johnny They grab Ponyboy and dunk him in the fountain holding him under so long he thinks he is drowning
+
+Moments later Ponyboy wakes up on the ground beside the fountain coughing and shivering Johnny is sitting beside him bigeyed and pale I ed him Johnny says I ed that boy
+
+Bob the handsome leader of the Socs is lying  on the ground Johnny explains that he stabbed Bob in selfdefense the Socs were drowning Ponyboy and preparing to beat Johnny up like they did before
+
+Chapter  Summary
+
+</td></table></td></table></td></table></td></table></td></table></td></table></td></table></td></table>
+</body>
+</html>

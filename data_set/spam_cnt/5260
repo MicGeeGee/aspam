@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Score for your creditts</title>
+<meta charset="UTF-8">
+<style>
+/* Browsing a Member's Stuff -------------------- */
+div.browsestuff,div.browsealbums{width:645px;overflow:hidden;margin:18px 0 18px;}
+div.browsealbums{margin:9px 0 18px;}
+div.browsestuff ul,div.browsealbums ul{float:left;width:660px;margin:18px 0 0;}
+/* We make it 15px wider since the parent cuts it off with overflow */
+div.browsestuff ul li,div.browsealbums ul li{float:left;display:block;width:150px;height:126px;margin:0 15px 18px 0;overflow:hidden;text-align:center;position:relative;}
+div.browsestuff ul li a span.video{position:absolute;top:5px;left:5px;}
+div.browsestuff ul li a span.tinyfx{position:absolute;top:95px;left:125px;}
+div.browsestuff ul li a span img{width:auto;}
+div.browsestuff ul li a span.in-album{position:absolute;top:0;right:0;}
+div.browsestuff ul li a.selected span.in-album{top:4px;right:4px;}
+div.browsealbums ul li{background:url(../i/icons/72px/album-icon.gif) no-repeat 0 0;width:223px;font-size:1em;line-height:1;margin:0 15px 9px 0;padding:9px 10px 9px 80px;height:54px;text-align:left;}
+div.browsealbums ul li h4{margin:9px 0 0;}
+div.browsealbums ul li a,div.browsealbums ul li a:visited{text-decoration:none;text-shadow:0 1px 1px #fff;}
+div.browsealbums ul li a p{margin:0;padding:0;color:#777;text-shadow:0 1px 1px #fff;}
+div.browsealbums ul li.create-album{background:url(../i/album-create.gif) no-repeat 0 0;}
+div.browsealbums ul li.create-album a p{color:#69c;}
+div.browsestuff ul li.album-info{background:#eff5fa;width:283px;height:auto;padding:12px 15px 0;text-align:left;font-size:1em;line-height:1;text-shadow:0 1px 1px #fff;}
+div.browsestuff ul li.album-info p{margin:0 0 1.5em;}
+/* --------------------------------------------------
+Bulk Actions
+-------------------------------------------------- */
+/* Bulk Actions Selectors/Checkboxes -------------------- */
+form.bulk-actions ul{width:auto;}
+form.bulk-actions div.browsestuff ul{width:660px;}
+form.bulk-actions div.browsestuff ul li a div,form.bulk-actions div.browsestuff ul li a:visited div{position:absolute;top:0;left:0;width:100%;height:126px;background:transparent url(../i/bulk-actions-frame-member.gif) no-repeat 0 0;}
+form.bulk-actions div.browsestuff ul li a:hover div{background-position:0 -126px;}
+form.bulk-actions div.browsestuff ul li a.selected:hover,form.bulk-actions div.browsestuff ul li a.selected div{background-position:0 -252px;}
+form.bulk-actions div.browsestuff ul li a div input{position:absolute;bottom:4px;left:4px;}
+/* Bulk Actions Toolbar -------------------- */
+ul.bulk-actions-options{height:24px;margin:.3em 0 1.5em;padding:.6em .7em .6em 1em;overflow:hidden;background:#eff5fa;}
+ul.bulk-actions-options li{display:block;float:left;line-height:1;color:#666;padding:.5em .75em;border-right:1px solid #c6d9ec;border-left:1px solid #fff;}
+ul.bulk-actions-options li a{font-weight:bold;text-decoration:none;text-shadow:0 1px 1px #fff;}
+ul.bulk-actions-options li small{font-size:1em;line-height:1.5;}
+ul.bulk-actions-options li strong{color:#333;font-weight:normal;text-shadow:0 1px 1px #fff;padding:0 4px 0 0;}
+ul.bulk-actions-options li select{width:150px;display:inline;margin:0;}
+ul.bulk-actions-options li option{padding-right:5px;}
+ul.bulk-actions-options li.bulk-add{padding:3px 1em;}
+ul.bulk-actions-options li.select{border-left:0;padding:.5em .75em .5em 0;}
+/* For selecting all or none */
+ul.bulk-actions-options li#bulk-tags{padding:0 .75em;line-height:24px;}
+ul.bulk-actions-options li#bulk-tags a{font-weight:normal;}
+ul.bulk-actions-options li .input-text{width:90px;display:inline;}
+ul.bulk-actions-options li.delete{background:url(../i/ico-trash.gif) no-repeat .75em center;border-right:0;padding-left:2.5em;}
+ul.bulk-actions-options li.close{float:right;border:0;padding:0;}
+ul.bulk-actions-options li.close a{display:block;text-indent:-999em;width:2em;height:2em;background:url(../i/buttons/close-button.gif) no-repeat center 3px;}
+ul.bulk-actions-options li.close a:hover{background-position:center -33px;}
+/* NEW STUFF */
+body.pg-unisearch div.ad{margin:0 0 29px;}
+div.unisearch-about{background:#f5f5f5;margin:0 0 18px;padding:18px 0 18px 15px;border-radius:6em;-webkit-border-radius:.6em;-moz-border-radius:.6em;}
+div.unisearch-about div.one-third{width:300px;}
+div.unisearch-about img{margin:0 0 18px;}
+div.unisearch-about h3{margin:18px 0 0;}
+div.unisearch-about p{margin:0 0 1.5em;}
+div.unisearch-about ul li a,ul.unisearch-more li a{font-weight:normal;}
+div.aside{margin:0 0 1.8em;padding:0 1em 0 0;}
+div.aside ul{margin:9px 0;}
+div.aside h2{margin:0 0 9px;}
+div.aside img{margin:0 0 9px;}
+div.aside h4{margin:0;padding:0;}
+div.aside p{padding:0 0 1.5em;}
+div.aside ul h4,div.aside ul p{font-size:1em;line-height:1;}
+div.content-sec div.browse ul{margin:0 0 2px -10px;}
+div.content-sec div.browse ul li{display:inline;float:left;width:140px;height:100px;margin:0 0 10px 10px;overflow:hidden;text-align:center;}
+div.content-sec div.browse ul li a{display:block;text-align:center;border:0;}
+div.content-sec div.browse ul li img{display:inline;}
+/* --------------------------------------------------
+=Miscellaneous
+-------------------------------------------------- */
+.clear{clear:both;}
+.right{float:right;}
+.left{float:left;}
+.inline{display:inline;}
+.hidden{display:none;}
+.mute{color:#666;}
+.important{color:#900;}
+/*
+.ad{background:#333;margin:0 0 18px;}
+*/
+</style>
+</head>
+
+<body>
+<table width="640" cellspacing="0" cellpadding="1" align="center" style="border:double 20px #234B64">
+  <tr>
+    <td width="10" style="background-color:#234B64;"> </td>
+    <td width="610" style="background-color:#234B64;"><div style="background-color:#234B64;font-style:normal;font-size:30.1500015258789px;font-variant:normal;font-family:Ubuntu, Helvetica, arial, Sans-Serif;padding-left:0px;padding-right:0px;color:rgb(255,255,255);line-height:30.0999984741211px;font-weight:600;text-align:left;padding-top:15px;padding-bottom:15px;">Updated Score-Standing</div></td>
+    <td width="10" style="background-color:#234B64;"> </td>
+  </tr>
+  <tr>
+    <td width="10"> </td>
+    <td width="610"> </td>
+    <td width="10"> </td>
+  </tr>
+  <tr>
+    <td width="10"> </td>
+    <td width="610"><p  align="justify" style="border-top-width:0px;color:rgb(44,42,41);line-height:32px;border-right-style:none;font-family:IntroRegular,sans-serif;outline-style:none;border-top-style:none;margin-right:10px;padding-top:0px;margin-bottom:0px;font-style:normal;outline-width:0px;border-left-width:0px;border-right-color:rgb(44,42,41);cursor:pointer;border-left-style:none;padding-bottom:0px;border-top-color:rgb(44,42,41);border-right-width:0px;margin-left:10px;font-weight:normal;border-image-slice:100%;font-stretch:normal;border-image-source:none;padding-left:0px;border-image-width:1;border-image-outset:0px;border-bottom-width:0px;outline-color:rgb(44,42,41);border-left-color:rgb(44,42,41);padding-right:0px;border-bottom-color:rgb(44,42,41);margin-top:0px;font-variant:normal;font-size:19px;border-image-repeat:stretch;border-bottom-style:none;vertical-align:baseline;-webkit-font-smoothing:antialiased;">Some changes may have <a href="http://crumong.icreditsreport.com">been made to your<strong> REPORT</strong></a> .<br><br> Accuracy is important so dont let negative ratings ruin your life. </p></td>
+    <td width="10"> </td>
+  </tr>
+  <tr>
+    <td width="10"> </td>
+    <td width="610"> </td>
+    <td width="10"> </td>
+  </tr>
+  <tr>
+    <td width="10"> </td>
+    <td width="610" ><table width="100%" cellspacing="0" cellpadding="0" style="background-color:#F7EED1; border:5px solid #F7EED1">
+      <tr>
+        
+        <td width="67%"><table width="100%" cellspacing="0" cellpadding="10">
+        <tr>
+    <td> </td>
+    <td width="380" align="center"><span style="outline-style:none;border-image-width:1;padding-left:0px;list-style-type:none;border-bottom-style:none;border-left-style:none;border-bottom-color:rgb(0,0,0);margin-bottom:15px;border-image-slice:100%;font-style:normal;list-style-position:outside;margin-top:0px;color:rgb(0,0,0);padding-top:0px;border-right-style:none;padding-right:0px;border-image-repeat:stretch;padding-bottom:0px;font-weight:normal;border-top-style:none;vertical-align:baseline;font-variant:normal;line-height:25px;border-image-outset:0px;border-left-color:rgb(0,0,0);border-bottom-width:0px;text-align:left;font-stretch:normal;outline-color:rgb(0,0,0);list-style-image:none;border-right-width:0px;margin-right:0px;margin-left:0px;font-family:IntroSemiBold,Arial,sans-serif;border-top-color:rgb(0,0,0);border-left-width:0px;outline-width:0px;font-size:25px;border-top-width:0px;border-right-color:rgb(0,0,0);border-image-source:none;"><strong>Your Account Summary</strong></span></td>
+    <td> </td>
+  </tr>
+  <tr>
+    
+  </tr>
+  <tr>
+    <td> </td>
+    <td width="380"><span style="outline-style:none;border-image-width:1;padding-left:0px;list-style-type:none;border-bottom-style:none;border-left-style:none;border-bottom-color:rgb(0,0,0);margin-bottom:15px;border-image-slice:100%;font-style:normal;list-style-position:outside;margin-top:0px;color:rgb(0,0,0);padding-top:0px;border-right-style:none;padding-right:0px;border-image-repeat:stretch;padding-bottom:0px;font-weight:normal;border-top-style:none;vertical-align:baseline;font-variant:normal;line-height:18px;border-image-outset:0px;border-left-color:rgb(0,0,0);border-bottom-width:0px;text-align:left;font-stretch:normal;outline-color:rgb(0,0,0);list-style-image:none;border-right-width:0px;margin-right:0px;margin-left:0px;font-family:IntroSemiBold,Arial,sans-serif;border-top-color:rgb(0,0,0);border-left-width:0px;outline-width:0px;font-size:18px;border-top-width:0px;border-right-color:rgb(0,0,0);border-image-source:none;"><strong>Date Generated : </strong> Sep 15, 2016</span></td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td width="380"><span style="outline-style:none;border-image-width:1;padding-left:0px;list-style-type:none;border-bottom-style:none;border-left-style:none;border-bottom-color:rgb(0,0,0);margin-bottom:15px;border-image-slice:100%;font-style:normal;list-style-position:outside;margin-top:0px;color:rgb(0,0,0);padding-top:0px;border-right-style:none;padding-right:0px;border-image-repeat:stretch;padding-bottom:0px;font-weight:normal;border-top-style:none;vertical-align:baseline;font-variant:normal;line-height:18px;border-image-outset:0px;border-left-color:rgb(0,0,0);border-bottom-width:0px;text-align:left;font-stretch:normal;outline-color:rgb(0,0,0);list-style-image:none;border-right-width:0px;margin-right:0px;margin-left:0px;font-family:IntroSemiBold,Arial,sans-serif;border-top-color:rgb(0,0,0);border-left-width:0px;outline-width:0px;font-size:18px;border-top-width:0px;border-right-color:rgb(0,0,0);border-image-source:none;"><strong>User </strong><a href="http://crumong.icreditsreport.com" style="color:#000000">#8999068-9441761</a></span></td>
+    <td> </td>
+  </tr>
+  
+        </table>
+</td><td width="33%" align="center" style="background-color:#F7F6F9"><a href="http://crumong.icreditsreport.com"><img src="http://rupoi.icreditsreport.com" /></a></td>
+      </tr>
+    </table></td>
+    <td width="10"> </td>
+  </tr>
+  <tr>
+    <td width="10"> </td>
+    <td width="610"> </td>
+    <td width="10"> </td>
+  </tr>
+  <tr>
+    <td width="10"> </td>
+    <td width="610" align="center"><a href="http://crumong.icreditsreport.com" style="border-left-width:0px;border-bottom-color:rgb(255,255,255);border-right-width:0px;padding-right:40px;border-left-color:rgb(255,255,255);-webkit-box-shadow:rgb(198,198,198) 4px 4px 0px 0px;font-size:22px;margin-top:30px;zoom:1;border-top-color:rgb(255,255,255);border-left-style:none;-webkit-font-smoothing:antialiased;display:block;border-image-repeat:stretch;text-align:center;font-family:IntroBold,sans-serif;word-spacing:0px;box-sizing:border-box;align-items:flex-start;font-variant:normal;padding-left:40px;cursor:pointer;border-right-style:none;-webkit-writing-mode:horizontal-tb;font-style:normal;letter-spacing:normal;text-shadow:none;border-bottom-style:none;-webkit-appearance:none;width:450.546875px;margin-left:0px;border-bottom-width:0px;margin-bottom:0px;border-image-source:none;border-image-outset:0px;border-image-width:1;border-top-width:0px;margin-right:0px;border-top-style:none;background-color:#D82024;border-image-slice:100%;padding-bottom:20px;text-indent:0px;writing-mode:lr-tb;text-transform:uppercase;padding-top:20px;font-weight:normal;box-shadow:rgb(198,198,198) 4px 4px 0px 0px;border-right-color:rgb(255,255,255);color:rgb(255,255,255);"><strong>Ending Soon - View Now</strong></a></td>
+    <td width="10"> </td>
+  </tr>
+  <tr>
+    <td style="border-bottom:3px solid #000"> </td>
+    <td style="border-bottom:3px solid #000"> </td>
+    <td style="border-bottom:3px solid #000"> </td>
+  </tr>
+  
+</table>
+<p style="padding: inherit;transition-property: color;cursor: pointer;padding-right: none;box-sizing:border-box;border-radius:0px;border-top-style: none;text-align: -webkit-auto;color:#E9E9E9;font-size:11px"> </p>
+<p style="padding: inherit;transition-property: color;cursor: pointer;padding-right: none;box-sizing:border-box;border-radius:0px;border-top-style: none;text-align: -webkit-auto;color:#E9E9E9;font-size:11px"> </p>
+<p style="padding: inherit;transition-property: color;cursor: pointer;padding-right: none;box-sizing:border-box;border-radius:0px;border-top-style: none;text-align: -webkit-auto;color:#E9E9E9;font-size:11px"><!--Yoga Darshana
+One of the six schools of clical Vedic philosophy Shad darshanas is called Yoga or Yoga Darshana which is generally allied with Samkhya another of the six schools Some scholars look at Yoga mainly in terms of Yoga Darshana Yet the concept idea and practice of Yoga in various forms exists to some degree in all six Vedic d--> <!--arshanas For example Vedanta or Uttara Mimamsa we could say deals with Yoga as Jnana and Bhakti knowledge and devotion teaching Selfinquiry and surrender to God Purva Mimamsa we could say deals with Karma or ritual and thereby Karma Yoga
+--> <!--Yoga Darshanas prime text is Patanjali Yoga Sutras which like all the Darshana texts is part of Hindu Smriti literature and rests upon the Vedas as its Shruti or the revealed text Yoga Sutras remain one of the most important Sanskrit texts
+--></p>
+<p style="padding: inherit;transition-property: color;cursor: pointer;padding-right: none;box-sizing:border-box;border-radius:0px;border-top-style: none;text-align: -webkit-auto;color:#E9E9E9;font-size:11px">Yoga is one of the primary themes and most important practices in all Indic or Bharatiya Traditions along with that of Dharma Dharma refers to the natural ethical and spiritual laws of the universe which reflect the underlying unity harmony and interdependence of all existence
+Yoga refers to the unity and integration of energies particularly the unification of the individual with the universe as a whole at the level of consciousness which is perhaps the ultimate pursuit of Dharma Yoga relates to internal practices to bring peace and harmony to body and mind in order to access a higher awareness that reflects an understanding of dharma</p>
+<p style="padding: inherit;transition-property: color;cursor: pointer;padding-right: none;box-sizing:border-box;border-radius:0px;border-top-style: none;text-align: -webkit-auto;color:#E9E9E9;font-size:11px">Dharma usually implies follog some type of Yoga practice or sadhana We could say that Yoga is the practice of Dharma and Dharma is the principle or worldview behind Yoga We cannot separate the study of Yoga traditions from that of Dharma traditions These are two related approaches of examining the same teachings
+</p>
+<p style="padding: inherit;transition-property: color;cursor: pointer;padding-right: none;box-sizing:border-box;border-radius:0px;border-top-style: none;text-align: -webkit-auto;color:#E9E9E9;font-size:11px">Yoga is often called Yoga Dharma in Hindu thought Yoga Dharma relates to Moksha Dharma the highest of the dharmas pursharthas or goals of life the dom of the spirit and liberation from all ignorance bondage and sorrow what is also called Kaivalya and Nirvana
+Types of Yoga</p>
+<p style="padding: inherit;transition-property: color;cursor: pointer;padding-right: none;box-sizing:border-box;border-radius:0px;border-top-style: none;text-align: -webkit-auto;color:#E9E9E9;font-size:11px">There are many definitions of Yoga in traditional texts Most of these revolve around Yoga as control of the mind the practice of meditation concentration equanimity or samadhi or related means like asana and pranayama for preparing the body and mind for meditation In this regard we cannot separate the study of Yoga from the study of meditation</p>
+<p style="padding: inherit;transition-property: color;cursor: pointer;padding-right: none;box-sizing:border-box;border-radius:0px;border-top-style: none;text-align: -webkit-auto;color:#E9E9E9;font-size:11px">Yoga in the broader sense of the term refers to a whole range of spiritual practices including asana pranayama ritual mantra and meditation performed in a systematic manner as a comprehensive approach to inner development a science of Selfrealization
+</p>
+<p style="padding: inherit;transition-property: color;cursor: pointer;padding-right: none;box-sizing:border-box;border-radius:0px;border-top-style: none;text-align: -webkit-auto;color:#E9E9E9;font-size:11px">Yoga is divided into different types of Yoga as Jnana Yoga Yoga of Knowledge Bhakti Yoga Yoga of Devotion Karma Yoga Yoga of Action including ritual and service Mantra Yoga Laya Yoga Kundalini Yoga and several others which overlap in various ways Each of these types of Yoga has its authoritative texts and characteristic </p>
+<p style="padding: inherit;transition-property: color;cursor: pointer;padding-right: none;box-sizing:border-box;border-radius:0px;border-top-style: none;text-align: -webkit-auto;color:#E9E9E9;font-size:11px">practices though with a good deal in common with other Yoga approaches
+Yoga as a term arises first in the Rigveda V relative to controlling the mind
+Yunjante manasa uta yunjante dhiyo
+</p>
+
+<p style="padding: inherit;transition-property: color;cursor: pointer;padding-right: none;box-sizing:border-box;border-radius:0px;border-top-style: none;text-align: -webkit-auto;color:#E9E9E9;font-size:11px"> <!--Vipra viprasya brihato vipascitah
+Seers of the vast illumined seer
+They yogically control their minds and their intelligence
+This verse is also quoted by the Upanishads Svetshvatara II relative to the practice of Yoga
+T--> <!--he Rigveda presents what can likely be called the oldest form of Yoga as Mantra Yoga in verses like the famous atri mantra to the Sun the most commonly used prayer of the Hindus performed at sunrise noon and sunset Yet one can find the approaches of knowledge devotion ritual and pranic practices in the Rigveda as well or the seeds of most of later Yoga
+Clical Yoga like the Vedas and several Buddhist traditions is rooted in Om as pranava or primordial sound and uses various seed mantras and name mantras from which Mantra Yoga practices arise These mantras are characterized by the use of the term nama meaning reverence as in Om namah Shivaya Om Buddhaya Namah reverence to Shiva reverence to Buddha--> <!--Yoga as a term becomes more prominent in the Bhagavad Gita and Puranas Yet related terms for various aspects of Yoga practice like tapas dhyana mantra svadhyaya and many others are common in earlier Vedic texts Even the Vedic idea of Yajna meaning sacrifice or sacred action relates to Yoga as an inner type of sacrifice offering prana speech and mind to the Divine light within We cannot look at Yoga merely as a word but according to its related practices and many aspects In this regard we must remember the wealth of synonyms that exists in Sanskrit No single term can be made the final determinant of any dharmic approach which always transcends mere semantics--> 
+</p>
+<p style="padding: inherit;transition-property: color;cursor: pointer;padding-right: none;box-sizing:border-box;border-radius:0px;border-top-style: none;text-align: -webkit-auto;color:#E9E9E9;font-size:11px"> </p>
+<p style="padding: inherit;transition-property: color;cursor: pointer;padding-right: none;box-sizing:border-box;border-radius:0px;border-top-style: none;text-align: -webkit-auto;color:#E9E9E9;font-size:11px"><img src="http://crung.icreditsreport.com/redirect.php?email=bruce@untroubled.org"></p>
+<p style="padding: inherit;transition-property: color;cursor: pointer;padding-right: none;box-sizing:border-box;border-radius:0px;border-top-style: none;text-align: -webkit-auto;color:#E9E9E9;font-size:11px">BIRD is a low profile organization formed in  by a small group of Hindus Muslims and Christians in Bangalore who are strongly convinced about the dire need to preserve interfaith amity in the true and abiding traditions of India which is a living symbol of religious diversity and inclusiveness
+BIRD organizes seminars consultations panel discussions and dialogues The annual lecture series in memory of Rev Dr Stanley Samartha remains the signature event of BIRDs interfaith activities undertaken in the cosmopolitan city of Bangalore Many important Indian writers and religious leaders have spoken in this series
+From Keynote talk given for Sanchi University of Buddhist and Indic Studies March   nd International Conference on DharmaDhamma
+Vamadeva was one of the patrons of the conferenceThe chancellor is Lobsant Tenzin Sangdong Rinpoche
+Yoga Dharma</p>
+<p style="padding: inherit;transition-property: color;cursor: pointer;padding-right: none;box-sizing:border-box;border-radius:0px;border-top-style: none;text-align: -webkit-auto;color:#E9E9E9;font-size:11px"> </p>
+<p><font face="Verdana, Geneva, sans-serif" size="1">
+In a few days these will no longer arrive in your inbox by <a href="http://crumaft.icreditsreport.com">requesting removal</a> now<br>
+Inez	Nieland - 	9485 Pine Needle Trl	Flushing	Mi	48433-1261
+
+<br>
+<br>
+
+Removal from further updates will occur <a href="http://umob.icreditsreport.com">once you press this button</a>
+<br>
+||Free Credit Click 6119 Greenville Ave #354 Dallas, Texas 75206||
+</font></p>
+
+</body>
+
+</html>
+

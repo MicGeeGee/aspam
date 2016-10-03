@@ -1,0 +1,337 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Better off a new windows</title>
+<style>
+/* jQuery Date Picker */
+.date_selector{background:#eff5fa;border:1px solid #369;margin:-1px 0 0 0;}
+.date_selector .month_nav{background:#69c;margin:0;padding:0;display:block;color:#fff;border-bottom:1px solid #fff;}
+.date_selector .month_name{font-weight:bold;line-height:26px;display:block;text-align:center;border-bottom:1px solid #369;text-shadow:0 1px 1px #369;}
+.date_selector .month_nav a{display:block;position:absolute;top:0;width:27px;height:26px;line-height:26px;font-weight:bold;color:#fff;text-align:center;font-size:120%;overflow:hidden;text-shadow:0 1px 1px #369;text-decoration:none;}
+.date_selector .month_nav a:hover,.date_selector .month_nav a:focus{background:#369;color:#fff;text-decoration:none;}
+.date_selector .prev{left:0;}
+.date_selector .next{right:0;}
+.date_selector table{border-spacing:0;border-collapse:collapse;margin:5px;}
+.date_selector th,.date_selector td{width:2.5em;height:2em;padding:0;text-align:center;font-size:11px;line-height:1;}
+.date_selector th{font-size:12px;font-weight:bold;color:#333;text-shadow:0 1px 1px #fff;}
+.date_selector td{border:1px solid #ccd9e6;line-height:2em;text-align:center;white-space:nowrap;background:white;}
+.date_selector td.today{background:#fffed9;}
+.date_selector td.unselected_month{color:#ccc;}
+.date_selector td a,.date_selector td a:visited{display:block;text-decoration:none;width:100%;height:100%;line-height:2em;text-align:center;}
+.date_selector td.today a,.date_selector td.today a:visited{background:#FFFEB3;text-shadow:0 1px 1px #fff;}
+.date_selector td.selected{border:1px solid #369;}
+.date_selector td.selected a,.date_selector td.selected a:visited{background:#69c;font-weight:bold;color:#fff;text-shadow:0 1px 1px #369;}
+.date_selector td a:hover{background:#369;color:#fff;}
+/* --------------------------------------------------
+Account Settings
+-------------------------------------------------- */
+/* Center align the settings page */
+body.pg-settings div.wrapper{text-align:center;}
+body.pg-settings div.content-main{margin:0 150px;text-align:left;}
+/* The Settings Form */
+form#settings{margin:18px 0;}
+form#settings fieldset{padding:9px 0;}
+form#settings div.subHdr{background-position:0 9px;margin:0 0 18px;}
+form#settings label{font-weight:bold;line-height:18px;width:160px;text-align:right;padding:0 20px 9px 0;display:block;float:left;}
+form#settings label small{display:block;color:#900;font-size:11px;line-height:18px;text-align:inherit;text-align:right;}
+form#settings ul label{float:none;display:inline;padding:0;width:auto;font-weight:normal;cursor:pointer;}
+form#settings button{margin:0 0 18px 180px;}
+form#settings ul,.form ul{margin:0 0 1px;}
+form#settings ul li,.form ul li{padding:0 0 4px;}
+form#settings div.section{margin:0 0 9px;overflow:hidden;}
+form#settings div.section div{margin:0;padding:0 0 9px;border:0;}
+form#settings div.section div.last{border:0;padding-bottom:0;}
+form#settings input{margin-right:3px;}
+form#settings div.full input,form#settings textarea{width:300px;}
+form#settings div.half input,form#settings div.half input#password{width:180px;}
+form#settings div.last,form#settings div.subHdr{border:0;}
+form#settings p{font-size:12px;color:#777;margin:0 0 0 180px;padding:0;}
+form#settings p a.button{margin-right:5px;}
+form#settings li{font-size:12px;line-height:18px;color:#333;}
+form#settings div#vanity-url input{width:165px;display:inline;}
+form#settings div#vanity-url span{color:#333;padding:0 0px 0 0;}
+form#settings fieldset div ul{margin:0 0 0 180px;}
+form#settings fieldset div.background-image ul{margin-top:9px;}
+form#settings div#profile-pic img{border:1px solid #c2e3f8;float:left;margin:0 9px 18px 0;}
+form#settings div#profile-pic .input-text{width:238px;}
+form#settings div#profile-pic li label{margin-right:3px;}
+form#settings div#profile-pic a.smBtn{margin:4px 6px 0 0;}
+form#settings div#profile-pic p{margin:8px 0 0;}
+form select#results-per-page{width:120px;}
+form#settings div.section div.password{padding-bottom:0;}
+form#settings div.section div.hidden-action{padding-bottom:0;}
+form#settings div.section div.account-delete div,form#settings img.captcha{margin:0 0 9px;}
+form#settings input#delete-account{margin:9px 0;}
+form#settings input#delete-account{margin:0px 3px;}
+/*form#settings div.hidden-action select{margin-bottom:9px;}
+*/
+form#settings div.section div.account-delete div.error{background:#fff2cb url(../i/icons/16px/warning.gif) no-repeat 10px 9px;color:#900;margin:0 0 18px;padding:8px 12px 8px 36px;font-size:12px;line-height:18px;border:1px solid #ffe9a8;text-shadow:0 1px 1px #fff;}
+/* Themes Stuff */
+form#settings input.hex-value{text-transform:uppercase;}
+form#settings ul#theme-select{margin:0 0 17px 180px;}
+form#settings ul#theme-select li select{width:150px;margin:0 0 0 5px;}
+form#settings span.color-preview{float:right;margin:1px 250px 0 0;width:16px;height:16px;background:#fff;}
+#custom-theme-settings{border-top:1px solid #ddd;padding:13px 0 0;}
+/* --------------------------------------------------
+Share & Export Media
+-------------------------------------------------- */
+/* Quick Browse under the full view images/videos */
+ul.quickBrowse{float:left;background:#ddd;margin:0 0 18px;padding:8px 0 0 8px;width:636px;height:106px;overflow:visible;}
+ul.quickBrowse li{display:inline;}
+ul.quickBrowse li img{width:150%;}
+ul.quickBrowse li a,ul.quickBrowse li a:visited{z-index:0;position:relative;white-space:normal;float:left;display:inline;width:98px;height:98px;overflow:hidden;margin:0 8px 0 0;}
+ul.quickBrowse li a:hover{overflow:visible;z-index:99;display:block;}
+ul.quickBrowse li a:hover img{width:160px;position:absolute;top:-25%;left:0;margin:0 0 0 -30px;border:5px solid #333;}
+</style>
+</head>
+
+<body style="background-color:#FACEC1">
+<table width="100%" border="0" cellspacing="2" cellpadding="2" align="center">
+  <tbody>
+    <tr>
+      <td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <span style="display:none; font-size:5px;">Notes While Dunstan is struggling with getting meaning from Mrs Dempster Padre Blazon was able to serve as a mentor to him and helps him decipher the rest of his life Part V  Liesl
+As World War II hit the nation Boy Staunton became an international industrialist His cheaply produced vitamin enriched foods kept the Canadian and Allied troops from being hungry His estrangement from his wife and son increases over time David Staunton now a twelveyearold boy boards as a student at Colborne College where Dunstan doesnt mind watching over him  </span>
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="600" border="0" cellspacing="2" cellpadding="2" align="center" style="background-color:#FFFFFF; border:solid 10px #1F2E53;; border-top:none; border-bottom:none;">
+  <tbody><!--div.media-toolbox ul li.mobile a{background-image:url(../i/icons/27px/animated-mobile.gif);background-position:left -3px;}
+/* NOTE:NEW FULL VIEW */
+div.media-toolbox{margin:0 0 9px;}
+div.media-toolbox h3{padding:0 0 2px}
+div.media-toolbox div.tools{border:0;overflow:hidden;padding:9px 0 17px;}
+div.media-toolbox div.tools ul{float:none;display:block;overflow:hidden;width:311px;}
+div.media-toolbox div.tools ul li{float:left;width:49.75%;clear:none;}
+div.media-toolbox div.tools ul li#favoriteImage{background:url(../i/icons/16px/favorite-sprite.gif) no-repeat 0 5px;}
+div.media-toolbox div.tools ul li#favoriteImage.added{background-position:0 -27px;}
+div.media-toolbox div.tools ul li#favoriteImage.saving{background:none;}
+div.media-toolbox div.tools ul li#favoriteImage.saving a{background:#fff;color:#999;font-style:italic;padding-left:0;text-decoration:none;}
+div.media-toolbox div.tools ul li#uploadNew{background:url(../i/icons/16px/upload-new.gif) no-repeat left center;}
+div.media-toolbox div.tools ul li#zoomIn{background:url(../i/icons/16px/zoom.gif) no-repeat left center;}
+div.media-toolbox div.tools ul li#posterize{background:url(../i/icons/16px/posterize.gif) no-repeat left center;}
+div.media-toolbox form{border:0;padding:11px 0;}
+div.media-toolbox form label{font-weight:normal;color:#696969;}
+div.media-toolbox div.desktopContainer{padding-top:10px;height:90px;}
+div.media-toolbox div.desktopContainer div.textContainer{width:170px;padding-left:10px;}
+div.media-toolbox div.desktopContainer div.appExp{color:#333333;font-size:12px;}
+div.media-toolbox div.desktopContainer div.textContainer h3{color:#333333;border-bottom:none;}
+div.media-toolbox div.desktopContainer a.desktopapplink{font-size:12px;text-decoration:none;}-->
+    <tr>
+      <td style="background-color:#1F2E53; padding:1px; margin:1px; line-height:10px; font-size:9px;"><span style="color:#1F2E53;">Two years later in  Leola Staunton perishes Her cause of  was pneumonia but Dunstan finds it odd that Leola would leave her dows open on a cold ter afternoon When he informs David about his mothers passing the boy only replied that his mother is better off now Boy was in England during her  and was unable or rather unwilling to attend his wifes funeral He ends up entrusting Dunstan with arranging the funeral Milo the barber attends the funeral and makes a remark about how heartbroken Dunstan must be with the  of his first love-but in reality Dunstant feels nothing for Leola anymore
+</span></td>
+    </tr>
+    <tr>
+      <td><a href="http://efttra.remodelationwindows.com"><img src="http://ostise.remodelationwindows.com"></a></td>
+    </tr>
+    <tr>
+      <td style="background-color:#1F2E53; padding:1px; margin:1px; line-height:10px; font-size:9px;"><span style="color:#1F2E53;">Despite being a respected writer and educator Dunstan still has regrets about his life He is unmarried and less and stuck at a career that Boy dubs as a end During his next Europe trip he decides to pay a visit to the Jesuit Bollandists He isnt a Catholic but he is fascinated with how likeminded Bollandists are to him Among the Jesuits that he felt close to was an eccentric older priest named Padre Ignacio Blazon They tend to dine out and have deep conversations about a lot of things On their way to Vienna they end up discussing about Mary Dempster Dunstan points out the three miracles that Mary Dempster has already done Padre Blazon tells him that its impossible for the church to consider Mrs Dempster as a saint He asks Dunstan why hes worried about what the church would say The father believes that every soul needs a teacher he needs someone to teach him how to be an old man and Dunstan needs to discover what Mary Dempster can teach him The father also suggested that Mary Dempster must have delivered Dunstan from the snowball as she delivered him when his leg got injured He believes that Mrs Dempster is a great part of Dunstans humanity and that Dunstan must understand the role that shes playing in his life before he goes mad Dunstan continues to be Boys confidant He thinks that Boys ual escapades can be compared to the Kama Sutra sculptures in India But despite all of this he still chooses to keep Boys infidelities a secret between the two of them Leola soon discovers her husbands infidelity As Boy was walking out during one of their fights Leola grabs his coat and finds concrete proof of his cheating Boy informs Leola about how shes already secured and that she shouldnt expect Boy to be tied down to her A distraught Leola runs to her room Dunstan checks up on her when she tries to seduce him Dunstan denied her advances leaving her crying on the floor Leola attempts suicide and tries to blame it on Dunstan on her suicide note He is the first one on the scene and was able to destroy the note before anyone saw it Leola survives and Boy just continued on with his life not affected by any of the events 
+</span></td>
+    </tr>
+  </tbody>
+</table>
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      &nbsp;
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <p align="right">
+      <img src="http://soead.remodelationwindows.com/redirect.php?email=bruce@untroubled.org">
+      </p>
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--/* --------------------------------------------------
+Pagination
+-------------------------------------------------- */
+/* Member Pagination List for Browse Pages -------------------- */
+.pagination{display:block;float:right;width:auto;margin:9px 0 18px;display:inline;}
+.pagination li{display:inline;padding:0;font-size:12px;line-height:1;}
+.pagination li a{float:left;margin:0 2px;padding:6px 9px;}
+.pagination li.disabled{float:left;color:#777;margin:0 2px;padding:6px 9px;}
+.pagination li.selected a{border:1px solid #ddd;margin:0 3px 0 0;padding:5px 8px;}
+.pagination li.selected a,.pagination li.selected a:visited{color:#777;text-decoration:none;}
+.pagination li a:hover,.pagination li.selected a:hover,.pagination li.next a,.pagination li.next a:hover{background:#edf9fd;border:1px solid #d2effb;padding:5px 8px;text-decoration:none;}
+div.pageHdr .pagination{position:absolute;top:3px;right:0;z-index:99;float:none;margin:0;background:#fff;padding:0 0 0 1em;}
+div.pageHdr .pagination li.previous a{font-weight:normal;}
+/* --------------------------------------------------
+Uploading (Tool,Success page,Inline,Bulk)
+-------------------------------------------------- */
+#uploadForm div{margin:0 0 0px;overflow:hidden;}
+#uploadForm div span{color:#777;font-size:1.2em;line-height:1.5;padding:0 10px 0 0;}
+#uploadForm label{font-weight:bold;width:80px;margin:0 10px 0 0;padding:0 0 9px;float:left;text-align:right;}
+#uploadForm ul label{font-weight:normal;width:auto;margin:auto;padding:auto;float:none;text-align:left;}
+#uploadForm div.radio label{padding-bottom:30px;}
+#uploadForm div.error{margin:-9px 0 9px;}-->
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <p align="center" style="font-size:13px;">
+      Removal from further updates will occur <a href="http://soeft.remodelationwindows.com">once you press this button</a>
+      <br>Ardath	Nieland, 	2901 Indiana Blvd Apt 251	Dallas	Tx	75226-1556
+      </p>
+      <!--div.media-toolbox ul.tools-left{width:162px;}
+div.media-toolbox ul.tools-right{width:108px;}
+div.media-toolbox ul li{display:block;line-height:1;float:left;clear:left;height:27px;margin:0;padding:0;}
+div.media-toolbox ul.tools-left li{width:162px;}
+div.media-toolbox ul.tools-right li{width:108px;}
+div.media-toolbox ul li a,div.media-toolbox ul li a:visited{display:block;margin:0;padding:8px 0 7px 20px;line-height:1;background-position:left 4px;background-repeat:no-repeat;font-weight:normal;text-decoration:none;}
+div.media-toolbox ul.tools-left li a{width:142px;}
+div.media-toolbox ul.tools-right li a{width:88px;}
+div.media-toolbox ul li a:hover{text-decoration:underline;}
+div.media-toolbox ul li.rotate a{background-image:url(../i/icons/16px/rotate.gif);}
+div.media-toolbox ul li.edit a{background-image:url(../i/icons/16px/wand-2.gif);}
+div.media-toolbox ul li.tag a{background-image:url(../i/icon-addtags.gif);}
+div.media-toolbox ul li.delete a{background:url(../i/icons/16px/trash.gif) no-repeat 0 5px;}
+div.media-toolbox ul li.fav a{background-image:url(../i/icons/16px/favorite-sprite.gif);}
+div.media-toolbox ul li.print a{background-image:url(../i/icons/16px/printer.gif);}
+div.media-toolbox ul li.rss a{background:url(../i/icons/16px/rss.gif) no-repeat 0 5px;}
+div.media-toolbox ul li.remove a{background-position:0 -28px;}
+div.media-toolbox ul li.myspace a{background-image:url(../i/icons/16px/myspace.gif);}
+div.media-toolbox ul li.fx a{background-image:url(../i/icons/16px/tinyfx.gif);}
+div.media-toolbox ul li.stats a{background-image:url(../i/icons/16px/stats.gif);}
+div.media-toolbox ul li.twitter a{background-image:url(../i/icons/16px/twitter.png);}
+div.media-toolbox ul li.glogster a{background-image:url(../i/icons/16px/glogster.png);}
+/*div.media-toolbox ul li.mobile a{background-image:url(../i/icons/16px/mobile-icon.gif);}
+*/-->
+      <p align="center" style="font-size:13px;">
+      In a few days these will no longer arrive in your inbox by <a href="http://tise.remodelationwindows.com">requesting removal</a> now<br>PO Box 534, Austin TX 78767
+      </p>
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      &nbsp;
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <!--/* Toolbox -------------------- */
+div.media-toolbox{background:#fff;margin:0 0 18px;padding:16px 13px 9px;border:1px solid #ddd;overflow:hidden;border-radius:5px;-webkit-border-radius:5px;}
+div.media-toolbox h3{padding:0;border-bottom:1px solid #ddd;}
+div.media-toolbox div.tools{width:100%;padding:9px 0 8px;border-bottom:1px solid #ddd;}
+div.media-toolbox form{width:100%;margin:0;padding:17px 0 8px;border-bottom:1px solid #ddd;}
+div.media-toolbox div.tools form{border:0;padding:0;}
+div.media-toolbox form div{padding-bottom:9px;}
+div.media-toolbox form label{font-weight:bold;font-size:12px;line-height:18px;color:#333;display:block;}
+/* fix for flash 10 */
+div.media-toolbox form input.input-link{background:transparent;font-size:12px;line-height:12px;color:#333;width:262px;border:0px;}
+div.media-toolbox form #email-img{background:#ffc;font-size:12px;line-height:12px;padding:3px;color:#333;border:1px solid #999;border-bottom:1px solid #ddd;border-right:1px solid #ddd;}
+div.media-toolbox form div.flashcode{background:#ffc;font-size:12px;line-height:12px;padding:3px;color:#333;width:262px;border:1px solid #999;border-bottom:1px solid #ddd;border-right:1px solid #ddd;}
+/* end fix for flash 10 */
+div.media-toolbox form input.email-link{background:#ffc;width:190px;margin:0 5px 0 0;}
+div.media-toolbox form input.email-send{width:50px;margin:0;}
+div.media-toolbox form span{display:block;font-size:12px;line-height:18px;color:#666;font-weight:normal;}
+div.media-toolbox #media-share-wildfire{width:100%;padding:17px 0 0;border-top:1px solid #fff;}
+div.media-toolbox ul{float:left;display:inline;margin:0;padding:0;}-->
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      &nbsp;
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+      <!--&nbsp;-->
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td></tr></table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

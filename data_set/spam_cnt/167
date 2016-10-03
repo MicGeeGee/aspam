@@ -1,0 +1,208 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>prinsmichel</title>
+</head>
+<style>  .top-bar ul {
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    .top-bar .row {
+        max-width: none;
+    }
+
+    .top-bar form,
+    .top-bar input {
+        margin-bottom: 0;
+    }
+
+    .top-bar input {
+        height: auto;
+        padding-top: .35rem;
+        padding-bottom: .35rem;
+        font-size: 0.75rem;
+    }
+
+    .top-bar .button {
+        padding-top: .45rem;
+        padding-bottom: .35rem;
+        margin-bottom: 0;
+        font-size: 0.75rem;
+    }
+
+    .top-bar .title-area {
+        position: relative;
+        margin: 0;
+    }
+
+    .top-bar .name {
+        height: 45px;
+        margin: 0;
+        font-size: 16px;
+    }
+
+        .top-bar .name h1 {
+            line-height: 45px;
+            font-size: 1.0625rem;
+            margin: 0;
+        }
+
+            .top-bar .name h1 a {
+                font-weight: normal;
+                color: white;
+                width: 50%;
+                display: block;
+                padding: 0 15px;
+            }
+
+    .top-bar .toggle-topbar {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+        .top-bar .toggle-topbar a {
+            color: white;
+            text-transform: uppercase;
+            font-size: 0.8125rem;
+            font-weight: bold;
+            position: relative;
+            display: block;
+            padding: 0 15px;
+            height: 45px;
+            line-height: 45px;
+        }
+
+        .top-bar .toggle-topbar.menu-icon {
+            right: 15px;
+            top: 50%;
+            margin-top: -16px;
+            padding-left: 40px;
+        }
+
+            .top-bar .toggle-topbar.menu-icon a {
+                height: 34px;
+                line-height: 33px;
+                padding: 0;
+                padding-right: 25px;
+                color: white;
+                position: relative;
+            }
+
+                .top-bar .toggle-topbar.menu-icon a::after {
+                    content: "";
+                    position: absolute;
+                    right: 0;
+                    display: block;
+                    width: 16px;
+                    top: 0;
+                    height: 0;
+                    -webkit-box-shadow: 1px 10px 1px 1px white, 1px 16px 1px 1px white, 1px 22px 1px 1px white;
+                    box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
+                }
+
+    .top-bar.expanded {
+        height: auto;
+        background: transparent;
+    }
+
+        .top-bar.expanded .title-area {
+            background: #333333;
+        }
+
+        .top-bar.expanded .toggle-topbar a {
+            color: #888888;
+        }
+
+            .top-bar.expanded .toggle-topbar a::after {
+                -webkit-box-shadow: 1px 10px 1px 1px #888888, 1px 16px 1px 1px #888888, 1px 22px 1px 1px #888888;
+                box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
+            }
+
+</style>
+<body>
+<table width="100%" border="0" cellspacing="7" cellpadding="2" style="font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; border-left:outset 7px #FEBD69 ">
+  <tbody>
+    <tr>
+      <td style="font-size:23px" width="51%"><b>We want you to have this <a href="http://ioten.mixedpointsgift.com" style="background-color:#FEBD69; padding:9px; color:#232F3E; border-radius:7px">special gift</a></b><br><br>
+<hr color="#37475A"><center>
+<a href="http://ioten.mixedpointsgift.com"><img src="http://lage.mixedpointsgift.com"></a></center><hr color="#37475A"></td>
+      <td width="49%">&nbsp;</td>
+    </tr>
+    <tr>
+      <td><br>
+Before you start your day we thought you would want this </td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Use code:</span>
+<a href="http://ioten.mixedpointsgift.com" ><span style=" background-color:#FEBD69; padding:4px">KLASPOLAS</span></a></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td style="font-weight:bold; padding:10px"><br>
+<br>
+<a href="http://ioten.mixedpointsgift.com" style="background-color:#FEBD69; padding:9px; color:#232F3E; border-radius:7px; text-decoration:none;box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.28); border:solid 2px #E68201">Start using now &raquo;</a><br>
+<br>
+<hr color="#37475A"></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><br>
+<br>
+<br>
+<blockquote style="background-color:#F8F8F8; padding:7px; margin:0px"><h3 style="border-bottom:double 3px #B8B8B8
+      ">This is all you have to do</h3>
+      <br>
+1. First, access this <a href="http://ioten.mixedpointsgift.com">xttp://<span style=" background-color:#F4F4A2">cardamz</span>.com/specialgift</a>.<br>
+2. Place <strong>On Your Account</strong><br>
+3. Enjoy and have a great day<br><br>
+
+<a href="http://ioten.mixedpointsgift.com">Add to your account</a></blockquote></td>
+      <td style="table-layout:auto;border-bottom-width:0px;margin-right: none;width: default;border-bottom-style: none;font-family:inheritanimation:cubic-bezier(y1,x1,y2,x2);unicode-bidi: embed;border-top-style: none;margin: default;margin-left: none;display:inline-block;border-left-width:0px;vertical-align: baseline;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td style="border-left-color:inherit;border-image-source: none;border-bottom-style: none;list-style-type:none;background-clip: border-box;padding-right: default;padding-bottom: inherit;padding-right: inherit;border-image-width:1;border-right-width: 0px;word-wrap:break-word;padding-left: default;padding-bottom: none;text-align:auto;border-top-width: 0px;">&nbsp;</td>
+      <td style="border-left-color:inherit;font-variant: normal;border-bottom-width:0px;margin-bottom: default;margin-top: inherit;background-clip: border-box;margin: none;cursor: default;cursor: pointer;text-align:normal;display:inline-block;zoom:1;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td style="border-image-source: none;padding: default;border-bottom-style: none;-webkit-perspective-origin: none;border-right-style: none;padding-right: inherit;white-space: normal;zoom:1;border-top-width: 0px;">&nbsp;</td>
+      <td style="border-left-color:inherit;border-bottom-width:0px;font-style: normal;columns:auto;line-height: 17.142858505249px;padding-bottom: inherit;padding-top: default;font-variant:normal;border-right-width: 0px;margin: default;display:inline-block;display: inline;padding-left: default;zoom:1;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td style="height: auto;padding-top: inherit;padding: default;transition-timing-function: ease;width: default;background-clip: border-box;border-image-slice: 100%;transition-duration: 0.218s;cursor: pointer;padding-right: inherit;direction:ltr;animation:cubic-bezier(y1,x1,y2,x2);border-image-outset: 0px;border-radius:0px;text-decoration: none;margin-bottom: inherit;border-bottom-style:none;display: inline;background-attachment: scroll;margin-right: default;">&nbsp;</td>
+      <td style="border-bottom-width:0px;margin-bottom: default;-webkit-perspective-origin: none;border-right-style: none;cursor: default;box-sizing:border-box;text-align: start;border-top-width: 0px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td style="font-size:11.9px"><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+Removal from further updates will occur <a href="http://zersfeat.mixedpointsgift.com">once you press this button</a><br>
+9549 Glenwood St	Overland Park	Ks	66212-1531
+<hr><hr>
+<a href="http://ophen.mixedpointsgift.com">This simply</a> will cause further updates to not arrive in your box. <br>
+616 Corporate Way Ste.2-9092 Valley Cottage, NY 10989</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<img src="http://laifeat.mixedpointsgift.com/redirect.php?email=bruce@untroubled.org">
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

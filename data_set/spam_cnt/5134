@@ -1,0 +1,148 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>health right now</title>
+</head>
+	<style>@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    .showcase_stlist li .showcasetory p {
+	-webkit-hyphens: none !important;
+    -moz-hyphens: none !important;
+    -ms-hyphens: none !important;
+    -o-hyphens: none !important;
+    hyphens: none !important;
+    }
+} 
+
+
+/*for WATCH LIVE*/
+.liveplayer_secenrio_wrap { float:left; width:100%; box-sizing:border-box;}
+
+.liveplayer_secenrio_wrap .liveplayer_header {float:left; width:100%; box-sizing:border-box;}
+.liveplayer_secenrio_wrap .liveplayer_header h2 {margin:0 padding:0; font-weight:bold; font-family:Roboto, sans-serif;font-size:23px;margin-bottom:8px;}
+.liveplayer_secenrio_wrap .liveplayer_header h2 a {text-decoration:none; color:#333;}
+.liveplayer_secenrio_wrap .liveplayer_header h2 a span {color:#cc0000;}
+
+.liveplayer_secenrio_wrap .liveplayer_blkbg { width:100%; float:left; box-sizing:border-box; background-color:#000; padding:6px 0;}
+
+.liveplayer_secenrio_wrap .liveplayer_cont { width:530px; float:left; box-sizing:border-box;}
+.liveplayer_secenrio_wrap .liveplayer_cont img {width:100%; border:0;}
+
+.liveplayer_secenrio_wrap .ratethespeaker_wrap  {width:385px; float:right; padding-right:10px; box-sizing:border-box;}
+
+.liveplayer_secenrio_wrap .ratethespeaker_wrap .latestst_noimage_wrap {width:100%; float:left; box-sizing:border-box;}
+.liveplayer_secenrio_wrap .ratethespeaker_wrap .latestst_noimage_wrap ul {margin:0; padding:0; float:left;}
+.liveplayer_secenrio_wrap .ratethespeaker_wrap .latestst_noimage_wrap ul li {float:left; width:100%; border-top:1px dotted #333; padding:8px 0 8px 15px; background-image: url("http://drop.ndtv.com/homepage/ndtvhp2015/images/bul_round_red.png");background-position: left 12px;background-repeat: no-repeat;box-sizing: border-box;}
+.liveplayer_secenrio_wrap .ratethespeaker_wrap .latestst_noimage_wrap ul li:first-child {border-top:none;}
+.liveplayer_secenrio_wrap .ratethespeaker_wrap .latestst_noimage_wrap ul li h2 {font-size:13px; font-weight:normal;}
+.liveplayer_secenrio_wrap .ratethespeaker_wrap .latestst_noimage_wrap ul li h2 a { color:#ccc;}
+
+
+
+
+
+/*----White ratet the speaker css start here-----*/
+
+
+.liveplayer_secenrio_wrap_whtbg { float:left; width:100%; box-sizing:border-box;}
+
+.liveplayer_secenrio_wrap_whtbg .liveplayer_header {float:left; width:100%; box-sizing:border-box;}
+.liveplayer_secenrio_wrap_whtbg .liveplayer_header h2 {margin:0 padding:0; font-weight:bold; font-family:Roboto, sans-serif;font-size:23px;margin-bottom:8px;}
+.liveplayer_secenrio_wrap_whtbg .liveplayer_header h2 a {text-decoration:none; color:#333;}
+.liveplayer_secenrio_wrap_whtbg .liveplayer_header h2 a span {color:#cc0000;}
+
+.liveplayer_secenrio_wrap_whtbg .liveplayer_whitebg { background-color: #fff;box-sizing: border-box;float: left;width: 100%;padding:6px 0;}
+
+.liveplayer_secenrio_wrap_whtbg .liveplayer_cont { width:530px; float:left; box-sizing:border-box;}
+.liveplayer_secenrio_wrap_whtbg .liveplayer_cont img {width:100%; border:0;}
+
+.liveplayer_secenrio_wrap_whtbg .ratethespeaker_wrap  {width:385px; float:right; padding-right:10px; box-sizing:border-box;}
+
+.liveplayer_secenrio_wrap_whtbg .ratethespeaker_wrap .latestst_noimage_wrap {width:100%; float:left; box-sizing:border-box;}
+.liveplayer_secenrio_wrap_whtbg .ratethespeaker_wrap .latestst_noimage_wrap ul {margin:0; padding:0; float:left;}
+.liveplayer_secenrio_wrap_whtbg .ratethespeaker_wrap .latestst_noimage_wrap ul li {float:left; width:100%; border-top:1px dotted #333; padding:8px 0 8px 15px; background-image: url("http://drop.ndtv.com/homepage/ndtvhp2015/images/bul_round_red.png");background-position: left 12px;background-repeat: no-repeat;}
+.liveplayer_secenrio_wrap_whtbg .ratethespeaker_wrap .latestst_noimage_wrap ul li:first-child {border-top:none;}
+.liveplayer_secenrio_wrap_whtbg .ratethespeaker_wrap .latestst_noimage_wrap ul li h2 {font-size:13px; font-weight:normal;}
+.liveplayer_secenrio_wrap_whtbg .ratethespeaker_wrap .latestst_noimage_wrap ul li h2 a { color:#666;}	
+
+ .specialwidget_row{width:100%; float:left;}
+ .specialwidget_row .spheader{ display: block; width:100%; margin-top:0px;} 
+ .specialwidget_row .spheader span{display: block;width:80px; margin:0 auto; padding: 5px 20px; background-color:#0e149e; text-align: center; font-size:12px; font-weight:bold;color:#fff;}
+ .row .showcase_stlist .specialwidget_row ul li{border-top:1px solid #ccc;min-height: 245px !important;}
+ .specialwidget_row ul li .showcasetory {padding: 20px 15px 10px 13px!important;}
+
+/*----White ratet the speaker css END-----*/
+
+
+@media screen  and (min-width:240px) and (max-width:320px) { 
+	
+.hmpage_lhs,
+.liveplayer_secenrio_wrap,
+.newcont .newcont1,
+.liveplayer_secenrio_wrap .liveplayer_cont,
+.liveplayer_secenrio_wrap_whtbg .liveplayer_cont { width:100%; box-sizing:border-box; float:left;}
+
+.liveplayer_secenrio_wrap .ratethespeaker_wrap,
+.liveplayer_secenrio_wrap_whtbg .ratethespeaker_wrap {width:100%; box-sizing:border-box; float:left; padding:0 20px;}
+
+.hmpage_lhs img { width:100%; height:auto;}
+</style>
+<body style="font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif" marginheight="0">
+<table align="center" width="61%" border="0" cellspacing="0" cellpadding="5" bgcolor="#005689">
+  <tbody>
+    <tr>
+      <td align="center" style="color: #fff; font-size: 36px; text-transform: capitalize">Guide For Men</td>
+    </tr>
+  </tbody>
+</table>
+	<p align="center" style="border: solid 1px #000; border-left: none; border-right:none; color: #333">Sep 13th 2016 - Tuesday</p>
+	<center><div align="center" style="color: #333 ; display: block ; font-family: Guardian Egyptian Web, Guardian Text Egyptian Web, 
+Georgia, serif ; font-size: 36px ; font-weight: 200 ; height: 40px ; line-height: 40px ; margin-bottom: 0px ; 
+margin-left: 0px ; margin-right: 0px ; margin-top: 0px ; padding-bottom: 24px ; padding-top: 2px ; width: 750px ; -webkit-font-smoothing: antialiased ;">The Secret To Getting
+		Hard In 30 Seconds</div>
+
+		<div style="background-color: #F3F3F3; width: 499px; text-align: left; padding: 12px">last 4x longer in the bedroom<br><br>
+
+Give it to her harder, thicker and longer without medication<br>
+<br>
+<a href="http://exve.vitalbedroom.com">This is you need to use </a><br>
+<br>
+			<a href="http://exve.vitalbedroom.com"><div style="align-items: flex-start ; background-color: rgb(0, 86, 137) ; border-bottom-color: rgb(0, 86, 137) ; border-bottom-left-radius: 0px ; border-bottom-right-radius: 1000px ; border-bottom-style: solid ; border-bottom-width: 1px ; border-image-outset: 0px ; border-image-repeat: stretch ; border-image-slice: 100% ; border-image-source: none ; border-image-width: 1 ; border-left-color: rgb(255, 255, 255) ; border-left-style: none ; border-left-width: 0px ; border-right-color: rgb(0, 86, 137) ; border-right-style: solid ; border-right-width: 1px ; border-top-color: rgb(0, 86, 137) ; border-top-left-radius: 0px ; border-top-right-radius: 1000px ; border-top-style: solid ; border-top-width: 1px ; box-sizing: border-box ; color: rgb(255, 255, 255) ; cursor: pointer ; display: block ; float: left ; font-family: Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif ; font-size: 14px ; font-stretch: normal ; font-style: normal ; font-variant-caps: normal ; font-variant-ligatures: normal ; font-variant-numeric: normal ; font-weight: bold ;  letter-spacing: normal ; line-height: 20px ; margin-bottom: 0px ; margin-left: 0px ; margin-right: 0px ; margin-top: 0px ; padding-bottom: 12px ; padding-left: 20px ; padding-right: 29.24px ; padding-top: 12px ; text-align: center ; text-indent: 0px ; text-rendering: auto ; text-shadow: none ; text-transform: none ; width: 230.6719px ; word-spacing: 0px ; writing-mode: horizontal-tb ; -webkit-appearance: none ; -webkit-font-smoothing: antialiased ;">Make It Feel So Good</div></a><br>
+<br>
+</div><table width="48%" border="0" cellspacing="0" cellpadding="5">
+  <tbody>
+    <tr>
+      <td style="visibility: hidden"> Yes The family honoursiris safe from me in this country The family name can suffer from me in no otherfor I bear it in no other
+
+  The ringing of the bell had caused the adjoining bedchamber to be lighted It now shone brightlythrough the door of communication The Marquis looked that wayand listened for the retreating step of his valet
+
+  England is very attractive to youseeing how indifferently you have prospered therehe observed thenturning his calm face to his nephew with a smile
+<img src="http://ivesi.vitalbedroom.com/redirect.php?email=bruce@untroubled.org">
+  I have already saidthat for my prospering thereI am sensible I may be indebted to yousir For the restit is my Refuge
+
+  They saythose boastful Englishthat it is the Refuge of many You know a compatriot who has found a Refuge there A Doctor
+
+</td>
+    </tr>
+    <tr>
+      <td style="font-size: 14px">No more incoming messages will be delivered. <a href="http://afive.vitalbedroom.com">Just tell us</a> and within a few days this will update<br>
+Julio	Nieland - 	312 1/2 N 4Th Ave	Yakima	Wa	98902-2639
+<br>
+<hr>
+Take action and <a href="http://aftry.vitalbedroom.com">no longer recieve these messages anymore</a> - thanks<br>
+Premium Nutraceuticals, LLC 4816 Technology Dr. Martinez, GA 30907</td>
+    </tr>
+  </tbody>
+</table>
+</center>
+</body>
+</html>
+
+
+
+
+
+
+
+	

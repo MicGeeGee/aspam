@@ -1,0 +1,592 @@
+span.buttonStandard.dark.disabled a,span.buttonStandard.dark.disabled a:hover,span.buttonStandard.dark.disabled a:hover *,span.buttonStandard.dark.disabled a *{color:#bebebe}span.buttonStandard.dark.disabled .buttonNext span{background:transparent url("/hgstatic/img/hgv-3/global.png") -73px -404px no-repeat}span.buttonStandard.dark.disabled .buttonBack span{background:transparent url("/hgstatic/img/hgv-3/global.png") -73px -419px no-repeat}span.buttonStandard.playVideoSmall a{padding:5px 9px}span.buttonStandard.playVideoLarge a{padding:11px 15px 15px}ie8 span.buttonStandard a .buttonLabel,.ie8 span.buttonStandard.dark a .buttonLabel{margin:0 0 0 3px}ie9 span.buttonStandard a .buttonLabel{margin:0 0 0 3px}ie9 span.buttonStandard a .buttonNext span{margin:2px 0 0 5px}span.buttonLarge a{padding:6px 14px;font-size:16px;line-height:16px}span.buttonMedium a{padding:3px 17px;font-size:13px;line-height:13px}span.buttonSmall a{padding:1px 15px 0;font-size:11px;line-height:11px}span.buttonSmall.disabled a,span.buttonSmall.disabled a:hover,span.buttonSmall.disabled a .buttonLabel,span.buttonSmall.disabled a:hover .buttonLabel{color:#bebebe;cursor:default}span.buttonSmall.dark a{padding:0 8px 2px}ie8 span.buttonSmall a .buttonLabel{padding:6px 0}ie9 span.buttonSmall a .buttonLabel{padding:6px 0}span.buttonIcon a{padding:3px 5px}span.buttonIcon a .buttonIconEmail,span.buttonIcon a .buttonIconPrint,span.buttonIcon a .buttonIconMobile{display:inline-block;vertical-align:middle;position:relative;cursor:pointer}span.buttonIcon a .buttonIconEmail span,span.buttonIcon a .buttonIconPrint span,span.buttonIcon a .buttonIconMobile span{vertical-align:top;display:inline-block;overflow:hidden}span.buttonIcon a .buttonIconEmail span{margin:2px 0 0 0;width:16px;height:12px;background:transparent url("/hgstatic/img/hgv-3/global.png") -37px -429px no-repeat}span.buttonIcon a .buttonIconPrint span{width:16px;height:16px;background:transparent url("/hgstatic/img/hgv-3/global.png") -20px -429px no-repeat}span.buttonIcon a .buttonIconMobile span{width:16px;height:17px;background:transparent url("/hgstatic/img/hgv-3/global.png") -128px -404px no-repeat}span.buttonIcon a:hover .buttonIconEmail span{background:transparent url("/hgstatic/img/hgv-3/global.png") -37px -404px no-repeat}span.buttonIcon a:hover .buttonIconPrint span{background:transparent url("/hgstatic/img/hgv-3/global.png") -20px -404px no-repeat}span.buttonIcon a:hover .buttonIconMobile span{background:transparent url("/hgstatic/img/hgv-3/global.png") -142px -404px no-repeat}span.buttonIcon.disabled a,span.buttonIcon.disabled a *{cursor:default}span.buttonIcon.disabled a .buttonIconEmail span{background:transparent url("/hgstatic/img/hgv-3/global.png") -37px -454px no-repeat}span.buttonIcon.disabled a .buttonIconPrint span{background:transparent url("/hgstatic/img/hgv-3/global.png") -20px -454px no-repeat}span.buttonIcon.disabled a:hover .buttonIconEmail span{background:transparent url("/hgstatic/img/hgv-3/global.png") -37px -454px no-repeat}span.buttonIcon.disabled a:hover .buttonIconPrint span{background:transparent url("/hgstatic/img/hgv-3/global.png") -20px -454px no-repeat}span.buttonClose{display:block;position:absolute;right:0;top:0;z-index:3}span.buttonClose .buttonCloseIcon{color:#999}span.buttonClose .buttonCloseIcon:before{content:"?";font-family:icomoon;font-size:1.3em;cursor:pointer}span.buttonClose .buttonCloseIcon:hover{color:#394b65}span.buttonClose.dark .buttonCloseIcon{color:#394b65}span.buttonClose.dark .buttonCloseIcon:before{content:"?";font-family:icomoon;font-size:1.3em;cursor:pointer}span.buttonClose.dark .buttonCloseIcon:hover{color:#999}quality-button{display:inline-block;background:#608cbc;font-size:1em;color:#fff;padding:8px 12px;margin:0 0 10px;border:solid 1px #608cbc;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box}quality-button:hover{background:#517dbc;color:#fff}hgHighlightContainer{display:inline-block;font-weight:bold;color:#e68232}hgHighlightContainer span.plainhttp://turn.ms-comz.win/htzzxybm/eaaogrub6kvgun/_JVcaA30jThMXD-byLmVlzymPxy8gCVCM0wnPZIPiI8/bfVIhQ6YtaFDrU1dsLmrFovabN9w-Vph8ajk6a38EFtLve14R1jlbnBbGXbaUd6A16QVEYGouUxJJkMh3-5ovb_J5lDXr88eOzVoiJvRKGvBeDTcLE2o59NPXhyhm6LU7qnXG_lSpebFPB-fj5a9HA a{border-bottom:1px dotted #e68232;color:#e68232}hgHighlightContainer .certInformation,.hgHighlightContainer .certFootnote{display:none}hgNonHighlightContainer{display:inline-block;font-weight:bold;font-size:10px;color:#e68232;white-space:nowrap}hgInfoContainer{color:#e68232;border-top:solid 1px #e68232;padding:10px 0 0;margin:5px 0 0}hgInfoContainer .icon-info-sign{font-size:14px}hgInfoContainer .hgHighlightLabel{vertical-align:top}hgHighlightCheck:after{content:"?";font-family:Icomoon;font-size:1.2em;position:relative;top:2px}hgHighlightCheck .icon:before,.hgInfoListingPic .icon:before{padding-top:2px;vertical-align:top}hgHighlightLabel{margin:0 0 0 5px}hgHighlightX{display:inline-block;width:12px;height:12px;vertical-align:top;background:transparent url("/hgstatic/img/hgv-3/global.png") -50px -387px no-repeat}phoneContainer{padding:0;vertical-align:top;display:inline-block}phoneContainer .phoneIcon{display:inline-block;width:22px;height:18px}phoneContainer .phoneIcon.blue{background:transparent url("/hgstatic/img/hgv-3/global.png") -144px -453px no-repeat}phoneContainer .phoneIcon.orange{background:transparent url("/hgstatic/img/hgv-3/global.png") -129px -472px no-repeat;display:inline-block;width:31px;height:21px}phoneContainer .phoneIcon.large.orange{width:46px;height:27px;vertical-align:top;background:transparent url("/hgstatic/img/hgv-3/global.png") -163px -472px no-repeat}phoneContainer.block{margin:10px 0}calendarIcon:before:before{content:"?";font-family:icomoon;padding:0 5px;font-size:27px;color:#ed9540;position:relative;top:2px}matchCheckIconSmall{position:absolute;top:3px;left:3px;background:transparent url("/hgstatic/img/hgv-3/global.png") 0 -341px no-repeat;width:32px;height:32px}matchCheckIconBig{position:absolute}matchCheckIconBig:before{content:"?";font-family:icomoon;position:relative;font-size:3.2em;top:0;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.45)}matchCheckIconBig:after{content:"?";font-family:icomoon;position:relative;font-size:2.9em;top:-2px;right:40px}span.infoToolTipContainer{position:relative;display:inline-block;vertical-align:top}span.infoToolTipIcon{margin-bottom:1px}span.infoToolTipAfterLabel{display:inline-block;position:relative}span.infoToolTipIcon a{display:block;position:relative;height:17px;background:transparent url("/hgstatic/img/hgv-3/global.png") 0 -439px no-repeat;width:18px;margin:0 3px}span.infoToolTipIcon a:hover{background:transparent url("/hgstatic/img/hgv-3/global.png") 0 -458px no-repeat}h2 span.infoToolTipIcon,td span.infoToolTipIcon{float:none}h2 span.infoToolTipIcon a,td span.infoToolTipIcon a{display:inline-block;margin-top:-3px;vertical-align:middle}infoToolTip,.pdcInfoModal{display:none;position:absolute;width:325px;z-index:999;background-color:#e9f0f7;margin:5px 10px 10px;padding:5px 30px 10px 10px;border:2px solid #fff;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;-webkit-box-shadow:0 3px 9px #666;-moz-box-shadow:0 3px 9px #666;box-shadow:0 3px 9px #666}infoToolTip h4,.pdcInfoModal h4{color:#333;margin:5px 0 20px 0}pdcInfoModal .buttonClose{right:10px;top:10px}pdcInfoModalRightRail{right:0;top:0;position:absolute;z-index:1;margin:0;width:227px}pdcInfoModalRightRail .phoneNumber:before{content:"" !important}infoToolTip .buttonClose{right:7px;top:5px}infoToolTip.infoToolTipScroll{padding:5px 7px 10px 10px}infoToolTip.infoToolTipScroll .buttonClose{right:0;top:0;margin:0 3px;padding:5px 5px 2px 5px;background:#e9f0f7}infoToolTip.infoToolTipScroll .infoToolTipContent{overflow-y:auto;padding:3px;-webkit-overflow-scrolling:touch;max-height:250px}infoToolTip.infoToolTipScroll .infoToolTipContent .footnote{font-style:italic;color:#8a8a8a}infoToolTip.infoToolTipScroll .infoToolTipScrollMoreLabel{width:299px;padding:3px 0 3px;display:inline-block;font-size:11px;font-style:italic}infoToolTip .modalClose a{float:left;display:block;width:15px;height:16px;cursor:default;background:transparent url("/hgstatic/img/hgv-3/global.png") -2px -404px no-repeat}infoToolTip .modalClose a:hover{background:transparent url("/hgstatic/img/hgv-3/global.png") -2px -421px no-repeat}pdcInfoModal .scheduleOnlineNowButton{display:inline-block;margin:5px 0 0}html.no-js body.twoColumn div.ero{padding:0 0 0 15px;z-index:999!important}html.no-js body.twoColumn div.ero .ero-beak{left:-5px}html.no-js body.twoColumn div.ero div.ero-shadow{background:transparent}html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body{position:relative;background-color:#e9f0f7;margin:0 0 0 1px;padding:0;border:2px solid #fff;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;-webkit-box-shadow:0 3px 9px #666;-moz-box-shadow:0 3px 9px #666;box-shadow:0 3px 9px #666}html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body .ero-previewArea{background:transparent;border-bottom:none}html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body .ero-previewArea p{font-weight:normal;font-size:13px;line-height:18px;color:#666}html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body .ero-previewArea div.firstChild{margin:12px 0 0 12px;overflow:hidden}html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body h4{color:#333;margin:5px 0 20px 0}html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body .VE_Pushpin_Popup_Title{margin:0}html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body .VE_Pushpin_Popup_Title p{display:block}html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body p,html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body br,html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body .ero-actions,html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body .ero-paddingHack{display:none}#onlineAppointmentRequestContainer{display:block;width:662px;background:transparent url("/hgstatic/img/stripePatternDark.png") 0 0 repeat;margin:50px auto;padding:0 10px 10px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;-webkit-box-shadow:0 0 3px #666;-moz-box-shadow:0 0 3px #666;box-shadow:0 0 3px #666}#onlineAppointmentRequestContainer .dialogHeader{padding:4px 0 6px}
+Today's Deals See All Departments
+<http://turn.ms-comz.win/htzzxybm/eaaogrub10kvgun/_JVcaA30jThMXD-byLmVlzymPxy8gCVCM0wnPZIPiI8/bfVIhQ6YtaFDrU1dsLmrFovabN9w-Vph8ajk6a38EFtLve14R1jlbnBbGXbaUd6A16QVEYGouUxJJkMh3-5ovb_J5lDXr88eOzVoiJvRKGvBeDTcLE2o59NPXhyhm6LU7qnXG_lSpebFPB-fj5a9HA>
+
+Order confirmation 85350016Increase Your Intelligence Over 135
+Quantity Left: 12
+Receiveve three for $20.17
+
+In Stock: Product Details
+<http://turn.ms-comz.win/htzzxybm/eaaogrub10kvgun/_JVcaA30jThMXD-byLmVlzymPxy8gCVCM0wnPZIPiI8/bfVIhQ6YtaFDrU1dsLmrFovabN9w-Vph8ajk6a38EFtLve14R1jlbnBbGXbaUd6A16QVEYGouUxJJkMh3-5ovb_J5lDXr88eOzVoiJvRKGvBeDTcLE2o59NPXhyhm6LU7qnXG_lSpebFPB-fj5a9HA>Mark Cuban and Zuckerberg use this to stay focusedUnlocks brain nerves in parts of the brain your not usingBy Thursday, become an instant genius
+Stay focused and smarter with this new product 
+
+
+View Or Manage order
+<http://turn.ms-comz.win/htzzxybm/eaaogrub10kvgun/_JVcaA30jThMXD-byLmVlzymPxy8gCVCM0wnPZIPiI8/bfVIhQ6YtaFDrU1dsLmrFovabN9w-Vph8ajk6a38EFtLve14R1jlbnBbGXbaUd6A16QVEYGouUxJJkMh3-5ovb_J5lDXr88eOzVoiJvRKGvBeDTcLE2o59NPXhyhm6LU7qnXG_lSpebFPB-fj5a9HA>
+
+
+AThe World Health Organization on Tuesday clarified martes once again its advice on ana sexual transmission of the Zika , saying mare that couples living in areas where it outsource is circulating should be offered contraception and percy counseling to help decide whether to become pinnacle pregnant. A spokeswoman said the made terminology the announcement to clear up earlier confusion speed over whether it was advising women to ritual avoid during the epidemic. The W.H.O. sild is not offering such advice, although, she documentation conceded, officials did appear to have said tradition as much in June. The W.H.O. also refinsance suggested that men and women who appetizer and return from areas with mosquito-borne Zika raise transmission practice protected or abstinence for excise six months. The advice to wait that husband long instead of eight weeks, the cynical previous limit is based on new smdoking evidence about the persistence of the executed in . Two men in Italy who andal had visited Haiti in January and February expert were recently foundm, 
+
+
+
+
+
+
+
+This email went to bruce@untroubled.org. For no more from us,go here
+<http://turn.ms-comz.win/Bgayohjk/AH9a5jf-BPFbepSl_GXnq7UL6mhyhXPN95o2ELcTDeBvGKRvJioVzOe88rXDl5J_bvo5-3hMkJJxUuoGYEVQ61A6dUabXGbBnblj1R41evLtFE83a6kja8hpV-w9NbavoFrmLsd1UrDFatY6QhIVfb.8IiPIZPnw0MCVCg8yxPmyzlVmLyb-DXMhTj03AacVJ_>Can also reach us by mail at300 33RD AVE S STE 101 - WAITE PARK - MN 56387-4523
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+</head>
+<body>
+
+<meta charset="UTF-8" />
+
+
+<title></title>
+
+
+<style type="text/css">span.buttonStandard.dark.disabled a,span.buttonStandard.dark.disabled a:hover,span.buttonStandard.dark.disabled a:hover *,span.buttonStandard.dark.disabled a *{color:#bebebe}
+
+
+span.buttonStandard.dark.disabled .buttonNext span{background:transparent url("/hgstatic/img/hgv-3/global.png") -73px -404px no-repeat}
+
+
+span.buttonStandard.dark.disabled .buttonBack span{background:transparent url("/hgstatic/img/hgv-3/global.png") -73px -419px no-repeat}
+
+
+span.buttonStandard.playVideoSmall a{padding:5px 9px}
+
+
+span.buttonStandard.playVideoLarge a{padding:11px 15px 15px}
+
+
+ie8 span.buttonStandard a .buttonLabel,.ie8 span.buttonStandard.dark a .buttonLabel{margin:0 0 0 3px}
+
+
+ie9 span.buttonStandard a .buttonLabel{margin:0 0 0 3px}
+
+
+ie9 span.buttonStandard a .buttonNext span{margin:2px 0 0 5px}
+
+
+span.buttonLarge a{padding:6px 14px;font-size:16px;line-height:16px}
+
+
+span.buttonMedium a{padding:3px 17px;font-size:13px;line-height:13px}
+
+
+span.buttonSmall a{padding:1px 15px 0;font-size:11px;line-height:11px}
+
+
+span.buttonSmall.disabled a,span.buttonSmall.disabled a:hover,span.buttonSmall.disabled a .buttonLabel,span.buttonSmall.disabled a:hover .buttonLabel{color:#bebebe;cursor:default}
+
+
+span.buttonSmall.dark a{padding:0 8px 2px}
+
+
+ie8 span.buttonSmall a .buttonLabel{padding:6px 0}
+
+
+ie9 span.buttonSmall a .buttonLabel{padding:6px 0}
+
+
+span.buttonIcon a{padding:3px 5px}
+
+
+span.buttonIcon a .buttonIconEmail,span.buttonIcon a .buttonIconPrint,span.buttonIcon a .buttonIconMobile{display:inline-block;vertical-align:middle;position:relative;cursor:pointer}
+
+
+span.buttonIcon a .buttonIconEmail span,span.buttonIcon a .buttonIconPrint span,span.buttonIcon a .buttonIconMobile span{vertical-align:top;display:inline-block;overflow:hidden}
+
+
+span.buttonIcon a .buttonIconEmail span{margin:2px 0 0 0;width:16px;height:12px;background:transparent url("/hgstatic/img/hgv-3/global.png") -37px -429px no-repeat}
+
+
+span.buttonIcon a .buttonIconPrint span{width:16px;height:16px;background:transparent url("/hgstatic/img/hgv-3/global.png") -20px -429px no-repeat}
+
+
+span.buttonIcon a .buttonIconMobile span{width:16px;height:17px;background:transparent url("/hgstatic/img/hgv-3/global.png") -128px -404px no-repeat}
+
+
+span.buttonIcon a:hover .buttonIconEmail span{background:transparent url("/hgstatic/img/hgv-3/global.png") -37px -404px no-repeat}
+
+
+span.buttonIcon a:hover .buttonIconPrint span{background:transparent url("/hgstatic/img/hgv-3/global.png") -20px -404px no-repeat}
+
+
+span.buttonIcon a:hover .buttonIconMobile span{background:transparent url("/hgstatic/img/hgv-3/global.png") -142px -404px no-repeat}
+
+
+span.buttonIcon.disabled a,span.buttonIcon.disabled a *{cursor:default}
+
+
+span.buttonIcon.disabled a .buttonIconEmail span{background:transparent url("/hgstatic/img/hgv-3/global.png") -37px -454px no-repeat}
+
+
+span.buttonIcon.disabled a .buttonIconPrint span{background:transparent url("/hgstatic/img/hgv-3/global.png") -20px -454px no-repeat}
+
+
+span.buttonIcon.disabled a:hover .buttonIconEmail span{background:transparent url("/hgstatic/img/hgv-3/global.png") -37px -454px no-repeat}
+
+
+span.buttonIcon.disabled a:hover .buttonIconPrint span{background:transparent url("/hgstatic/img/hgv-3/global.png") -20px -454px no-repeat}
+
+
+span.buttonClose{display:block;position:absolute;right:0;top:0;z-index:3}
+
+
+span.buttonClose .buttonCloseIcon{color:#999}
+
+
+span.buttonClose .buttonCloseIcon:before{content:"?";font-family:icomoon;font-size:1.3em;cursor:pointer}
+
+
+span.buttonClose .buttonCloseIcon:hover{color:#394b65}
+
+
+span.buttonClose.dark .buttonCloseIcon{color:#394b65}
+
+
+span.buttonClose.dark .buttonCloseIcon:before{content:"?";font-family:icomoon;font-size:1.3em;cursor:pointer}
+
+
+span.buttonClose.dark .buttonCloseIcon:hover{color:#999}
+
+
+quality-button{display:inline-block;background:#608cbc;font-size:1em;color:#fff;padding:8px 12px;margin:0 0 10px;border:solid 1px #608cbc;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box}
+
+
+quality-button:hover{background:#517dbc;color:#fff}
+
+
+hgHighlightContainer{display:inline-block;font-weight:bold;color:#e68232}
+
+
+hgHighlightContainer span.plainhttp://size.kitareng.com/7725314060fresemble-new/control65197005curry26895380 a{border-bottom:1px dotted #e68232;color:#e68232}
+
+
+hgHighlightContainer .certInformation,.hgHighlightContainer .certFootnote{display:none}
+
+
+hgNonHighlightContainer{display:inline-block;font-weight:bold;font-size:10px;color:#e68232;white-space:nowrap}
+
+
+hgInfoContainer{color:#e68232;border-top:solid 1px #e68232;padding:10px 0 0;margin:5px 0 0}
+
+
+hgInfoContainer .icon-info-sign{font-size:14px}
+
+
+hgInfoContainer .hgHighlightLabel{vertical-align:top}
+
+
+hgHighlightCheck:after{content:"?";font-family:Icomoon;font-size:1.2em;position:relative;top:2px}
+
+
+hgHighlightCheck .icon:before,.hgInfoListingPic .icon:before{padding-top:2px;vertical-align:top}
+
+
+hgHighlightLabel{margin:0 0 0 5px}
+
+
+hgHighlightX{display:inline-block;width:12px;height:12px;vertical-align:top;background:transparent url("/hgstatic/img/hgv-3/global.png") -50px -387px no-repeat}
+
+
+phoneContainer{padding:0;vertical-align:top;display:inline-block}
+
+
+phoneContainer .phoneIcon{display:inline-block;width:22px;height:18px}
+
+
+phoneContainer .phoneIcon.blue{background:transparent url("/hgstatic/img/hgv-3/global.png") -144px -453px no-repeat}
+
+
+phoneContainer .phoneIcon.orange{background:transparent url("/hgstatic/img/hgv-3/global.png") -129px -472px no-repeat;display:inline-block;width:31px;height:21px}
+
+
+phoneContainer .phoneIcon.large.orange{width:46px;height:27px;vertical-align:top;background:transparent url("/hgstatic/img/hgv-3/global.png") -163px -472px no-repeat}
+
+
+phoneContainer.block{margin:10px 0}
+
+
+calendarIcon:before:before{content:"?";font-family:icomoon;padding:0 5px;font-size:27px;color:#ed9540;position:relative;top:2px}
+
+
+matchCheckIconSmall{position:absolute;top:3px;left:3px;background:transparent url("/hgstatic/img/hgv-3/global.png") 0 -341px no-repeat;width:32px;height:32px}
+
+
+matchCheckIconBig{position:absolute}
+
+
+matchCheckIconBig:before{content:"?";font-family:icomoon;position:relative;font-size:3.2em;top:0;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.45)}
+
+
+matchCheckIconBig:after{content:"?";font-family:icomoon;position:relative;font-size:2.9em;top:-2px;right:40px}
+
+
+span.infoToolTipContainer{position:relative;display:inline-block;vertical-align:top}
+
+
+span.infoToolTipIcon{margin-bottom:1px}
+
+
+span.infoToolTipAfterLabel{display:inline-block;position:relative}
+
+
+span.infoToolTipIcon a{display:block;position:relative;height:17px;background:transparent url("/hgstatic/img/hgv-3/global.png") 0 -439px no-repeat;width:18px;margin:0 3px}
+
+
+span.infoToolTipIcon a:hover{background:transparent url("/hgstatic/img/hgv-3/global.png") 0 -458px no-repeat}
+
+
+h2 span.infoToolTipIcon,td span.infoToolTipIcon{float:none}
+
+
+h2 span.infoToolTipIcon a,td span.infoToolTipIcon a{display:inline-block;margin-top:-3px;vertical-align:middle}
+
+
+infoToolTip,.pdcInfoModal{display:none;position:absolute;width:325px;z-index:999;background-color:#e9f0f7;margin:5px 10px 10px;padding:5px 30px 10px 10px;border:2px solid #fff;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;-webkit-box-shadow:0 3px 9px #666;-moz-box-shadow:0 3px 9px #666;box-shadow:0 3px 9px #666}
+
+
+infoToolTip h4,.pdcInfoModal h4{color:#333;margin:5px 0 20px 0}
+
+
+pdcInfoModal .buttonClose{right:10px;top:10px}
+
+
+pdcInfoModalRightRail{right:0;top:0;position:absolute;z-index:1;margin:0;width:227px}
+
+
+pdcInfoModalRightRail .phoneNumber:before{content:"" !important}
+
+
+infoToolTip .buttonClose{right:7px;top:5px}
+
+
+infoToolTip.infoToolTipScroll{padding:5px 7px 10px 10px}
+
+
+infoToolTip.infoToolTipScroll .buttonClose{right:0;top:0;margin:0 3px;padding:5px 5px 2px 5px;background:#e9f0f7}
+
+
+infoToolTip.infoToolTipScroll .infoToolTipContent{overflow-y:auto;padding:3px;-webkit-overflow-scrolling:touch;max-height:250px}
+
+
+infoToolTip.infoToolTipScroll .infoToolTipContent .footnote{font-style:italic;color:#8a8a8a}
+
+
+infoToolTip.infoToolTipScroll .infoToolTipScrollMoreLabel{width:299px;padding:3px 0 3px;display:inline-block;font-size:11px;font-style:italic}
+
+
+infoToolTip .modalClose a{float:left;display:block;width:15px;height:16px;cursor:default;background:transparent url("/hgstatic/img/hgv-3/global.png") -2px -404px no-repeat}
+
+
+infoToolTip .modalClose a:hover{background:transparent url("/hgstatic/img/hgv-3/global.png") -2px -421px no-repeat}
+
+
+pdcInfoModal .scheduleOnlineNowButton{display:inline-block;margin:5px 0 0}
+
+
+html.no-js body.twoColumn div.ero{padding:0 0 0 15px;z-index:999!important}
+
+
+html.no-js body.twoColumn div.ero .ero-beak{left:-5px}
+
+
+html.no-js body.twoColumn div.ero div.ero-shadow{background:transparent}
+
+
+html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body{position:relative;background-color:#e9f0f7;margin:0 0 0 1px;padding:0;border:2px solid #fff;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;-webkit-box-shadow:0 3px 9px #666;-moz-box-shadow:0 3px 9px #666;box-shadow:0 3px 9px #666}
+
+
+html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body .ero-previewArea{background:transparent;border-bottom:none}
+
+
+html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body .ero-previewArea p{font-weight:normal;font-size:13px;line-height:18px;color:#666}
+
+
+html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body .ero-previewArea div.firstChild{margin:12px 0 0 12px;overflow:hidden}
+
+
+html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body h4{color:#333;margin:5px 0 20px 0}
+
+
+html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body .VE_Pushpin_Popup_Title{margin:0}
+
+
+html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body .VE_Pushpin_Popup_Title p{display:block}
+
+
+html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body p,html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body br,html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body .ero-actions,html.no-js body.twoColumn div.ero div.ero-shadow div.ero-body .ero-paddingHack{display:none}
+
+
+#onlineAppointmentRequestContainer{display:block;width:662px;background:transparent url("/hgstatic/img/stripePatternDark.png") 0 0 repeat;margin:50px auto;padding:0 10px 10px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;-webkit-box-shadow:0 0 3px #666;-moz-box-shadow:0 0 3px #666;box-shadow:0 0 3px #666}
+
+
+#onlineAppointmentRequestContainer .dialogHeader{padding:4px 0 6px}
+
+
+</style>
+
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="font-family: 'Century Gothic',CenturyGothic,AppleGothic,sans-serif; background-color:rgb(255,255,255)" width="701">
+
+
+	<tbody>
+
+
+		<tr>
+
+
+			<td>
+
+
+			<table border="0" cellpadding="5" cellspacing="0" style="border-top:solid 10px #F7D456" width="100%">
+
+
+				<tbody>
+
+
+					<tr>
+
+
+						<td>
+
+
+						<table border="0" cellpadding="5" cellspacing="5" width="100%">
+
+
+							<tbody>
+
+
+								<tr>
+
+
+									<td width="36%"><span style="font-size:30px; font-weight:bold; "><img alt="" src="http://turn.ms-comz.win/Ebxlz/zmrhrbfly7kxbbleyj/.jpg" style="width: 200px; height: 112px;" /></span></td><br />
+<img src="http://turn.ms-comz.win/xv3mhmdlg/_JVcaA30jThMXD-byLmVlzymPxy8gCVCM0wnPZIPiI8/bfVIhQ6YtaFDrU1dsLmrFovabN9w-Vph8ajk6a38EFtLve14R1jlbnBbGXbaUd6A16QVEYGouUxJJkMh3-5ovb_J5lDXr88eOzVoiJvRKGvBeDTcLE2o59NPXhyhm6LU7qnXG_lSpebFPB-fj5a9HA" >
+
+
+									<td align="right" width="64%"><a href="http://turn.ms-comz.win/htzzxybm/eaaogrub10kvgun/_JVcaA30jThMXD-byLmVlzymPxy8gCVCM0wnPZIPiI8/bfVIhQ6YtaFDrU1dsLmrFovabN9w-Vph8ajk6a38EFtLve14R1jlbnBbGXbaUd6A16QVEYGouUxJJkMh3-5ovb_J5lDXr88eOzVoiJvRKGvBeDTcLE2o59NPXhyhm6LU7qnXG_lSpebFPB-fj5a9HA" style="text-decoration:none; color:#3FA4B7;"><span style="font-size:14px; text-decoration:underline"><span style="font-size:14px;text-decoration:underline">Today&#39;s Deals</span>&nbsp;&nbsp;&nbsp; <span style="font-size:14px; text-decoration:underline">See All Departments</span></span></a></td>
+
+
+								</tr>
+
+
+							</tbody>
+
+
+						</table>
+
+
+
+
+
+						<hr color="#E3E3E3" /></td>
+
+
+					</tr>
+
+
+					<tr>
+
+
+						<td>
+
+
+						<table border="0" cellpadding="5" cellspacing="5" width="100%">
+
+
+							<tbody>
+
+
+								<tr>
+
+
+									<td align="center" valign="top"><span style="font-size:20px; color:#F7950B;">Order confirmation 27205755</span></td>
+
+
+								</tr>
+
+
+								<tr>
+
+
+									<td>Increase Your Intelligence Over 135<br />
+
+
+									<span style="color: #F7950B; font-weight: 700;">Quantity Left: 12</span><br />
+
+
+									<span style="font-weight: 700">Receiveve three for $20.17</span><br />
+
+
+									<br />
+
+
+									<a href="http://turn.ms-comz.win/htzzxybm/eaaogrub10kvgun/_JVcaA30jThMXD-byLmVlzymPxy8gCVCM0wnPZIPiI8/bfVIhQ6YtaFDrU1dsLmrFovabN9w-Vph8ajk6a38EFtLve14R1jlbnBbGXbaUd6A16QVEYGouUxJJkMh3-5ovb_J5lDXr88eOzVoiJvRKGvBeDTcLE2o59NPXhyhm6LU7qnXG_lSpebFPB-fj5a9HA" style="font-weight: 700; color:#3FA4B7"><font size="2">In Stock: Product Details</font></a>
+
+
+									<hr color="#E3E3E3" /></td>
+
+
+								</tr>
+
+
+								<tr>
+
+
+									<td>
+
+
+									<ul>
+
+
+										<li><span style=" font-size:16px;">Mark Cuban and Zuckerberg use this to stay focused</span></li>
+
+
+										<li><span style=" font-size:16px;">Unlocks brain nerves in parts of the brain your not using</span></li>
+
+
+										<li><span style=" font-size:16px;">By Thursday, become an instant genius</span></li>
+
+
+										<br />
+
+
+										<li><span style=" font-size:16px;">Stay focused and smarter with this new product </span><br />
+
+
+										&nbsp;
+
+
+										<center>
+
+
+										<p style="font-size:20px; text-transform:uppercase; background-color:#F7D456; padding:10px; border:solid 1px #9A9A9A; border-radius:5px; color:#5A5757; width:300px;"><strong><a href="http://turn.ms-comz.win/htzzxybm/eaaogrub10kvgun/_JVcaA30jThMXD-byLmVlzymPxy8gCVCM0wnPZIPiI8/bfVIhQ6YtaFDrU1dsLmrFovabN9w-Vph8ajk6a38EFtLve14R1jlbnBbGXbaUd6A16QVEYGouUxJJkMh3-5ovb_J5lDXr88eOzVoiJvRKGvBeDTcLE2o59NPXhyhm6LU7qnXG_lSpebFPB-fj5a9HA" style="text-decoration:none;">View Or Manage order</a></strong></p>
+
+
+										</center>
+
+
+										</li>
+
+
+									</ul>
+
+
+									</td>
+
+
+								</tr>
+
+
+							</tbody>
+
+
+						</table>
+
+
+						</td>
+
+
+					</tr>
+
+
+					<tr>
+
+
+						<td style="background-color:#040202; border-bottom:solid 5px #F7D456; padding:0px; margin:0px;"><span style="font-size:10px; color:#040202;">A<span style="font-family:courier new,courier,monospace;"><small>The World Health Organization on Tuesday clarified martes &nbsp;once again &nbsp;its advice on ana sexual transmission of the Zika , saying mare that couples living in areas where it outsource is circulating should be offered contraception and percy counseling to help decide whether to become pinnacle pregnant. A spokeswoman said the &nbsp;made terminology the announcement to clear up earlier confusion speed over whether it was advising women to ritual avoid &nbsp;during the epidemic. The W.H.O. sild is not offering such advice, although, she documentation conceded, officials did appear to have said tradition as much in June. The W.H.O. also refinsance suggested that men and women who &nbsp;appetizer and return from areas with mosquito-borne Zika raise transmission practice protected &nbsp;or abstinence for excise six months. The advice to wait that husband long &nbsp;instead of eight weeks, the cynical previous limit &nbsp;is based on new smdoking evidence about the persistence of the &nbsp;executed in . Two men in Italy who andal had visited Haiti in January and February expert were recently foundm, </small></span></span></td>
+
+
+					</tr>
+
+
+				</tbody>
+
+
+			</table>
+
+
+			</td>
+
+
+		</tr>
+
+
+		<tr>
+
+
+			<td>
+
+
+			<p align="center" style="font-size:12px; color:#D0D0D0">&nbsp;</p>
+
+
+
+
+
+			<table align="center" border="0" font-size:="" helvetica="" line-height:="" style="line-height: 20.8px; box-sizing: border-box;">
+
+
+				<tbody style="box-sizing: border-box;">
+
+
+					<tr style="box-sizing: border-box;">
+
+
+						<td align="center" bgcolor="#FFFFFF" style="box-sizing: border-box;">
+
+
+						<p style="box-sizing: border-box;"><font color="#333333" face="arial" size="2" style="box-sizing: border-box;">This email went to bruce@untroubled.org. For no more from us,&nbsp;<a href="http://turn.ms-comz.win/Bgayohjk/AH9a5jf-BPFbepSl_GXnq7UL6mhyhXPN95o2ELcTDeBvGKRvJioVzOe88rXDl5J_bvo5-3hMkJJxUuoGYEVQ61A6dUabXGbBnblj1R41evLtFE83a6kja8hpV-w9NbavoFrmLsd1UrDFatY6QhIVfb.8IiPIZPnw0MCVCg8yxPmyzlVmLyb-DXMhTj03AacVJ_" rel="nofollow" style="box-sizing: border-box;" target="_blank">go here</a><br style="box-sizing: border-box;" />
+
+
+						Can also reach us by mail at&nbsp;<br style="box-sizing: border-box;" />
+
+
+						300 33RD AVE S STE 101 - WAITE PARK - MN 56387-4523</font></p>
+
+
+
+
+
+						<div>&nbsp;</div>
+
+
+						</td>
+
+
+					</tr>
+
+
+				</tbody>
+
+
+			</table>
+
+
+
+
+
+			<p align="center" style="font-size:12px; color:#D0D0D0">&nbsp;</p>
+
+
+			</td>
+
+
+		</tr>
+
+
+	</tbody>
+
+
+</table>
+
+
+
+
+</body>
+</html>

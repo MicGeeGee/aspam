@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Du=
+tf-8" />
+        <title>A Simple Responsive HTML Email</title>
+        <style type=3D"text/css">
+	        body {margin: 0; padding: 0; min-width: 100% !important;font-famil=
+y:Tahoma !important;}
+			.content {width: 100%; max-width: 600px;}
+			.content50{width: 100%; max-width: 295px;}
+        </style>
+    </head>
+    <body bgcolor=3D"#FFFFFF"><img src=3D"http://mg40.news4.bizweb.ro/gif/2=
+016091508060274b37dba2cb83d7fcbe0114732777cfd.gif" width=3D"5" height=3D"5">
+        <table width=3D"100%" bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0">
+            <tr>
+                <td>
+                    <table align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr>
+                            <td align=3D"center">
+                                <p>Dac=C4=83 nu vizualiza=C8=9Bi corect ace=
+st e-mail, click <a href=3D"http://mg40.news4.bizweb.ro/rewrite/MjAxNjA5MTU=
+wODA2MDI3NGIzN2RiYTJjYjgzZDdmY2JlMDExNDczMjc3N2NmZC0tMjA5Njc4MTkxMi9odHRwOi=
+8vbWc0MC5uZXdzNC5iaXp3ZWIucm8vaW5kZXgucGhwP21vZHVsZT1uZXdzbGV0dGVycHJldmlld=
+yZtc2dpZD0yMDE2MDkxNTA4MDYwMjc0YjM3ZGJhMmNiODNkN2ZjYmUwMTE0NzMyNzc3Y2Zk">ai=
+ci</a></p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr align=3D"center">
+                            <td style=3D"display:inline;" align=3D"center">
+                                <a href=3D"http://mg40.news4.bizweb.ro/rewr=
+ite/MjAxNjA5MTUwODA2MDI3NGIzN2RiYTJjYjgzZDdmY2JlMDExNDczMjc3N2NmZC0tMjA5Njc=
+4MTkxMi9odHRwOi8vd3d3LnByb21vcm9tLnJvLw=3D=3D" target=3D"_blank"><img width=
+=3D"235" style=3D"width: 100%; max-width: 234px;" src=3D"http://www.mailage=
+nt.ro/files/044a256103cadb/536f8f14d068c09/promoROM_1.png" alt=3D"Promorom =
+Logo"></a>
+                                <a href=3D"tel:0735511942"><img width=3D"16=
+5" style=3D"width: 100%; max-width: 164px;" src=3D"http://www.mailagent.ro/=
+files/044a256103cadb/536f8f14d068c09/promoROM_2.png" alt=3D"Promorom Phone"=
+></a>
+                                <a href=3D"mailto:office@promorom.ro?subjec=
+t=3DCere Oferta Personalizata"><img width=3D"200" style=3D"width: 100%; max=
+-width: 199px;" src=3D"http://www.mailagent.ro/files/044a256103cadb/536f8f1=
+4d068c09/promoROM_3.png" alt=3D"Promorom Mail"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr align=3D"center">
+                            <td align=3D"center">
+                                <a href=3D"http://mg40.news4.bizweb.ro/rewr=
+ite/MjAxNjA5MTUwODA2MDI3NGIzN2RiYTJjYjgzZDdmY2JlMDExNDczMjc3N2NmZC0tMjA5Njc=
+4MTkxMi9odHRwOi8vd3d3LnByb21vcm9tLnJvLw=3D=3D" target=3D"_blank"><img width=
+=3D"600" style=3D"width: 100%; max-width: 600px;" src=3D"http://www.mailage=
+nt.ro/files/044a256103cadb/536f8f14d068c09/promoROM_4.png" alt=3D"Promorom =
+Banner"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr align=3D"center">
+                            <td align=3D"center">
+                                <img width=3D"600" style=3D"width: 100%; ma=
+x-width: 600px;" src=3D"http://www.mailagent.ro/files/044a256103cadb/536f8f=
+14d068c09/promoROM_5.png" alt=3D"Promorom Text">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr align=3D"center">
+                            <td align=3D"center">
+                                <a href=3D"http://mg40.news4.bizweb.ro/rewr=
+ite/MjAxNjA5MTUwODA2MDI3NGIzN2RiYTJjYjgzZDdmY2JlMDExNDczMjc3N2NmZC0tMjA5Njc=
+4MTkxMi9odHRwOi8vd3d3LnByb21vcm9tLnJvLw=3D=3D" target=3D"_blank"><img width=
+=3D"600" style=3D"width: 100%; max-width: 600px;" src=3D"http://www.mailage=
+nt.ro/files/044a256103cadb/536f8f14d068c09/promoROM_6.png" alt=3D"Promorom =
+Text"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr align=3D"center">
+                            <td align=3D"center">
+                                <a href=3D"http://mg40.news4.bizweb.ro/rewr=
+ite/MjAxNjA5MTUwODA2MDI3NGIzN2RiYTJjYjgzZDdmY2JlMDExNDczMjc3N2NmZC0tMjA5Njc=
+4MTkxMi9odHRwOi8vd3d3LnByb21vcm9tLnJvL2NhdGFsb2ctcHJvZHVzZS90ZXh0aWxlLXNpLW=
+FjY2Vzb3JpaQ=3D=3D" target=3D"_blank"><img width=3D"600" style=3D"width: 10=
+0%; max-width: 600px;" src=3D"http://www.mailagent.ro/files/044a256103cadb/=
+536f8f14d068c09/promoROM_7.png" alt=3D"Promorom Text"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr align=3D"center">
+                            <td align=3D"center">
+                                <a href=3D"http://mg40.news4.bizweb.ro/rewr=
+ite/MjAxNjA5MTUwODA2MDI3NGIzN2RiYTJjYjgzZDdmY2JlMDExNDczMjc3N2NmZC0tMjA5Njc=
+4MTkxMi9odHRwOi8vd3d3LnByb21vcm9tLnJvL2NhdGFsb2ctcHJvZHVzZS9iaXJvdGljYQ=3D=
+=3D" target=3D"_blank"><img width=3D"600" style=3D"width: 100%; max-width: =
+600px;" src=3D"http://www.mailagent.ro/files/044a256103cadb/536f8f14d068c09=
+/promoROM_8.png" alt=3D"Promorom Text"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr align=3D"center">
+                            <td align=3D"center">
+                                <a href=3D"http://mg40.news4.bizweb.ro/rewr=
+ite/MjAxNjA5MTUwODA2MDI3NGIzN2RiYTJjYjgzZDdmY2JlMDExNDczMjc3N2NmZC0tMjA5Njc=
+4MTkxMi9odHRwOi8vd3d3LnByb21vcm9tLnJvL2NhdGFsb2ctcHJvZHVzZS9iaXJvdGljYQ=3D=
+=3D" target=3D"_blank"><img width=3D"600" style=3D"width: 100%; max-width: =
+600px;" src=3D"http://www.mailagent.ro/files/044a256103cadb/536f8f14d068c09=
+/promoROM_9.png" alt=3D"Promorom Text"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr align=3D"center">
+                            <td align=3D"center">
+                                <a href=3D"http://mg40.news4.bizweb.ro/rewr=
+ite/MjAxNjA5MTUwODA2MDI3NGIzN2RiYTJjYjgzZDdmY2JlMDExNDczMjc3N2NmZC0tMjA5Njc=
+4MTkxMi9odHRwOi8vd3d3LnByb21vcm9tLnJvL2NhdGFsb2ctcHJvZHVzZS9iaXJvdGljYQ=3D=
+=3D" target=3D"_blank"><img width=3D"600" style=3D"width: 100%; max-width: =
+600px;" src=3D"http://www.mailagent.ro/files/044a256103cadb/536f8f14d068c09=
+/promoROM_10.png" alt=3D"Promorom Text"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr align=3D"center">
+                            <td align=3D"center">
+                                <a href=3D"http://mg40.news4.bizweb.ro/rewr=
+ite/MjAxNjA5MTUwODA2MDI3NGIzN2RiYTJjYjgzZDdmY2JlMDExNDczMjc3N2NmZC0tMjA5Njc=
+4MTkxMi9odHRwOi8vd3d3LnByb21vcm9tLnJvL2NhdGFsb2ctcHJvZHVzZS9iaXJvdGljYQ=3D=
+=3D" target=3D"_blank"><img width=3D"600" style=3D"width: 100%; max-width: =
+600px;" src=3D"http://www.mailagent.ro/files/044a256103cadb/536f8f14d068c09=
+/promoROM_11.png" alt=3D"Promorom Text"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr align=3D"center">
+                            <td align=3D"center">
+                                <a href=3D"mailto:office@promorom.ro?subjec=
+t=3DCere Oferta Personalizata"><img width=3D"600" style=3D"width: 100%; max=
+-width: 600px;" src=3D"http://www.mailagent.ro/files/044a256103cadb/536f8f1=
+4d068c09/promoROM_12.png" alt=3D"Promorom Text"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr align=3D"center">
+                            <td align=3D"center">
+                                <img width=3D"600" style=3D"width: 100%; ma=
+x-width: 600px;" src=3D"http://www.mailagent.ro/files/044a256103cadb/536f8f=
+14d068c09/promoROM_13.png" alt=3D"Promorom Text">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr>
+                            <td align=3D"center">
+                                <p>Dac=C4=83 nu dori=C8=9Bi s=C4=83 mai pri=
+mi=C8=9Bi informa=C8=9Bii din partea Promorom, click <a href=3D"http://mg40=
+.news4.bizweb.ro/rewrite/MjAxNjA5MTUwODA2MDI3NGIzN2RiYTJjYjgzZDdmY2JlMDExND=
+czMjc3N2NmZC0tMjA5Njc4MTkxMi9odHRwOi8vd3d3Lm1haWxhZ2VudC5yby9pbmRleC5waHA/b=
+W9kdWxlPWFjdGl1bmkmbWV0aG9kPWludmFsaWRhdGVzdWJzY3JpcHRpb25kaXJlY3QmY29kPWU2=
+MjlmZmM5Njg1ODAzNWE4ZjlhZjU0NzZiNDA3M2FmJmlkX25ld3NsZXR0ZXI9MzIzODIz">aici<=
+/a></p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

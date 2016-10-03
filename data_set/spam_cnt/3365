@@ -1,0 +1,107 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+.content-link-sync-modal .db-modal .db-modal-content{background:white;border-radius:5px;border-top:0;padding:0}
+.content-link-sync-modal .db-modal .db-modal-content .content-link-sync-modal__content .content-link-sync-modal__top-panel{border-bottom:1px solid #d0d4d9;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding-bottom:1px}
+.content-link-sync-modal .db-modal .db-modal-content .content-link-sync-modal__content .content-link-sync-modal__top-panel .content-link-sync-modal__name-size{text-align:left}
+.content-link-sync-modal .db-modal .db-modal-content .content-link-sync-modal__content .content-link-sync-modal__top-panel .content-link-sync-modal__name-size h3{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;line-height:14px;margin-bottom:5px}
+.content-link-sync-modal .db-modal .db-modal-content .content-link-sync-modal__content .content-link-sync-modal__top-panel .content-link-sync-modal__name-size h4{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;font-size:13px;font-weight:normal;line-height:13px}
+.content-link-sync-modal .db-modal .db-modal-content .content-link-sync-modal__content .content-link-sync-modal__top-panel .content-link-sync-modal__close{height:32px;width:30px}
+.content-link-sync-modal .db-modal .db-modal-content .content-link-sync-modal__content .content-link-sync-modal__top-panel .content-link-sync-modal__close button.c-borderless-button{cursor:pointer;background-color:white;line-height:11px}
+.content-link-sync-modal .db-modal .db-modal-content .content-link-sync-modal__content .content-link-sync-modal__tip-panel{line-height:1.6em;margin-top:20px}
+.content-link-sync-modal .db-modal .db-modal-content .content-link-sync-modal__content .content-link-sync-modal__tip-panel .content-link-sync-modal__access-text{font-weight:600;font-size:14px;margin:20px 70px 10px}
+.content-link-sync-modal .db-modal .db-modal-content .content-link-sync-modal__content .content-link-sync-modal__tip-panel .content-link-sync-modal__shared-folder-text{font-weight:600;font-size:14px;margin:20px 40px 10px}
+.content-link-sync-modal .db-modal .db-modal-content .content-link-sync-modal__content .content-link-sync-modal__tip-panel .content-link-sync-modal__tip-body{color:#7b8994;margin:0 40px}
+.content-link-sync-modal .db-modal .db-modal-content .content-link-sync-modal__buttons .content-link-sync-modal__add-to-dropbox-button{width:300px}
+.content-link-sync-modal .db-modal .db-modal-content .content-link-sync-modal__buttons .content-link-sync-modal__or{color:#7b8994}
+.content-link-sync-modal .db-modal .db-modal-content .content-link-sync-modal__buttons .content-link-sync-modal__not-now-label{padding:8px 8px 0 3px}
+.content-link-sync-modal.exp-subgrowth-biz-upsell .db-modal{width:380px}
+.content-link-sync-modal.exp-subgrowth-biz-upsell .db-modal .c-avatar{width:64px;height:64px;font-size:26px}
+.content-link-sync-modal.exp-subgrowth-biz-upsell .db-modal .content-link-sync-modal__buttons .content-link-sync-modal__request-to-join-button{width:338px;margin-top:18px;height:46px}
+.content-link-sync-modal.exp-subgrowth-biz-upsell .db-modal .content-link-sync-modal__buttons .content-link-sync-modal__add-to-dropbox-button{width:338px;margin-top:4px;height:46px}
+.content-link-sync-modal.exp-subgrowth-biz-upsell .db-modal .content-link-sync-modal__buttons .content-link-sync-modal__not-now-label{margin-top:6px;margin-bottom:6px}
+.content-link-sync-modal.exp-subgrowth-biz-upsell .db-modal .content-link-sync-modal__loader{margin-top:20px;margin-bottom:20px}
+.token-container,.tokenized_autocompleter_container{display:block;position:relative;z-index:1}
+.token-container ::-webkit-scrollbar,.tokenized_autocompleter_container ::-webkit-scrollbar{-webkit-appearance:none;width:7px;height:7px}
+.token-container ::-webkit-scrollbar-thumb,.tokenized_autocompleter_container ::-webkit-scrollbar-thumb{border-radius:4px;background-color:rgba(0,0,0,0.5);-webkit-box-shadow:0 0 1px rgba(255,255,255,0.5)}
+.token-container .tokenizer,.tokenized_autocompleter_container .tokenizer{background:#fff;min-height:23px;max-height:300px;padding:0px 0px 3px 3px;width:auto;font-size:13px;line-height:1.6em;cursor:default;border-radius:3px}
+.token-container .tokenizer *,.tokenized_autocompleter_container .tokenizer *{cursor:default}
+.token-container .tokenizer input,.tokenized_autocompleter_container .tokenizer input{width:50%}
+.token-container .tokenizer .tokenizer_input,.token-container .tokenizer .token,.tokenized_autocompleter_container .tokenizer .tokenizer_input,.tokenized_autocompleter_container .tokenizer .token{float:left;margin-right:3px;margin-top:3px}
+.token-container .tokenizer .tokenizer_input,.tokenized_autocompleter_container .tokenizer .tokenizer_input{position:relative;max-width:450px;overflow:hidden;padding:1px 0px}
+.token-container .tokenizer .tokenizer_input .new-collab-input,.tokenized_autocompleter_container .tokenizer .tokenizer_input .new-collab-input{width:20px}
+.token-container .tokenizer .tokenizer_input input,.tokenized_autocompleter_container .tokenizer .tokenizer_input input{border:0px solid black;outline:0;font-size:13px;padding:0px 5px;margin:0 0 -1px 0;white-space:pre;cursor:text}
+.token-container .tokenizer .tokenizer_input label,.tokenized_autocompleter_container .tokenizer .tokenizer_input label{font-size:13px;position:absolute;left:2px;top:2px;cursor:text;pointer-events:none;color:#777;-webkit-transition:color 0.2s linear 0s;transition:color 0.2s linear 0s}
+.token-container .tokenizer .tokenizer_input.focused label,.tokenized_autocompleter_container .tokenizer .tokenizer_input.focused label{color:#ccc;-webkit-transition:color 0.2s linear 0s;transition:color 0.2s linear 0s}
+.token-container .tokenizer .tokenizer_input.populated label,.tokenized_autocompleter_container .tokenizer .tokenizer_input.populated label{display:none}
+.token-container .tokenizer .tokenizer_input_borderless,.tokenized_autocompleter_container .tokenizer .tokenizer_input_borderless{left:4px;margin-left:-1px;overflow:hidden;position:relative}
+.token-container .tokenizer .tokenizer_input_borderless .new-collab-input,.tokenized_autocompleter_container .tokenizer .tokenizer_input_borderless .new-collab-input{border:3px solid transparent !important;border-left:none;display:block;margin:-1px 3px 0px -2px;padding:0px !important}
+.token-container .tokenizer .tab_stop,.token-container .tokenizer .tokenizer_stretcher,.tokenized_autocompleter_container .tokenizer .tab_stop,.tokenized_autocompleter_container .tokenizer .tokenizer_stretcher{display:block;float:left;overflow:hidden;width:0px}
+.token-container .tokenizer .tab_stop,.tokenized_autocompleter_container .tokenizer .tab_stop{height:0px}
+.token-container .tokenizer .tab_stop input,.tokenized_autocompleter_container .tokenizer .tab_stop input{border:0px solid black;display:inline;position:relative;width:1px;height:1px;overflow:visible;left:-1500px}
+.token-container .tokenizer .tokenizer_stretcher,.tokenized_autocompleter_container .tokenizer .tokenizer_stretcher{padding-top:7px}
+.token-container .tokenizer div:-moz-first-node,.tokenized_autocompleter_container .tokenizer div:-moz-first-node{padding-top:1px !important}
+.token-container .import-contacts-link,.token-container .import-contacts-modal,.token-container .tokenizer-can-edit,.tokenized_autocompleter_container .import-contacts-link,.tokenized_autocompleter_container .import-contacts-modal,.tokenized_autocompleter_container .tokenizer-can-edit{background:none;height:21px;margin-top:-28px;position:absolute;right:10px}
+.token-container div.tokenizer-can-edit,.tokenized_autocompleter_container div.tokenizer-can-edit{margin-top:-32px}
+.carousel-app .token-container .tokenizer,.carousel-app .tokenized_autocompleter_container .tokenizer{padding:14px 24px 18px 24px;border:none;border-bottom:1px solid #e5e5e5;border-radius:0}
+.carousel-app .tokenized_autocompleter_container .import-contacts-link{margin-top:-41px;right:21px}
+.carousel-app .tokenized_autocompleter_container .tokenizer .tokenizer_input_borderless .new-collab-input{margin:1px 3px 0px -3px}
+.carousel-app .tokenized_autocompleter_container .tokenizer .tokenizer_input label{left:0px;top:3px;color:#929BA0}
+.carousel-app .tokenized_autocompleter_container .tokenizer{overflow-x:hidden;overflow-y:auto}
+</style>
+</head>
+
+<body>
+<br />
+<center><div style="max-width:511.11123px; font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-size:33px; color:#185FC3">
+<strong>Costco-Customer #14521492</strong>
+</div>
+</center>
+<br />
+<center><div style="max-width:511.11123px; font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-size:6px; background-color:#c3c3c3">
+<span style="color:#c3c3c3;">When Johnny got to town he started asking around about anyone who had seen a black boy but very few of the soldiers had Johnny finally got word of one locked up in a barn outside of town Johnny goes to the barn and Cush is the person locked up in there Johnny is told by the guard to go see the Colonel if he wants to take Cush home 
+</span>
+</div>
+</center>
+<br />
+<center><div style="max-width:511.11123px; font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-size:20px; color:#185FC3; padding:10px;">
+<a href="http://coaxan.coreprogramss.com">Thank you - we appreicate it</a><br />
+<br />
+<br />
+<a href="http://coaxan.coreprogramss.com"><p align="center" style="color: rgb(255, 255, 255) ; cursor: pointer ; display: inline ; font-family: myriad-pro, sans-serif ; font-size: 18px ; font-style: normal ; font-weight: 600 ; height: auto ; left: -8px ; line-height: 30px ; margin-left: 3px ; position: relative ; text-align: center ; width: auto ; -webkit-font-smoothing: antialiased ; background-color:#0001EE; padding:11px; border-radius:5px 5px 5px 5px; border-bottom:solid 5px #199F21">Print and bring in anytime this weekend</p></a></center>
+</div>
+</center>
+<br />
+<br />
+<center><div style="max-width:511.11123px; font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-size:6px; background-color:#c3c3c3">
+<span style="color:#c3c3c3;">When Johnny gets back to town he finds out that the Colonel has gone to sleep and that he will not be up until morning Because of this Johnny decides he should get some sleep as well Chapter  Summary
+Johnny woke up the next morning to the sound of more fighting He went by the courthouse but was informed that the Colonel had already left He goes to a house to see if anyone has any word of the Colonel 
+
+</span>
+</div>
+</center>
+<br /><br /><br /><br /><br /><br /><br />
+<center><div style="max-width:511.11123px; font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-size:13px; background-color:#F1F1F1">
+In a few days these will no longer arrive in your inbox by <a href="http://lercib.coreprogramss.com">requesting removal</a> now
+<br /><br />
+6752 S 200 E		Midvale	Ut	84047-1274
+<br /><br /><br /><br /><br />
+Removal from further updates will occur <a href="http://trargrin.coreprogramss.com">once you press this button</a>
+<br /><br />
+616 Corporate Way Ste.2-9092 Valley Cottage, NY 10989
+<br /><br />
+<span style="color:#F1F1F1;">
+e finds out that the Colonel has left but the master of the house Mr McLean gives Johnny breakfast Johnny finds out then that Generals Lee and Grant are coming to that house to sign a peace treaty He rushes out to the barn with this news in hopes of ing Cush He leaves his mules near the house since he figures there will not be much fighting there 
+<br />
+<img src="http://coew.coreprogramss.com/redirect.php?email=bruce@untroubled.org">
+<br />
+The soldiers are about to  Cush when Johnny arrives but he tells them that the war is over They initially do not believe Johnny but he is eventually able to convince them and they  Cush Cush and Johnny then sit and talk about the end of the war and how all men really are created equal
+Fifth Business Study Guide
+</span>
+</div>
+</center>
+</body>
+</html>

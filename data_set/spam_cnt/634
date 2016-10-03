@@ -1,0 +1,240 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>only vegetables</title>
+</head>
+<style> .mejs-controls .mejs-volume-button:hover {
+        -webkit-border-radius: 0 0 4px 4px;
+        -moz-border-radius: 0 0 4px 4px;
+        border-radius: 0 0 4px 4px;
+    }
+
+    /*
+.mejs-controls .mejs-volume-button:hover .mejs-volume-slider {
+	display: block;
+}
+*/
+    .mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-total {
+        position: absolute;
+        left: 11px;
+        top: 8px;
+        width: 2px;
+        height: 100px;
+        background: #ddd;
+        background: rgba(255, 255, 255, 0.5);
+        margin: 0;
+    }
+
+    .mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current {
+        position: absolute;
+        left: 11px;
+        top: 8px;
+        width: 2px;
+        height: 100px;
+        background: #ddd;
+        background: rgba(255, 255, 255, 0.9);
+        margin: 0;
+    }
+
+    .mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-handle {
+        position: absolute;
+        left: 4px;
+        top: -3px;
+        width: 16px;
+        height: 6px;
+        background: #ddd;
+        background: rgba(255, 255, 255, 0.9);
+        cursor: N-resize;
+        -webkit-border-radius: 1px;
+        -moz-border-radius: 1px;
+        border-radius: 1px;
+        margin: 0;
+    }
+
+/* horizontal version */
+.mejs-controls div.mejs-horizontal-volume-slider {
+    height: 26px;
+    width: 60px;
+    position: relative;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    position: absolute;
+    left: 0;
+    top: 11px;
+    width: 50px;
+    height: 8px;
+    margin: 0;
+    padding: 0;
+    font-size: 1px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background: #333;
+    background: rgba(50, 50, 50, 0.8);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(30, 30, 30, 0.8)), to(rgba(60, 60, 60, 0.8)));
+    background: -webkit-linear-gradient(top, rgba(30, 30, 30, 0.8), rgba(60, 60, 60, 0.8));
+    background: -moz-linear-gradient(top, rgba(30, 30, 30, 0.8), rgba(60, 60, 60, 0.8));
+    background: -o-linear-gradient(top, rgba(30, 30, 30, 0.8), rgba(60, 60, 60, 0.8));
+    background: -ms-linear-gradient(top, rgba(30, 30, 30, 0.8), rgba(60, 60, 60, 0.8));
+    background: linear-gradient(rgba(30, 30, 30, 0.8), rgba(60, 60, 60, 0.8));
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+    position: absolute;
+    left: 0;
+    top: 11px;
+    width: 50px;
+    height: 8px;
+    margin: 0;
+    padding: 0;
+    font-size: 1px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.9)), to(rgba(200, 200, 200, 0.8)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.9), rgba(200, 200, 200, 0.8));
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.9), rgba(200, 200, 200, 0.8));
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.9), rgba(200, 200, 200, 0.8));
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.9), rgba(200, 200, 200, 0.8));
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(200, 200, 200, 0.8));
+}</style>
+<body style="font-family:Georgia, Times, Times New Roman, serif">
+<p  style="color:#BF2C2F; font-size:43px; border-bottom:double #000000; padding-left:50px">You Must Only Eat This Vegetable</p>
+
+<center>
+<table style="display:inline-block; vertical-align:top; font-size:19px" width="46%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td valign="top">Take off 8 sizes and look great again
+<br><br>
+<div align="center" style="background-color:#F79FA2; padding:0px"><i style="color:#010101">ATTENTION: This works fast and with little effort</i></div>
+<br>
+I finally put the horror of being overweight by <a href="http://sinvem.fruitstohealth.com">eating this vegetable </a><br>
+<br><center>
+<a href="http://sinvem.fruitstohealth.com" style="speak-header:once;padding: default;margin-top: inherit;margin-top: none;columns:auto;text-align:normal;direction:ltr;border-image-outset: 0px;text-decoration: none;margin-bottom: inherit;padding-left: default;border-image-outset:0px;text-decoration:none"><span style="background-color:#E5121A; border-radius:50px; padding:7px; color:#fff">See the photos of my journey</span></a></center></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table style="display:inline-block" width="46%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><a href="http://sinvem.fruitstohealth.com"><img src="http://elot.fruitstohealth.com" width="250"></a></td>
+    </tr>
+  </tbody>
+</table>
+</center>
+
+<p style="border-bottom:double #000000">
+</p>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<table width="100%" border="0" cellspacing="15" cellpadding="0">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<p>Kindly <a href="http://sinar.fruitstohealth.com">request these to no longer be sent</a> when you let us know your preference<br>4221 Roxbury Dr	Valdosta	Ga	31605-7008
+</p>
+<p>Its important your happy and not bothered so please <a href="http://gonap.fruitstohealth.com">reqiest removal</a> from these if you wish to not get further<br>
+Ciudad Real	Vega Baja	Pr	00693-3646</p>
+<table width="100%" border="0" cellspacing="15" cellpadding="0">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+<br>
+<small style="text-align:justify">When she was about to start high school she learned about Crenshaw High Schools program for gifted students She took the bus to the school and was told that her IQ and her exam results were beyond the minimum requirements Her ss put her in the top five percentile of the nation The gifted magnet program of the school became Olivias refuge Her teachers and her classmates served as the family that she never had When she reached the tenth grade she became motivated to make  while she was studying so that she could buy herself some clothes She discovered that she was natural entrepreneur She sold candy bars at school and made as much as  per week However when the principal heard about this her business had to be shut down She turned to selling fire safety equipment doortodoor She got tired of living in a group home and decided to fend for herself The summer before junior year she had a fulltime job at a hotdog stand She didnt know how she could juggle a fulltime job and school at the same time 
+
+She decided to drop by Crenshaw and talk to the head of the gifted magnet program Scott Braxton He was a father figure in the eyes of Olivia He always went out of his way to help the students Braxton managed to bend the rules and let her attend classes in the morning and work in the afternoons and evenings However when she was laid off she had to return to another group home She obtained a fake ID and applied as a salesclerk at a womens clothing store Even if she was no longer a straightA student she was still eligible for college Midway through her junior year she got kicked out of her foster home She had no choice but to stay with her classmates family The Herrons were nice enough to apply for a foster certification so they could let Olivia stay at their home Halfway through her junior year she bought a  Volkswagen bug The Herron family forbade her from driving the car as she didnt have a license and insurance for it Olivia ended up running away from them Her senior year was very critical If she kept up and had amazing grades she could be eligible for a college scholarship Her teacher Toni Little was another adult that Olivia could trust Everyone dered if Olivia would be there when senior year started and if she would be present once Mr Little did roll call 
+Part  September</small>
+</body>
+</html>
+
+
+
+
+

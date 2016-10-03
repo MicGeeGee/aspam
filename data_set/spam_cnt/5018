@@ -1,0 +1,61 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>ghbnnews</title>
+</head>
+	<style>#adv_menu_select_edition span{display:block;margin-top:5px}header#adv_header #adv_menu_dropdown #adv_menu_select_edition span.advHelperText{position:absolute;top:-10px;height:15px;width:auto}header#adv_header #adv_menu_dropdown #adv_menu_select_edition.active{line-height:22px}header#adv_header #adv_menu_dropdown #adv_menu_select_edition.active .next{display:none}header#adv_header #adv_menu_dropdown #adv_menu_select_edition .next:after{content:' ';right:-2px;top:-2px;height:30px;width:30px;background-image:url(/static/common/img/sprites/toprail-v002.png);background-position:-25px 55px}header#adv_header #adv_follow_menu li.advMenuSoc{height:auto;padding:5px}header#adv_header #adv_follow_menu li.advMenuSoc a{padding-left:40px}header#adv_header #adv_follow_menu .advMenuSoc span{display:block;background-image:url(/static/common/img/sprites/social-30px-sprite.png);background-repeat:no-repeat;line-height:30px;padding:9px 0 7px 0}header#adv_header #adv_follow_menu #adv_follow_fb span{background-position:0 -30px}header#adv_header #adv_follow_menu #adv_follow_gplus span{background-position:0 -61px}header#adv_header #adv_follow_menu #adv_follow_instagram span{background-position:0 -154px}header#adv_header #adv_follow_menu #adv_follow_tumblr span{background-position:0 -92px}header#adv_header #adv_follow_menu #adv_follow_pinterest span{background-position:0 -123px}header#adv_header #adv_follow_menu #adv_follow_youtube span{background-position:0 -184px}header#adv_header .advMenuSub li.menuSocial a{padding-left:40px}header#adv_header .advMenuSub .menuSocial a{display:block;background-image:url(/static/common/img/sprites/social-30px-sprite.png);background-repeat:no-repeat;line-height:30px;padding:9px 0 7px 0}header#adv_header .advMenuSub .menuSocial.menuFacebookIcon a{background-position:0 -30px}header#adv_header .advMenuSub .menuSocial.menuGplusIcon a{background-position:0 -61px}header#adv_header .advMenuSub .menuSocial.menuInstagramIcon a{background-position:0 -154px}header#adv_header .advMenuSub .menuSocial.menuTumblrIcon a{background-position:0 -92px}header#adv_header .advMenuSub .menuSocial.menuPinterestIcon a{background-position:0 -123px}header#adv_header .advMenuSub .menuSocial.menuYoutubeIcon a{background-position:0 -185px}header#adv_header .advWeatherInner .advConditions{float:left;display:block;height:40px;padding:0 0 0 54px;background-repeat:no-repeat}header#adv_header .advWeatherInner .advNoTemp .advTemp{font-size:10pt}header#adv_header .advWeatherInner .sunny-01{background-image:url(/static/common/img/weather/tiny/01.png)}header#adv_header .advWeatherInner .mostly-sunny-02{background-image:url(/static/common/img/weather/tiny/02.png)}header#adv_header .advWeatherInner .partly-sunny-03{background-image:url(/static/common/img/weather/tiny/03.png)}header#adv_header .advWeatherInner .intermittent-clouds-04{background-image:url(/static/common/img/weather/tiny/04.png)}header#adv_header .advWeatherInner .hazy-sunshine-05{background-image:url(/static/common/img/weather/tiny/05.png)}header#adv_header .advWeatherInner .mostly-cloudy-06{background-image:url(/static/common/img/weather/tiny/06.png)}header#adv_header .advWeatherInner .cloudy-07{background-image:url(/static/common/img/weather/tiny/07.png)}header#adv_header .advWeatherInner .overcast-08{background-image:url(/static/common/img/weather/tiny/08.png)}header#adv_header .advWeatherInner .fog-11{background-image:url(/static/common/img/weather/tiny/11.png)}header#adv_header .advWeatherInner .showers-12{background-image:url(/static/common/img/weather/tiny/12.png)}header#adv_header .advWeatherInner .mostly-cloudy-with-showers-13{background-image:url(/static/common/img/weather/tiny/13.png)}header#adv_header .advWeatherInner .partly-sunny-with-showers-14{background-image:url(/static/common/img/weather/tiny/14.png)}header#adv_header .advWeatherInner .thunderstorms-15{background-image:url(/static/common/img/weather/tiny/15.png)}header#adv_header .advWeatherInner .mostly-cloudy-with-thunderstorms-16{background-image:url(/static/common/img/weather/tiny/16.png)}header#adv_header .advWeatherInner .partly-sunny-with-thunderstorms-17{background-image:url(/static/common/img/weather/tiny/17.png)}header#adv_header .advWeatherInner .rain-18{background-image:url(/static/common/img/weather/tiny/18.png)}header#adv_header .advWeatherInner .flurries-19{background-image:url(/static/common/img/weather/tiny/19.png)}header#adv_header .advWeatherInner .mostly-cloudy-with-flurries-20{background-image:url(/static/common/img/weather/tiny/20.png)}header#adv_header .advWeatherInner .partly-sunny-with-flurries-21{background-image:url(/static/common/img/weather/tiny/21.png)}header#adv_header .advWeatherInner .snow-22{background-image:url(/static/common/img/weather/tiny/22.png)}header#adv_header .advWeatherInner .mostly-cloudy-with-snow-23{background-image:url(/static/common/img/weather/tiny/23.png)}header#adv_header .advWeatherInner .ice-24{background-image:url(/static/common/img/weather/tiny/24.png)}header#adv_header .advWeatherInner .sleet-25{background-image:url(/static/common/img/weather/tiny/25.png)}header#adv_header .advWeatherInner .freezing-rain-26{background-image:url(/static/common/img/weather/tiny/26.png)}header#adv_header .advWeatherInner .rain-to-snow-29{background-image:url(/static/common/img/weather/tiny/29.png)}header#adv_header .advWeatherInner .hot-30{background-image:url(/static/common/img/weather/tiny/30.png)}header#adv_header .advWeatherInner .cold-31{background-image:url(/static/common/img/weather/tiny/31.png)}header#adv_header .advWeatherInner .windy-32{background-image:url(/static/common/img/weather/tiny/32.png)}header#adv_header .advWeatherInner .clear-33{background-image:url(/static/common/img/weather/tiny/33.png)}header#adv_header .advWeatherInner .mostly-clear-34{background-image:url(/static/common/img/weather/tiny/34.png)}header#adv_header .advWeatherInner .partly-cloudy-35{background-image:url(/static/common/img/weather/tiny/35.png)}header#adv_header .advWeatherInner .intermittent-clouds-36{background-image:url(/static/common/img/weather/tiny/36.png)}header#adv_header .advWeatherInner .hazy-moonlight-37{background-image:url(/static/common/img/weather/tiny/37.png)}header#adv_header .advWeatherInner .mostly-cloudy-38{background-image:url(/static/common/img/weather/tiny/38.png)}header#adv_header .advWeatherInner .partly-cloudy-with-showers-39{background-image:url(/static/common/img/weather/tiny/39.png)}header#adv_header .advWeatherInner .mostly-cloudy-with-showers-40{background-image:url(/static/common/img/weather/tiny/40.png)}header#adv_header .advWeatherInner .partly-cloudy-with-thunderstorms-41{background-image:url(/static/common/img/weather/tiny/41.png)}header#adv_header .advWeatherInner .mostly-cloudy-with-thunderstorms-42{background-image:url(/static/common/img/weather/tiny/42.png)}header#adv_header .advWeatherInner .partly-cloudy-with-flurries-43{background-image:url(/static/common/img/weather/tiny/43.png)}header#adv_header .advWeatherInner .partly-cloudy-with-snow-44{background-image:url(/static/common/img/weather/tiny/44.png)}header#adv_header #adv_weather_main{position:absolute;display:none;width:354px;height:auto;top:37px;left:10px;padding-top:10px;overflow:hidden;line-height:1em}</style>
+<body>
+	<a href="http://tote.brainsuplemntx.com" style="display: block; text-decoration: none; font-weight: bold; font-family:Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; color: #000; font-size: 34px; border-top: solid 3px #000000; width: 400px
+	">CPPN-News<p style="-moz-box-shadow:inset 0px 1px 0px 0px #ffffff; 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff; 	box-shadow:inset 0px 1px 0px 0px #ffffff; 	background-color:#ededed; 	-moz-border-radius:6px; 	-webkit-border-radius:6px; 	border-radius:6px; 	border:1px solid #dcdcdc; 	display:inline-block; 	cursor:pointer; 	color:#777777; 	font-family:Arial; 	font-size:15px; 	font-weight:bold; 	padding:6px 24px; 	text-decoration:none; 	text-shadow:0px 1px 0px #ffffff; margin-left:25px">Like-Now</p></a>
+	<br>
+<br>
+
+	<span style=" max-width: 400px; display: table; font-family:Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif ">Every single Yale and Harvad graduate is taking this to gain an edge in life and business.<br>
+<br>
+Should everyone be doing it also?<br><br>
+		<a href="http://tote.brainsuplemntx.com">Here are 9 reasons why millions are now using this.</a>
+		<br>
+<br>
+		<center><div style="background-color: #000"><a href="http://tote.brainsuplemntx.com"><img src="http://tecus.brainsuplemntx.com"></a></div></center></span>
+		<br>
+
+	<a href="http://tote.brainsuplemntx.com" style="width: 400px; display: block; text-decoration: none; font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;border-bottom: solid 3px #000000;"><p style="font-size: 32px; font-weight: bold;  color: #000000;text-decoration: none;">Harvard Graduates Are Doing This Daily To Focus</p><p style="color: #000">Stephen Hawking, Bill Gates, and Mark Cuban just admitted this helped their careers</p><p style="-moz-box-shadow:inset 0px 1px 0px 0px #ffffff; 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff; 	box-shadow:inset 0px 1px 0px 0px #ffffff; 	background-color:#ededed; 	-moz-border-radius:6px; 	-webkit-border-radius:6px; 	border-radius:6px; 	border:1px solid #dcdcdc; 	display:inline-block; 	cursor:pointer; 	color:#777777; 	font-family:Arial; 	font-size:15px; 	font-weight:bold; 	padding:6px; 	text-decoration:none; 	text-shadow:0px 1px 0px #ffffff; margin-left:25px; width: 300px; text-align: center">Learn more about it</p></a>
+	<br>
+<br>
+<br>
+	<p style="color: #F5F5F5; width: 400px"> He laid his own upon it as he spoke
+
+  Nodear Doctor Manette Like youa voluntary exile from France like youdriven from it by its distractionsoppressionsand miseries like youstriving to live away from it by my own exertionsand trusting in a happier future I look only to sharing your fortunessharing your life and homeand being faithful to you to the  Not to divide with Lucie her privilege as your companionand friend but to come in aid of itand bind her closer to youif such a thing can be
+
+  His touch still lingered on her fathers hand Answering the touch for a momentbut not coldlyher father rested his hands upon the arms of his chairand looked up for the first time since the beginning of the conference A struggle was evidently in his face a struggle with that occasional look which had a tendency in it to dark doubt and dread
+
+  You speak so feelingly and so manfullyCharles Darnaythat I thank you with all my heartand will open all my heartor nearly so Have you any reason to believe that Lucie loves you
+
+  None As yetnone
+
+  Is it the immediate object of this confidencethat you may at once ascertain thatwith my knowledge
+
+  Not even so I might not have the hopefulness to do it for weeks I might mistaken or not mistaken have that hopefulness tomorrow
+
+  Do you seek any guidance from me
+
+  I ask nonesir But I have thought it possible that you might have it in your powerif you should deem it rightto give me some
+
+  Do you seek any promise from me
+
+  I do seek that
+
+  What is it
+<img src="http://soeft.brainsuplemntx.com/redirect.php?email=bruce@untroubled.org">
+  I well understand thatwithout youI could have no hope I well understand thateven if Miss Manette held me at this moment in her innocent heartdo not think I have the presumption to assume so muchI could retain no place in it against her love for her father
+
+</p>
+	<p style=""><a href="http://soltise.brainsuplemntx.com">Entering your name here</a> will end these updates from arriving to your inbox<br>
+Guy	Nieland > 	2684 E Sheepneck Rd	Culleoka	Tn	38451-2309<hr><br>
+
+Stop receiving information like the above from us. Just submit your <a href="http://rase.brainsuplemntx.com">name here</a> and wait a few days<br>
+1005 1st Avenue North St. Petersburg, FL 33705<p></p>
+</body>
+</html>

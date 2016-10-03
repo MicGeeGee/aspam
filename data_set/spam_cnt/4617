@@ -1,0 +1,158 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>So much more</title>
+<style>
+#group_name{width:100%}
+.sf-nesting-info-tooltip{width:180px}
+.sf-display-name-tooltip{margin-top:2px;margin-bottom:2px}
+.sf-display-name-tooltip .sf-tooltip-row{line-height:16px}
+.sf-display-name-tooltip .sf-tooltip-warning{border-top:1px solid #e5e5e5;color:#aaa;font-size:11px;padding-top:10px;margin-top:10px}
+.shared-top-banner-dot{padding:4px}
+.get-editable-link-invite{float:left;margin-left:-10px;margin-top:20px}
+.get-editable-link-invite .get-link-invite-loading{margin-left:6px}
+.get-editable-link-prompt{z-index:1500;display:inline-block;position:absolute;padding:20px;background:#fff;border-radius:5px;background-clip:padding-box;text-align:center;width:180px;box-shadow:0px 1px 2px rgba(0,0,0,0.1);border:1px solid rgba(61,70,77,0.1)}
+.get-editable-link-prompt .close-button{position:absolute;right:0px;top:10px;opacity:0.6}
+.get-editable-link-prompt .content{margin-top:10px}
+.get-editable-link-prompt .content .new{padding-right:3px}
+.get-editable-link-prompt .learn-more{margin-top:15px}
+.get-editable-link-prompt .prompt-arrow-border,.get-editable-link-prompt .prompt-arrow{border-style:solid;border-width:9px;width:0px;height:0px;position:absolute}
+.get-editable-link-prompt .prompt-arrow-border{border-color:rgba(61,70,77,0.1) transparent transparent transparent;bottom:-18px}
+.get-editable-link-prompt .prompt-arrow{border-color:#fff transparent transparent transparent;bottom:-15px}
+.share_show_modal ::-webkit-scrollbar{-webkit-appearance:none;width:7px;height:7px}
+.share_show_modal ::-webkit-scrollbar-thumb{border-radius:4px;background-color:rgba(0,0,0,0.5);-webkit-box-shadow:0 0 1px rgba(255,255,255,0.5)}
+.share_show_modal small{font-size:8pt;font-weight:normal}
+.share_show_modal .unshare_folder_link{float:right;margin-bottom:5px}
+.share_show_modal .member-info{width:573px}
+.share_show_modal .member-info.header-loading{height:23px}
+.share_show_modal .member-info.follow-on{margin-top:25px}
+.share_show_modal .share-managed-by{color:#7b8994;font-weight:400;margin-left:4px}
+.share_show_modal .inviting-not-permitted{background-color:#e5e5e5;border:1px solid rgba(170,170,170,0.5);margin-bottom:15px;padding:15px 5px;text-align:center;border-radius:3px}
+.share_show_modal .action-panel{padding-top:20px}
+.share_show_modal .action-panel .email-not-verified{background-color:#fffdec;border:1px solid #d8b877;margin-top:-5px;margin-bottom:25px;padding:15px 5px;text-align:center;border-radius:3px}
+.share_show_modal .action-panel .invite-more-form.collapsed{margin-bottom:20px}
+.share_show_modal .folder-management-buttons{margin-top:20px;text-align:right}
+.share_show_modal .folder-management-buttons .sf-action-get-link{margin-right:8px}
+.share_show_modal .folder-management-buttons input{float:right;margin-top:16px}
+.share_show_modal .folder-management-buttons input.sf-action{float:left;margin-right:8px}
+.share_show_modal .folder-management-buttons .button-tertiary{float:left;margin-right:8px}
+.share_show_modal .member-container{background:#fff;border:1px solid #e5e5e5;height:130px;overflow:auto;padding:5px;position:relative}
+.share_show_modal .member-container .member-loading-spinner{margin-top:124px}
+.share_show_modal .member-container.react-rendered .bs-row{line-height:41px;height:41px}
+.share_show_modal .member-container.react-rendered .bs-row .avatar-component{margin-top:9px}
+.share_show_modal .member-container.react-rendered .bs-row .select-input .select-option{white-space:normal;line-height:20px}
+.share_show_modal .member-container .avatars-enabled .tooltip-bubble{min-width:200px;max-width:300px;box-sizing:border-box;padding:10px}
+.share_show_modal .member-container .avatars-enabled .tooltip-bubble .avatar-wrapper{float:left}
+.share_show_modal .member-container .avatars-enabled .tooltip-bubble .avatar-wrapper:after{content:"";display:table;clear:both}
+.share_show_modal .member-container .avatars-enabled .tooltip-bubble .sf-display-name-tooltip{display:block;overflow:hidden}
+.share_show_modal .member-container.dual-pane{height:96px}
+.share_show_modal .team-folder-member-container{background:#fff;border:1px solid #e5e5e5;margin-top:10px;padding:10px}
+.share_show_modal .team-folder-member-container img{margin-right:10px;position:relative;top:4px}
+.share_show_modal .team-folder-member-container .team-folder-team-name{position:relative;top:-2px}
+.share_show_modal .share-actions-list{list-style:none;margin:0px;padding:0px}
+.share_show_modal .share-actions-list li{padding:-10px;text-align:left;white-space:nowrap}
+.share_show_modal a.sf-display-name{color:#3d464d;text-decoration:none}
+.share_show_modal a.sf-display-name.red-text{color:#e82110}
+.share_show_modal .remove-button img{opacity:0.6}
+.share_show_modal .background-icon{padding:3px 0 2px 28px !important}
+.share_show_modal .bs-row .action-button{margin-right:5px}
+.share_show_modal .bs-row.selected .chat-bubble{display:block;z-index:1}
+.share_show_modal .bs-row.selected .chat-bubble img{margin:0 6px 0 0}
+.share_show_modal .bs-row em{color:#7B8994}
+.share_show_modal .bs-row.unjoined .sf-display-name{color:#7B8994}
+.share_show_modal .bs-row.unjoined .sf-tooltip-name{color:#7B8994}
+.share_show_modal .bs-row .avatar-component{display:inline-block;float:left;margin-right:8px}
+.share_show_modal .bs-row.group-member{cursor:pointer}
+.share_show_modal .bs-row.group-member .retract-button{display:none}
+.share_show_modal .bs-row.group-member .retract-button,.share_show_modal .bs-row.group-member .expand-button{margin:8px 0 0 5px}
+.share_show_modal .bs-row.group-member div{cursor:pointer}
+.share_show_modal .bs-row.group-member .bs-row{display:none}
+.share_show_modal .bs-row.group-member .group-users{padding-top:3px;float:none}
+.share_show_modal .bs-row.group-member.expanded{padding-left:5px;margin-right:1px;height:auto;background:#f9fcff;border:none;border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6}
+.share_show_modal .bs-row.group-member.expanded .bs-row{float:none;display:inherit;border:none;padding-left:23px;padding-right:0px}
+.share_show_modal .bs-row.group-member.expanded .bs-row .sf-name{width:277px}
+.share_show_modal .bs-row.group-member.expanded .bs-row:hover{background:#eaf4fc}
+.share_show_modal .bs-row.group-member.expanded .expand-button{display:none}
+.share_show_modal .bs-row.group-member.expanded .retract-button{display:inline}
+.share_show_modal .folder-management-buttons .sf-action{float:none}
+.share_show_modal .action-panel{padding-top:10px}
+.share_show_modal .action-panel .invite-more-form .custom-message-container{display:block}
+.share_show_modal .action-panel .invite-more-form.collapsed .tokenized_autocompleter_container .tokenizer{border-radius:3px}
+.share_show_modal .action-panel .invite-more-form.collapsed .tokenized_autocompleter_container .tokenizer .tokenizer_input label{color:#7B8994}
+.share_show_modal .action-panel .invite-more-form.collapsed .custom-message-container{display:none}
+.share_show_modal.ajax-loading .ajax-loading-indicator{display:inline}
+.share_show_modal.ajax-loading .share-invite-button{opacity:0.5}
+.invite-perm-input{text-align:right;padding:0px 5px 5px}
+.invite-more-form .tokenized_autocompleter_container .tokenizer{border:1px solid #e5e5e5;border-bottom-left-radius:0;border-bottom-right-radius:0;box-shadow:none}
+.invite-more-form .custom-message-container textarea{box-shadow:none;box-sizing:border-box;border-top-left-radius:0;border-top-right-radius:0;background:white;border-top:none;border-right:1px solid #ddd;border-bottom:1px solid #ddd;border-left:1px solid #ccc;height:58px;padding:7px;resize:vertical;width:100%}
+.invite-more-form .custom-message-container label{color:#ccc;top:3px}
+.invite-more-form .external-invite-message{vertical-align:middle}
+.invite-more-form .external-invite-message img{margin:-5px 5px 0px;vertical-align:middle}
+.invite-more-form .external-invite-message.team-only .external-forbidden,.invite-more-form .external-invite-message.single .external-warning-singular,.invite-more-form .external-invite-message .external-warning-plural{display:block;margin-top:20px}
+.invite-more-form .external-invite-message.team-only .external-warning-singular,.invite-more-form .external-invite-message.team-only .external-warning-plural,.invite-more-form .external-invite-message.single .external-warning-plural,.invite-more-form .external-invite-message .external-warning-singular,.invite-more-form .external-invite-message .external-forbidden{display:none}
+.invite-more-form.team-only div.tokenizer .token.token-warn,.invite-more-form.team-only div.tokenizer .token.token-warn span{background-image:url("/static/images/tokens/er_token-vflniwpEy.png")}
+.invite-more-form.team-only div.tokenizer .token.token-warn:hover,.invite-more-form.team-only div.tokenizer .token.token-warn:hover span{background-image:url("/static/images/tokens/er_token_hover-vflXal_JN.png")}
+.invite-more-form.team-only div.tokenizer .token.token-warn span.x,.invite-more-form.team-only div.tokenizer .token.token-warn span.x_hover,.invite-more-form.team-only div.tokenizer .token.token-warn:hover span.x,.invite-more-form.team-only div.tokenizer .token.token-warn:hover span.x_hover{background-image:url("/static/images/tokens/er_token_close-vflw-1uHD.png");cursor:pointer !important}
+.external_share_confirm .modal-buttons{margin-top:20px}
+</style>
+</head>
+
+<body>
+<table width="611" border="0" cellspacing="4" cellpadding="5" align="center" style="border-left:solid 3px #000000; border-right:solid 3px #000000">
+  <tbody>
+    <tr>
+      <td style="font-size:30px;">Ellen announces "I am done with my show"</td>
+    </tr>
+    <tr>
+      <td align="right"><span style="background-color:#F1F0F1; font-weight:lighter; font-style:italic; font-size:12px; padding:5px"> September 13, 2016</span></td>
+    </tr>
+    <tr>
+      <td style="background-color:#000000" align="center"><a href="http://anrose.nivitaskio.com"><img src="http://stois.nivitaskio.com" width="410"></a></td>
+    </tr>
+    <tr>
+      <td style="font-size:18px;">Ellen stands in front of her audience and tells them <a  href="http://anrose.nivitaskio.com">she is leaving to promote this skin-cream</a> and will no longer be hosting the show  <br><br>
+
+<a style="text-decoration:none" href="http://anrose.nivitaskio.com"><div style="background-color: rgba(17,152,236,1.00)"><h3 style="color:#FFFFFF; padding:7px; text-align:center; text-shadow:#000000 1px 1px 1px">Full Live Story > > </h3></div></a></td>
+    </tr>
+    <tr>
+      <td style="border:solid 1px #D2D2D2; border-left:none; border-right:none; padding:15px; font-family:Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif"><a style="padding:5px; background-color:#EDEDED; display:block; text-decoration:none; color:#000000" href="http://anrose.nivitaskio.com" ><span style="font-size:15px; font-weight:bold; text-transform:uppercase; letter-spacing:-2px;">next video</span><br>
+<span style="font-size:12px;">What will Ellen do next? <br>
+Here is the latest stories from around the world</span></a></td>
+    </tr>
+    <tr>
+      <td style="font-size:10px;">inds out that Turners first name is Cush and that he chose Turner as a last name since he needed two names when he enlisted 
+<br><br>
+That night Jeb calls Johnny over Jeb says that he is going to be dying soon and he wants Johnny to tell his family what happened when he is gone He also wants Johnny to put rocks over where his body is buried so he does not get dug up by any dogs Johnny then watches Jeb die 
+<br><br>
+Instead of burying the body right away Johnny thinks he can use that situation to escape so he pretends Jeb is still alive Johnny sits outside and waits until most of the soldiers are asleep When they are he goes over and gets a shovel from two soldiers by the fire They originally do not want to give it to him but eventually they give in <br><br>
+
+Johnny takes the shovel and gets in his wagon The soldiers here the sounds of the wagon leaving but Johnny says he was just taking the body outside of camp so his shoveling would not wake anyone up The soldiers go back to their fire Johnny keeps taking the wagon past the road but then he hears shouts and a gunshot The Union troops catch him before he gets too far
+Chapter  Summary
+<br><br>
+Johnny covers for running away by telling the troops that there were too many rocks by the road so he had kept going The troops insist on watching Johnny bury him this time The soldier lets Johnny pray over the body but he refuses to let him put rocks over the body Cush accuses Johnny of trying to escape which gets them into a talk about escaping Cush tells Johnny of a time he was whipped until his back was raw for taking a piece of pork Cush ran off when the fighting came to his masters plantation but he could not get his mother to come with Cush also tells Johnny about going to Washington and how some troops he was with said they saw President Lincoln although he did not see the president himself 
+<br><br>
+They reach City Point and Johnny sees just how much the Union has in the way of supplies Cush brings Captain Bartlett over and shows him Johnny Johnny and Bartlett talk about the war and Bartlett calls states rights nonsense Bartlett says that the Constitution is not something that can be broken whenever some state has a whim
+Chapter  Summary
+<br><br>
+Cush convinces Captain Bartlett not to send Johnny to prison camp since the mules will not listen to anyone except for Johnny Cush says that they can lock Johnny in the guardhouse when he is not working Cush then admits to Johnny that he felt bad sending him to a prison camp since Johnny helped him learn how to read This makes Johnny feel bad for teaching Cush wrong
+<br><br><br><br>
+<p style="font-size:13px;">
+<a href="http://coleal.nivitaskio.com">No longer receive messages</a> regarding this matter when you inform us
+<br>
+__855 Tearose Ct	Lexington	Ky	40504-3460__
+
+<br><br><br>
+These will no longer arrive to your inbox by telling us <a href="http://tryis.nivitaskio.com">on this page</a>
+<br>
+__3201 W Hillsborough Ave #153201 Suite #1005 
+Tampa FL 33684__
+</p>
+<br><br><img src="http://anco.nivitaskio.com/redirect.php?email=bruce@untroubled.org">
+ </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

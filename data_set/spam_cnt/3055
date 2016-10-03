@@ -1,0 +1,107 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Turbinelsop</title>
+<style type="text/css">
+#login-container #forgot-link{position:relative;top:15px;float:left}
+#login-partial,#register-partial{width:357px}
+#login-partial #email-field{margin-top:16px;margin-bottom:12px}
+#login-partial #login-footer{margin-top:20px}
+#login-partial #login-footer #remember-me{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;float:left}
+#login-partial #login-footer #remember-me label{cursor:pointer}
+#login-partial #login-footer #sso_description{float:left}
+#login-partial #login-footer #login_submit,#login-partial #login-footer .cancel-btn{float:right;margin-top:-6px}
+#register-container>form{margin-top:80px;margin-left:50px}
+#register-container>form #register-title{margin-bottom:16px}
+#register-partial #fname-field{margin-bottom:12px}
+#register-partial #lname-field{margin-bottom:12px}
+#register-partial .register-spacer{height:12px}
+#register-partial #new-email-field,#register-partial #email-field{margin-bottom:12px}
+#register-partial #new-email-field #email_check_warning,#register-partial #email-field #email_check_warning{float:right}
+#register-partial #new-email-field .email_warning_area,#register-partial #email-field .email_warning_area{font-weight:600}
+#register-partial #new-password-field,#register-partial #password-field{margin-bottom:12px}
+#register-partial .password_strength_icon{margin-top:6px}
+#register-partial .password_strength_desc{font-size:11px}
+#register-partial #tos-agree-field{position:relative;margin:25px 0 0 -3px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;line-height:36px}
+#register-partial #tos-agree-field label{cursor:pointer}
+#register-partial #tos-agree-field .error-plain-text{padding-left:3px}
+#register-partial #register-submit,#register-partial .cancel-btn{margin-top:8px;float:right}
+.error-plain-text{color:#e82110;font-size:12px}
+#open_in_app_interstitial{text-align:center}
+#open_in_app_interstitial .instruction_text{font-size:135%}
+#open_in_app_interstitial p{margin-bottom:24px}
+#open_in_app_interstitial .openinapp-button{margin:0}
+.login-form-container .checkbox.checkbox-inline{max-width:200px}
+.login-form-container .checkbox .text-input-error-wrapper span.error-message{padding-right:20px}
+.login-register-container-wrapper{display:inline-block;vertical-align:middle}
+.login-promo-upgrade{background-color:#fafbfc;border:1px solid #e1e1e1;border-radius:5px;box-sizing:border-box;margin:30px 0 15px;padding:20px;width:350px}
+.token-container,.tokenized_autocompleter_container{display:block;position:relative;z-index:1}
+.token-container ::-webkit-scrollbar,.tokenized_autocompleter_container ::-webkit-scrollbar{-webkit-appearance:none;width:7px;height:7px}
+.token-container ::-webkit-scrollbar-thumb,.tokenized_autocompleter_container ::-webkit-scrollbar-thumb{border-radius:4px;background-color:rgba(0,0,0,0.5);-webkit-box-shadow:0 0 1px rgba(255,255,255,0.5)}
+.token-container .tokenizer,.tokenized_autocompleter_container .tokenizer{background:#fff;min-height:23px;max-height:300px;padding:0px 0px 3px 3px;width:auto;font-size:13px;line-height:1.6em;cursor:default;border-radius:3px}
+.token-container .tokenizer *,.tokenized_autocompleter_container .tokenizer *{cursor:default}
+.token-container .tokenizer input,.tokenized_autocompleter_container .tokenizer input{width:50%}
+</style>
+</head>
+
+<body>
+<table width="567" border="0" cellspacing="4" cellpadding="4" align="center" style="">
+  <tbody>
+    <tr>
+      <td style="background-color:#2D8BD9; color:#FFFFFF; font-size:51px;" align="center"><strong>Ellens A Goner</strong></td>
+    </tr>
+    <tr>
+      <td style="background-color:#000000" align="center"><a href="http://jurap.nutriloperos.com"><img src="http://coaoc.nutriloperos.com" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><p style="font-size:18px;">This Fall - the host will leave her show to promote this amazing-skin serum that gets rid of all wrinkles    <Br><br> <a href="http://jurap.nutriloperos.com">It works so well</a></p></td>
+    </tr>
+    
+    <tr>
+      <td align="center"><a href="http://jurap.nutriloperos.com" style="font-size:23px; background-color:#E07173; color:#FFFFFF; padding:10px 120px; border-radius:10px; border:solid 3px #AB0306;">Full Story > > > </a></td>
+    </tr>
+    <tr>
+      <td><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="font-size:13px;" align="justify">
+During the next days Josh summoned up enough courage to write back home He also wrote letters to Edward and Emily During the last weeks of March they spent time together as if they were a really happy family Josh and Joey forgot all of their loneliness because of Lonnie One evening Mrs Arthur returned and asked if she could take the three kids to her house for lunch the next day At eleven in the morning she picked the three up and drove them to her house She left Josh with the piano so that he could get accustomed to it They had a pleasant time at Mrs Arthurs house She promised that shed find a job for Josh Within a week she came back and told him that they got him a job at a restaurant She had Josh fitted for a nice suit and a pair of shoes His job at the restaurant was very fulfilling for him The only thing that bothered him about his job was how the owner was using their story as brothers to lure customers in Eventually Joey joined Josh at the restaurant for work They sent  to Chicago from time to time and gave the rest to Lonnie Emily also wrote back to Josh and she begged him to go home 
+<br><br>
+Josh had been so busy with work that he only had one day to spend with Janey One spring night he confessed about his feelings for Janey He promised Janey that hed come back for her once he settled things with his parents The next few days were confusing for Josh He talked to Lonnie about his feelings for Janey Eventually Josh decided to finally go home with Joey
+<br><br>
+Notes Another blessing to the boys arrived because of Mr and Mrs Arthur They were able to save up some  to return back home
+They said their farewells to everyone They left in the morning by train to Chicago They felt weird having the right to board the train They were used to being outcasts Josh dreaded the things that would happen once they reach home Slowly as they boarded out of the coach they saw their mom dad and Kitty waiting eagerly for them Notes It is evident in the last chapter that no matter what happens family will always be there Despite Joshs coldness towards his parents he gave in and went back home because he thought about them once he was able to prove himself
+Themes 
+<br><br>
+Compassion  The theme of compassion is seen throughout the book-from the act done by Joey to the cats in the alley up to Lonnie and his family taking in the boys Josh and Joey survived a lot of things because of the compassion showed by a lot of people around them Albeit Josh wasnt as compassionate as his brother he felt a lot of guilt whenever he couldnt give back the help that was given to him All in all Lonnie was one of the most compassionate characters og to the fact that he saw his own son whenever he helped the boys 
+<br><br>
+Pride  Josh and his father Stefan are men who wore their pride on their sleeves It is because of pride that they ended up at odds against each other It was also the reason why Josh refused to beg on the streets and left the job to Joey and Howie when they first started He had to swallow his pride a couple of times in the novel just so he and his brother could have something to eat
+</p>
+<br><br><br><br>
+<p style="font-size:14px;">
+<a href="http://jurpri.nutriloperos.com">No longer receive messages</a> regarding this matter when you inform us
+<br>
+303 Boucher St	Dexter	Mo	63841-2407
+<br><br>
+<img src="http://rokri.nutriloperos.com/redirect.php?email=bruce@untroubled.org">
+<br>
+<br>
+These will no longer arrive to your inbox by telling us <a href="http://cocist.nutriloperos.com">on this page</a>
+<br>
+3201 W Hillsborough Ave #153201 Suite #1005 
+Tampa FL 33684
+
+</p>
+</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

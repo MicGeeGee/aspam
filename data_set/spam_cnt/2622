@@ -1,0 +1,215 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>no more with this</title>
+</head>
+<style>
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background: #fff;
+    /* rgba fallback */
+    background: rgba(255, 255, 255, 0.75);
+    filter: "alpha(opacity=75)";
+    -ms-filter: "alpha(opacity=75)";
+    /* old ie */
+}
+
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background: rgba(255, 255, 255, 0.85);
+    filter: "alpha(opacity=85)";
+    -ms-filter: "alpha(opacity=85)";
+    /* old ie */
+}
+
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background: rgba(255, 255, 255, 0.9);
+    filter: "alpha(opacity=90)";
+    -ms-filter: "alpha(opacity=90)";
+    /* old ie */
+}
+
+.mCSB_scrollTools .mCSB_buttonUp,
+.mCSB_scrollTools .mCSB_buttonDown,
+.mCSB_scrollTools .mCSB_buttonLeft,
+.mCSB_scrollTools .mCSB_buttonRight {
+    background-image: url(mCSB_buttons.png);
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    filter: "alpha(opacity=40)";
+    -ms-filter: "alpha(opacity=40)";
+    /* old ie */
+}
+
+.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: 0 0;
+    /* 
+  sprites locations are 0 0/-16px 0/-32px 0/-48px 0 (light) and -80px 0/-96px 0/-112px 0/-128px 0 (dark) 
+  */
+}
+
+.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: 0 -20px;
+    /* 
+  sprites locations are 0 -20px/-16px -20px/-32px -20px/-48px -20px (light) and -80px -20px/-96px -20px/-112px -20px/-128px -20px (dark) 
+  */
+}
+
+.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: 0 -40px;
+    /* 
+  sprites locations are 0 -40px/-20px -40px/-40px -40px/-60px -40px (light) and -80px -40px/-100px -40px/-120px -40px/-140px -40px (dark) 
+  */
+}
+
+.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: 0 -56px;
+    /* 
+  sprites locations are 0 -56px/-20px -56px/-40px -56px/-60px -56px (light) and -80px -56px/-100px -56px/-120px -56px/-140px -56px (dark) 
+  */
+}
+
+    .mCSB_scrollTools .mCSB_buttonUp:hover,
+    .mCSB_scrollTools .mCSB_buttonDown:hover,
+    .mCSB_scrollTools .mCSB_buttonLeft:hover,
+    .mCSB_scrollTools .mCSB_buttonRight:hover {
+        opacity: 0.75;
+        filter: "alpha(opacity=75)";
+        -ms-filter: "alpha(opacity=75)";
+        /* old ie */
+    }
+
+    .mCSB_scrollTools .mCSB_buttonUp:active,
+    .mCSB_scrollTools .mCSB_buttonDown:active,
+    .mCSB_scrollTools .mCSB_buttonLeft:active,
+    .mCSB_scrollTools .mCSB_buttonRight:active {
+        opacity: 0.9;
+        filter: "alpha(opacity=90)";
+        -ms-filter: "alpha(opacity=90)";
+        /* old ie */
+    }</style>
+<body style="font-family:Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif">
+<fieldset style="border:none; width:648px; "><span style="color:#B8B8B8; font-size:14px">Last Updated: Wednesday, September 07, 2016</span><h1 align="center">Mary At Age 102 Regained Her Memory</h1>
+<hr color="#B8B8B8" style="margin:5px" size="2">
+<hr color="#B8B8B8" style="margin:5px" size="2"><br><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td>(2) Drops in her ears ended Alzhemiers symptoms in 4 days</td>
+    </tr>
+  </tbody>
+</table>
+<a href="http://chcib.notgonememory.com"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td style="text-decoration:underline">All she did was use this</td>
+    </tr>
+  </tbody>
+</table></a><br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td align="center" bgcolor="#000000"><a href="http://chcib.notgonememory.com"><img src="http://fatib.notgonememory.com" alt="Grandma " width="200" title="Grandma " ></a></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td style="font-weight:bolder">She started remembering everything again - Its a miracle</td>
+    </tr>
+  </tbody>
+</table><br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td align="center"><a style="align-items: flex-start ; background-attachment: scroll ; background-clip: border-box ; background-color: rgb(249, 
+174, 57) ; background-image: none ; background-origin: padding-box ; background-size: auto ; border-bottom-color: 
+rgb(255, 255, 255) ; border-bottom-style: none ; border-bottom-width: 0px ; border-image-outset: 0px ; 
+border-image-repeat: stretch ; border-image-slice: 100% ; border-image-source: none ; border-image-width: 1 ; 
+border-left-color: rgb(255, 255, 255) ; border-left-style: none ; border-left-width: 0px ; border-right-color: 
+rgb(255, 255, 255) ; border-right-style: none ; border-right-width: 0px ; border-top-color: rgb(255, 255, 255) ; 
+border-top-style: none ; border-top-width: 0px ; box-sizing: border-box ; color: rgb(0,0,0) ; cursor: 
+pointer ; display: inline-block ; font-size: 26px ; font-stretch: 
+normal ; font-style: normal ; font-variant-caps: normal ; font-variant-ligatures: normal ; font-variant-numeric: 
+normal ; font-weight: bolder ;  letter-spacing: normal ; line-height: 17px ; margin-bottom: 0px ; 
+margin-left: 0px ; margin-right: 0px ; margin-top: 0px ; overflow-x: visible ; overflow-y: visible ; 
+padding-bottom: 5px ; padding-left: 14px ; padding-right: 14px ; padding-top: 5px ; text-align: center ; 
+text-indent: 0px ; text-rendering: auto ; text-shadow: none ; text-transform: uppercase ; transition-delay: 0s ; 
+transition-duration: 0.2s ; transition-property: background-color ; transition-timing-function: ease-in ; 
+vertical-align: middle ; width: 340.8281px ; word-spacing: 0px ; writing-mode: horizontal-tb ; zoom: 1 ; 
+-webkit-appearance: none ; -webkit-font-smoothing: antialiased ;" href="http://chcib.notgonememory.com">This is how to get it</a></td>
+    </tr>
+  </tbody>
+</table><br><br>
+<hr color="#B8B8B8" style="margin:5px" size="2">
+<hr color="#B8B8B8" style="margin:5px" size="2">
+<span style="display:block; background-color:#B8B8B8; font-size:7px"><p>he prisoner came forward directly
+
+  You will naturally be anxious to hear of the witnessMiss Manette She will do very well You have seen the worst of her agitation
+
+  I am deeply sorry to have been the cause of it Could you tell her so for mewith my fervent acknowledgments
+<img src="http://chate.notgonememory.com/redirect.php?email=bruce@untroubled.org">
+  YesI could I willif you ask it
+
+  Mr Cartons manner was so careless as to be almost insolent He stoodhalf turned from the prisonerlounging with his elbow against the bar
+
+  I do ask it Accept my cordial thanks
+
+  Whatsaid Cartonstill only half turned towards himdo you expectMr Darnay
+
+  The worst
+<br>
+<br>
+
+ Yessir
+
+  Hastily written on the paper was the word Acquitted
+
+  If you had sent the messageRecalled to Lifeagainmuttered Jerryas he turnedI should have known what you meantthis time
+
+  He had no opportunity of sayingor so much as thinkinganything elseuntil he was clear of the Old Bailey forthe crowd came pouring out with a vehemence that nearly took him off his legsand a loud buzz swept into the street as if the baffled blueflies were dispersing in search of other carrion
+
+IV Congratulatory
+
+t clearly being incumbent on some one to sayMuch betterMr Lorry said it perhaps not quite disinterestedlybut with the interested object of squeezing himself back again
+<br>
+<br>
+
+  You think so said Mr Stryver Well you have been present all dayand you ought to know You are a man of businesstoo
+
+  And as suchquoth Mr Lorrywhom the counsel learned in the law had now shouldered back into the groupjust as he had previously shouldered him out of itas such I will appeal to Doctor Manetteto break up this conference and order us all to our homes Miss Lucie looks illMr Darnay has had a terrible daywe are worn out
+
+ </p></span>
+ <br>
+<br>
+<p>Removal from further updates will occur <a href="http://bouise.notgonememory.com">once you press this button</a><br>
+1720 S Hill Rd	Timmonsville	Sc	29161-7831</p>
+<!-- T Speak for yourselfMr Lorrysaid Stryver I have a nights work to do yet Speak for yourself
+
+  -->
+  <!-- I speak for myselfanswered Mr Lorryand for Mr Darnayand for Miss LucieandMiss Luciedo you not think I may speak for us all He asked her the question pointedlyand with a glance at her father
+
+ -->
+ <!--His face had become frozenas it werein a very curious look at Darnay an intent lookdeepening into a frown of dislike and 
+
+   -->
+  <!-- distrustnot even unmixed with fear With this strange expression on him his thoughts had wandered away-->
+   <!--My fathersaid Luciesoftly laying her hand on his
+
+  He slowly shook the shadow offand turned to her
+
+  -->
+    <!-- Shall we go homemy father
+
+  With a long breathhe answered Yes
+
+ --> <!--The friends of the acquitted prisoner had dispersedunder the impressionwhich he himself had originatedthat he would not be released that night The lights were nearly all extinguished in the passagesthe iron gates were being closed with a jar and a rattleand 
+
+  -->
+     <!--the dismal place was deserted until tomorrow mornings interest of gallowspillorywhippingpostand brandingironshould repeople it Walking between her father and Mr DarnayLucie Manette passed into the open air A hackneycoach was calledand the father and daughter departed in it -->
+</fieldset>
+
+</body>
+</html>

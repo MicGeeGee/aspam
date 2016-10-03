@@ -1,0 +1,175 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Codewise</title>
+<style>
+.shmodel-butiol.shmodel-album.anonymous-album #content-wrapper #album-top-bar .album-info .album-name{padding-bottom:0px;margin-top:2px}
+.shmodel-butiol.shmodel-album.anonymous-album #content-wrapper #album-top-bar .album-info .album-desc{display:none}
+.shmodel-butiol.shmodel-album.anonymous-album #content-wrapper #album-top-bar .album-buttons{margin-top:0px}
+.shmodel-butiol.shmodel-album #outer-frame{padding-top:0}
+.shmodel-butiol.shmodel-album #gallery-list-toggle{display:none}
+.shmodel-butiol.shmodel-album .nav-header{position:static;box-shadow:none}
+.shmodel-butiol.shmodel-album .nav-header .buttons a.freshbutton-lightblue,.shmodel-butiol.shmodel-album .nav-header .buttons a.freshbutton-blue{display:none !important}
+.shmodel-butiol.shmodel-album .nav-header:before{display:none}
+.shmodel-butiol.shmodel-album #content-wrapper{width:100%;padding:0;margin:auto}
+.shmodel-butiol.shmodel-album .gallery-view-section{border:none;padding:0;margin:0}
+.shmodel-butiol.shmodel-album #gallery-view-media{padding:0}
+.shmodel-butiol.shmodel-album #gallery-view-media li{background-color:#fff;width:256px;height:256px;line-height:256px;border:none;box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1)}
+.shmodel-butiol.shmodel-album #gallery-view-media li img.thumbnail{width:256px;height:256px}
+.nav-header:before{content:"";display:block;position:absolute;bottom:-1px;left:0px;width:100%;zpadding-bottom:12px;height:1px;z-index:10}
+#shmodel-owner{color:#7b8994}
+.shmodel-butiol #page-content .folder_preview{margin:20px auto;width:800px;padding:5px 30px;background-color:#FFF}
+.shmodel-butiol #page-content .shmodel-comments #file-comments{position:fixed;right:0;top:51px;bottom:0}
+.shmodel-butiol #page-content .gremo{margin-top:9px;margin-bottom:20px;padding:10px;border-radius:3px}
+.shmodel-butiol #page-content .gallery-wrapper{position:relative}
+.shmodel-butiol #page-content #gallery-view{margin:2em 0 0}
+.shmodel-butiol #page-content .sh_header{padding:0 6px}
+.shmodel-butiol #page-content .sh_header *{float:left}
+.shmodel-butiol #page-content .sh_header .filename{width:53%}
+.shmodel-butiol #page-content .sh_header .filesize{width:23%}
+.shmodel-butiol #page-content ol.browse-files{-webkit-padding-start:0px;padding-left:0;margin-left:0}
+.shmodel-butiol #page-content #lightbox_delete_link{display:none}
+@media only screen and (-webkit-min-device-pixel-ratio:1.1){.nav-header .logo img.small{display:none}
+.nav-header .logo img.big{display:inline}
+}
+.shmodel-butiol.mobile #modal-behind{width:460px !important}
+.shmodel-butiol.mobile #modal{width:440px !important;margin-left:-220px !important}
+.shmodel-butiol.mobile #page-content .nav-header .filename,.shmodel-butiol.mobile #page-content .nav-header #account-header{display:none}
+.shmodel-butiol.mobile #page-content #content-wrapper{width:400px}
+.shmodel-butiol.mobile #page-content #content-wrapper #list-view-container .browse-file:first-child,.shmodel-butiol.mobile #page-content #content-wrapper #gallery-view-container .browse-file:first-child{border-width:0 0 0 0}
+.shmodel-butiol.mobile #page-content #content-wrapper #list-view-container #list-view-header,.shmodel-butiol.mobile #page-content #content-wrapper #list-view-container .filesize-col,.shmodel-butiol.mobile #page-content #content-wrapper #list-view-container .modified-col,.shmodel-butiol.mobile #page-content #content-wrapper #gallery-view-container #list-view-header,.shmodel-butiol.mobile #page-content #content-wrapper #gallery-view-container .filesize-col,.shmodel-butiol.mobile #page-content #content-wrapper #gallery-view-container .modified-col{display:none}
+.shmodel-butiol.mobile #page-content #content-wrapper #list-view-container .filename-col,.shmodel-butiol.mobile #page-content #content-wrapper #gallery-view-container .filename-col{width:100%}
+.shmodel-butiol.mobile.file-preview-butiol .filename-below{display:inline-block}
+@media only screen and (max-width:700px){.nav-header .filename,.nav-header #account-header{display:none}
+}
+#shmodel-promo-modal{text-align:center}
+#shmodel-promo-modal #shmodel-promo-header{margin:0;font-size:26px;font-weight:bold}
+#shmodel-promo-modal #shmodel-promo-subheader{color:#888;font-size:18px;font-weight:normal}
+#shmodel-promo-modal #shmodel-promo-table{margin:auto}
+#shmodel-promo-modal #shmodel-promo-table td{padding:0 8px}
+#shmodel-promo-modal #shmodel-promo-table td .shmodel-promo-desc{margin:-15px auto 0 auto;width:200px}
+#modal #shmodal-title,.db-modal #shmodal-title{padding-right:39px;text-align:right}
+#modal #shmodal-title #shmodal-title-text,.db-modal #shmodal-title #shmodal-title-text{text-align:left;float:left}
+#modal #shmodal-title .freshtoggle,.db-modal #shmodal-title .freshtoggle{display:inline-block;vertical-align:middle;float:none}
+#modal #shmodal-title .freshtoggle img,#modal #shmodal-title .freshtoggle .sprite,.db-modal #shmodal-title .freshtoggle img,.db-modal #shmodal-title .freshtoggle .sprite{display:block}
+#modal .bottom-row,.db-modal .bottom-row{width:576px}
+#modal .shmodal-image,.db-modal .shmodal-image{display:block;width:98px;height:98px;line-height:98px;margin:1px 16px 0 1px;text-align:center;font-size:0}
+#modal .shmodal-image.thumbnail,.db-modal .shmodal-image.thumbnail{background-color:#f6f6f6;border-radius:2px;box-shadow:0 0 1px #000}
+#modal .shmodal-image img,.db-modal .shmodal-image img{max-width:98px;max-height:98px;vertical-align:middle;border-radius:2px}
+#modal #shmodal-send-content #shmodal-send-form table,.db-modal #shmodal-send-content #shmodal-send-form table{border-spacing:0px}
+#modal #shmodal-send-content #shmodal-send-form table td,.db-modal #shmodal-send-content #shmodal-send-form table td{padding:0;vertical-align:top}
+#modal #shmodal-send-content #shmodal-send-form #shmodal-send-form-inputs,.db-modal #shmodal-send-content #shmodal-send-form #shmodal-send-form-inputs{width:459px}
+#modal #shmodal-send-content #shmodal-send-form #shmodal-send-form-inputs .tokenizer,.db-modal #shmodal-send-content #shmodal-send-form #shmodal-send-form-inputs .tokenizer{border:1px solid #e5e5e5;border-bottom-left-radius:0;border-bottom-right-radius:0}
+#modal #shmodal-send-content #shmodal-send-form #shmodal-send-form-inputs .custom-message-container,.db-modal #shmodal-send-content #shmodal-send-form #shmodal-send-form-inputs .custom-message-container{z-index:0}
+#modal #shmodal-send-content #shmodal-send-form #shmodal-send-form-inputs .custom-message-container textarea,.db-modal #shmodal-send-content #shmodal-send-form #shmodal-send-form-inputs .custom-message-container textarea{height:58px;padding:5px 7px 3px 7px;border-top:none;border-right:1px solid #e5e5e5;border-left:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;border-top-left-radius:0;border-top-right-radius:0;box-shadow:none}
+#modal #shmodal-send-content #shmodal-send-form #shmodal-send-form-inputs .custom-message-container label,.db-modal #shmodal-send-content #shmodal-send-form #shmodal-send-form-inputs .custom-message-container label{top:3px;color:#ccc}
+#modal #shmodal-send-content #shmodal-copy-link,.db-modal #shmodal-send-content #shmodal-copy-link{margin-left:7px}
+#modal #shmodal-fb-content .fb-post-sickinput input,.db-modal #shmodal-fb-content .fb-post-sickinput input{padding:4px 5px 5px 7px;width:560px;border-bottom-left-radius:0;border-bottom-right-radius:0}
+#modal #shmodal-fb-content .fb-post-sickinput label,.db-modal #shmodal-fb-content .fb-post-sickinput label{top:5px}
+#modal #shmodal-fb-content #shmodal-fb-post-preview,.db-modal #shmodal-fb-content #shmodal-fb-post-preview{background:#fff;width:566px;padding:3px;border:1px solid #e5e5e5;border-top:none;border-radius:3px;border-top-left-radius:0;border-top-right-radius:0}
+#modal #shmodal-fb-content #shmodal-fb-post-preview .link-image,.db-modal #shmodal-fb-content #shmodal-fb-post-preview .link-image{height:54px;vertical-align:top}
+#modal #shmodal-fb-content #shmodal-fb-post-preview .link-image img,.db-modal #shmodal-fb-content #shmodal-fb-post-preview .link-image img{max-width:54px;max-height:54px;vertical-align:middle}
+#modal #shmodal-fb-content #shmodal-fb-post-preview .link-info,.db-modal #shmodal-fb-content #shmodal-fb-post-preview .link-info{padding-left:5px;color:#000;line-height:1.5em}
+#modal #shmodal-fb-content #shmodal-fb-post-preview .link-info .link-name,.db-modal #shmodal-fb-content #shmodal-fb-post-preview .link-info .link-name{font-weight:600;font-size:14px}
+#modal #shmodal-fb-content #shmodal-fb-post-preview .link-info .link-domain,.db-modal #shmodal-fb-content #shmodal-fb-post-preview .link-info .link-domain{font-size:12px}
+#modal #shmodal-twitter-content table,.db-modal #shmodal-twitter-content table{border-spacing:0px}
+#modal #shmodal-twitter-content table td,.db-modal #shmodal-twitter-content table td{padding:0;vertical-align:top}
+#modal #shmodal-twitter-content #shmodal-twitter-post-preview #shmodal-twitter-profile,.db-modal #shmodal-twitter-content #shmodal-twitter-post-preview #shmodal-twitter-profile{margin-top:-4px;margin-bottom:9px}
+#modal #shmodal-twitter-content #shmodal-twitter-post-preview .twitter-post-sickinput,.db-modal #shmodal-twitter-content #shmodal-twitter-post-preview .twitter-post-sickinput{height:100px}
+#modal #shmodal-twitter-content #shmodal-twitter-post-preview .twitter-post-sickinput textarea,.db-modal #shmodal-twitter-content #shmodal-twitter-post-preview .twitter-post-sickinput textarea{width:445px;height:86px;padding:6px}
+#modal #shmodal-twitter-content #shmodal-twitter-post-preview .twitter-post-sickinput label,.db-modal #shmodal-twitter-content #shmodal-twitter-post-preview .twitter-post-sickinput label{top:5px}
+#modal #shmodal-twitter-content #shmodal-twitter-post-preview .twitter-post-sickinput.shrank,.db-modal #shmodal-twitter-content #shmodal-twitter-post-preview .twitter-post-sickinput.shrank{padding-top:2px;height:53px}
+#modal #shmodal-twitter-content #shmodal-twitter-post-preview .twitter-post-sickinput.shrank textarea,.db-modal #shmodal-twitter-content #shmodal-twitter-post-preview .twitter-post-sickinput.shrank textarea{height:43px}
+#modal #shmodal-twitter-content #twitter-chars,.db-modal #shmodal-twitter-content #twitter-chars{padding-right:11px}
+#shmodel-features{text-align:center}
+#shmodel-features h1{margin:0;color:#000;font-size:40px}
+#shmodel-features h2{padding:0;color:#888;font-size:17px;font-weight:normal}
+#shmodel-features #try-now{margin-top:36px;margin-bottom:-48px}
+#shmodel-features .amazingbox{width:835px;margin-top:60px}
+#shmodel-features #shmodel-feature-set{width:100%;margin-top:36px;text-align:center}
+#shmodel-features #shmodel-feature-set td{padding-left:23px}
+#shmodel-features #shmodel-feature-set .feature-image{float:left;margin:5px 9px 46px}
+#shmodel-features #shmodel-feature-set .feature-image.folderlink{padding-right:6px}
+#shmodel-features #shmodel-feature-set .feature-image.lightning{margin-right:2px}
+#shmodel-features #shmodel-feature-set .desc{text-align:left;line-height:1.6em;width:270px}
+#shmodel-features #shmodel-feature-set .desc h3{color:#000;font-size:16px;font-weight:normal}
+#shmodel-features #how-to{width:960px;margin-top:48px;margin-left:-1000px;padding-left:1000px;padding-right:1000px;text-align:left;line-height:1.6em}
+#shmodel-features #how-to h3{color:#000;font-size:22px;font-weight:normal}
+#shmodel-features #how-to #how-to-screenshots{width:100%;margin-top:24px}
+#shmodel-features #how-to #how-to-screenshots .shmodel-screenshot{width:274px;text-align:right}
+#shmodel-features #how-to #how-to-screenshots .shmodel-screenshot .caption{margin-top:-7px;font-size:11px;color:#8fa7ba}
+#shmodel-features #how-to #how-to-screenshots .shmodel-screenshot.left{float:left}
+#shmodel-features #how-to #how-to-screenshots .shmodel-screenshot.middle{margin:auto}
+#shmodel-features #how-to #how-to-screenshots .shmodel-screenshot.right{float:right}
+#shmodel-features #online-viewing{margin-top:50px}
+</style>
+</head>
+
+<body>
+<p style="font-size:11px; font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; letter-spacing:2px; color:#808080" align="center">Last Updated: Tuesday, September 13, 2016</p>
+<table width="601" border="0" cellspacing="5" cellpadding="5" align="center" style="border:double 8px #D1D1D1; border-radius:5px;">
+  <tbody>
+    <tr>
+      <td><div style="background-color:#204B8B; font-size:31px; color:#FFFFFF; padding:5px;">Patty At Age 101 Regained Her-Memory</div></td>
+    </tr>
+    <tr>
+      <td style="font-size:23px;">(2) Drops in her ears ended Alzhemiers-symptoms in 4 days</td>
+    </tr>
+    <tr>
+      <td><table width="100%" border="0" cellspacing="5" cellpadding="5">
+  <tbody>
+    <tr>
+      <td style="font-size:23px;"><strong>She started remembering everything again - Its a an amazing miracle</strong><br /><br />
+      <center>
+<a href="http://vedei.restoreallsmem.com" style="background-attachment: scroll ; background-clip: border-box ; background-color: #DD4548 ; background-image: none ; background-origin: padding-box ; background-size: auto ; border-bottom-color: rgb(255, 255, 255) ; border-bottom-style: none ; border-bottom-width: 0px ; border-image-outset: 0px ; border-image-repeat: stretch ; border-image-slice: 100% ; border-image-source: none ; border-image-width: 1 ; border-left-color: rgb(255, 255, 255) ; border-left-style: none ; border-left-width: 0px ; border-right-color: rgb(255, 255, 255) ; border-right-style: none ; border-right-width: 0px ; border-top-color: rgb(255, 255, 255) ; border-top-style: none ; border-top-width: 0px ; box-sizing: border-box ; color: rgb(255, 255, 255) ; cursor: auto ; display: block ; float: center ; font-family: Helvetica Neue, Helvetica, Arial, sans-serif ; font-size: 20px ; font-stretch: normal ; font-style: normal ; font-variant-caps: normal ; font-variant-ligatures: normal ; font-variant-numeric: normal ; font-weight: normal ; height: 34px ; line-height: 14px ; margin-bottom: 0px ; margin-left: 0px ; margin-right: 0px ; margin-top: 0px ; padding-bottom: 10px ; padding-left: 16px ; padding-right: 16px ; padding-top: 10px ; position: relative ; text-decoration: none ; transition-delay: 0s ; transition-duration: 0.2s ; transition-property: background ; transition-timing-function: linear ; vertical-align: baseline ; width: 290.875px ;">This is how to get it</a></center></td>
+      <td><a href="http://vedei.restoreallsmem.com"><img width="150" src="http://ninei.restoreallsmem.com" alt="She does it " title="She does it back" ></a></td>
+    </tr>
+  </tbody>
+</table>
+</td>
+    </tr>
+    <tr>
+      <td style="background-color:#D1D1D1; padding:1px; margin:1px; line-height:10px; font-size:9px;"><span style="color:#D1D1D1;">Despite being banned by his mother from seeing Mrs Dempster Dunstan continues to visit her in secret Even if she is disheveled and lonely she still has an air of calmness around her She doesnt feel any resentment or judgment about her situation Dunstan finds her attitude about it saintlike Dunstan drowns himself in reading to keep his mind away from Mrs Dempster Percy Boyd Staunton begins seeing a beautiful girl named Leola Cruikshank One day he is caught cheating on Leola with Mabel Heighington a girl who is said to have loose morals Mrs Heighington grows angry with this but Percys father pays her for her daughters chastity Leola forgives Percy and he gets sent away to Colborne College for Boys where Dunstan spends most of his academic career 
+
+Willie Dunnys older brother gets sick of an unspecified condition One day he stops breathing in front of Dunny With no one else at home Dunny runs for help Instead of seeking help from a doctor he runs to Mary Dempster Mary prays over Dunnys brother who suddenly starts breathing again This is the first miracle that Dunstans saint showcases He tells people that this is a miraculous resurrection but the doctor and the rest of the town thinks hes foolish </span></td>
+    </tr>
+    <tr>
+      <td><br />
+<br />
+</td>
+    </tr>
+   <tr>
+      <td><br />
+<br />
+</td>
+    </tr>
+    <tr>
+      <td><br />
+<br />
+</td>
+    </tr>
+    <tr>
+      <td><p align="right" style="font-size:12px;">
+      These will no longer arrive to your inbox by telling us <a href="http://vedde.restoreallsmem.com">on this page</a>
+      <br />
+      Mckinney	Nieland > 	202 Luxury Ln	Reno	Nv	89502-5921
+      <br /><br />
+
+      </p></td>
+    </tr>
+    <tr>
+      <td align="center"><div><div><div><div><img src="http://triai.restoreallsmem.com/redirect.php?email=bruce@untroubled.org"></div></div></div></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
+
+
+
+

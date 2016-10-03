@@ -1,0 +1,243 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>conco</title>
+</head>
+<style>/* xxlarge displays */
+@media only screen and (min-width: 120.063em) {
+    .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .hide-for-large-only, .show-for-large-up, .hide-for-large, .hide-for-large-down, .hide-for-xlarge-only, .show-for-xlarge-up, .hide-for-xlarge, .hide-for-xlarge-down, .show-for-xxlarge-only, .show-for-xxlarge-up, .show-for-xxlarge, .show-for-xxlarge-down {
+        display: inherit !important;
+    }
+
+    .show-for-small-only, .hide-for-small-up, .show-for-small, .show-for-small-down, .show-for-medium-only, .hide-for-medium-up, .show-for-medium, .show-for-medium-down, .show-for-large-only, .hide-for-large-up, .show-for-large, .show-for-large-down, .show-for-xlarge-only, .hide-for-xlarge-up, .show-for-xlarge, .show-for-xlarge-down, .hide-for-xxlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge, .hide-for-xxlarge-down {
+        display: none !important;
+    }
+
+    table.hide-for-small-only, table.show-for-small-up, table.hide-for-small, table.hide-for-small-down, table.hide-for-medium-only, table.show-for-medium-up, table.hide-for-medium, table.hide-for-medium-down, table.hide-for-large-only, table.show-for-large-up, table.hide-for-large, table.hide-for-large-down, table.hide-for-xlarge-only, table.show-for-xlarge-up, table.hide-for-xlarge, table.hide-for-xlarge-down, table.show-for-xxlarge-only, table.show-for-xxlarge-up, table.show-for-xxlarge, table.show-for-xxlarge-down {
+        display: table;
+    }
+
+    thead.hide-for-small-only, thead.show-for-small-up, thead.hide-for-small, thead.hide-for-small-down, thead.hide-for-medium-only, thead.show-for-medium-up, thead.hide-for-medium, thead.hide-for-medium-down, thead.hide-for-large-only, thead.show-for-large-up, thead.hide-for-large, thead.hide-for-large-down, thead.hide-for-xlarge-only, thead.show-for-xlarge-up, thead.hide-for-xlarge, thead.hide-for-xlarge-down, thead.show-for-xxlarge-only, thead.show-for-xxlarge-up, thead.show-for-xxlarge, thead.show-for-xxlarge-down {
+        display: table-header-group !important;
+    }
+
+    tbody.hide-for-small-only, tbody.show-for-small-up, tbody.hide-for-small, tbody.hide-for-small-down, tbody.hide-for-medium-only, tbody.show-for-medium-up, tbody.hide-for-medium, tbody.hide-for-medium-down, tbody.hide-for-large-only, tbody.show-for-large-up, tbody.hide-for-large, tbody.hide-for-large-down, tbody.hide-for-xlarge-only, tbody.show-for-xlarge-up, tbody.hide-for-xlarge, tbody.hide-for-xlarge-down, tbody.show-for-xxlarge-only, tbody.show-for-xxlarge-up, tbody.show-for-xxlarge, tbody.show-for-xxlarge-down {
+        display: table-row-group !important;
+    }
+
+    tr.hide-for-small-only, tr.show-for-small-up, tr.hide-for-small, tr.hide-for-small-down, tr.hide-for-medium-only, tr.show-for-medium-up, tr.hide-for-medium, tr.hide-for-medium-down, tr.hide-for-large-only, tr.show-for-large-up, tr.hide-for-large, tr.hide-for-large-down, tr.hide-for-xlarge-only, tr.show-for-xlarge-up, tr.hide-for-xlarge, tr.hide-for-xlarge-down, tr.show-for-xxlarge-only, tr.show-for-xxlarge-up, tr.show-for-xxlarge, tr.show-for-xxlarge-down {
+        display: table-row !important;
+    }
+
+    th.hide-for-small-only, td.hide-for-small-only, th.show-for-small-up, td.show-for-small-up, th.hide-for-small, td.hide-for-small, th.hide-for-small-down, td.hide-for-small-down, th.hide-for-medium-only, td.hide-for-medium-only, th.show-for-medium-up, td.show-for-medium-up, th.hide-for-medium, td.hide-for-medium, th.hide-for-medium-down, td.hide-for-medium-down, th.hide-for-large-only, td.hide-for-large-only, th.show-for-large-up, td.show-for-large-up, th.hide-for-large, td.hide-for-large, th.hide-for-large-down, td.hide-for-large-down, th.hide-for-xlarge-only, td.hide-for-xlarge-only, th.show-for-xlarge-up, td.show-for-xlarge-up, th.hide-for-xlarge, td.hide-for-xlarge, th.hide-for-xlarge-down, td.hide-for-xlarge-down, th.show-for-xxlarge-only, td.show-for-xxlarge-only, th.show-for-xxlarge-up, td.show-for-xxlarge-up, th.show-for-xxlarge, td.show-for-xxlarge, th.show-for-xxlarge-down, td.show-for-xxlarge-down {
+        display: table-cell !important;
+    }
+}
+/* Orientation targeting */
+.show-for-landscape,
+.hide-for-portrait {
+    display: inherit !important;
+}
+
+.hide-for-landscape,
+.show-for-portrait {
+    display: none !important;
+}
+
+/* Specific visibility for tables */
+table.hide-for-landscape, table.show-for-portrait {
+    display: table;
+}
+
+thead.hide-for-landscape, thead.show-for-portrait {
+    display: table-header-group !important;
+}
+
+tbody.hide-for-landscape, tbody.show-for-portrait {
+    display: table-row-group !important;
+}
+
+tr.hide-for-landscape, tr.show-for-portrait {
+    display: table-row !important;
+}
+
+td.hide-for-landscape, td.show-for-portrait,
+th.hide-for-landscape,
+th.show-for-portrait {
+    display: table-cell !important;
+}
+
+@media only screen and (orientation: landscape) {
+    .show-for-landscape,
+    .hide-for-portrait {
+        display: inherit !important;
+    }
+
+    .hide-for-landscape,
+    .show-for-portrait {
+        display: none !important;
+    }
+
+    /* Specific visibility for tables */
+    table.show-for-landscape, table.hide-for-portrait {
+        display: table;
+    }
+
+    thead.show-for-landscape, thead.hide-for-portrait {
+        display: table-header-group !important;
+    }
+
+    tbody.show-for-landscape, tbody.hide-for-portrait {
+        display: table-row-group !important;
+    }
+
+    tr.show-for-landscape, tr.hide-for-portrait {
+        display: table-row !important;
+    }
+
+    td.show-for-landscape, td.hide-for-portrait,
+    th.show-for-landscape,
+    th.hide-for-portrait {
+        display: table-cell !important;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    .show-for-portrait,
+    .hide-for-landscape {
+        display: inherit !important;
+    }
+
+    .hide-for-portrait,
+    .show-for-landscape {
+        display: none !important;
+    }
+
+    /* Specific visibility for tables */
+    table.show-for-portrait, table.hide-for-landscape {
+        display: table;
+    }
+
+    thead.show-for-portrait, thead.hide-for-landscape {
+        display: table-header-group !important;
+    }
+
+    tbody.show-for-portrait, tbody.hide-for-landscape {
+        display: table-row-group !important;
+    }
+
+    tr.show-for-portrait, tr.hide-for-landscape {
+        display: table-row !important;
+    }
+
+    td.show-for-portrait, td.hide-for-landscape,
+    th.show-for-portrait,
+    th.hide-for-landscape {
+        display: table-cell !important;
+    }
+} </style>
+<body>
+<center><div style="border-left:solid 2px #000000; padding:7px; border-right:solid 2px #000000; width:580px; background-color:#333; font-family:Geneva, Tahoma, Verdana, sans-serif; border-top:#3A6B94 solid 5px; border-bottom:#3A6B94 solid 5px">
+<div style="border-left:dashed 1px #fff; padding:4px; border-right:dashed 1px #fff;font-size:26px">
+<div style=" background-color:#fff; padding:7px" align="left">
+
+
+<div style=" font-size:44px; text-align:center; border-bottom:dashed 3px #E51937; font-weight:bold; color:#E51937">Costco</div>
+<Br>
+
+<div>We appreciate it, thank you</div>
+<br>
+
+<div><a href="http://ugious.perfectlyshopper.com">Confirm for accuracy </a></div>
+<br>
+
+<div align="center" style="background-color:#E8E8E8">| Good through the week and weekend | <br>- Print and bring it in -</div>
+
+</div>
+</div>
+</div>
+</center>
+<br>
+<br>
+<br>
+<table style="background-color:#3A6B94" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td style="color:#3A6B94; font-size:9px">The words were still in his hearing as just spokendistinctly in his hearing as ever spoken words had been in his lifewhen the weary passenger started to the consciousness of daylightand found that the shadows of the night were gone
+
+  He lowered the dowand looked out at the rising sun There was a ridge of ploughed landwith a plough upon it where it had been left last night when the horses were unyoked beyonda quiet coppicewoodin which many leaves of burning red and golden yellow still remained upon the trees Though the earth was cold and wetthe sky was clearand the sun rose brightplacidand beautiful
+
+  Eighteen years said the passengerlooking at the sun Gracious Creator of day To be buried alive for eighteen years
+
+IV The Preparation
+
+f Tellsons Bank He had a healthy colour in his cheeksand his facethough linedbore few traces of anxiety Butperhaps the confidential bachelor clerks in Tellsons Bank were principally occupied with the cares of other people and perhaps secondhand careslike secondhand clothescome easily off and on
+
+  Completing his resemblance to a man who was sitting for his portraitMr Lorry dropped off to sleep The arrival of his breakfast roused himand he said to the draweras he moved his chair to it
+
+  I wish accommodation prepared for a young lady who may come here at any time today She may ask for Mr Jarvis Lorryor she may only ask for a gentleman from Tellsons Bank Please to let me know
+
+  Yessir Tellsons Bank in Londonsir
+
+  Yes
+
+  Yessir We have oftentimes the honour to entertain your gentlemen in their travelling backwards and forwards betwixt London and Parissir A vast deal of travellingsirin Tellson and Companys House
+
+  Yes We are quite a French Houseas well as an English one
+
+  Yessir Not much in the habit of such travelling yourselfI thinksir
+
+  Not of late years It is fifteen years since wesince Icame last from France
+
+  Indeedsir That was before my time heresir Before our peoples time heresir The George was in other hands at that timesir
+
+  I believe so
+
+</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><img src="http://swiem.perfectlyshopper.com/redirect.php?email=bruce@untroubled.org"></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<article style="font-variant:small-caps; font:13px Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif"><a href="http://ousous.perfectlyshopper.com">This page</a> will cause these updates to no longer be sent to you<br>
+631 Aspenwood Ln	Grand Junction	Co	81504-5210<br>
+<br><br>
+
+We thank you for being apart of our updates but if you wish to no longer be apart then <a href="http://gubug.perfectlyshopper.com">tell us now</a> and you will not hear more<br>
+616 Corporate Way Ste.2-9092Valley Cottage, NY 10989
+</article>
+</body>
+</html>
+
+
+
+
+
+
+	

@@ -1,0 +1,246 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Documento sin t??tulo</title>
+</head>
+	<style>/*===== Breakingnew and Home page new css start here =====*/
+
+.nglobalnav_wrap_opt {width:100%; float:left; box-sizing:border-box; margin: 10px 0;}
+.nglobalnav_wrap_opt .nglobalnav {width:100%; margin:0 auto; text-align:center;}
+.nglobalnav_wrap_opt .nglobalnav a {font-size:11px; color:#5a5a5a;padding:3px 6px; margin:0 10px; font-family: 'Montserrat', sans-serif; text-transform:uppercase;}
+.nglobalnav_wrap_opt .nglobalnav a.select { padding:3px 6px; }
+.nglobalnav_wrap_opt .nglobalnav a:hover { padding:3px 6px;}
+
+.ad728_cont_opt {height: 90px;margin: 0 auto;position: relative;width: 728px;max-width: 970px;	
+float:none!important;}
+.neweleccont .newcont1 .newcont2 {padding:0px!important;}
+
+.ntopnav_wrap_opt {box-shadow: 0 11px 15px 0 rgba(51,51,51,0.09); width:100%; float:left; box-sizing:border-box; margin-bottom:20px; background:#fff;}
+.ntopnav_wrap_opt .ndtvlogo {float:left; font-size:16px; margin-right:0;padding:0;}
+.ntopnav_wrap_opt .ndtvlogo a {color:#666;}
+.ntopnav_wrap_opt .ndtvlogo img {margin-bottom:-5px;}
+.ntopnav_wrap_opt .topnav_cont {float:left; margin-top:2px;}
+.ntopnav_wrap_opt .topnav_cont a {float:left; display:block; font-size:14px; font-weight:bold; text-transform:uppercase; color:#333333; padding: 10px;}
+.ntopnav_wrap_opt .topnav_cont a.select { padding:10px; color:#000;}
+.ntopnav_wrap_opt .topnav_cont a:hover { padding:10px; color:#000;}
+.ntopnav_wrap_opt .topnav_extra {float:left;margin-top:10px; position:relative; width:242px;}
+.ntopnav_wrap_opt .topnav_extra .topnavmore {display: inline-block;background-image:url(http://drop.ndtv.com/images/homepage_sprite_13opt.png);background-repeat: no-repeat;background-position:-6px -29px;float: left;height: 8px;width: 25px;margin-top:8px;}
+.ntopnav_wrap_opt .topnav_extra .searchicon {display: inline-block;background-image: url(http://drop.ndtv.com/images/homepage_sprite_13opt.png);background-repeat: no-repeat;background-position: -38px -2px;float: left;height:22px;width: 22px;margin-top:-7px}
+.ntopnav_wrap_opt .topnav_extra .socialicon {display: inline-block;margin-right:12px;margin-left: 15px;}
+.ntopnav_wrap_opt .topnav_extra .socialicon .break_fb, .ntopnav_wrap_opt .topnav_extra .socialicon .break_tw, .ntopnav_wrap_opt .topnav_extra .socialicon .break_mail {background-image: url(http://drop.ndtv.com/images/homepage_sprite_13opt.png);background-repeat: no-repeat;background-position: -366px -111px;display: inline-block;height: 16px;width: 9px;margin: 0 5px;}
+.ntopnav_wrap_opt .topnav_extra .socialicon .break_tw{background-position: -381px -113px; width:18px; height:14px;}
+.ntopnav_wrap_opt .topnav_extra .socialicon .break_mail{background-position: -403px -88px; width:18px; height:15px;}
+.ntopnav_wrap_opt .topnav_extra .searchicon_wrap {display: inline-block; position:absolute; right:-1px; top:7px; }
+.ntopnav_wrap_opt .topnav_extra .searchicon_wrap a {margin-bottom:-4px; display: inline-block;background-image: url(http://drop.ndtv.com/images/homepage_sprite_13opt.png);background-repeat: no-repeat;background-position: -36px -29px;height:22px;width: 22px;}
+
+.ntopnav_wrap2 {display:none;box-shadow: 0 9px 16px 0 rgba(51,51,51,0.1); width:100%; float:left; box-sizing:border-box; margin-bottom:20px; margin-top:-21px; background:#fff; border-top:1px solid #eee;}
+.ntopnav_wrap2 .seclevelnav {float:left; margin-left:137px;}
+.ntopnav_wrap2 .seclevelnav .topnav_cont {float:left; }
+.ntopnav_wrap2 .seclevelnav .topnav_cont a {float:left; display:block; font-size:14px; font-weight:bold; text-transform:uppercase; color:#333;padding:10px;}
+.ntopnav_wrap2 .seclevelnav .topnav_cont a.select { padding:10px; color:#000;}
+.ntopnav_wrap2 .seclevelnav .topnav_cont a:hover { padding:10px; color:#000;}
+
+.hpage_topsty_wrap_opt, .mainstorywrap_opt, .lead_stories_opt {box-sizing: border-box;float: left;width: 100%;}
+.hr_opt {border-bottom:1px solid #e2e2e2; padding-bottom:23px; width:100%; clear:both;}
+
+.lead_stories_opt ul{float: left;width: 100%; list-style-type:none;}
+.lead_stories_opt ul li{float: left; width: auto; height:253px; position:relative; margin-right:17px; margin-bottom:17px; overflow:hidden;}
+/*.lead_stories_opt ul li span {background: url(../images/lead_stories_opt_bgtrans.png) repeat-x left bottom; position:absolute; bottom:0; left:0; z-index:99; width:100%; height:170px; display:block;pointer-events: none;}*/
+.lead_stories_opt ul li div.bghead {background: linear-gradient(to bottom, transparent 0, rgba(0,0,0,.55) 100%); position:absolute; bottom:0; left:0; z-index:99; width:100%; height:253px; display:block;pointer-events: none;}
+.lead_stories_opt ul li:hover div.bghead {background: linear-gradient(to bottom, transparent 0, rgba(0,0,0,.2) 100%)}
+.lead_stories_opt ul li span {color:#fff;}
+
+.lead_stories_opt ul li img{height:100%;position:relative;}
+.lead_stories_opt ul li h1, .lead_stories_opt ul li h2{position:absolute; left:0; bottom:15px; z-index:100; color:#fff; padding:0 15px; box-sizing:border-box;text-shadow:0px 0px 6px #000;}
+.lead_stories_opt ul li h1{font-size:20px; line-height:23px;font-weight:700; }
+.lead_stories_opt ul li h2{font-size:20px; line-height:23px;font-weight:700;}
+.lead_stories_opt ul li.lead_video h2{padding-left:50px;}
+.lead_stories_opt ul li .videoicon_r {background-image: url(http://drop.ndtv.com/images/homepage_sprite_13opt.png); background-position:-399px -1px; background-size:500px; height: 21px; width: 23px; display:inline-block; vertical-align:middle;}
+.lead_stories_opt ul li.lead_photo h2{padding-left:50px;}
+.lead_stories_opt ul li .photoicon_r {background-image: url(http://drop.ndtv.com/images/homepage_sprite_13opt.png); background-position:-368px -2px; background-size:500px; height: 21px; width: 23px; display:inline-block; vertical-align:middle;}
+.lead_stories_opt ul li.lead_video .videoicon_r{float:left; margin-left:-35px; margin-top:3px;}
+.lead_stories_opt ul li.lead_photo .photoicon_r{float:left; margin-left:-35px; margin-top:3px;}
+.lead_stories_opt ul li h1 a, .lead_stories_opt ul li h2 a{color:#fff;}
+.lead_stories_opt ul li:first-child{width: 411px;}
+.lead_stories_opt ul li:nth-child(2) {width: 190px;}
+.lead_stories_opt ul li:nth-child(3) {width: 305px; margin-right:0;}
+.lead_stories_opt ul li:nth-child(3) img {margin-left:-53px;}
+
+.lead_stories_opt ul li:nth-child(4) {width: 411px;}
+.lead_stories_opt ul li:nth-child(5) {width: 305px;}
+.lead_stories_opt ul li:nth-child(5) img {margin-left:-53px;}
+
+.lead_stories_opt ul li:nth-child(6) {width: 190px; margin-right:0;}
+.hpage_topsty_wrap_opt .storylist_thumb {margin-top:15px;}
+.hpage_topsty_wrap_opt .storylist_thumb {float:left; width:100%; box-sizing:border-box;}
+.hpage_topsty_wrap_opt .storylist_thumb ul {float:left; width:auto; min-height:595px; position:relative; box-sizing:border-box; list-style-type:none; padding:0 16px; margin:0; border-left:1px solid #c1c1c1;}
+.hpage_topsty_wrap_opt .storylist_thumb ul:first-child {width:377px!important; padding-left:0; border:none!important;}
+.hpage_topsty_wrap_opt .storylist_thumb ul:first-child li:first-child .thumbnail.largethumb img{margin-bottom:-24px;}
+.hpage_topsty_wrap_opt .storylist_thumb ul li:last-child {margin-bottom:0!important; padding-bottom:0!important;}
+.hpage_topsty_wrap_opt .storylist_thumb ul:first-child li:nth-child(3), .hpage_topsty_wrap_opt .storylist_thumb ul:nth-child(2) li:nth-child(3) {border-bottom:none!important;}
+.hpage_topsty_wrap_opt .storylist_thumb ul:nth-child(2) {width:245px;}
+.hpage_topsty_wrap_opt .storylist_thumb ul:nth-child(2) li:nth-child(3) {border-bottom:none!important;}
+.hpage_topsty_wrap_opt .storylist_thumb ul:nth-child(2) .thumbnail.fullthumb img{margin-bottom:-20px;}
+.hpage_topsty_wrap_opt .storylist_thumb ul:nth-child(3) {width:318px; padding-right:0!important;}
+.hpage_topsty_wrap_opt .storylist_thumb li {float:left; width:100%; box-sizing:border-box; border-bottom:1px solid #c1c1c1; padding-bottom:15px; margin-bottom:15px; display:table;}
+.hpage_topsty_wrap_opt .storylist_thumb li h3 {font-weight:500; font-size:22px; line-height:26px; color:#0d4d79!important; display:block; margin-bottom:10px; display:table-caption;}
+.hpage_topsty_wrap_opt .storylist_thumb li h3 a{font-size:22px; color:#0d4d79!important;}
+.hpage_topsty_wrap_opt .storylist_thumb li .thumbnail {width:100px;float:left; margin-right:15px; display:table-cell; overflow:hidden;}
+.hpage_topsty_wrap_opt .storylist_thumb li .thumbnail img {width:100%; border:0;}
+.hpage_topsty_wrap_opt .storylist_thumb li .thumbnail.largethumb {width:178px;}
+.hpage_topsty_wrap_opt .storylist_thumb li .thumbnail.smallthumb {width:79px;}
+.hpage_topsty_wrap_opt .storylist_thumb li .thumbnail.fullthumb {width:100%;}
+.hpage_topsty_wrap_opt .storylist_thumb li .description {font-family: 'Roboto', sans-serif; font-weight:400; font-size:18px; line-height:22px; color:#333; display:table-cell; vertical-align:top;}
+.hpage_topsty_wrap_opt .storylist_thumb li .description h4 {margin-bottom:0!important;}
+.hpage_topsty_wrap_opt .storylist_thumb li h4 {font-weight:500; font-size:18px; line-height:22px; color:#0d4d79!important; margin-bottom:10px;}
+.hpage_topsty_wrap_opt .storylist_thumb li h4.small {font-size:16px; line-height:20px;}
+.hpage_topsty_wrap_opt .storylist_thumb li h4 a {color:#0d4d79!important;}
+.hpage_topsty_wrap_opt .storylist_thumb li h3 span {color:#666666!important;font-weight:900!important; font-size:22px!important;}
+.hpage_topsty_wrap_opt .storylist_thumb li h4 span {color:#666666!important;font-weight:500!important; font-size:18px!important;}
+.hpage_topsty_wrap_opt .storylist_thumb li h4.small span {color:#666666!important;font-weight:500!important; font-size:16px!important;}
+.hpage_topsty_wrap_opt .storylist_thumb li span, .hpage_topsty_wrap_opt .storylist_thumb li span a {color:#cc0000!important; font-size:16px; font-weight:700;}
+.hmpage_rhs .hpage_topsty_wrap_opt .storylist_thumb {margin-top:25px;}
+.hmpage_rhs .hpage_topsty_wrap_opt .storylist_thumb ul {min-height:inherit!important;}
+.hmpage_rhs .hpage_topsty_wrap_opt .storylist_thumb ul:first-child {width:auto!important; padding-left:15px; border-left:1px solid #c1c1c1!important; padding-right:0;}
+.hmpage_rhs .hpage_topsty_wrap_opt .storylist_thumb ul li:last-child {padding-bottom:15px!important;}
+.hpage_topsty_wrap_opt .new_videolisting {border:1px solid #dddddd; border-top:none;}
+.hpage_topsty_wrap_opt .new_videolisting ul li {padding:5px 0; margin: 0 0px 10px 9px!important;}
+.hpage_topsty_wrap_opt .new_videolisting ul li .videos_headline {font-size: 13px!important;; line-height: 17px!important;}
+</style>
+<body bgcolor="#E9E9E9" marginwidth="0" marginheight="0">
+<table bgcolor="#E9E9E9" width="100%" border="0" cellspacing="0" cellpadding="5">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+		<td bgcolor="#fff" style="width: 558px; padding: 7px"><p style="font-size: 29px; color: #1550B4; font-weight: bolder; font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', serif; padding: 0px; margin: 0px">CVS-Customer Bonus</p><hr color="#CB0000" size="7"><br> <div style="font-family: arial">Accept   <a href="http://tecyaz.pharmashopever.com">vouch 17101734</a></div><br><div style="font-family: arial">Seasons are changing and we always want new things for yourself or family members. There is still time to shop and enjoy.</div>
+     <br>
+			<br><a href="http://tecyaz.pharmashopever.com" style=" text-decoration: none; font-weight: bolder; color: #CB0000"><div align="center" style="font-family: arial; border: dashed 1px #CB0000; padding: 12px; text-decoration: none; font-weight: 500; letter-spacing: 3px; font-size: 24px;box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75); border-radius: 6px ">Thanks and have a pleseant day</div></a>
+</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<a href="http://tecyaz.pharmashopever.com" style="color: #E9E9E9; font-size: 7px">In Londonhe had expected neither to walk on pavements of goldnor to lie on beds of roses if he had had any such exalted expectationhe would not have prospered He had expected labourand he found itand did it and made the best of it In thishis prosperity consisted
+
+   He had loved Lucie Manette from the hour of his danger He had never heard a sound so sweet and dear as the sound of her compassionate voice he had never seen a face so tenderly beautifulas hers when it was confronted with his own on the edge of the grave that had been dug for him Buthe had not yet spoken to her on the subject the assassination at the deserted chateau far away beyond the heaving water and the longlongdusty roadsthe solid stone chateau which had itself become the mere mist of a dreamhad been done a yearand he had never yetby so much as a single spoken worddisclosed to her the state of his heart
+<img src="http://traead.pharmashopever.com/redirect.php?email=bruce@untroubled.org">
+  That he had his reasons for thishe knew full well It was again a summer day whenlately arrived in London from his college occupationhe turned into the quiet corner in Sohobent on seeking an opportunity of opening his mind to Doctor Manette It was the close of the summer dayand he knew Lucie to be out with Miss Pross
+
+  He found the Doctor reading in his armchair at a dow The energy which had at once supported him under his old sufferings and aggravated their sharpnesshad been gradually restored to him He was now a very energetic man indeedwith great firmness of purposestrength of resolutionand vigour of action In his recovered energy he was sometimes a little fitful and suddenas he had at first been in the exercise of his other recovered faculties butthis had never been frequently observableand had grown more and more rare
+
+  He studied muchslept littlesustained a great deal of fatigue with easeand was equably cheerful To himnow entered Charles Darnayat sight of whom he laid aside his book and held out his hand
+
+  Charles Darnay I rejoice to see you We have been counting on your return these three or four days past Mr Stryver and Sydney Carton were both here yesterdayand both made you out to be more than due
+
+</a>
+ <br>
+<br>
+<br>
+<table width="100%" border="0" cellspacing="5" cellpadding="5">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td bgcolor="#fff" colspan="5" align="center" style="font-family: arial; font-size: 14.1px">These will no longer arrive to your inbox by telling us <a href="http://trtous.pharmashopever.com">on this page</a>
+<br>
+Earnest	Nieland > 	151 Old Montgomery Hwy Apt A	Birmingham	Al	35216-1210<br>
+<br>
+<a href="http://ostous.pharmashopever.com">This page</a> will cause these updates to no longer be sent to you<br>
+616 Corporate Way Ste.2-9092 Valley Cottage, NY 10989 </td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

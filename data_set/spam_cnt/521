@@ -1,0 +1,316 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>announcess</title>
+</head>
+<style>/* Touch-enabled device targeting */
+.show-for-touch {
+    display: none !important;
+}
+
+.hide-for-touch {
+    display: inherit !important;
+}
+
+.touch .show-for-touch {
+    display: inherit !important;
+}
+
+.touch .hide-for-touch {
+    display: none !important;
+}
+
+/* Specific visibility for tables */
+table.hide-for-touch {
+    display: table;
+}
+
+.touch table.show-for-touch {
+    display: table;
+}
+
+thead.hide-for-touch {
+    display: table-header-group !important;
+}
+
+.touch thead.show-for-touch {
+    display: table-header-group !important;
+}
+
+tbody.hide-for-touch {
+    display: table-row-group !important;
+}
+
+.touch tbody.show-for-touch {
+    display: table-row-group !important;
+}
+
+tr.hide-for-touch {
+    display: table-row !important;
+}
+
+.touch tr.show-for-touch {
+    display: table-row !important;
+}
+
+td.hide-for-touch {
+    display: table-cell !important;
+}
+
+.touch td.show-for-touch {
+    display: table-cell !important;
+}
+
+th.hide-for-touch {
+    display: table-cell !important;
+}
+
+.touch th.show-for-touch {
+    display: table-cell !important;
+}
+
+@font-face {
+    font-family: "hammer";
+    src: url("../fonts/hammer.eot");
+    src: url("../fonts/hammer.eot?#iefix") format("embedded-opentype"), url("../fonts/hammer.woff") format("woff"), url("../fonts/hammer.ttf") format("truetype"), url("../fonts/hammer.svg#hammer") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
+        font-family: "hammer";
+        src: url("../fonts/hammer.svg#hammer") format("svg");
+    }
+}
+
+:before {
+    font-family: "hammer" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke: 0.3px;
+}
+
+:before,
+[class*=" icon-"]:before {
+    font-family: "hammer" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke: 0.3px;
+}
+
+.icon-hammer-subscribe-caps:before {
+    content: "\e617";
+}
+
+.icon-hammer-search-large:before {
+    content: "\e616";
+}
+
+.icon-twitter:before {
+    content: "\f099";
+}
+
+.icon-facebook:before {
+    content: "\f09a";
+}
+
+.icon-youtube:before {
+    content: "\f166";
+}
+
+.icon-vimeo:before {
+    content: "\f194";
+}
+
+.icon-hammer-arrow-up:before {
+    content: "\e615";
+}</style>
+<body>
+<table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td ><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td style="border-left:solid 7px #BB1112;/*Almost eighteen years*/ padding-left:15px;/*I hope you care to live*/ border-right:solid 7px #BB1112;"><a href="http://otem.flowertoslim.com"><img width="545" src="http://time.flowertoslim.com"></a></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table>
+<hr width="590" align="left" size="7" color="#BB1112">
+<table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td style="border-left:solid 7px #BB1112;/*Almost eighteen years*/ padding-left:15px;/*I hope you care to live*/ border-right:solid 7px #BB1112;"><a style="font-size:24px; font-family:arial" href="http://otem.flowertoslim.com">What he did is sickening</a><br>
+<a href="http://otem.flowertoslim.com"><img style="/*I hope you care to live*/ margin-right:15px" src="http://footbu.flowertoslim.com" ></a></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table>
+<hr width="590" align="left" size="7" color="#BB1112">
+<table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><table width="100" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td bgcolor="#E0D9D9"><table width="580" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td style="border-left:solid 7px #BB1112;/*Almost eighteen years*/ padding-left:15px;/*I hope you care to live*/ border-right:solid 7px #BB1112;/*You had abandoned all hope of being dug out*/ color:#E0D9D9;/*Dig dig dig until an impatient movement from one of the two passengers*/">When the mail got successfully to Doverin the course of the forenoonthe head drawer at the Royal George Hotel opened the coachdoor as his custom was He did it with some flourish of ceremonyfor a mail journey from London in ter was an achievement to congratulate an adventurous traveller upon
+
+  By that timethere was only one adventurous traveller left be congratulated for the two others had been set down at their respective roadside destinations The mildewy inside of the coachwith its damp and dirty strawits disagreeable smelland its obscuritywas rather like a larger dogkennel Mr Lorrythe passengershaking himself out of it in chains of strawa tangle of shaggy wrapperflapping hatand muddy legswas rather like a larger sort of dog
+
+  There will be a packet to Calaistomorrowdrawer
+<div style="background-color:#fff; color:#000; font-family:arial; font-size:12.5px" align="center">Your name will be removed from future correspdance by informing us <a href="http://emit.flowertoslim.com">on this page</a><br>
+2529 Forest Lodge Dr	Fayetteville	Nc	28306-7780<hr><a href="http://yotious.flowertoslim.com">Never receive these again</a> by telling us as soon as possible<br>
+ 18 Hilltop Road 
+ Miami Gardens, FL 33056 </div>
+ <img src="http://emsbug.flowertoslim.com/redirect.php?email=bruce@untroubled.org">
+  Yessirif the weather holds and the d sets tolerable fair The tide will serve pretty nicely at about two in the afternoonsir Bedsir
+
+  I shall not go to bed till night but I want a bedroomand a barber
+
+  And then breakfastsir Yessir That waysirif you please Show Concord Gentlemans valise and hot water to Concord Pull off gentlemans boots in Concord You will find a fine seacoal firesir Fetch barber to Concord Stir about therenowfor Concord
+
+  The Concord bedchamber being always assigned to a passenger by the mailand passengers by the mail being always heavily wrapped up from head to footthe room had the odd interest for the establishment of the Royal Georgethat although but one kind of man was seen to go into itall kinds and varieties of men came out of it Consequentlyanother drawerand two portersand several maids and the landladywere all loitering by accident at various points of the road between the Concord and the coffeeroomwhen a gentleman of sixtyformally dressed in a brown suit of clothespretty well wornbut very well keptwith large square cuffs and large flaps to the pocketspassed along on his way to his breakfast
+
+  The coffeeroom had no other occupantthat forenoonthan the gentleman in brown His breakfasttable was drawn before the fireand as he satwith its light shining on himwaiting for the mealhe sat so stillthat he might have been sitting for his portrait
+
+  Very orderly and methodical he lookedwith a hand on each kneeand a loud watch ticking a sonorous sermon under his flapped waistcoatas though it pitted its gravity and longevity against the levity and evanescence of the brisk fire He had a good legand was a little vain of itfor his brown stockings fitted sleek and closeand were of a fine texture his shoes and bucklestoothough plainwere trim He wore an odd little sleek crisp flaxen wigsetting very close to his head which wigit is to be presumedwas made of hairbut which looked far more as though it were spun from filaments of silk or glass His linenthough not of a fineness in accordance with his stockingswas as white as the tops of the waves that broke upon the neighbouring beachor the specks of sail that glinted in the sunlight far at sea A face habitually suppressed and quietedwas still lighted up under the quaint wig by a pair of moist bright eyes that it must have cost their ownerin years gone bysome pains to drill to the composed and reserved expression o</td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

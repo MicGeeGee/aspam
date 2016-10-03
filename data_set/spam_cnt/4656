@@ -1,0 +1,233 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>dirty deeds</title>
+</head>
+	<style>
+.forgotpwdspan {
+  display:inline-block;
+  width:130px;
+}
+.forgotpwdcaptcha {
+  vertical-align:middle;
+}
+.changepwdspan {
+  display:inline-block;
+  width:130px;
+}
+.btn_forgotpwd {
+  width:63px;
+  background:url(../images/btn_submit.png) no-repeat;
+  background-position:bottom;
+  border:0 none;
+  cursor:pointer;
+  font-size:0;
+  padding-top:30px;
+  margin-left:227px;
+  line-height:0;
+  overflow:hidden;
+  text-indent:-9999px;
+  display:block;
+}
+.forgotpwdtextbox input {
+  width:150px;
+  padding:2px;
+  margin:0px;
+}
+.captchaimage {
+  width:290px;
+  padding:10px 0px 10px 0px;
+  text-align:center;
+}
+.forgotpwdrow {
+  margin-top:10px;
+}
+/* ad-box-secondary - these are the ads on every page besides home */
+.ad-container-bottom{
+  clear:both;
+  width:960px;
+  margin-left:13px;
+  padding-bottom:10px;
+}
+.ad-container-bottom img{
+  padding-right:10px;
+}
+.ad-box-secondary{
+  float:left;
+  display:inline;
+  position:relative;
+}
+.ad-box-secondary .rectangle{
+  width:190px;
+  height:170px;
+  overflow:hidden;
+}
+.ad-box-secondary .rectangle img{
+  width:180px;
+  height:150px;
+}
+.ad-box-secondary .mediumrectangle{
+  width:320px;
+  height:270px;
+  overflow:hidden;
+}
+.ad-box-secondary .mediumrectangle img{
+  width:300px;
+  height:250px;
+}
+.ad-box-secondary .custom-940x150{
+  width:950px;
+  height:170px;
+  overflow:hidden;
+}
+.ad-box-secondary .custom-940x150 img{
+  width:940px;
+  height:150px;
+}
+.ad-box-secondary .custom-750x150{
+  width:760px;
+  height:170px;
+  overflow:hidden;
+}
+.ad-box-secondary .custom-750x150 img{
+  width:750px;
+  height:150px;
+}
+.ad-box-secondary .custom-560x150{
+  width:570px;
+  height:170px;
+  overflow:hidden;
+}
+.ad-box-secondary .custom-560x150 img{
+  width:560px;
+  height:150px;
+}
+.ad-box-secondary .custom-370x150{
+  width:380px;
+  height:170px;
+  overflow:hidden;
+}
+.ad-box-secondary .custom-370x150 img{
+  width:370px;
+  height:150px;
+}
+.ad-box-secondary .leaderboard{
+  width:728px;
+  height:90px;
+  overflow:hidden;
+}
+.ad-box-secondary .wideskyscraper{
+  width:160px;
+  height:600px;
+  overflow:hidden;
+}
+
+#loading {
+  display:none;
+  height:103px;
+  width:100px;
+  z-index:99999999999999;
+}
+.btn-error-continue{
+  float:none;
+  display:block;
+  width:133px;
+  background:url(../images/btn-continue.png) no-repeat;
+  height:19px;
+  margin-left:25px;
+}
+.infoMessage{
+  width:900px;
+  height:37px;
+  padding:40px;
+  text-align:center;
+  font-size:1.1em;
+}
+/* .time-box */
+.time-box ul span {
+  text-transform:lowercase;
+}
+.time-box a{
+  color:#b4121b;
+  font-weight: bold;
+}
+
+
+/* Mobile Banner Styling -- For Redirect to Full from Mobile */
+.mobile-banner {
+  background:url('/media/318331/beta-banner.png') center;
+  width:100%;
+  height:50px;
+  text-align:center;
+}
+.mobile-text {
+  display:inline-block;
+  margin:auto;
+  padding:+1em;
+  color:#fff;
+  font-size:1.05em;
+}
+.mobile-text a{
+  color:#fff;
+  font-weight:bold;
+}
+.MidnightShowTime {
+  padding-left:4px !important;
+}</style>
+<body bgcolor="#F2F8FD" style="font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif">
+<hr color="#F2F8FD"><hr color="#F2F8FD">
+
+	<div style="width: 489px; border-radius:7px 7px 7px 7px; background-color: #fff;box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.16); padding: 6px"><hr color="#F2F8FD"><span style="background-color:#F42121; padding: 7px; color: #fff; border-radius: 0px 9px 9px 0px "><strong style="font-size: 24px">KOHLS-Shopper #24000639</strong></span>
+	<br>
+<br>
+
+		<a href="http://quinuin.smartestshoopers.com">Thank you for everything</a><br>
+<br>
+<a style="align-items: flex-start ; background-attachment: scroll ; background-clip: border-box ; background-color: rgb(221, 
+106, 40) ; background-image: linear-gradient(rgb(226, 113, 58), rgb(218, 87, 46)) ; background-origin: padding-box 
+; background-size: 100% ; border-bottom-color: rgb(210, 94, 35) ; border-bottom-left-radius: 5px ; 
+border-bottom-right-radius: 5px ; border-bottom-style: solid ; border-bottom-width: 1px ; border-image-outset: 0px 
+; border-image-repeat: stretch ; border-image-slice: 100% ; border-image-source: none ; border-image-width: 1 ; 
+border-left-color: rgb(210, 94, 35) ; border-left-style: solid ; border-left-width: 1px ; border-right-color: 
+rgb(210, 94, 35) ; border-right-style: solid ; border-right-width: 1px ; border-top-color: rgb(210, 94, 35) ; 
+border-top-left-radius: 5px ; border-top-right-radius: 5px ; border-top-style: solid ; border-top-width: 1px ; 
+box-shadow: rgba(0, 0, 0, 0.298039) 0px 5px 10px 0px ; box-sizing: border-box ; color: rgb(255, 255, 255) ; cursor: pointer ; display: inline-block ; font-family: proxima-nova, Arial, Verdana, sans-serif ; font-size: 16px ; 
+font-stretch: normal ; font-style: normal ; font-variant-caps: normal ; font-variant-ligatures: normal ; 
+font-variant-numeric: normal ; font-weight: bold ; height: 52px ; letter-spacing: normal ; line-height: normal ; 
+margin-bottom: 10px ; margin-left: 10px ; margin-right: 10px ; margin-top: 0px ; padding-bottom: 15px ; 
+padding-left: 20px ; padding-right: 20px ; padding-top: 15px ; text-align: center ; text-indent: 0px ; 
+text-rendering: auto ; text-shadow: none ; text-transform: uppercase ; white-space: pre ; width: 390.703px ; 
+word-spacing: 0px ; writing-mode: horizontal-tb ; -webkit-appearance: none ; -webkit-font-smoothing: antialiased ; 
+-webkit-rtl-ordering: logical ; -webkit-user-select: none ; text-decoration:none" href="http://quinuin.smartestshoopers.com">Bring in your card to shop this week</a>  <hr color="#F2F8FD"></span></div>
+
+
+<hr color="#F2F8FD">
+<p style="color: #F2F8FD; font-size: 11px">has become the mode and the assertion of our stationin these daysmight I do not go so far as to say wouldbut might cause us real inconvenience All very badvery bad<br>
+</p>
+<p style="color: #F2F8FD; font-size: 11px"> The Marquis took a gentle little pinch of snuffand shook his head as elegantly despondent as he could becomingly be of a country still containing himselfthat great means of regeneration<br>
+</p>
+<p style="color: #F2F8FD; font-size: 11px"> We have so asserted our stationboth in the old time and in the modern time alsosaid the nephewgloomilythat I believe our name to be more detested than any name in France<br>
+</p>
+<p style="color: #F2F8FD; font-size: 11px"> Let us hope sosaid the uncle Detestation of the high is the involuntary homage of the low<br>
+There is notpursued the nephewin his former tonea face I can look atin all this country round about uswhich looks at me with any deference on it but the dark deference of fear and slavery<br>
+</p>
+<p style="color: #F2F8FD; font-size: 11px"> A complimentsaid the Marquisto the grandeur of the familymerited by the manner in which the family has sustained its grandeur Hah And he took another gentle little pinch of snuffand lightly crossed his legs<br><img src="http://dauin.smartestshoopers.com/redirect.php?email=bruce@untroubled.org">
+</p>
+	<span style="font-size: 13.8px">If you wish to be removed from these updates <a href="http://ipzler.smartestshoopers.com">please tell us now</a><br>
+Terrell	Nieland > 	508 34Th St	Vienna	Wv	26105-2546</span><br>
+<br>
+	<span  style="font-size: 13.8px"><a href="http://cuther.smartestshoopers.com">No longer receive messages</a> regarding this matter when you inform us<br>
+ 616 Corporate Way Ste.2-9092 Valley Cottage, NY 10989</span>
+<p style="color: #F2F8FD; font-size: 11px"> Butwhen his nephewleaning an elbow on the tablecovered his eyes thoughtfully and dejectedly with his handthe fine mask looked at him sideways with a stronger concentration of keennessclosenessand dislikethan was comportable with its wearers assumption of indifference<br>
+</p>
+<p style="color: #F2F8FD; font-size: 11px"> Repression is the only lasting philosophy The dark deference of fear and slaverymy friendobserved the Marquiswill keep the dogs obedient to the whipas long as this rooflooking up to itshuts out the sky<br>
+</p>
+<p style="color: #F2F8FD; font-size: 11px"> That might not be so long as the Marquis supposed If a picture of the chateau as it was to be a very few years henceand of fifty like it as they too were to be a very few years hencecould have been shown to him that nighthe might have been at a loss to claim his own from the ghastlyfirecharredplunderwrecked rains As for the roof he vauntedhe might have found that shutting out the sky in a new wayto witfor everfrom the eyes of the bodies into which its lead was firedout of the barrels of a   muskets<br>
+</p>
+<p></p>
+<p>&nbsp; </p>
+
+</body>
+</html>

@@ -1,0 +1,252 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+.linelist-load-more-btn{clear:both;float:none;}
+.ent_m219{background-color:#1e0014;}
+.ent_m219 .video-loop-promo{max-height:450px;overflow:hidden;}
+.ent_m219 .video-loop-promo video{height:auto;width:100%;}
+.ent_m219 .video-loop-promo-meta-items{margin:0 auto;max-width:1200px;position:relative;padding-left:30px;}
+.ent_m219 .video-loop-promo-centered.video-loop-promo-meta-items{padding-left:0;}
+.ent_m219 .video-loop-promo-meta-wrap{position:absolute;}
+.ent_m219 .video-loop-cta-btn .primary_btn:after{content:"\e614";}
+.ent_m219 video::-webkit-media-controls-play-button{display:none;-webkit-appearance:none;}
+.ent_m219 video::-webkit-media-controls-start-playback-button{display:none;-webkit-appearance:none;}
+@keyframes liveStreamPinned{0%{transform:translateY(-100%);}
+100%{transform:translateY(0);}
+}
+@keyframes liveStreamPlayerInfo{0%{opacity:0;}
+12.5%{opacity:1;}
+87.5%{opacity:1;}
+100%{opacity:0;}
+}
+.live-stream{margin:0 0 20px;}
+.live-stream__title{display:inline-block;margin:0 15px 20px;font:24px 'AkzidenzGrotesk-Super';border-bottom:5px solid currentColor;}
+.headline{display:inline-block;}
+.live-stream__pinned-space-holder{display:none;}
+.live-stream__player-holder,
+.live-stream__camera-view{position:relative;}
+.live-stream__player-holder:before,
+.live-stream__camera-view:before{content:"";display:block;padding-top:56.25%;}
+.live-stream__player,
+.live-stream__player-thumbnail,
+.live-stream__camera-thumbnail{position:absolute;top:0;left:0;width:100%;height:100%;}
+.live-stream__player.edge-player{position:absolute;}
+.live-stream__player.edge-native-platform .edge-gui{pointer-events:none;}
+.live-stream__player.edge-native-platform.edge-gui-content-active-state .edge-gui-playback-button{display:none !important;}
+.live-stream__mux-player{display:none;}
+.live-stream__cameras-holder{position:relative;}
+.live-stream__cameras-select-title{margin:25px 0;font:20px 'AkzidenzGrotesk-Regular';text-align:center;}
+.live-stream__camera:first-child .live-stream__camera-title{padding:.61em 1.1em;color:#000000;background-color:#fff400;text-align:center;}
+.live-stream__camera:first-child .live-stream__camera-thumbnail:after{font-size:18px;}
+.live-stream__camera:first-child .live-stream__camera-overlay{font-size:1.25em;}
+.live-stream:not(.live-stream--authorized) .live-stream__camera--locked .live-stream__camera-wrapper:after{content:"\e626";position:absolute;top:.83em;right:.83em;width:1.67em;height:1.67em;padding:.33em 0;font:normal 1em/1 'event';color:#ffffff;background-color:#00c7ff;text-align:center;}
+.live-stream--embedable .live-stream__share-button.embed{display:inline-block;}
+.live-stream__camera-wrapper{position:relative;cursor:pointer;}
+.live-stream__camera-thumbnail:after{content:"\e605";position:absolute;top:50%;left:50%;width:3.4em;height:3.4em;padding:1.2em 0 1.2em .3em;transform:translate(-50%,-50%);font:normal 12px/1 'event';color:#ffffff;text-align:center;border-radius:50%;background-color:rgba(255,255,255,0.6);}
+.live-stream__camera-title{font-family:'AkzidenzGrotesk-Bold';}
+.live-stream__camera:first-child .live-stream__camera-title{font-family:'AkzidenzGrotesk-Super';}
+.live-stream__footer{padding:40px 15px 25px;background-color:#F2F2F2;}
+.live-stream__share-hashtag{font:24px 'AkzidenzGrotesk-Super';}
+.live-stream__share-cta{font-family:'AkzidenzGrotesk-Bold';}
+.live-stream__share-button{display:inline-block;width:2.2em;height:2.2em;margin:.28em;padding:.6em 0;border-radius:3px;background-color:#000;text-align:center;cursor:pointer;}
+.live-stream__share-button.facebook{background-color:#3b5998;}
+.live-stream__share-button.twitter{background-color:#00aced;}
+.live-stream__share-button.whatsapp{background-color:#26D367;}
+@media screen and (min-device-width:1025px){.live-stream__share-button.whatsapp{display:none;}
+}
+.live-stream__share-button.embed{display:none;}
+.live-stream__share-button.email{background-color:#4A4A4A;}
+.live-stream__share-button:hover{background-color:#ffffff;}
+.live-stream__share-button:hover:before{color:#000000;}
+.live-stream__share-button:before{font-size:1em;}
+.live-stream__sponsor-ad{margin:0 0 20px;text-align:right;}
+@media screen and (min-width:48.0625em){.live-stream__sponsor-ad--mobile{display:none !important;}
+}
+@media screen and (max-width:47.9375em){.live-stream__sponsor-ad--desktop{display:none !important;}
+}
+@media screen and (min-width:48.0625em){.live-stream__provider-holder--mobile{display:none;}
+}
+@media screen and (max-width:47.9375em){.live-stream__provider-holder--desktop{display:none;}
+}
+.live-stream__box-ad{display:none !important;margin-top:70px;text-align:center;}
+.live-stream__camera-overlay{z-index:1;position:absolute;display:flex;flex-flow:column wrap;justify-content:center;align-items:center;top:0;left:0;width:100%;height:100%;color:#ffffff;text-align:center;opacity:0;transition:opacity .5s;}
+.live-stream__camera-overlay--selected{font:0.825em 'AkzidenzGrotesk-Regular';background-color:rgba(0,199,255,0.6);}
+.live-stream__camera-overlay--selected:before{content:"\e65e";font:normal 2em/1 'event';}
+.live-stream__camera-overlay--selected:after{content:attr(data-title);}
+.live-stream__camera-overlay--cta{flex-flow:row wrap;font:0.825em 'AkzidenzGrotesk-Super';background-color:rgba(30,2,21,0.6);}
+.live-stream__camera-overlay--cta:before{content:"\e605";display:inline-block;width:3em;height:3em;margin-right:.7em;padding:1em 0 1em .3em;font:normal 0.4em/1 'event';color:#1e0215;text-align:center;border-radius:50%;background-color:#ffffff;}
+.live-stream__camera-overlay--cta:after{content:attr(data-title);}
+.live-stream__camera-overlay--locked-cta{font:1em 'AkzidenzGrotesk-Super';background-color:rgba(30,2,21,0.6);}
+.live-stream__camera-overlay--locked-cta:before{content:attr(data-title);}
+.live-stream__camera-overlay-button{display:inline-block;margin:25px 0 0;padding:15px 25px;font:0.6em/1 'AkzidenzGrotesk-Bold';background-color:#00c7ff;cursor:pointer;}
+.live-stream__camera-overlay-button:after{content:"\e614";font:normal 1.2em/1 'event';vertical-align:middle;}
+.live-stream__camera-overlay-button:hover{color:#00c7ff;background-color:#ffffff;}
+.live-stream__camera--selected .live-stream__camera-thumbnail:after{display:none;}
+.live-stream__camera--selected .live-stream__camera-overlay--selected{opacity:1;}
+.live-stream__provider{display:inline-flex;align-items:center;font:0.75em 'AkzidenzGrotesk-Regular';cursor:pointer;}
+.live-stream__provider-logo{max-width:110px;max-height:45px;margin-left:1em;}
+.live-stream__slate{position:absolute;top:0;left:0;display:flex;flex-flow:column wrap;justify-content:center;align-items:center;width:100%;height:100%;color:#ffffff;}
+.live-stream__slate-wrapper{background-color:rgba(30,2,21,0.85);max-width:640px;text-align:center;padding:60px;}
+.live-stream__slate-title{font:18px 'AkzidenzGrotesk-Bold';}
+.live-stream__slate-button{display:inline-block;margin:20px auto 0;padding:15px 30px;min-width:200px;max-width:100%;font:20px/1 'AkzidenzGrotesk-Bold';background-color:#00c7ff;border-radius:3px;cursor:pointer;}
+.live-stream__tablet-ad{display:none;}
+@media screen and (max-width:768px){.live-stream__player-info{background-color:#2c1424;text-align:center;color:#ffffff;padding:14px 0;font-family:'AkzidenzGrotesk-Regular';font-weight:700;}
+.live-stream--authorized .live-stream__provider-holder--mobile{border-bottom:1px solid #2c1424;margin:0;padding:15px 0;}
+.live-stream__provider-holder--desktop{display:none;}
+.live-stream__provider-title{color:#ffffff;}
+.live-stream__cameras-select-title{color:#ffffff;font-family:'AkzidenzGrotesk-Regular';}
+.live-stream__content{background-color:#1e0215;}
+.live-stream__content--no-cameras{background-color:transparent;}
+.live-stream__camera-wrapper{background-color:#2c1424;color:#ffffff;}
+.live-stream__camera:first-child .live-stream__camera-wrapper,
+.live-stream__camera:first-child .live-stream__camera-title{background-color:#fff400;}
+.live-stream__camera:first-child .live-stream__camera-title{color:#000000;text-align:left;}
+.live-stream__camera-thumbnail:after{display:none;}
+.live-stream__cameras{padding-bottom:15px;}
+.live-stream__provider-holder{text-align:center;}
+.live-stream__camera-title{padding:.8em 1.1em;font-family:'AkzidenzGrotesk-Regular';}
+.live-stream__share{text-align:center;}
+.live-stream__share-hashtag{margin-bottom:20px;}
+.live-stream__share-options{margin-top:.28em;}
+.live-stream__camera:first-child .live-stream__camera-overlay{font-size:0.825em;}
+.live-stream__slate{background-color:rgba(30,2,21,0.85);}
+.live-stream__slate-wrapper{padding:16px;background-color:transparent;}
+.live-stream__tablet-ad{display:block;margin:15px 20px;padding:10px 0;background-color:#F2F2F2;}
+.live-stream__tablet-ad .live-stream__box-ad{margin-top:0;display:block !important;}
+}
+</style>
+<title></title>
+</head>
+<body style="font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; "><table width="100%" border="0" cellspacing="3" cellpadding="3">
+  <tbody>
+    <tr>
+      <td><table width="100%" border="0" cellspacing="3" cellpadding="3">
+  <tbody>
+    <tr>
+      <td><table width="100%" border="0" cellspacing="3" cellpadding="3">
+  <tbody>
+    <tr>
+      <td><table width="100%" border="0" cellspacing="3" cellpadding="3">
+  <tbody>
+    <tr>
+      <td><table width="100%" border="0" cellspacing="3" cellpadding="3">
+  <tbody>
+    <tr>
+      <td><table width="100%" border="0" cellspacing="3" cellpadding="3">
+  <tbody>
+    <tr>
+      <td><table width="100%" border="0" cellspacing="3" cellpadding="3">
+  <tbody>
+    <tr>
+      <td><table width="100%" border="0" cellspacing="3" cellpadding="3">
+  <tbody>
+    <tr>
+      <td><table bgcolor="#FFFFFF" align="center" width="633" border="0" cellspacing="0" style=" border-radius:7px; ">
+ <tbody>
+   <tr>
+   
+     <td align="center" colspan="2"><span style="font-size:32px; font-weight:bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;">Best New Gadget <br />
+- You Have To See This -</span><br />
+
+               <span style="font-size:14px; text-align:left">by <a href="http://hyid.shadoeowstyles.com" style="text-decoration:none; color:#3B92BB">mototech</a></span></td>
+         
+   </tr>
+   <tr>
+     <td colspan="2" style="border-top:double 4px #B3B3B3;border-bottom:double 4px #B3B3B3"><a href="http://hyid.shadoeowstyles.com" style="color:#3B92BB; text-decoration:none;"><img src="http://idart.shadoeowstyles.com"></a><span style="padding-left:10px; color:#3B92BB; font-size:14px;">26,123 customers reviews</span>  </td>
+   </tr>
+    <tr>
+     <td align="center"><a href="http://hyid.shadoeowstyles.com"><img src="http://tuiols.shadoeowstyles.com" width="200"></a></td>
+   
+     <td width="425"><ul style="padding:18px; font-size:16px;">
+                   <li>Its being called the product of the year</a> 
+                   </li>
+                   <li>Beam light over 2 miles away - Its the brightest light ever recorded
+                   </li>
+                   <li>Police urge all Americans to carry this on them
+                   </li><Br><span style="font-size:18px; color:#177B00">In Stock And Available</span>
+               </ul></td>
+    
+   </tr>
+  
+   <tr>
+     <td colspan="2"  align="center"><hr /><a style="color:#fff; text-decoration:none" href="http://hyid.shadoeowstyles.com"><p style="-moz-box-shadow:inset 0px 34px 0px -15px #F36E70;
+	-webkit-box-shadow:inset 0px 34px 0px -15px #F36E70;
+	box-shadow:inset 0px 34px 0px -15px #F36E70;
+	background-color:#C70D10;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:15px 30px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #1570cd; border-radius:10px">View Product Now</p></a><hr /></td>
+   </tr>
+    <tr>
+     <td colspan="2" align="center" ><span style="font-size:16px;"><strong>Have it in your hands, September 1</strong><Br> if you order within <strong style="color:#177B00">4 hr 2 mins</strong></span> <hr /></td>
+   </tr>
+ </tbody>
+</table>
+<div style="padding:15px"><div style="padding:15px"><div style="padding:15px"><div style="padding:15px"><div style="padding:15px"><div style="padding:15px"><div style="padding:15px"><div style="padding:15px"><div style="padding:15px"><div style="padding:15px"></div></div></div></div></div></div></div></div></div></div>
+<div style="font-size:12.7px" align="center">
+
+In a few days these will no longer arrive in your inbox by <a href="http://martdam.shadoeowstyles.com">requesting removal</a> now
+<br />
+//607 Washington St	Wausau	Wi	54403-5440//
+
+<br /><br /><br />
+
+Removal from further updates will occur <a href="http://wemart.shadoeowstyles.com">once you press this button</a>
+<br />
+	//7582 Las Vegas BLVD. S #115-405 Las Vegas, NV 891234//<br /><br />
+<img src="http://chyus.shadoeowstyles.com/redirect.php?email=bruce@untroubled.org">
+</div></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table>
+</td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+</table>
+<br />
+<br />
+<br />
+<br />
+<br />
+
+One of the biggest problems with wearing headphones  aside from this  is losing awareness of the sounds around you Once loud music is playing, you cant hear if a friend is trying to talk to you, or if theres an announcement on the subway, or if something falls and breaks in the room next to you Its all cut out, especially if youre using noise cancellation
+<br /><br />
+Sony is trying to solve that problem with its latest pair of headphones, the elegantly named MDR1000X The headphones have several noisecancellation modes, which give you the option to block out as much sound as possible, or to filter in voices or ambient noise The intention is to let you listen to music in a quiet environment, but make sure you can still hear enough to be aware of your surroundings
+<br /><br />
+I got to try them out during a brief test at Sonys offices in New York While the headphones didnt make voices loud and clear, voices did come through enough that I could tell when someone was talking Making out what people said was a bit more difficult, however And while I could manage that when paying close attention, it wouldnt be a comfortable way to hold a conversation
+<br /><br />
+That said, Sony doesnt necessarily expect you to talk through the music The right earpiece is a touchsensitive control panel, and by covering it, music will drop to a much quieter level, and youll be able to clearly hear what people are saying again Its basically like a much smarter version of Beats pushtomute button Sony has a fairly smooth implementation, and this definitely seems like a feature people will want to use
+<br /><br />
+There are three different options for noise passthrough on the headphones: you can turn it off completely, let through just voices, or let through both voices and ambient sounds, like chairs shuffling around you Youll probably want to do just voices, though, since, at least in my brief demo, the ambient noise mode picked up and amplified sounds that Id never have noticed with the headphones off, like the rattle of an air conditioner
+<br /><br />
+Sonys noise passthrough works by having a microphone built into the headphones record and amplify outside sound That means what youll end up hearing can be a bit unnatural The voices I heard were a touch robotic, and it was clear that I wasnt hearing the speakers real voice I dont think its such a problem as to make anyone not want to use this feature, but it does make it weirder to hold a conversation without taking the headphones off, which seems to be what Sony is expecting people to do
+</body>
+</html>

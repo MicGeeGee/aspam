@@ -1,0 +1,191 @@
+
+<style>
+.slide--opened .events-header_slide-menu{left:0;}
+.slide--opened .events-header_hamburger{opacity:1;z-index:100;}
+.slide--opened #background_holder{left:280px;position:relative;overflow-x:visible;}
+.slide--opened #background_holder .events-header--sticky .events-header_top-outer{left:280px;}
+.slide--opened #background_holder .events-header_page-overlay{top:0;display:block;}
+.slide--opened #background_holder .events-header_slide-menu{margin-top:0;}
+#background_holder{left:0;transition:left 0.4s cubic-bezier(0.17,0.67,0.44,1.1);}
+.events-header_main-nav_item:hover .events-header_main-nav_link{background-color:rgba(255,255,255,0.15);}
+.events-header_main-nav_item-social{position:absolute;right:0;height:50px;}
+.events-header_main-nav_item-social:hover{border-color:transparent;}
+@media (max-width:768px){.events-header_main-menu_inner{max-width:100%;}
+.events-header_main-nav_mobile-overlay{display:block;cursor:pointer;}
+.events-header_main-nav_mobile-overlay:after{content:"\e612";font-family:'event';transform:rotate(0deg);position:absolute;right:18px;top:0;transition:transform .5s;}
+.events-header_main-nav_mobile-overlay.main-nav--opened:after{transform:rotateX(180deg) rotateY(0) rotateZ(0);}
+.events-header_main-nav{margin:0;padding-top:54px;max-height:54px;overflow:hidden;transition:max-height 0.5s;}
+.events-header_main-nav.main-nav--opened{height:auto;max-height:600px;}
+.events-header_main-nav_item{display:block;}
+.events-header_main-nav_item-social{position:static;}
+.events-header_main-nav_item-social:hover{border-color:transparent;}
+}
+@media (max-width:768px) and (max-height:480px) and (orientation:portrait){.events-header_main-nav.main-nav--opened{overflow:auto;max-height:350px;}
+}
+@media (max-width:768px) and (max-height:480px) and (orientation:portrait) and (min-width:767px){.events-header_main-nav.main-nav--opened{overflow:visible;max-height:none;}
+}
+@media (max-width:768px) and (max-height:600px) and (orientation:landscape){.events-header_main-nav.main-nav--opened{overflow:auto;max-height:250px;}
+}
+@media (max-width:768px) and (max-height:600px) and (orientation:landscape) and (min-width:767px){.events-header_main-nav.main-nav--opened{overflow:visible;max-height:none;}
+}
+.events-header_main-nav_item-social_link{text-decoration:none;outline:none;color:#1e0014;line-height:50px;padding:0 0 0 5px;display:inline-block;transition:all 0.4s cubic-bezier(0.17,0.67,0.44,1.1);}
+.events-header_main-nav_item-social_link .has_icon:before{vertical-align:middle;color:#f9f9f9;background-color:#1e0014;padding:7px;border-radius:20px;margin:11px 2px;font-size:19px;width:32px;height:32px;display:block;}
+.events-header_main-nav_item-social_link:hover{background:none;transition:none;opacity:0.85;}
+.events-header_main-nav_item--active{background-color:rgba(255,255,255,0.15);cursor:default;}
+.events-header_main-nav_link{display:block;padding:15px 10px;color:#1e0014;font-family:'AkzidenzGrotesk-Super';vertical-align:top;text-decoration:none;text-transform:lowercase;font-size:19px;letter-spacing:-0.5px;line-height:23px;font-weight:900;}
+.events-header_main-nav_mobile-overlay{height:54px;line-height:54px;color:#1e0014;background-color:#f9f9f9;}
+.events-header_logo-icon:before{content:"\e627";font-family:'mtv';margin-top:-2.5rem;color:#1e0014;font-size:40px;font-weight:400;letter-spacing:0.82px;line-height:41px;}
+.events-header_logo-title-wrapper{margin-left:60px;}
+.events-header_logo-title{position:absolute;display:inline-block;top:15px;font-size:2.5rem;color:#1e0014;text-transform:lowercase;font-weight:900;letter-spacing:-0.5px;line-height:30px;font-family:'AkzidenzGrotesk-Super';}
+.events-header_page-overlay{background-color:rgba(0,0,0,0.5);}
+.events-header_hamburger{padding:0;margin:0;font-size:19px;line-height:50px;border:0;background:transparent;color:#1e0014;cursor:pointer;display:inline-block;}
+.events-header_top-inner{max-width:1200px;height:50px;padding-left:10px;}
+.events-header_site-nav{background-color:#0c0b0b;font-family:'AkzidenzGrotesk-Super';}
+.events-header_site-nav_item-social_link{width:25px;height:25px;background-color:#f9f9f9;border-radius:20px;}
+.events-header_site-nav_item-social_link .has_icon:before{font-size:16px;line-height:18px;color:#1e0014;padding:12px 0 8px 4px;vertical-align:middle;}
+.events-header_site-nav_item-social{height:100px;background:transparent;color:#1e0014;}
+.events-header_site-nav_item-social:before{content:"Follow us on";display:block;line-height:1;padding:17px 30px 0;color:rgba(250,250,250,0.3);text-transform:lowercase;font-family:'AkzidenzGrotesk-Regular';font-size:1.6rem;}
+.events-header_site-nav_item-social .has_icon:hover{color:rgba(255,255,255,0.85);}
+.events-header_site-nav_item-link,
+.events-header_site-nav_sub-entries_link{text-decoration:none;color:#ffffff;display:block;transition:all 0.4s cubic-bezier(0.17,0.67,0.44,1.1);}
+.events-header_site-nav_item-link.has-subnav,
+.events-header_site-nav_sub-entries_link.has-subnav{padding-right:50px;line-height:24px;}
+.events-header_site-nav_item-link.has-subnav:after,
+.events-header_site-nav_sub-entries_link.has-subnav:after{content:"\e612";color:#ffffff;font-family:'event';-webkit-transform:rotate(0deg);transform:rotate(0deg);position:absolute;right:18px;font-size:17px;transition:all 0.7s cubic-bezier(0.17,0.67,0.44,1.1);}
+.events-header_site-nav_item-link,
+.events-header_site-nav_sub-entries_link{padding:17px 30px;}
+.events-header_site-nav_item-link:hover,
+.events-header_site-nav_sub-entries_link:hover{background-color:rgba(255,255,255,0.15);}
+.events-header_site-nav_item-link:hover.has-subnav:after,
+.events-header_site-nav_sub-entries_link:hover.has-subnav:after{color:currentColor;}
+.events-header_site-nav_item--selected .events-header_site-nav_item-link{background-color:#fff200;color:#0c0b0b;}
+.events-header_site-nav_item--selected .events-header_site-nav_item-link:hover{background-color:#fff200;}
+.events-header_site-nav_item--selected .events-header_site-nav_item-link.has-subnav:after{color:#0c0b0b;-webkit-transform:rotate(180deg);transform:rotate(180deg);}
+.events-header_site-nav_item--selected .events-header_site-nav_sub-entries{max-height:1000px;}
+.events-header_main-menu_wrapper{background-color:#f9f9f9;border-top:1px solid rgba(255,255,255,0.3);}
+@media (max-width:1024px){.events-header_main-nav_item-social_link:hover{color:#1e0014;}
+}
+@media (max-width:768px){.events-header_main-menu_inner{max-width:100%;}
+.events-header_main-nav_mobile-overlay:after{font-size:16px;color:#1e0014;}
+.events-header_main-nav_item{border-left:3px solid transparent;}
+.events-header_main-nav_item:hover{border-left-color:#0c90ff;border-bottom-color:transparent;}
+.events-header_main-nav_item--active{background:#f9f9f9;border-left-color:#1e0014;border-bottom-color:transparent;}
+.events-header_main-nav_item--active:hover{border-left-color:#1e0014;}
+}
+.events-header_site-nav_sub-entries_link{padding-top:0;padding-bottom:0;}
+@media (max-width:659px){.events-header_logo-title{font-size:5.5vw;}
+}
+.ent_m202-wrap{background:#f0f0f0;}
+.ent_m202-wrap .image_holder{height:190px;width:190px;margin:-100px auto 0 auto;border-radius:200px;border:8px solid #f0f0f0;z-index:1;}
+.ent_m202-wrap .image_holder:before{padding-top:100%;}
+.ent_m202{margin-top:110px;}
+.ent_m202-headline{margin:5px 0;font:36px/43px 'AkzidenzGrotesk-Bold';text-transform:lowercase;letter-spacing:-1px;}
+.ent_m202-data{padding:15px 0 56px;}
+.ent_m202-wrap{margin:0 auto;padding:5px 0;}
+.ent_m202-data{padding:25px 0 25px 0;max-width:1000px;text-align:center;margin:auto;}
+.ent_m202-subheadline{margin:0 0 25px 0;font:17px/28px 'AkzidenzGrotesk-Bold';text-transform:lowercase;color:#333333;}
+.ent_m202-copy{padding:3px 5px;font:17px/28px 'AkzidenzGrotesk-Regular';}
+.ent_m202-copy a{text-decoration:none;border-bottom:4px solid #1e0014;padding:2px;color:#1e0014;}
+.ent_m202-copy a:hover{color:#f9f9f9;background:#1e0014;}
+@media (max-width:659px){.ent_m202 .module_content{padding-top:80px;}
+}
+.ent_m205 .linelist-item-meta-wrapper{position:relative;margin-top:-24px;}
+@media (max-width:659px){.ent_m205 .linelist-item-meta-wrapper{width:50%;}
+}
+.ent_m205 .linelist-item-meta-label{background-color:#1e0014;padding:3px 8px;color:#f9f9f9;}
+.ent_m205 .linelist-item-meta-title{padding-top:10px;text-transform:capitalize;}
+.ent_m205 .linelist-link-wrapper:hover .linelist-item-meta-label{color:initial;}
+.gallery__headline{margin:25px 0;}
+.gallery__item:hover .gallery__overlay{opacity:1;background-color:rgba(30,0,20,0.7);}
+.gallery__overlay-description{color:#f9f9f9;font-family:'AkzidenzGrotesk-Regular';}
+.gallery__caption,
+.gallery__counter{font-family:'AkzidenzGrotesk-Regular';}
+.gallery__ad{width:298px !important;height:252px !important;overflow:hidden !important;}
+.gallery__share-button{text-align:center;line-height:1;}
+.gallery__share-button:before{font-size:1em;}
+.gallery__share-button.facebook{background-color:#3b5998;}
+.gallery__share-button.twitter{background-color:#00aced;}
+.gallery__share-button.pinterest{background-color:#cd2028;}
+.gallery__share-button.whatsapp{background-color:#1bd741;}
+.pswp__share-tooltip{font-family:'AkzidenzGrotesk-Bold';text-transform:lowercase;font-weight:bold;}
+.pswp__share-tooltip .pswp__share--whatsapp:hover{background:#1bd741;color:#fff;}
+.gallery__topbar-button{background-image:none;}
+.gallery__topbar-button.has_icon:before{font-size:20px;line-height:1;}
+.gallery__topbar-button.full-screen:before{content:"\e64b";}
+.gallery__topbar-button.share:before{content:"\e63";}
+.gallery__topbar-button.zoom-in:before{content:"\e600";}
+.gallery__nav-button:before{width:35px;height:35px;background-image:none;line-height:35px;text-align:center;font-size:20px;}
+.pswp--touch .gallery__nav-button{visibility:visible;}
+</style>
+
+
+<table width="501" border="0" cellspacing="6" cellpadding="6" align="center" style="border-top:solid 3px #17517B; border-bottom:solid 3px #17517B">
+  <tbody>
+    <tr>
+      <td style="font-family:arial; font-size:45px; color:#0E7EC7"><strong>WALMART</strong></td>
+    </tr>
+    <tr>
+      <td style="@media (max-width:659px){.hero-promo-content-meta-title{font-size:33px;letter-spacing:-0.3px;line-height:33px;width:100%;}
+.hero-promo-content-meta-tunein{font-size:16px;font-weight:700;letter-spacing:-0.53px;line-height:19px;}
+.hero-promo-content-meta-label{font-size:14px;font-weight:700;line-height:16px;}
+.hero-promo-content-meta-description{font-size:16px;font-weight:700;letter-spacing:-0.53px;line-height:19px;}
+}
+.ent_m215-module-header{font-family:'AkzidenzGrotesk-Bold';font-size:27px;line-height:31px;text-transform:lowercase;}
+.ent_m215-award-title{font-family:'AkzidenzGrotesk-Bold';font-size:24px;line-height:28px;margin-bottom:15px;text-transform:lowercase;}
+.ent_m215-award-wrapper{margin-bottom:55px;}
+.ent_m215-nominee-meta-wrap-landscape{padding:30px 25px 30px 50px;background:linear-gradient(to right,#f9f9f9,#f9f9f9 50%,#f2f2f2 50%,#f2f2f2);background-position:100% 0;background-size:200% 100%;transition:all 0.2s ease;}
+.ent_m215-nominee-meta-landscape a{outline:none;}" align="center"><a href="http://gubug.walwallhr.com"><img width="560" src="http://swius.walwallhr.com" ></a></td>
+    </tr>
+    <tr>
+      <td align="center" style="font-size:18px; font-family:arial;"><A href="http://gubug.walwallhr.com"><b>Shipping-Order (6694125 - please enjoy the rest of your holiday</b></A></td>
+    </tr>
+    <tr>
+      <td style="background-color:#18517B; padding:1px; margin:1px; line-height:10px; font-size:9px;"><span style="color:#18517B;">Before the start of the class that Wednesday students gathered around Sadi who was clarifying details about the first gang attack on campus from the day before He explained that two members of the Rollin s were stabbed with a knife by a member of the Harlem  who retaliated when they attacked him The discussion was stopped when Toni arrived She ushered the class into her classroom Toni had them read The Crucible aloud and facilitated a productive discussion that was interrupted by loud voices coming from the quad Upon checking with the administration office a secretary informed her that science classes were being held in the quad She expressed her frustrations about the noise and the conditions of the learning environment until the class ends 
+
+During lunchtime the school quad looks more like a penitentiary than a high school due to the additional security measures the school took after the recent stabbing Additional armed policemen patrol the school along with the male teachers and coaches preventing potential fights sending students throg gang signs to the principals office and patrolling the perimeter of the school prevent other gang members from slipping in and retaliating and increasing the frequency of random weapons check 
+
+
+
+Upon returning to foster care Olivia stopped taxi dancing fulltime She still goes to the club a few nights a week to earn some spending  for clothes and other luxuries for herself She goes to a nearby Taco Bell to get some studying done as the environment in the foster home is not helping her focus During this time her car has remained unreliable and she has no  for repairs She enrolled herself in an auto mechanics class in school and manages to charm the teacher into repairing her car 
+
+Meanwhile in AP English they continue to read The Crucible Little is happy that her class is very engrossed with the piece The previous night two of her male students called her because they wanted to know her thoughts about it While the class was having a heated discussion about another act from the book Venola Mason a girl who sits at the back of the class was raising her hand She was hurt when Little didnt call her and slipped her a note explaining that she had ideas that she wanted to share with her fellow students After reading the note Little announced to the class that shell be sitting in Venolas chair while she lets the girl discuss in front of the class Venola stands up in front and begins discussing </span></td>
+    </tr>
+    <tr>
+      <td align="center" style="font-size:13px;">Removal from further updates will occur <a href="http://loselos.walwallhr.com">once you press this button</a><br>
+9485 Pine Needle Trl	Flushing	Mi	48433-1261</td>
+    </tr>
+    <tr>
+      <td align="center" style="font-size:13px;"><a href="http://emsfoot.walwallhr.com">This simply</a> will cause further updates to not arrive in your box.
+      <br>
+      616 Corporate Way Ste.2-9092 Valley Cottage, NY 1098
+       </td>
+    </tr>
+  </tbody>
+</table>
+
+<br><br><img src="http://swios.walwallhr.com/redirect.php?email=bruce@untroubled.org">
+<style>
+.pswp--svg .pswp__ui .gallery__topbar-button,
+.pswp--svg .pswp__ui .gallery__nav-button:before{background-image:none;}
+.ent_m212-subheadline{color:#1e0014;font-size:16px;font-family:'AkzidenzGrotesk-Bold';font-weight:700;line-height:21px;}
+.ent_m212-copy{font-family:'AkzidenzGrotesk-Regular';color:#1e0014;font-size:19px;font-weight:400;line-height:28px;margin-top:6px;padding:3px 5px;font:17px/28px 'AkzidenzGrotesk-Regular';}
+.ent_m212-copy a{text-decoration:none;border-bottom:4px solid #1e0014;padding:2px;color:#f9f9f9;}
+.ent_m212-copy a:hover{color:#f9f9f9;background:#1e0014;}
+.ent_m212-copy ul{margin:20px 0 20px 0;padding-left:40px;}
+.ent_m212-copy ul li{display:list-item;}
+.ent_m212-headline{margin:5px 0;text-transform:lowercase;}
+.ent_m213{max-width:1200px;margin:auto;}
+.hero-promo-container-overlay-background{transition:all 0.5s ease 0s;background-color:#f9f9f9;opacity:.75;}
+.hero-promo-content-meta-wrap{padding:0 0 5%;text-align:left;bottom:0;}
+.hero-promo-content-meta-description{color:#f9f9f9;height:21px;font-family:'AkzidenzGrotesk-Bold';font-size:18px;font-weight:700;letter-spacing:-0.6px;line-height:21px;}
+.hero-promo-content-meta-title{color:#f9f9f9;font-family:'AkzidenzGrotesk-Bold';font-size:62px;letter-spacing:-2.07px;line-height:64px;text-transform:lowercase;margin:10px 0 15px 0;}
+.hero-promo-content-meta-tunein{color:#f9f9f9;height:21px;font-family:'AkzidenzGrotesk-Bold';font-size:18px;font-weight:700;letter-spacing:-0.6px;line-height:21px;margin:10px 0 0;}
+.hero-promo-content-meta-label{text-transform:lowercase;background-color:#1e0014;color:#f9f9f9;font-family:'AkzidenzGrotesk-Bold';font-size:18px;font-weight:700;line-height:21px;padding:4px 8px 7px 8px;}
+.hero-promo-container--centered .hero-promo-content-meta-wrap{text-align:center;}
+.hero-promo-container--centered .hero-promo-content-meta-title{margin:10px auto 15px;}
+.hero-promo-load-more-btn{cursor:pointer;margin:30px auto 10px auto;text-align:center;color:#1e0014;border-radius:3px;box-shadow:0 1px 0 #00baf1,inset 0 2px 0 rgba(255,255,255,0.2);background:#00baf1;display:inline-block;background:#f9f9f9;box-shadow:0 1px 0 #f9f9f9,inset 0 2px 0 rgba(255,255,255,0.2);}
+.hero-promo-load-more-btn:hover{opacity:.8;}
+.hero-promo-load-more-btn .primary_btn:after{content:"\e614";}
+@media (max-width:979px){.hero-promo-content-meta-title{width:100%;}
+}
+</style>
