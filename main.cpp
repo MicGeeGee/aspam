@@ -77,6 +77,12 @@ namespace cmd
 		filter.load(filter_str);
 	}
 
+	void train_bagging()
+	{
+		aspam::bagging filter;
+		filter.train("data_set//spam_cnt","data_set//easy_ham_cnt",1,2500);
+		filter.save();
+	}
 }
 
 
@@ -87,7 +93,8 @@ int main()
 
 
 	//cmd::load_filter();
-	cmd::train();
+	//cmd::train();
+	cmd::train_bagging();
 
 
 

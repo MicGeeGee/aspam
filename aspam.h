@@ -27,8 +27,11 @@ namespace aspam
 		const int ovec_offset=1;
 		const int BKDR_size=501;
 		const float thres_thickness=0.05;
-		
-		
+		const int ensemble_num=5;
+		const std::string classifier_root="weights";
+		const float init_base_weight=1.0;
+		const float spam_thres=0.5;
+
 	}
 
 
@@ -259,15 +262,7 @@ namespace aspam
 
 			free(re);
 
-			//std::smatch matcher;
-			//std::tr1::regex_constants::syntax_option_type op_type 
-			//	= std::tr1::regex_constants::ECMAScript;
-			//std::regex pattern(params::regex_pattern_str);
-			//
-			//const std::sregex_token_iterator end;
-			//for(std::sregex_token_iterator i(cnt.begin(),cnt.end(),pattern);
-			//	i!=end;i++)
-			//	incre(*i);
+			
 
 		}
 		void extract(const char* file_path)
@@ -512,10 +507,97 @@ namespace aspam
 			return tra_set;
 		}
 		virtual bool is_spam(const feature& ft)=0;
+		virtual void incre_train(const feature& ft)=0;
 
+		void print(const std::string& file_path)
+		{
+			weights.print(file_path);
+		}
+		void print()
+		{
+			weights.print();
+		}
+		void load(const std::string& file_path)
+		{
+			weights.load(file_path);
+		}
 	protected:
 		std::list<feature>* tra_set;
+		class cache:public BKDR<float>
+		{
+		public:
+			cache():BKDR(params::cache_size,params::init_weight)
+			{}
 
+			float get(const std::string& x)
+			{
+				if(!is_existing(x))
+					return params::init_weight;
+				return find(x)->val;
+			}
+
+			/*float& operator[] (const std::string& x)
+			{
+				if(!is_existing(x))
+					return float(params::init_weight);
+				return find(x)->val;
+			}*/
+
+			void print()
+			{
+				for(int i=0;i<this->volume;i++)
+				{
+					std::list<BKDR::pair>::iterator it;
+					for(it=this->arr[i].begin();it!=this->arr[i].end();
+						it++)
+						std::cout<<it->key<<" : "<<it->val<<std::endl;
+				}
+			}
+			void print(const std::string& file_path)
+			{
+				FILE* fp;
+				fp=fopen(file_path.c_str(),"w");
+			
+				for(int i=0;i<this->volume;i++)
+				{
+					std::list<BKDR::pair>::iterator it;
+					for(it=this->arr[i].begin();it!=this->arr[i].end();
+						it++)
+						fprintf(fp,"%s %f\n",it->key.c_str(),it->val);
+					
+				}
+
+				fclose(fp);
+			}
+
+			void load(const std::string& file_path)
+			{
+				FILE* fp;
+				fp=fopen(file_path.c_str(),"r");
+
+				if(!fp)
+				{
+					std::cout<<"Error: cannot open "<<file_path<<"."<<std::endl;
+					return;
+				}
+				
+				
+			
+				char str[10000];
+				float val;
+				while (true)
+				{
+					int res=fscanf(fp,"%s%f",str,&val);
+					if(!(res>0))
+						break;
+					(*this)[str]=val;
+				}
+			
+				fclose(fp);
+			}
+
+		}weights;
+		
 	};
 
 
@@ -630,94 +712,10 @@ namespace aspam
 			return sum>num?params::label_spam:params::label_ham;
 		}
 
-		void print(const std::string& file_path)
-		{
-			weights.print(file_path);
-		}
-		void print()
-		{
-			weights.print();
-		}
-		void load(const std::string& file_path)
-		{
-			weights.load(file_path);
-		}
+		
+		
 
 	protected:
-		class cache:public BKDR<float>
-		{
-		public:
-			cache():BKDR(params::cache_size,params::init_weight)
-			{}
-
-			float get(const std::string& x)
-			{
-				if(!is_existing(x))
-					return params::init_weight;
-				return find(x)->val;
-			}
-
-			/*float& operator[] (const std::string& x)
-			{
-				if(!is_existing(x))
-					return float(params::init_weight);
-				return find(x)->val;
-			}*/
-
-			void print()
-			{
-				for(int i=0;i<this->volume;i++)
-				{
-					std::list<BKDR::pair>::iterator it;
-					for(it=this->arr[i].begin();it!=this->arr[i].end();
-						it++)
-						std::cout<<it->key<<" : "<<it->val<<std::endl;
-				}
-			}
-			void print(const std::string& file_path)
-			{
-				FILE* fp;
-				fp=fopen(file_path.c_str(),"w");
-			
-				for(int i=0;i<this->volume;i++)
-				{
-					std::list<BKDR::pair>::iterator it;
-					for(it=this->arr[i].begin();it!=this->arr[i].end();
-						it++)
-						fprintf(fp,"%s %f\n",it->key.c_str(),it->val);
-					
-				}
-
-				fclose(fp);
-			}
-
-			void load(const std::string& file_path)
-			{
-				FILE* fp;
-				fp=fopen(file_path.c_str(),"r");
-
-				if(!fp)
-				{
-					std::cout<<"Error: cannot open "<<file_path<<"."<<std::endl;
-					return;
-				}
-				
-				
-			
-				char str[10000];
-				float val;
-				while (true)
-				{
-					int res=fscanf(fp,"%s%f",str,&val);
-					if(!(res>0))
-						break;
-					(*this)[str]=val;
-				}
-			
-				fclose(fp);
-			}
-
-		}weights;
 		
 
 
@@ -753,6 +751,135 @@ namespace aspam
 	};
 
 
+	class bagging:public classifier
+	{
+	public:
+		void train(const std::string& root_spam,const std::string& root_ham,
+			int intrvl_l,int intrvl_r)
+		{
+			int sample_num=intrvl_r-intrvl_l+1;
+
+			int sub_dset_num=sample_num/params::ensemble_num;
+
+			char ham_str[100];
+			char spam_str[100];
+			char filter_str[100];
+
+			bases=std::vector<Winnow>(params::ensemble_num);
+			bases_records=std::vector<std::set<int> >(params::ensemble_num);
+			bases_weights=std::vector<float>(params::ensemble_num);
+
+			for(int i=0;i<params::ensemble_num;i++)
+			{
+				bases_weights[i]=params::init_base_weight;
+
+				for(int j=0;j<sub_dset_num;j++)
+				{
+					int idx=generate_rand(intrvl_l,intrvl_r);
+					records.insert(idx);
+
+					if(bases_records[i].find(idx)!=bases_records[i].end())
+						continue;
+					else
+						bases_records[i].insert(idx);
+					
+
+					sprintf(ham_str,"%s//%d",root_ham.c_str(),idx);
+					sprintf(spam_str,"%s//%d",root_spam.c_str(),idx);
+		
+					aspam::OSB ham_ft;
+					aspam::OSB spam_ft;
+
+					ham_ft.extract_and_label(ham_str,params::label_ham);
+					spam_ft.extract_and_label(spam_str,params::label_spam);
+
+					bases[i].incre_train(ham_ft);
+					bases[i].incre_train(spam_ft);
+
+					printf("Training base %d using %d (%d/%d).\n",i,idx,j+1,sub_dset_num);
+				}
+				sprintf(filter_str,"%s//%d",
+					params::classifier_root.c_str(),i);
+
+				bases[i].print(filter_str);
+			}
+		}
+		void save()
+		{
+				char filter_str[100];
+				for(int i=0;i<params::ensemble_num;i++)
+				{
+					sprintf(filter_str,"%s//%d",
+						params::classifier_root.c_str(),i);
+					bases[i].print(filter_str);
+				}
+
+				FILE* fp;
+				sprintf(filter_str,"%s//base_weights",
+						params::classifier_root.c_str());
+				fp=fopen(filter_str,"w");
+				fprintf(fp,"%d\n",params::ensemble_num);
+				for(int i=0;i<params::ensemble_num;i++)
+					fprintf(fp,"%d %f\n",i,bases_weights[i]);
+				fclose(fp);
+		}
+		void load()
+		{
+			char filter_str[100];
+
+			FILE* fp;
+			sprintf(filter_str,"%s//base_weights",
+					params::classifier_root.c_str());
+			fp=fopen(filter_str,"r");
+			int ensumble_num;
+			int x;
+			fscanf(fp,"%d",&ensumble_num);
+			for(int i=0;i<ensumble_num;i++)
+				fscanf(fp,"%d %f\n",&x,&bases_weights[i]);
+			fclose(fp);
+
+
+			bases=std::vector<Winnow>(ensumble_num);
+			//bases_records=std::vector<std::set<int> >(params::ensemble_num);
+			bases_weights=std::vector<float>(ensumble_num);
+
+			for(int i=0;i<ensumble_num;i++)
+			{
+				sprintf(filter_str,"%s//%d",
+					params::classifier_root.c_str(),i);
+				bases[i].load(filter_str);
+			}
+
+		
+			
+		}
+
+		bool is_spam(const feature& ft)
+		{
+			float score=0;
+			for(int i=0;i<params::ensemble_num;i++)
+				score+=bases[i].is_spam(ft)*bases_weights[i];
+			
+			return score>params::spam_thres;
+		}
+		void incre_train(const feature& ft)
+		{
+		}
+	private:
+		int generate_rand(int intrvl_l,int intrvl_r)
+		{
+			float ratio=rand()/(RAND_MAX+0.0);
+
+			return ratio*(intrvl_r-intrvl_l)+intrvl_l;
+		}
+		std::vector<Winnow> bases;
+		std::vector<std::set<int> > bases_records;
+		std::vector<float> bases_weights;
+		std::set<int> records;
+		
+
+
+	};
 	
 
 
