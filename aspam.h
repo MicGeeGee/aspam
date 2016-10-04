@@ -7,6 +7,8 @@
 #include <cstdio>
 #include <omp.h>
 #include "pcre.h"
+#include <cmath>
+#include <set>
 
 namespace aspam
 {
@@ -19,11 +21,12 @@ namespace aspam
 		const float init_weight=1.0;
 		const bool label_spam=1;
 		const bool label_ham=0;
-		const int cache_size=10001;
+		const int cache_size=100001;
 		const int win_size=5;
 		const int ovec_count=30;
 		const int ovec_offset=1;
 		const int BKDR_size=501;
+		const float thres_thickness=0.05;
 		
 		
 	}
@@ -89,15 +92,15 @@ namespace aspam
 		{
 			int idx=Hash(x.c_str());
 			if(arr[idx].empty())
-				return true;
+				return false;
 			else
 			{
 				std::list<pair>::iterator it;
 				for(it=arr[idx].begin();it!=arr[idx].end();
 					it++)
 					if(it->key==x)
-						return false;
-				return true;
+						return true;
+				return false;
 			}
 		}
 	protected:
@@ -439,6 +442,52 @@ namespace aspam
 	};
 
 
+	class LSH
+	{
+	public:
+		BKDR<float>& generate_v(std::set<std::string> attr_set)
+		{
+			
+			std::set<std::string>::iterator it;
+			for(it=attr_set.begin();it!=attr_set.end();it++)
+				v[*it]=gauss_rand();
+			
+			return v;
+		}
+
+	private:
+		float gauss_rand()
+		{
+			static float V1,V2,S;
+			static int phase=0;
+			float X;
+
+			if(phase==0)
+			{
+				do
+				{
+					float U1=(float)rand()/RAND_MAX;
+					float U2=(float)rand()/RAND_MAX;
+
+					V1=2*U1-1;
+					V2=2*U2-1;
+					S=V1*V1+V2*V2;
+
+				}while(S>=1||S==0);
+
+				X=V1*sqrt(-2*log(S)/S);
+			}
+			else
+				X=V2*sqrt(-2*log(S)/S);
+
+			phase=1-phase;
+
+			return X;
+		}
+		
+		BKDR<float> v;
+
+	};
 	
 
 	class classifier
@@ -470,10 +519,6 @@ namespace aspam
 	};
 
 
-	
-
-	
-
 	class Winnow:public classifier
 	{
 	public:
@@ -488,19 +533,26 @@ namespace aspam
 			std::list<feature>::iterator it;
 			for(it=this->tra_set->begin();it!=this->tra_set->end();it++)
 			{
-				bool label_hyp=is_spam(*it);
+				
+				float score;
+				int num;
+				compute_score_and_num(*it,score,num);
+
 				bool label_real=it->get_label();
 
-				if(label_hyp!=label_real)
-					if(label_hyp==params::label_ham)
+				if(label_real==params::label_spam)
+					if(!(score>(1+params::thres_thickness)*num))
 					//1->0(spam->ham):promote
 						promote(*it);
-					else
+				else
+					if(!(score<(1-params::thres_thickness)*num))
 					//0->1(ham->spam):demote
 						demote(*it);
 			}
 
 		}
+
+
 
 		void incre_train(const feature& ft)
 		{
@@ -510,17 +562,50 @@ namespace aspam
 				return;
 			}
 
-			bool label_hyp=is_spam(ft);
+			float score;
+			int num;
+			compute_score_and_num(ft,score,num);
+
 			bool label_real=ft.get_label();
 
-			if(label_hyp!=label_real)
-				if(label_hyp==params::label_ham)
+			if(label_real==params::label_spam)
+				if(!(score>(1+params::thres_thickness)*num))
 				//1->0(spam->ham):promote
 					promote(ft);
-				else
+			else
+				if(!(score<(1-params::thres_thickness)*num))
 				//0->1(ham->spam):demote
 					demote(ft);
+
+			//bool label_hyp=is_spam(ft);
+			//bool label_real=ft.get_label();
+
+			//if(label_hyp!=label_real)
+			//	if(label_hyp==params::label_ham)
+			//	//1->0(spam->ham):promote
+			//		promote(ft);
+			//	else
+			//	//0->1(ham->spam):demote
+			//		demote(ft);
 		
+		}
+
+		void compute_score_and_num(const feature& ft,float& score,int& num)
+		{
+			score=0;
+			num=0;
+			std::map<std::string,int>::const_iterator it;
+
+			for(int i=0;i<ft.vol();i++)
+			{
+				std::list<BKDR<int>::pair>::const_iterator it;
+				for(it=ft.arr[i].begin();it!=ft.arr[i].end();
+					it++)
+				{
+					num+=it->val;
+					score+=(it->val)*weights.get(it->key);
+				}
+			}
 		}
 
 		bool is_spam(const feature& ft)
@@ -536,15 +621,11 @@ namespace aspam
 					it++)
 				{
 					num+=it->val;
-					sum+=(it->val)*weights[it->key];
+					sum+=(it->val)*weights.get(it->key);
 				}
 			}
 
-			/*for(it=ft.begin();it!=ft.end();it++)
-			{
-				num+=it->second;
-				sum+=(it->second)*weights[it->first];
-			}*/
+			
 
 			return sum>num?params::label_spam:params::label_ham;
 		}
@@ -568,12 +649,20 @@ namespace aspam
 		public:
 			cache():BKDR(params::cache_size,params::init_weight)
 			{}
-			//float& operator[] (const std::string& x)
-			//{
-			//	if(!is_existing(x))
-			//		return find(x)->val=params::init_weight;
-			//	return find(x)->val;
-			//}
+
+			float get(const std::string& x)
+			{
+				if(!is_existing(x))
+					return params::init_weight;
+				return find(x)->val;
+			}
+
+			/*float& operator[] (const std::string& x)
+			{
+				if(!is_existing(x))
+					return float(params::init_weight);
+				return find(x)->val;
+			}*/
 
 			void print()
 			{
