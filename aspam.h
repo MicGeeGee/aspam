@@ -10,13 +10,18 @@
 #include <cmath>
 #include <set>
 #include <queue>
+#include <algorithm>
+#include <CkEmail.h>
+#include <cctype>
+#include "normalizemime.h"
 
 namespace aspam
 {
 	namespace params
 	{
 		const std::string regex_pattern_str
-			="[\\x21-\\x7E][/!?#]?[-a-zA-Z0-9]*(?:[\"¡¯=;]|/?>|:/*)?";
+			="[a-zA-Z0-9]+";
+			//="[\\x21-\\x7E][/!?#]?[-a-zA-Z0-9]*(?:[\"¡¯=;]|/?>|:/*)?";
 		const float promotion_factor=1.23;
 		const float demotion_factor=0.83;
 		const float init_weight=1.0;
@@ -28,7 +33,7 @@ namespace aspam
 		const int ovec_offset=1;
 		const int BKDR_size=501;
 		const float thres_thickness=0.05;
-		const int ensemble_num=25;
+		const int ensemble_num=5;
 		const std::string classifier_root="weights";
 		const std::string ft_root="ft_set";
 		const float init_base_weight=1.0;
@@ -42,6 +47,9 @@ namespace aspam
 		const int ham_idx_factor=-1;
 		const int nn_num=31;
 		const float sample_prob=0.68;
+		const int num_of_categories=2;
+		const int census_mtrx_size=1000001;
+		const int term_freq_init=1;
 
 	}
 
@@ -82,6 +90,12 @@ namespace aspam
 			arr=std::vector<std::list<pair> >(volume);
 			init_val=init_v;
 		}
+		~BKDR()
+		{
+			arr.clear();
+		}
+
+
 
 		T& operator[] (const std::string& x)
 		{
@@ -99,20 +113,24 @@ namespace aspam
 		{
 			return !(num>0);
 		}
+		
 
 		std::vector<std::list<pair> > arr;
 
-		
+		int get_num() const
+		{
+			return num;
+		}
 
 
-		bool is_existing(const std::string& x)
+		bool is_existing(const std::string& x) const
 		{
 			int idx=Hash(x.c_str());
 			if(arr[idx].empty())
 				return false;
 			else
 			{
-				std::list<pair>::iterator it;
+				std::list<pair>::const_iterator it;
 				for(it=arr[idx].begin();it!=arr[idx].end();
 					it++)
 					if(it->key==x)
@@ -169,7 +187,7 @@ namespace aspam
 			}
 		}
 
-		unsigned int Hash(const char* str)
+		unsigned int Hash(const char* str) const
 		{
 			unsigned int seed=131;
 			unsigned int hash=0;
@@ -188,17 +206,24 @@ namespace aspam
 	class feature:public BKDR<int>
 	{
 	public:
-	
-		void extract_and_label(const std::string& cnt,bool is_spam)
+		feature():BKDR<int>()
 		{
-			extract(cnt);
-			label(is_spam);
+		
 		}
+		feature(int vol,int init_v):BKDR<int>(vol,init_v)
+		{
+		
+		}
+		
+
 		void extract_and_label(const char* file_path,bool is_spam)
 		{
 			extract(file_path);
 			label(is_spam);
 		}
+
+
+
 
 		bool get_label() const
 		{
@@ -316,7 +341,7 @@ namespace aspam
 			return res;
 		}
 
-		void extract(const std::string& cnt)
+		void regex_matching(const char* cnt,int size)
 		{
 			pcre* re;
 			int ovector[params::ovec_count];
@@ -333,7 +358,7 @@ namespace aspam
 
 			while(true)
 			{
-				rc = pcre_exec(re, NULL, cnt.c_str(), cnt.size(),
+				rc = pcre_exec(re, NULL, cnt, size,
 				ovector[params::ovec_offset], 0, ovector, 
 				params::ovec_count);
 				if(rc<0)
@@ -345,18 +370,37 @@ namespace aspam
 					return;
 				}
 
-				incre(std::string(cnt.c_str()+ovector[0],
+				incre(std::string(cnt+ovector[0],
 					ovector[1]-ovector[0]));
 			}
 
 			free(re);
-
-			
-
 		}
 		void extract(const char* file_path)
 		{
-			FILE* fp;
+			CkEmail e;
+			if(e.LoadEml(file_path)!=true)
+			{
+				std::cout<<e.lastErrorText()<<"\r\n";
+				return;
+			}
+			CkString cnt;
+			//e.get_Body(cnt);
+			e.get_Header(cnt);
+
+			
+
+			std::string cnt_html_removed(cnt);
+			normalizemime::remove_html(cnt_html_removed);
+
+			normalizemime::strtolower(cnt_html_removed);
+
+			/*std::transform(cnt_html_removed.begin(),
+				cnt_html_removed.end(),cnt_html_removed.begin(),std::tolower);
+*/
+			regex_matching(cnt_html_removed.c_str(),cnt_html_removed.size());
+
+		/*	FILE* fp;
 			fp=fopen(file_path,"r");
 			std::string cnt;
 			char str[100];
@@ -378,7 +422,7 @@ namespace aspam
 			}
 			fclose(fp);
 
-			extract(cnt);
+			extract(cnt);*/
 		}
 		void label(bool is_spam)
 		{
@@ -397,22 +441,50 @@ namespace aspam
 
 	};
 
-
+	class census_mtrx:public feature
+	{
+	public:
+		census_mtrx():feature(params::census_mtrx_size,NULL)
+		{
+			total_sum=0;
+		}
+		void incre(const std::string& attr_str,int quantity)
+		{
+			
+			if(!this->is_existing(attr_str))
+				(*this)[attr_str]=quantity;
+			else
+				(*this)[attr_str]+=quantity;
+			total_sum+=quantity;
+		}
+		int get_total_sum() const
+		{
+			return total_sum;
+		}
+	private:
+		int total_sum;
+	};
 
 
 	class OSB:public feature
 	{
 	public:
-		void extract_and_label(const std::string& cnt,bool is_spam)
-		{
-			extract(cnt);
-			label(is_spam);
-		}
+	
 		void extract_and_label(const char* file_path,bool is_spam)
 		{
 			extract(file_path);
 			label(is_spam);
 		}
+
+		void extract_and_label_with_selection(const char* file_path,bool is_spam)
+		{
+			extract_with_selection(file_path);
+			label(is_spam);
+		}
+
+
+
+
 	private:
 
 		struct str_ptr
@@ -429,103 +501,172 @@ namespace aspam
 		};
 
 
-		void extract(const std::string& cnt)
-		{
-			std::vector<str_ptr> str_win(params::win_size);
-			int f=0;
-			int r=0;
+		void regex_matching(const char* cnt,int size);
+		void OSB::regex_matching(const char* cnt,int size,const census_mtrx& CMFS_res);
+		void extract(const char* file_path);
+		void extract_with_selection(const char* file_path);
 
-			
-			pcre* re;
-			int ovector[params::ovec_count];
-			memset(ovector,0,sizeof(int)*params::ovec_count);
-			int rc;
-			const char *error;
-			int erroffset;
-			re=pcre_compile(params::regex_pattern_str.c_str(),
-				NULL,&error,&erroffset,NULL);
-			if(re==NULL)
-			{
-				std::cout<<"Error: PCRE compilation at offset "<<
-					erroffset<<", "<<error<<std::endl;
-				return;
-			}
-			while(true)
-			{
-				rc=pcre_exec(re,NULL,cnt.c_str(),cnt.size(),
-					ovector[params::ovec_offset],0,ovector,
-					params::ovec_count);
-				if(rc<0)
-				{
-					if(rc!=PCRE_ERROR_NOMATCH)
-						std::cout<<"Error: cannot match substring"
-						<<std::endl;
-					free(re);
-					return;
-				}
-
-				
-				str_win[r%params::win_size]=
-					str_ptr(cnt.c_str()+ovector[0],ovector[1]-ovector[0]);
-				if(r-f==params::win_size-1)
-				{
-					for(int i=f;i!=r;i++)
-					{
-						char str[10000];
-						sprintf(str,"%.*s%.*s",str_win[i%params::win_size].len,str_win[i%params::win_size].begin,
-							str_win[r%params::win_size].len,str_win[r%params::win_size].begin);
-						incre(str);
-
-						/*incre(std::string(str_win[i%params::win_size].begin,str_win[i%params::win_size].len)+
-						std::string(str_win[r%params::win_size].begin,str_win[r%params::win_size].len));*/
-					}
-					f++;
-				}
-				r++;
-
-				/*str_win[r%params::win_size]=
-					std::string(cnt.c_str()+ovector[0],
-					ovector[1]-ovector[0]);
-				if(r-f==params::win_size-1)
-				{
-					for(int i=f;i!=r;i++)
-						incre(str_win[i%params::win_size]+str_win[r%params::win_size]);
-					f++;
-				}
-				r++;*/
-
-			}
-		}
-		void extract(const char* file_path)
-		{
-			FILE* fp;
-			fp=fopen(file_path,"r");
-			std::string cnt;
-			char str[100];
-			
-			if (fp==NULL) 
-				perror ("Error opening file");
-			else
-			{
-				while(true)
-				{
-					if(fgets(str,100,fp)!=NULL)
-					{
-						cnt.append(str);		
-					}
-					else
-						break;
-					
-				} 
-			}
-			fclose(fp);
-
-			extract(cnt);
-		}
 	
 	};
 
+	
 
+
+
+	class CMFS
+	{
+	public:
+		struct pair_double
+		{
+			pair_double()
+			{
+			}
+			std::string str;
+			double score;
+			pair_double(const std::string& str,double score):str(str),score(score)
+			{
+			}
+			friend bool operator<(const pair_double& a,const pair_double& b)
+			{
+				  return a.score>b.score;
+			}               
+		};
+
+		struct pair_int
+		{
+			pair_int()
+			{
+			}
+			std::string str;
+			double score;
+			pair_int(const std::string& str,double score):str(str),score(score)
+			{
+			}
+			friend bool operator<(const pair_int& a,const pair_int& b)
+			{
+				  return a.score>b.score;
+			}               
+		};
+
+		
+			
+		void counting(const feature& ft)
+		{
+			if(ft.get_label()==params::label_spam)
+				for(int m=0;m<ft.vol();m++)
+				{
+					std::list<BKDR<int>::pair>::const_iterator it;
+					for(it=ft.arr[m].begin();it!=ft.arr[m].end();
+						it++)
+					{
+						spam_mtrx.incre(it->key,it->val);
+						total_mtrx.incre(it->key,it->val);
+					}
+				}
+			else
+				for(int m=0;m<ft.vol();m++)
+				{
+					std::list<BKDR<int>::pair>::const_iterator it;
+					for(it=ft.arr[m].begin();it!=ft.arr[m].end();
+						it++)
+					{
+						ham_mtrx.incre(it->key,it->val);
+						total_mtrx.incre(it->key,it->val);
+					}
+				}
+
+			
+		}
+		
+		void selecting_ft(int k)
+		{
+			int C=params::num_of_categories;
+			int V=total_mtrx.get_num();
+			int spam_term_sum=spam_mtrx.get_total_sum();
+			int ham_term_sum=ham_mtrx.get_total_sum();
+
+			scores=std::vector<pair_double>(V);
+			int i=0;
+
+			for(int m=0;m<total_mtrx.vol();m++)
+			{
+				std::list<BKDR<int>::pair>::const_iterator it;
+				for(it=total_mtrx.arr[m].begin();it!=total_mtrx.arr[m].end();
+						it++)
+				{
+					double score_spam=
+					(spam_mtrx[it->key]+params::term_freq_init)*
+					(spam_mtrx[it->key]+params::term_freq_init)/
+					(total_mtrx[it->key]+C+0.0)/
+					(spam_term_sum+V+0.0);
+					double score_ham=
+					(ham_mtrx[it->key]+params::term_freq_init)*
+					(ham_mtrx[it->key]+params::term_freq_init)/
+					(total_mtrx[it->key]+C+0.0)/
+					(ham_term_sum+V+0.0);
+					scores[i++]=pair_double(it->key,
+						score_spam>score_ham?score_spam:score_ham);
+				}
+			}
+
+			
+		/*	spam_mtrx.arr.clear();
+			ham_mtrx.arr.clear();
+			total_mtrx.arr.clear();*/
+			
+
+			std::sort(scores.begin(),scores.end());
+
+
+			FILE* fp;
+			fp=fopen("CMFS//selected_fts","w");
+
+			fprintf(fp,"%d\n",scores.size());
+
+			for(int i=0;i<k && i<scores.size();i++)
+				fprintf(fp,"%s score:%.9lf ham_freq:%d spam_freq:%d\n",
+				scores[i].str.c_str(),scores[i].score,ham_mtrx[scores[i].str],spam_mtrx[scores[i].str]);
+
+			
+			fclose(fp);
+		}
+		static census_mtrx res;
+
+		static void load_res(int k)
+		{
+			FILE* fp;
+			fp=fopen("CMFS//selected_fts","r");
+
+			int num;
+			fscanf(fp,"%d",&num);
+			char str[10000];
+			double score;
+			int ham_freq;
+			int spam_freq;
+
+			for(int i=0;i<k && i<num;i++)
+			{
+				fscanf(fp,"%s score:%.9lf ham_freq:%d spam_freq:%d",
+				str,&score,&ham_freq,&spam_freq);
+				res[str];
+			}
+				
+			
+			fclose(fp);
+		}
+		
+
+	private:
+		census_mtrx spam_mtrx;
+		census_mtrx ham_mtrx;
+		census_mtrx total_mtrx;
+
+		
+
+		std::vector<pair_double> scores;
+		
+
+	};
 
 	
 
@@ -861,6 +1002,9 @@ namespace aspam
 			return ratio*params::seg_len;
 		}
 	};
+
+
+
 	
 
 	class classifier
@@ -1050,7 +1194,10 @@ namespace aspam
 		
 		}
 
-		void compute_score_and_num(const feature& ft,float& score,int& num)
+		
+		
+
+		/*void compute_score_and_num(const feature& ft,float& score,int& num)
 		{
 			score=0;
 			num=0;
@@ -1064,6 +1211,24 @@ namespace aspam
 				{
 					num+=it->val>0;
 					score+=(it->val>0)*weights.get(it->key);
+				}
+			}
+		}*/
+
+		void compute_score_and_num(const feature& ft,float& score,int& num)
+		{
+			score=0;
+			num=0;
+			std::map<std::string,int>::const_iterator it;
+
+			for(int i=0;i<ft.vol();i++)
+			{
+				std::list<BKDR<int>::pair>::const_iterator it;
+				for(it=ft.arr[i].begin();it!=ft.arr[i].end();
+					it++)
+				{
+					num+=it->val;
+					score+=(it->val)*weights.get(it->key);
 				}
 			}
 		}
@@ -1169,6 +1334,58 @@ namespace aspam
 				bases[i].print(filter_str);
 			}
 		}
+
+		void train_with_selection(const std::string& root_spam,const std::string& root_ham,
+			int intrvl_l,int intrvl_r)
+		{
+			int sample_num=intrvl_r-intrvl_l+1;
+
+			int sub_dset_num=sample_num/params::ensemble_num;
+
+			char ham_str[100];
+			char spam_str[100];
+			char filter_str[100];
+
+			bases=std::vector<Winnow>(params::ensemble_num);
+			bases_records=std::vector<std::set<int> >(params::ensemble_num);
+			bases_weights=std::vector<float>(params::ensemble_num);
+
+			for(int i=0;i<params::ensemble_num;i++)
+			{
+				bases_weights[i]=params::init_base_weight;
+
+				for(int j=0;j<sub_dset_num;j++)
+				{
+					int idx=generate_rand(intrvl_l,intrvl_r);
+					records.insert(idx);
+
+					if(bases_records[i].find(idx)!=bases_records[i].end())
+						continue;
+					else
+						bases_records[i].insert(idx);
+					
+
+					sprintf(ham_str,"%s//%d",root_ham.c_str(),idx);
+					sprintf(spam_str,"%s//%d",root_spam.c_str(),idx);
+		
+					aspam::OSB ham_ft;
+					aspam::OSB spam_ft;
+
+					ham_ft.extract_and_label_with_selection(ham_str,params::label_ham);
+					spam_ft.extract_and_label_with_selection(spam_str,params::label_spam);
+
+					bases[i].incre_train(ham_ft);
+					bases[i].incre_train(spam_ft);
+
+					printf("Training base %d using %d (%d/%d).\n",i,idx,j+1,sub_dset_num);
+				}
+				sprintf(filter_str,"%s//%d",
+					params::classifier_root.c_str(),i);
+
+				bases[i].print(filter_str);
+			}
+		}
+
 		void save()
 		{
 			char filter_str[100];
@@ -1322,7 +1539,40 @@ namespace aspam
 			}
 		}
 
+		void test_raw_samples_with_selection(const std::string& root_spam,const std::string& root_ham,
+			int intrvl_l,int intrvl_r)
+		{
+			char ham_str[100];
+			char spam_str[100];
 
+			int num=0;
+			int ham_to_spam=0;
+			int spam_to_ham=0;
+
+			for(int i=intrvl_l;i<=intrvl_r;i++)
+			{
+				if(records.find(i)!=records.end())
+					continue;
+
+				sprintf(ham_str,"%s//%d",root_ham.c_str(),i);
+				sprintf(spam_str,"%s//%d",root_spam.c_str(),i);
+				
+				aspam::OSB ham_ft;
+				aspam::OSB spam_ft;
+
+				ham_ft.extract_and_label_with_selection(ham_str,params::label_ham);
+				spam_ft.extract_and_label_with_selection(spam_str,params::label_spam);
+
+				if(this->is_spam(ham_ft))
+					ham_to_spam++;
+				
+				if(!this->is_spam(spam_ft))
+					spam_to_ham++;
+
+				num++;
+				printf("Test #%d : %d ham_to_spam(s), %d spam_to_ham(s)\n",num,ham_to_spam,spam_to_ham);
+			}
+		}
 		bool is_spam(const feature& ft)
 		{
 			int ham_supporter=0;
@@ -1436,6 +1686,6 @@ namespace aspam
 		LSH knn_finder;
 	};
 	
-
+	
 
 }
